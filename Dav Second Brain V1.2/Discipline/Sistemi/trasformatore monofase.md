@@ -1,0 +1,4 @@
+#self-taught 
+È costituito da un circuito magnetico ottenuto dalla sovrapposizione di più lamierini ferrosi, e da due circuiti elettrici tra loro isolati.
+Il circuito magnetico, che realizza una struttura chiusa, è sede del flusso $\phi$ e comprende le _colonne_ ed i _gioghi_: il sistema elettrico comprende l'_avvolgimento primario_ composto da $N_1$ spire e l'_avvolgimento secondario_ composto da $N_2$ spire. Sono un avvolgimento ad _alta tensione_ (**A.T.**) con quindi maggior numero di spire ed uno a _bassa tensione_ (**B.T.**) con minor numero di spire.
+Una parte dell'energia si perde durante la trasformazione, per perdite [[effetto Joule]], perdite per [[isteresi magnetica]], perdite per [[dispersione magnetica]].

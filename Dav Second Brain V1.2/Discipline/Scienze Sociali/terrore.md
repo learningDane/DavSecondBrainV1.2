@@ -1,0 +1,2 @@
+#kope 
+Il terrore è uno degli strumenti più utilizzati dai regimi dittatoriali, serve in una [[società di massa]] a mantenere franti i rapporti, di modo che le persone cerchino una figura che ispiri sicurezza, il dittatore.

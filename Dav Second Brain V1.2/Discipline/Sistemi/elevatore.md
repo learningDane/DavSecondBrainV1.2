@@ -1,0 +1,4 @@
+#self-taught 
+Vengono per esempio usati per trasportare la corrente a voltaggi più alti, per diminuire le perdite tramite [[effetto Joule]].
+Naturalmente aumentando il valore della tensione durante il trasporto si rendoo necessarie misure di sicurezza più efficaci: apparecchiature, palificazioni, [[isolante]]. Dal compromesso scaturito da ciò è stata creata una tabella dove per ogni distanza e potenza trasmessa, viene fornita una tensione optimum di trasmissione normalizzata (_Norme per le tensioni normali_).
+Questa tensione viene poi ridotta da un [[abbassatore]] una volta arrivata alla stazione di trasformazione ed una seconda volta nelle cabine che poi distribuiscono all'utente (220V per le case e 380V per modeste utenze artigiane.)
