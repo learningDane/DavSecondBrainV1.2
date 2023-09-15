@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#daily-note  ",
@@ -29,16 +29,16 @@
       }
     }
   ],
-  "collapse-display": true,
+  "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -0.5,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
-  "centerStrength": 0.963541666666667,
+  "centerStrength": 0.880208333333333,
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 81,
-  "scale": 0.532059086584825,
+  "scale": 0.5320590865848251,
   "close": true
 }
