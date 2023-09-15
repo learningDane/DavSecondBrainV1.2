@@ -12,12 +12,8 @@
             "id": "11fb816573be9cd3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Fisica/tensione.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -33,7 +29,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Discipline/Fisica/tensione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -128,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Fisica/tensione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Fisica/tensione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Discipline/Fisica/tensione.md"
-              }
+              "state": {}
             }
           },
           {
@@ -201,12 +192,12 @@
   },
   "active": "11fb816573be9cd3",
   "lastOpenFiles": [
+    "Home/Daily Notes/2023/15-09-2023.md",
     "Discipline/Fisica/corrente.md",
     "Discipline/Fisica/tensione.md",
     "Discipline/Fisica/Flusso.md",
     "Discipline/Fisica/Potenza Elettrica.md",
     "Discipline/Fisica/effetto Joule.md",
-    "Home/Daily Notes/2023/15-09-2023.md",
     "Discipline/Filosofia/Gettatezza.md",
     "Discipline/Sistemi/conduttore elettrico.md",
     "Discipline/Untitled",
