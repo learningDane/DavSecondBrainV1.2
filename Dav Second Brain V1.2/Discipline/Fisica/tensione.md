@@ -3,4 +3,4 @@ La tensione elettrica, spesso chiamata semplicemente tensione, è una grandezza 
 
 Nel sistema internazionale di unità di misura è misurata in volt, simbolo 
 	V
-che per definizione è omogeneo al rapporto tra joule e coulomb e che in termini di grandezze fondamentali è dato dal prodotto $$V = kg × m^2 × A^{−1} × s^{−3}.$$
+che per definizione è omogeneo al rapporto tra joule e coulomb e che in termini di grandezze fondamentali è dato dal prodotto $$V = kg \times m^2 \times A^{−1} \times s^{−3}.$$
