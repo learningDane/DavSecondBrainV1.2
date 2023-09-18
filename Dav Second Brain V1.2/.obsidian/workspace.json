@@ -12,8 +12,12 @@
             "id": "11fb816573be9cd3",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home/Daily Notes/2023/17-09-2023.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -29,6 +33,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Home/Daily Notes/2023/17-09-2023.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -123,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home/Daily Notes/2023/17-09-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home/Daily Notes/2023/17-09-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home/Daily Notes/2023/17-09-2023.md"
+              }
             }
           },
           {
@@ -192,6 +201,7 @@
   },
   "active": "11fb816573be9cd3",
   "lastOpenFiles": [
+    "Home/Daily Notes/2023/17-09-2023.md",
     "Home/Daily Notes/2023/15-09-2023.md",
     "Discipline/Fisica/corrente.md",
     "Discipline/Fisica/tensione.md",
