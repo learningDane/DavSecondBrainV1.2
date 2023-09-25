@@ -8,4 +8,8 @@ Light also moves at the same constant speed, no matter the referencing frame. Sp
 __Gravity slows time down__.
 # Ricapitolando
 La misura propria è la più lunga: $$L=\frac{L_0}{\gamma}$$
-Dove: $$\gamma=\frac{1}{\sqrt{1-\frac{V²}{C²}}}$$
+Dove: $$\gamma=\frac{1}{\sqrt{1-\frac{v²}{C²}}}$$
+Il tempo proprio è il più corto: $$\Delta t¹ =\gamma \Delta t_0 $$
+per comodità si usa anche: $$\gamma = \frac{1}{\sqrt{1-\beta²}}$$
+dove $$\beta = \frac{v}{c}=\sqrt{\frac{\gamma² -1}{\gamma²}}$$
+Questi effetti dilatanti valgono solo sulla direzione della velocità.
