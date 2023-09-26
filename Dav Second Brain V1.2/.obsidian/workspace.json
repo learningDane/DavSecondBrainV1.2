@@ -4,36 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "5b77b1e44c51442c",
+        "id": "83b75796545ccfa0",
         "type": "tabs",
-        "dimension": 72.52906976744185,
+        "dimension": 75.37878787878788,
         "children": [
           {
-            "id": "561a2285723bd4ea",
+            "id": "803459d9cb5a59d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Random/Reels.md",
+                "file": "Discipline/Matematica/Spazi vettoriali.md",
                 "mode": "source",
                 "source": false
               }
-            }
+            },
+            "group": "e1b614d089894a51"
           }
         ]
       },
       {
-        "id": "671241bd598a9a21",
+        "id": "dac8969a7de01b54",
         "type": "tabs",
-        "dimension": 27.47093023255814,
+        "dimension": 24.62121212121212,
         "children": [
           {
-            "id": "a8e2ad32d78b4bfc",
+            "id": "df0b7c9c4e35af6f",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/Random/Reels.md",
+                "file": "Discipline/Matematica/Spazi vettoriali.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -46,21 +47,22 @@
                   "hideUnresolved": false,
                   "collapse-color-groups": true,
                   "colorGroups": [],
-                  "collapse-display": false,
+                  "collapse-display": true,
                   "showArrow": false,
-                  "textFadeMultiplier": -0.2,
-                  "nodeSizeMultiplier": 1.031,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": false,
-                  "centerStrength": 0.942708333333333,
-                  "repelStrength": 20,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
                   "linkStrength": 1,
-                  "linkDistance": 74,
-                  "scale": 0.6057158371947479,
+                  "linkDistance": 250,
+                  "scale": 0.6528493768047894,
                   "close": true
                 }
               }
-            }
+            },
+            "group": "e1b614d089894a51"
           }
         ]
       }
@@ -128,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Random/Reels.md",
+                "file": "Discipline/Matematica/Spazi vettoriali.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Random/Reels.md",
+                "file": "Discipline/Matematica/Spazi vettoriali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Random/Reels.md"
+                "file": "Discipline/Matematica/Spazi vettoriali.md"
               }
             }
           },
@@ -199,36 +201,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "561a2285723bd4ea",
+  "active": "df0b7c9c4e35af6f",
   "lastOpenFiles": [
-    "Home/Daily Notes/2023/22-09-2023.md",
-    "Discipline/Fisica/effetto Joule.md",
-    "Discipline/Fisica/Potenza Elettrica.md",
-    "Home/Fotografia",
-    "Home/Untitled.md",
-    "Discipline/Fisica/Relatività.md",
+    "Algebra Lineare ed Analisi Matematica II.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Home/Daily Notes/2023/26-09-2023.md",
+    "Discipline/Matematica/Funzione.md",
+    "Discipline/Matematica/Insiemi.md",
+    "Discipline/Matematica/Spazi vettoriali.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Programmazione/Informazione.md",
+    "Discipline/Programmazione",
+    "Home/Workflow.md",
+    "UNI/Argomenti Ingegneria informatica anno I",
+    "UNI/Untitled.md",
     "Home/Obsidian basics/Formattazione.md",
+    "Discipline/Fisica/corrente.md",
+    "Discipline/Sistemi/conduttore elettrico.md",
+    "Discipline/Matematica",
+    "Discipline/Fisica/Relatività.md",
+    "Home/Daily Notes/2023/25-09-2023.md",
+    "Home/Daily Notes/2023/24-09-2023.md",
+    "Home/Obsidian basics/Link Interni.md",
     "Discipline/in attesa di senso/Wireguard.md",
     "Discipline/in attesa di senso",
     "Home/Obsidian basics/Embedding.md",
     "Home/Daily Notes/2023/19-09-2023.md",
     "Home/daily note canvas.md",
     "Home/Daily Notes/2023/20-09-2023.md",
-    "Home/Obsidian basics/Link Interni.md",
     "Home/Obsidian basics/Identificatore del blocco.md",
     "Home/Obsidian basics",
     "Home/Daily Notes/2023/18-09-2023.md",
     "Home/Random",
-    "Home/Random/Reels.md",
-    "Discipline/Sistemi/elevatore.md",
-    "Discipline/Sistemi/Trasformatori.md",
-    "Discipline/Sistemi/trasformatore monofase.md",
-    "Home/Daily Notes/2023/17-09-2023.md",
-    "Home/Daily Notes/2023/15-09-2023.md",
-    "Discipline/Fisica/corrente.md",
-    "Discipline/Fisica/tensione.md",
-    "Discipline/Fisica/Flusso.md",
-    "Discipline/Filosofia/Gettatezza.md",
-    "Discipline/Sistemi/conduttore elettrico.md"
+    "Home/Random/Reels.md"
   ]
 }
