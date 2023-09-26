@@ -26,7 +26,7 @@
       {
         "id": "a6179ac55a42e427",
         "type": "tabs",
-        "dimension": 16.224188790560472,
+        "dimension": 16.22418879056047,
         "children": [
           {
             "id": "7d2f933314d9d397",
@@ -202,8 +202,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "624e7a652ef02ee5",
+  "active": "606bfbe9392f3f03",
   "lastOpenFiles": [
+    "Discipline/Linux/Ubuntu.md",
+    "Discipline/Linux",
     "Home/Daily Notes/2023/26-09-2023.md",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Funzione.md",
@@ -233,8 +235,6 @@
     "Home/Daily Notes/2023/20-09-2023.md",
     "Home/Obsidian basics/Identificatore del blocco.md",
     "Home/Obsidian basics",
-    "Home/Daily Notes/2023/18-09-2023.md",
-    "Home/Random",
-    "Home/Random/Reels.md"
+    "Home/Random"
   ]
 }
