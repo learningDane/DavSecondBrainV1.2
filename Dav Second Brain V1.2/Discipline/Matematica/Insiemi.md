@@ -1,5 +1,5 @@
 #uni 26/09/2023
-Gli insiemi vengono rappresentati con lettere maiuscole, gli oggetti con lettere minuscole. Vengono rappresentati attraverso i [[Diagrammi di Eluero-Vonn]].
+Gli insiemi vengono rappresentati con lettere maiuscole, gli oggetti con lettere minuscole. Vengono rappresentati attraverso i [[Diagrammi di Eluero-Venn]].
 Le operazioni con gli insiemi sono le seguenti:
 Unione
 	indicato con il simbolo: $$\land$$

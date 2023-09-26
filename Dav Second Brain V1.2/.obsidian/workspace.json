@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "83b75796545ccfa0",
+        "id": "dac8969a7de01b54",
         "type": "tabs",
-        "dimension": 75.37878787878788,
+        "dimension": 83.77581120943954,
         "children": [
           {
-            "id": "803459d9cb5a59d1",
+            "id": "606bfbe9392f3f03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Spazi vettoriali.md",
+                "file": "Home/Daily Notes/2023/26-09-2023.md",
                 "mode": "source",
                 "source": false
               }
             },
-            "group": "e1b614d089894a51"
+            "group": "3d5346aff2ef4d16"
           }
         ]
       },
       {
-        "id": "dac8969a7de01b54",
+        "id": "a6179ac55a42e427",
         "type": "tabs",
-        "dimension": 24.62121212121212,
+        "dimension": 16.224188790560472,
         "children": [
           {
-            "id": "df0b7c9c4e35af6f",
+            "id": "7d2f933314d9d397",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Discipline/Matematica/Spazi vettoriali.md",
+                "file": "Home/Daily Notes/2023/26-09-2023.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -57,12 +57,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6528493768047894,
-                  "close": true
+                  "scale": 0.7132754626224423,
+                  "close": false
                 }
               }
             },
-            "group": "e1b614d089894a51"
+            "group": "3d5346aff2ef4d16"
           }
         ]
       }
@@ -114,7 +114,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 281.5
   },
   "right": {
     "id": "a5b2820ae404a67e",
@@ -124,35 +124,6 @@
         "id": "eaeaae030da6ad63",
         "type": "tabs",
         "children": [
-          {
-            "id": "cfb2f10e99e3067b",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Discipline/Matematica/Spazi vettoriali.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "99b7940250468106",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Discipline/Matematica/Spazi vettoriali.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "82620ae4bd5e5ef0",
             "type": "leaf",
@@ -170,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Spazi vettoriali.md"
+                "file": "Home/Daily Notes/2023/26-09-2023.md"
               }
             }
           },
@@ -183,12 +154,42 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "216033d1a719d7ed",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home/Daily Notes/2023/26-09-2023.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b276b411b4154fd4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home/Daily Notes/2023/26-09-2023.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 238.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,15 +202,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df0b7c9c4e35af6f",
+  "active": "624e7a652ef02ee5",
   "lastOpenFiles": [
-    "Algebra Lineare ed Analisi Matematica II.md",
-    "UNI/Materie Ingegneria informatica.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Home/Daily Notes/2023/26-09-2023.md",
+    "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Funzione.md",
     "Discipline/Matematica/Insiemi.md",
-    "Discipline/Matematica/Spazi vettoriali.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Informazione.md",
     "Discipline/Programmazione",
