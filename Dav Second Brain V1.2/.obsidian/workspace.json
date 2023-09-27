@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Daily Notes/2023/27-09-2023.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/Daily Notes/2023/27-09-2023.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Daily Notes/2023/27-09-2023.md"
+                "file": "Discipline/Programmazione/C++.md"
               }
             }
           },
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Daily Notes/2023/27-09-2023.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Daily Notes/2023/27-09-2023.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,8 +204,8 @@
   },
   "active": "606bfbe9392f3f03",
   "lastOpenFiles": [
-    "Home/Daily Notes/2023/26-09-2023.md",
     "Home/Daily Notes/2023/27-09-2023.md",
+    "Home/Daily Notes/2023/26-09-2023.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Variabili.md",
