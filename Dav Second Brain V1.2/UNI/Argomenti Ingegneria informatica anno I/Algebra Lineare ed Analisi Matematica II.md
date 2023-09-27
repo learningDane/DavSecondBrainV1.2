@@ -1,2 +1,2 @@
-Gregory Pearlstein
+Gregory Pearlstein - SageMath
 [[Spazi vettoriali]] 

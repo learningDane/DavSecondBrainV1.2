@@ -14,7 +14,7 @@ __iniettiva__
 __suriettiva__ o invertibile
 	$$\forall \ b \in B,\ \exists \ a \in A,\ t.c.\ f(a)=b$$
 	a ogni elemento di $B$ è associato almeno un elemento di $A$.
-__biunivoca__
+__biunivoca__ o bicettiva o 
 	x
 
 

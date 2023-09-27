@@ -1,3 +1,4 @@
 Berselli Luigi Carlo
 [[Insiemi]]
-[[Funzione]] 
+[[Funzioni]] 
+[[Algoritmo di Euclide]]
