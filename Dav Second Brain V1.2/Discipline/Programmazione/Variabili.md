@@ -4,4 +4,4 @@ Il tipo di variabile definisce le dimensioni della variabile, ovvero il numero d
 ## int:
 4 celle (32 bit)
 tra 0 e $2^{32}-1$ 
-$+\ -\ *\ /\ \%$  
+$+\ -\ *\ /\ \%$ 

@@ -20,21 +20,8 @@
               }
             },
             "group": "3d5346aff2ef4d16"
-          },
-          {
-            "id": "e0df8e151d1a3439",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Variabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "a6179ac55a42e427",
@@ -106,7 +93,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "26",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Variabili.md"
+                "file": "Home/Daily Notes/2023/27-09-2023.md"
               }
             }
           },
@@ -174,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Variabili.md",
+                "file": "Home/Daily Notes/2023/27-09-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Variabili.md",
+                "file": "Home/Daily Notes/2023/27-09-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,22 +202,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0df8e151d1a3439",
+  "active": "606bfbe9392f3f03",
   "lastOpenFiles": [
+    "Home/Daily Notes/2023/26-09-2023.md",
     "Home/Daily Notes/2023/27-09-2023.md",
-    "Variabili.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Variabili.md",
     "Discipline/Programmazione/Informazione.md",
     "Discipline/Fisica/Relatività.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "UNI/Materie Ingegneria informatica.md",
-    "Home/Daily Notes/2023/26-09-2023.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Materie Ingegneria informatica.md",
     "Discipline/Linux/Ubuntu.md",
     "Discipline/Linux",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Funzione.md",
     "Discipline/Matematica/Insiemi.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Programmazione",
     "Home/Workflow.md",
     "UNI/Argomenti Ingegneria informatica anno I",
@@ -247,7 +235,6 @@
     "Home/Obsidian basics/Embedding.md",
     "Home/Daily Notes/2023/19-09-2023.md",
     "Home/daily note canvas.md",
-    "Home/Daily Notes/2023/20-09-2023.md",
     "Home/Obsidian basics",
     "Home/Random"
   ]
