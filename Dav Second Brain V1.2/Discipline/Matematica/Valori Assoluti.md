@@ -5,9 +5,11 @@ Se l'argomento è una variabile conviene trasformarlo in un sistema: $$|x|= \beg
 # Proprietà del valore assoluto:
 ### 1 Proprietà della disuguaglianza triangolare:
 $$|x+y| \leq |x| + |y|$$
-##### Dimostrazione:
-	
+##### Dimostrazione
+	$- |x|\leq x \leq |x|$
+	// per $y$ 
+	Allora $-|x|-|y|\leq x+y \leq |x|+|y|$ 
+	ciò vuol dire che $|x+y| \leq |x| + |y|$ C.V.D.
 
 ### 2 $$||x|+|y|| \leq |x-y|$$
 ##### Dimostrazione:
-	

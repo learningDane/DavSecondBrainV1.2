@@ -6,7 +6,6 @@
       {
         "id": "dac8969a7de01b54",
         "type": "tabs",
-        "dimension": 78.88372093023256,
         "children": [
           {
             "id": "afaee3534f8ffca1",
@@ -26,52 +25,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Numeri periodici.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "a6179ac55a42e427",
-        "type": "tabs",
-        "dimension": 21.116279069767437,
-        "children": [
-          {
-            "id": "7d2f933314d9d397",
-            "type": "leaf",
-            "state": {
-              "type": "localgraph",
-              "state": {
-                "file": "Numeri periodici.md",
-                "options": {
-                  "collapse-filter": true,
-                  "search": "",
-                  "localJumps": 1,
-                  "localBacklinks": true,
-                  "localForelinks": true,
-                  "localInterlinks": false,
-                  "showTags": false,
-                  "showAttachments": false,
-                  "hideUnresolved": false,
-                  "collapse-color-groups": true,
-                  "colorGroups": [],
-                  "collapse-display": true,
-                  "showArrow": false,
-                  "textFadeMultiplier": 0,
-                  "nodeSizeMultiplier": 1,
-                  "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 250,
-                  "scale": 0.7132754626224423,
-                  "close": true
-                }
               }
             }
           }
@@ -125,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 281.5
+    "width": 292.5
   },
   "right": {
     "id": "a5b2820ae404a67e",
@@ -152,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Numeri periodici.md"
+                "file": "Home/Daily Notes/2023/28-09-2023.md"
               }
             }
           },
@@ -172,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Numeri periodici.md",
+                "file": "Home/Daily Notes/2023/28-09-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Numeri periodici.md",
+                "file": "Home/Daily Notes/2023/28-09-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,28 +169,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61539f5cee364c7f",
+  "active": "afaee3534f8ffca1",
   "lastOpenFiles": [
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Matematica/Valori Assoluti.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Numeri periodici.md",
+    "Home/Daily Notes/2023/28-09-2023.md",
     "Discipline/Matematica/Insiemi.md",
     "Discipline/Programmazione/Operazioni.md",
     "Discipline/Programmazione/Variabili.md",
-    "Numeri periodici.md",
     "Discipline/Linux/Ubuntu.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Matematica/Principio di induzione.md",
-    "Home/Daily Notes/2023/28-09-2023.md",
     "Discipline/Matematica/Simboli matematici.md",
-    "Discipline/Matematica/Funzioni.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Informazione.md",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Massimo Comune Divisore.md",
-    "UNI/Materie Ingegneria informatica.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Home/Daily Notes/2023/27-09-2023.md",
-    "Discipline/Matematica/Valori Assoluti.md",
     "Home/Daily Notes/2023/26-09-2023.md",
     "Discipline/Fisica/Relatività.md",
     "Discipline/Linux",

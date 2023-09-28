@@ -28,3 +28,19 @@ Una funzione è detta definita a tratti se per tratti diversi di dominio ha rela
 # Successione
 Una successione numerica è una funzione che associa ad ogni numero naturale n un numero reale r.
 Sono indicate con $f_n$ dove $n\in N$
+
+# Funzione crescente
+Una funzione è crescente se: $$\forall x_1\ e\ x_2\  \in D\ t.c.\ x_1<x_2\ \implies f(x_1) \leq f(x_2)$$
+È invece ___strettamente crescente___ se risulta che $f(x_1)\ <\  f(x_2)$.
+
+##### Dimostrazione esempio
+Dimostriamo che $f(x)=x^2$ è crescente:
+- Ipotesi: $x_1\leq x_2$
+- Tesi: $x_1^2 < x_2^2$ 
+$\forall \ x_1\ e\ x_2 \in D\ e\ \geq 0$ 
+	Dimostrazione:
+	$x_1\leq x_2$ equivale a dire che $0 \leq x_2^2 - x_1^2$ 
+	quindi $0\leq (x_2 + x_1)(x_2 - x_1)$ 
+	ma $x_2 + x_1$ è maggiore di zero perché $x_2$ e $x_1$ sono positivi
+	e $x_2 - x_1$ è anche maggiore di zero poiché $x_2 > x_1$ per tesi
+	Allora $f(x)=x^2$ è crescente, inoltre essendo entrambi diversi da $0$, il loro prodotto non può essere $0$, quindi la funzione è ___strettamente crescente___.

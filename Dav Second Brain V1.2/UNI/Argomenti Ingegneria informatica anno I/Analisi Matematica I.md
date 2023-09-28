@@ -5,3 +5,5 @@ Berselli Luigi Carlo
 [[Algoritmo di Euclide]]
 [[Valori Assoluti]]
 [[Principio di induzione]]
+[[Numeri periodici]]
+
