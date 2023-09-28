@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Matematica/Insiemi.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Matematica/Insiemi.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
+                "file": "Discipline/Matematica/Insiemi.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Matematica/Insiemi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Matematica/Insiemi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,8 +224,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "624e7a652ef02ee5",
+  "active": "afaee3534f8ffca1",
   "lastOpenFiles": [
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Operazioni.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Variabili.md",
@@ -242,7 +243,6 @@
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Home/Daily Notes/2023/27-09-2023.md",
     "Discipline/Matematica/Valori Assoluti.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Home/Daily Notes/2023/26-09-2023.md",
     "Discipline/Fisica/Relatività.md",
     "Discipline/Linux/Ubuntu.md",
