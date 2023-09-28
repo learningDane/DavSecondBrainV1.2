@@ -26,7 +26,7 @@ ___Teorema fondamentale della rappresentazione dei numeri naturali___:
 #### Numeri rappresentabili con $p$ bit:
 $$intervalli\ di\ rappresentabilità=[0;2^p-1]$$
 #### Overflow:
-In generale ci vogliono $p+1$ bit per rappresentare la somma tra due numeri di $p$ bit: altrimenti si rischia di ottenere un numero non rappresentabile su $p$ bit, si dice che la somma ha dato luogo ad un ___overflow___.
+In generale ci vogliono $p+1$ bit (chiamato bit di riporto) per rappresentare la somma tra due numeri di $p$ bit. Col prodotto invece si rischia di ottenere un numero non rappresentabile su $p$ bit, si dice che il prodotto ha dato luogo ad un ___overflow___.
 #### Somma:
 per sommare due numeri binari il metodo più facile e più intuitivo è l'addizione in colonna, quando si ottiene un 2, semplicemente si mette 0 e si riporta 1 alla cifra successiva in ordine di significato. $$ \begin{cases} \ 1010100+ \\ \ 0101111= \\ 10000011 \end{cases} $$
 # bho

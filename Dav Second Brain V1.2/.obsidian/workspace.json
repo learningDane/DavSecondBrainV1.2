@@ -6,7 +6,7 @@
       {
         "id": "dac8969a7de01b54",
         "type": "tabs",
-        "dimension": 83.77581120943954,
+        "dimension": 78.88372093023256,
         "children": [
           {
             "id": "afaee3534f8ffca1",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
       {
         "id": "a6179ac55a42e427",
         "type": "tabs",
-        "dimension": 16.22418879056047,
+        "dimension": 21.11627906976744,
         "children": [
           {
             "id": "7d2f933314d9d397",
@@ -57,7 +57,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -81,7 +81,7 @@
                   "linkStrength": 1,
                   "linkDistance": 250,
                   "scale": 0.7132754626224423,
-                  "close": false
+                  "close": true
                 }
               }
             }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md"
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
               }
             }
           },
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 238.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +226,11 @@
   },
   "active": "624e7a652ef02ee5",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Operazioni.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Variabili.md",
+    "Discipline/Programmazione/Informazione.md",
+    "Home/Daily Notes/2023/28-09-2023.md",
     "Discipline/Matematica/Funzioni.md",
     "Discipline/Matematica/Insiemi.md",
     "Discipline/Matematica/Simboli matematici.md",
@@ -236,13 +241,9 @@
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Home/Daily Notes/2023/27-09-2023.md",
-    "Home/Daily Notes/2023/28-09-2023.md",
     "Discipline/Matematica/Valori Assoluti.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Discipline/Programmazione/C++.md",
     "Home/Daily Notes/2023/26-09-2023.md",
-    "Discipline/Programmazione/Variabili.md",
-    "Discipline/Programmazione/Informazione.md",
     "Discipline/Fisica/Relatività.md",
     "Discipline/Linux/Ubuntu.md",
     "Discipline/Linux",
@@ -255,7 +256,6 @@
     "Discipline/Sistemi/conduttore elettrico.md",
     "Discipline/Matematica",
     "Home/Daily Notes/2023/25-09-2023.md",
-    "Home/Daily Notes/2023/24-09-2023.md",
     "Discipline/in attesa di senso",
     "Home/Obsidian basics",
     "Home/Random"
