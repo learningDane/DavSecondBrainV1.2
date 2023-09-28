@@ -8,15 +8,17 @@ Relazione: $f$: relazione che a ogni elemento di $A$ associa __uno ed uno__ solo
 
 ---
 # Tipi di Funzioni
-__iniettiva__
+###### __iniettiva__
 	$$\forall a_1,a_2 \in A\ \ t.c.\ \ a_1\neq a_2 \implies f(a_1) \neq f(a_2)$$
 	A ogni elemento di $B$, $f$ lega al più un elemento di $A$.
-__suriettiva__ o invertibile
+##### __suriettiva__ o invertibile
 	$$\forall \ b \in B,\ \exists \ a \in A,\ t.c.\ f(a)=b$$
 	a ogni elemento di $B$ è associato almeno un elemento di $A$.
-__biunivoca__ o bicettiva o 
+##### __biunivoca__ o bicettiva o 
 	x
 
+##### Condizioni
+Se il codominio contiene meno elementi del dominio la funzione non può essere iniettiva.
 
 ---
 # Funzioni a tratti
