@@ -21,31 +21,19 @@
             }
           },
           {
-            "id": "e35a9c13261436ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Funzioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "61539f5cee364c7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Numeri periodici.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "a6179ac55a42e427",
@@ -58,7 +46,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Numeri periodici.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -164,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principio di induzione.md"
+                "file": "Numeri periodici.md"
               }
             }
           },
@@ -184,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Numeri periodici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,7 +189,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Principio di induzione.md",
+                "file": "Numeri periodici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,20 +215,21 @@
   },
   "active": "61539f5cee364c7f",
   "lastOpenFiles": [
-    "Discipline/Matematica/Simboli matematici.md",
-    "Principio di induzione.md",
     "Discipline/Matematica/Insiemi.md",
-    "Discipline/Matematica/Funzioni.md",
-    "Numeri periodici.md",
-    "Home/Daily Notes/2023/28-09-2023.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Operazioni.md",
-    "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Variabili.md",
+    "Numeri periodici.md",
+    "Discipline/Linux/Ubuntu.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Discipline/Matematica/Principio di induzione.md",
+    "Home/Daily Notes/2023/28-09-2023.md",
+    "Discipline/Matematica/Simboli matematici.md",
+    "Discipline/Matematica/Funzioni.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Informazione.md",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Massimo Comune Divisore.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "UNI/Materie Ingegneria informatica.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
@@ -249,7 +237,6 @@
     "Discipline/Matematica/Valori Assoluti.md",
     "Home/Daily Notes/2023/26-09-2023.md",
     "Discipline/Fisica/Relatività.md",
-    "Discipline/Linux/Ubuntu.md",
     "Discipline/Linux",
     "Discipline/Programmazione",
     "Home/Workflow.md",

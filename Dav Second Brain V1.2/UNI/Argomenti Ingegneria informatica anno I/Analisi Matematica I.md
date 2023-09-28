@@ -4,3 +4,4 @@ Berselli Luigi Carlo
 [[Massimo Comune Divisore]]
 [[Algoritmo di Euclide]]
 [[Valori Assoluti]]
+[[Principio di induzione]]

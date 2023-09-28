@@ -32,4 +32,4 @@ Indicato con il simbolo: $$\le$$$$A\le B\implies \forall x \in A, x \in B $$
 
 ### Cardinalità 
 Indicata con il simbolo # :
-$$\#(A)=n \in N \implies \exists f\ bigettiva\ t.c.\ f: A \to \{ 1,\ 2,\ 3,\ ...\ ,\ n\}$$ A è finito se: $\exists \ n \in N\ t.c.\ \#A=n$ 
+$$\#(A)=n \in N \implies \exists \ f\ bigettiva\ t.c.\ f: A \to \{ 1,\ 2,\ 3,\ ...\ ,\ n\}$$ A è finito se: $\exists \ n \in N\ t.c.\ \#A=n$ 
