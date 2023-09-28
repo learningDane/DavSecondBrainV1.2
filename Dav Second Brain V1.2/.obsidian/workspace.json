@@ -14,42 +14,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Home/Daily Notes/2023/28-09-2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2eeaacb16479da8c",
+            "id": "e35a9c13261436ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Discipline/Matematica/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "90d3566401398822",
+            "id": "61539f5cee364c7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Simboli matematici.md",
+                "file": "Principio di induzione.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "a6179ac55a42e427",
         "type": "tabs",
-        "dimension": 21.11627906976744,
+        "dimension": 21.116279069767437,
         "children": [
           {
             "id": "7d2f933314d9d397",
@@ -57,7 +58,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Principio di induzione.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md"
+                "file": "Principio di induzione.md"
               }
             }
           },
@@ -183,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Principio di induzione.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +201,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Principio di induzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +212,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,21 +226,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "afaee3534f8ffca1",
+  "active": "61539f5cee364c7f",
   "lastOpenFiles": [
+    "Discipline/Matematica/Simboli matematici.md",
+    "Principio di induzione.md",
+    "Discipline/Matematica/Insiemi.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Numeri periodici.md",
+    "Home/Daily Notes/2023/28-09-2023.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Operazioni.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Variabili.md",
     "Discipline/Programmazione/Informazione.md",
-    "Home/Daily Notes/2023/28-09-2023.md",
-    "Discipline/Matematica/Funzioni.md",
-    "Discipline/Matematica/Insiemi.md",
-    "Discipline/Matematica/Simboli matematici.md",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Massimo Comune Divisore.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Materie Ingegneria informatica.md",
+    "UNI/Materie Ingegneria informatica.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Home/Daily Notes/2023/27-09-2023.md",
@@ -253,9 +257,7 @@
     "UNI/Untitled.md",
     "Home/Obsidian basics/Formattazione.md",
     "Discipline/Fisica/corrente.md",
-    "Discipline/Sistemi/conduttore elettrico.md",
     "Discipline/Matematica",
-    "Home/Daily Notes/2023/25-09-2023.md",
     "Discipline/in attesa di senso",
     "Home/Obsidian basics",
     "Home/Random"

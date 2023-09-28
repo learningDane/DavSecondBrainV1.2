@@ -25,3 +25,6 @@ Se il codominio contiene meno elementi del dominio la funzione non può essere i
 Una funzione è detta definita a tratti se per tratti diversi di dominio ha relazioni diverse. $$f(x) = \begin{cases} \frac{x}{2} \ se\ n\ è\ pari \\ 1\ se\ è\ dispari\end{cases} $$
 
 ---
+# Successione
+Una successione numerica è una funzione che associa ad ogni numero naturale n un numero reale r.
+Sono indicate con $f_n$ dove $n\in N$
