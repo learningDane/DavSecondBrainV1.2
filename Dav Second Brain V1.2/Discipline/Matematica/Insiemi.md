@@ -11,6 +11,9 @@ $$A\land B=tutti\ gli\ oggetti\ di\ A\ e\ di\ B$$
 indicata con il simbolo: $$\lor$$
 $$A\lor B = tutti\ gli\ oggetti\ sia\ in\ A\ che\ in\ B$$
 
+##### Bho
+Indicato con il simbolo: ``` \ ```
+$A$ \ $B ={a \in A\ t.c.\ a\ \notin B}$
 ##### Prodotto Cartesiano
 Indicato con il simbolo: $$\times$$$$A \times B = \{(a,b) \ t.c.\ a \in A, b \in B\}$$
 Il prodotto cartesiano tra due insiemi è un insieme composto tra coppie ordinate di argomenti contenuti uno in A ed uno in B.

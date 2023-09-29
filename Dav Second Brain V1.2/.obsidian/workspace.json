@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/29-09-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mcd",
+                "query": "relati",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md"
+                "file": "Home/Daily Notes/2023/29-09-2023.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/29-09-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/29-09-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,15 +172,20 @@
   },
   "active": "ab393235531a667b",
   "lastOpenFiles": [
-    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Fisica/Relatività.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Insiemi.md",
+    "Discipline/Logica/Basi della Logica.md",
+    "Discipline/Scienze Sociali/Third Wave Experiment.md",
+    "Home/Daily Notes/2023/29-09-2023.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Logica",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Matematica/Funzioni.md",
     "Discipline/Matematica/Simboli matematici.md",
     "Discipline/Matematica/Massimo Comune Divisore.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Discipline/Matematica/Spazi vettoriali.md",
-    "Home/Daily Notes/2023/29-09-2023.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Programmazione/Operazioni.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Variabili.md",
@@ -190,16 +196,12 @@
     "Home/Daily Notes/2023/28-09-2023.md",
     "Discipline/Linux/Ubuntu.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Home/Daily Notes/2023/27-09-2023.md",
     "Home/Daily Notes/2023/26-09-2023.md",
-    "Discipline/Fisica/Relatività.md",
     "Discipline/Linux",
     "Discipline/Programmazione",
     "Home/Workflow.md",
     "UNI/Argomenti Ingegneria informatica anno I",
-    "UNI/Untitled.md",
-    "Home/Obsidian basics/Formattazione.md",
     "Discipline/Matematica",
     "Discipline/in attesa di senso",
     "Home/Obsidian basics",

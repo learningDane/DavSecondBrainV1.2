@@ -1,5 +1,5 @@
 Gregory Pearlstein - SageMath
 [[Spazi vettoriali]] 
 [[Matrici]]
-[[Logica]]
+[[Basi della Logica]]
 [[Numeri Complessi]]
