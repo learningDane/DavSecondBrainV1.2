@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md"
+                "file": "Discipline/Programmazione/C++.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Insiemi.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,6 +195,7 @@
   },
   "active": "bea76e40db3ea787",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Variabili.md",
     "Home/Daily Notes/2023/29-09-2023.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Discipline/Matematica/Spazi vettoriali.md",
@@ -212,7 +213,6 @@
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Discipline/Programmazione/Operazioni.md",
     "Discipline/Programmazione/C++.md",
-    "Discipline/Programmazione/Variabili.md",
     "Discipline/Programmazione/Informazione.md",
     "Discipline/Matematica/Valori Assoluti.md",
     "Discipline/Matematica/Principio di induzione.md",
