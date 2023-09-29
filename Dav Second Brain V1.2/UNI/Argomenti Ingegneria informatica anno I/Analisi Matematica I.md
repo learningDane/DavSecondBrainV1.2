@@ -6,4 +6,8 @@ Berselli Luigi Carlo
 [[Valori Assoluti]]
 [[Principio di induzione]]
 [[Numeri periodici]]
-
+[[Disuguaglianza Bernoulli]]
+[[Fattoriale]]
+[[Formula del Binomio]]
+[[Coefficiente Binomiale]]
+[[Algoritmo di Erone]]

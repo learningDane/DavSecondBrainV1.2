@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#daily-note  ",
@@ -27,6 +27,13 @@
         "a": 1,
         "rgb": 1218816
       }
+    },
+    {
+      "query": "tag:#uni  ",
+      "color": {
+        "a": 1,
+        "rgb": 16639
+      }
     }
   ],
   "collapse-display": false,
@@ -39,6 +46,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 81,
-  "scale": 0.6471032563137014,
+  "scale": 0.440864645755325,
   "close": true
 }

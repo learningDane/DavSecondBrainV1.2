@@ -20,8 +20,8 @@ Dimostrazione che $$McD(a,\ b)=McD(b,\ r)$$Creo due [[Insiemi]]:
 $A=\{n\ tale\ che\ n|a\ e\ n|b \}$ `insieme dei divisori di a e b`
 $B=\{n\ tale\ che\ n|b\ e\ n|r \}$ `insieme dei divisori di b e r`
 Per dimostrare che gli McD dei due insiemi sono uguali devo dimostrare che gli insiemi stessi sono uguali, quindi devo dimostrare che:
-	1 $A \leq B$
-	2 $B \leq A$ 
+	1 $A \subseteq B$
+	2 $B \subseteq A$ 
 :
 ### 1
 Se $n|a$ allora $a/n = a_1$ e $a=n*a_1$

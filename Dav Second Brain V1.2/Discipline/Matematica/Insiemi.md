@@ -16,7 +16,7 @@ Indicato con il simbolo: $$\times$$$$A \times B = \{(a,b) \ t.c.\ a \in A, b \in
 Il prodotto cartesiano tra due insiemi è un insieme composto tra coppie ordinate di argomenti contenuti uno in A ed uno in B.
 
 ##### Sottoinsieme
-Indicato con il simbolo: $$\le$$$$A\le B\implies \forall x \in A, x \in B $$
+Indicato con il simbolo: $$\subseteq$$$$A\subseteq B\implies \forall x \in A, x \in B $$
 	Dire che A è un sottoinsieme di B vuol dire che ogni elemento di A è anche un elemento di B.
 
 ### Diversi tipi di insiemi:
