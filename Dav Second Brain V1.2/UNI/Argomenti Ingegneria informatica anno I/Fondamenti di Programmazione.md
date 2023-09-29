@@ -3,3 +3,5 @@ Marco Cococcioni - CLion
 [[Variabili]]
 [[C++]]
 [[Operazioni]]
+[[Algoritmo DIV&MOD]]
+[[Conversione di Base]]

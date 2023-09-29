@@ -30,7 +30,8 @@ Indicato con il simbolo: $$\subseteq$$$$A\subseteq B\implies \forall x \in A, x 
 ##### Q: i numeri razionali
 	numeri decimali finiti
 ##### R: i numeri reali
-	i numeri decimali non finiti
+	I numeri decimali non finiti
+È un insieme non numerabile perché tra due numeri ve ne sono infiniti e non esiste una  funzione bigettiva tale che $f: N \to R$.
 -
 
 ### Cardinalità 
