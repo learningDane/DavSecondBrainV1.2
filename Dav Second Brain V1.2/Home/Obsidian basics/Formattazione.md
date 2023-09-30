@@ -1,4 +1,4 @@
-It is possible to embed things: [[Embedding]]
+#self-taught It is possible to embed things: [[Embedding]]
 # Task list
 per creare una task list:
 `- [ ] la task`
