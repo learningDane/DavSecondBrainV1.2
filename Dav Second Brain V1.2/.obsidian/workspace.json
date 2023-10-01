@@ -1,28 +1,15 @@
 {
   "main": {
-    "id": "b72c0e361db645a0",
+    "id": "06eafa98d5d02b83",
     "type": "split",
     "children": [
       {
-        "id": "dac8969a7de01b54",
+        "id": "3ee5a7911ce24649",
         "type": "tabs",
+        "dimension": 79.50507614213198,
         "children": [
           {
-            "id": "bea76e40db3ea787",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/ToDo.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b97b7416c08359c8",
+            "id": "cd12e920583d4bb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,51 +18,82 @@
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "64398414b5761be1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/Daily Notes/2023/30-09-2023.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            },
+            "group": "79753b52635bfa32"
           }
-        ],
-        "currentTab": 2
+        ]
+      },
+      {
+        "id": "ab8b1a2e5d8b96d3",
+        "type": "tabs",
+        "dimension": 20.49492385786802,
+        "children": [
+          {
+            "id": "204bd1b10d3377f9",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Home/Daily Notes/2023/30-09-2023.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.713275462622442,
+                  "close": true
+                }
+              }
+            },
+            "group": "79753b52635bfa32"
+          }
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fb20d72d9f7cf226",
+    "id": "a9bdd71807ed7423",
     "type": "split",
     "children": [
       {
-        "id": "93fa299a64f74d42",
+        "id": "fc14a54078a5a692",
         "type": "tabs",
         "children": [
           {
-            "id": "624e7a652ef02ee5",
+            "id": "28ddbab9532d0a24",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "30b00e1ae8b3819d",
+            "id": "da49c3dc9f3455a4",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "relati",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +103,7 @@
             }
           },
           {
-            "id": "5823acea3f65c844",
+            "id": "e06a0f862848ad56",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,49 +114,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 292.5
+    "width": 300
   },
   "right": {
-    "id": "a5b2820ae404a67e",
+    "id": "dca893aaed2b8e85",
     "type": "split",
     "children": [
       {
-        "id": "eaeaae030da6ad63",
+        "id": "a143e1072b9822bd",
         "type": "tabs",
         "children": [
           {
-            "id": "82620ae4bd5e5ef0",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "ca9287d680977d6f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home/Daily Notes/2023/30-09-2023.md"
-              }
-            }
-          },
-          {
-            "id": "1476ca052a4b7985",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
-          },
-          {
-            "id": "216033d1a719d7ed",
+            "id": "0ddf4f6c4b28c8bd",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -155,7 +142,7 @@
             }
           },
           {
-            "id": "b276b411b4154fd4",
+            "id": "e1012d2a0a9a2eb4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -165,60 +152,69 @@
                 "unlinkedCollapsed": true
               }
             }
+          },
+          {
+            "id": "432244d4b0299acc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "21c224abb75686de",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "bd39029a4d4aae89",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home/Daily Notes/2023/30-09-2023.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "audio-recorder:Start/stop recording": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "64398414b5761be1",
+  "active": "cd12e920583d4bb8",
   "lastOpenFiles": [
-    "Home/ToDo.md",
-    "Home/Obsidian basics/Formattazione.md",
-    "Home/Daily Notes/2023/29-09-2023.md",
     "Home/Daily Notes/2023/30-09-2023.md",
-    "Discipline/Programmazione/C++.md",
-    "Discipline/Programmazione/Variabili.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Discipline/Matematica/Spazi vettoriali.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Discipline/Fisica/Relatività.md",
-    "Discipline/Matematica/Insiemi.md",
-    "Discipline/Logica/Basi della Logica.md",
-    "Discipline/Scienze Sociali/Third Wave Experiment.md",
-    "UNI/Materie Ingegneria informatica.md",
-    "Discipline/Logica",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "Discipline/Matematica/Funzioni.md",
-    "Discipline/Matematica/Simboli matematici.md",
-    "Discipline/Matematica/Massimo Comune Divisore.md",
-    "Discipline/Matematica/Algoritmo di Euclide.md",
-    "Discipline/Programmazione/Operazioni.md",
-    "Discipline/Programmazione/Informazione.md",
-    "Discipline/Matematica/Valori Assoluti.md",
-    "Discipline/Matematica/Principio di induzione.md",
-    "Discipline/Matematica/Numeri periodici.md",
+    "Home/daily note canvas.md",
     "Home/Daily Notes/2023/28-09-2023.md",
-    "Discipline/Linux/Ubuntu.md",
-    "Discipline/Linux",
-    "Discipline/Programmazione",
-    "UNI/Argomenti Ingegneria informatica anno I",
-    "Discipline/Matematica",
-    "Discipline/in attesa di senso",
-    "Home/Obsidian basics",
-    "Home/Random"
+    "Home/Obsidian basics/Formattazione.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Discipline/Matematica/Spazi vettoriali.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Home/Obsidian basics/Embedding.md",
+    "Home/Obsidian basics/Link Interni.md",
+    "Home/Obsidian basics/Identificatore del blocco.md"
   ]
 }

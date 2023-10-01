@@ -1,3 +1,4 @@
+#self-taught 
 I link interni si fanno di solito racchiudendo il nome di ciò che si vuole elencare fra doppie paretesi quadre (`[[xxx]]`)
 
 per linkare una nota:

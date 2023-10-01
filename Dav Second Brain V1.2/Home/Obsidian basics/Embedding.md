@@ -1,3 +1,4 @@
+#self-taught 
 Questo riscrive la nota al posto della stringa:
 `![[name of the note]]`
 
