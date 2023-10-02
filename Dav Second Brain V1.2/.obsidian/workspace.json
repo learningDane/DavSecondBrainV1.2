@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Home/ToDo.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Home/ToDo.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Home/ToDo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Home/ToDo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md"
+                "file": "Home/ToDo.md"
               }
             }
           }
@@ -204,8 +204,8 @@
   },
   "active": "cd12e920583d4bb8",
   "lastOpenFiles": [
-    "Home/Daily Notes/2023/30-09-2023.md",
     "Home/Daily Notes/2023/02-10-2023.md",
+    "Home/Daily Notes/2023/30-09-2023.md",
     "Home/daily note canvas.md",
     "Home/Daily Notes/2023/28-09-2023.md",
     "Home/Obsidian basics/Formattazione.md",
