@@ -6,4 +6,3 @@ Gregory Pearlstein - SageMath
 [[Matrici]]
 [[Basi della Logica]]
 [[Numeri Complessi]]
-[[Eliminazione Gaussiana]]

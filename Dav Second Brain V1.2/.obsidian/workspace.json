@@ -6,7 +6,7 @@
       {
         "id": "3ee5a7911ce24649",
         "type": "tabs",
-        "dimension": 78.43347639484979,
+        "dimension": 83.72093023255815,
         "children": [
           {
             "id": "aaa475e4a4ca8779",
@@ -23,36 +23,24 @@
             }
           },
           {
-            "id": "cd12e920583d4bb8",
+            "id": "dbb2ec173642348a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d466ddb4b3a87be4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sistemi Lineari.md",
+                "file": "Home/Daily Notes/2023/02-10-2023.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "ab8b1a2e5d8b96d3",
         "type": "tabs",
-        "dimension": 21.566523605150216,
+        "dimension": 16.27906976744186,
         "children": [
           {
             "id": "204bd1b10d3377f9",
@@ -60,7 +48,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Sistemi Lineari.md",
+                "file": "Home/Daily Notes/2023/02-10-2023.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -83,7 +71,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.713275462622442,
+                  "scale": 0.7132754626224422,
                   "close": true
                 }
               }
@@ -118,7 +106,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "29-09",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,8 +127,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 256.5
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -156,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sistemi Lineari.md",
+                "file": "Home/Daily Notes/2023/02-10-2023.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sistemi Lineari.md",
+                "file": "Home/Daily Notes/2023/02-10-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,16 +193,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sistemi Lineari.md"
+                "file": "Home/Daily Notes/2023/02-10-2023.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,24 +215,33 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "d466ddb4b3a87be4",
+  "active": "dbb2ec173642348a",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Home/ToDo.md",
-    "Sistemi Lineari.md",
+    "Discipline/Matematica/Simboli matematici.md",
+    "Discipline/Matematica/Coefficiente Binomiale.md",
+    "Discipline/Matematica/Vettori.md",
+    "Discipline/Matematica/Valori Assoluti.md",
     "Discipline/Matematica/Spazi vettoriali.md",
-    "Vettori.md",
+    "Discipline/Matematica/Sistemi Lineari.md",
+    "Discipline/Matematica/Principio di induzione.md",
+    "Discipline/Matematica/Numeri periodici.md",
+    "Discipline/Matematica/Massimo Comune Divisore.md",
+    "Discipline/Matematica/Insiemi.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Disuguaglianza Bernoulli.md",
+    "Discipline/Matematica/Binomio di Newton.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
-    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Matematica/Algoritmo di Erone.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Home/ToDo.md",
     "Home/Daily Notes/2023/02-10-2023.md",
-    "Home/Daily Notes/2023/30-09-2023.md",
-    "Home/daily note canvas.md",
     "Home/Daily Notes/2023/28-09-2023.md",
     "Home/Obsidian basics/Formattazione.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Home/Obsidian basics/Embedding.md",
-    "Home/Obsidian basics/Link Interni.md",
-    "Home/Obsidian basics/Identificatore del blocco.md"
+    "UNI/Materie Ingegneria informatica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "Home/Daily Notes/2023/29-09-2023.md",
+    "Home/Daily Notes/2023/30-09-2023.md",
+    "Home/daily note canvas.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
   ]
 }

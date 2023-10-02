@@ -5,3 +5,9 @@ Un sistema si dice omogeneo se il termine noto è uguale a $0$ in tutte le equaz
 - avere una soluzione unica
 - non avere soluzione
 - avere infinite soluzioni
+# Mosse di Gauss
+- aggiungere un multiplo di un'equzione a un'altra
+- Moltiplicare un'equazione per uno scalare nullo
+- Riordinare le equazioni
+# Eliminazione Gaussiana
+Applicare le 3 mosse di Gauss per semplificare un sistema di equazioni lineari.

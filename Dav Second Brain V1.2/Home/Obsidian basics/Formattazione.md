@@ -3,8 +3,7 @@
 per creare una task list:
 `- [ ] la task`
 `- [x] la task fatta`
-- [x] fatto
-- [ ] non fatto
+- [x] fatto- 
 # Barra separatrice
 ---
 Si può creare una barra per separare usando tre asterischi, trattini o underscore:
