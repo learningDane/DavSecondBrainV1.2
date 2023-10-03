@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Discipline/Programmazione/Operazioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Discipline/Programmazione/Operazioni.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Discipline/Programmazione/Operazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md",
+                "file": "Discipline/Programmazione/Operazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Daily Notes/2023/02-10-2023.md"
+                "file": "Discipline/Programmazione/Operazioni.md"
               }
             }
           }
@@ -217,6 +217,12 @@
   },
   "active": "dbb2ec173642348a",
   "lastOpenFiles": [
+    "Discipline/Logica/Basi della Logica.md",
+    "Discipline/Programmazione/Operazioni.md",
+    "Home/Daily Notes/2023/03-10-2023.md",
+    "Home/Daily Notes/2023/02-10-2023.md",
+    "Home/ToDo.md",
+    "Discipline/Programmazione/Variabili.md",
     "Discipline/Matematica/Simboli matematici.md",
     "Discipline/Matematica/Coefficiente Binomiale.md",
     "Discipline/Matematica/Vettori.md",
@@ -233,15 +239,9 @@
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Discipline/Matematica/Algoritmo di Erone.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "Home/ToDo.md",
-    "Home/Daily Notes/2023/02-10-2023.md",
     "Home/Daily Notes/2023/28-09-2023.md",
     "Home/Obsidian basics/Formattazione.md",
     "UNI/Materie Ingegneria informatica.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Home/Daily Notes/2023/29-09-2023.md",
-    "Home/Daily Notes/2023/30-09-2023.md",
-    "Home/daily note canvas.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md"
   ]
 }
