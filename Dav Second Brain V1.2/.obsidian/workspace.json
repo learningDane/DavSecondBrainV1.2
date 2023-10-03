@@ -28,14 +28,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/Operazioni.md",
+                "file": "Home/Daily Notes/2023/03-10-2023.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9ac83938cd3c28af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Matematica/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "ab8b1a2e5d8b96d3",
@@ -48,7 +60,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Discipline/Programmazione/Operazioni.md",
+                "file": "Discipline/Matematica/Funzioni.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -106,7 +118,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "29-09",
+                "query": "funzione invers",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +135,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -143,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/Operazioni.md",
+                "file": "Discipline/Matematica/Funzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/Operazioni.md",
+                "file": "Discipline/Matematica/Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/Operazioni.md"
+                "file": "Discipline/Matematica/Funzioni.md"
               }
             }
           }
@@ -215,17 +228,19 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "dbb2ec173642348a",
+  "active": "da49c3dc9f3455a4",
   "lastOpenFiles": [
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Discipline/Matematica/Vettori.md",
     "Discipline/Logica/Basi della Logica.md",
-    "Discipline/Programmazione/Operazioni.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "Home/Daily Notes/2023/03-10-2023.md",
+    "Discipline/Programmazione/Operazioni.md",
     "Home/Daily Notes/2023/02-10-2023.md",
     "Home/ToDo.md",
     "Discipline/Programmazione/Variabili.md",
     "Discipline/Matematica/Simboli matematici.md",
     "Discipline/Matematica/Coefficiente Binomiale.md",
-    "Discipline/Matematica/Vettori.md",
     "Discipline/Matematica/Valori Assoluti.md",
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Sistemi Lineari.md",
@@ -238,10 +253,8 @@
     "Discipline/Matematica/Binomio di Newton.md",
     "Discipline/Matematica/Algoritmo di Euclide.md",
     "Discipline/Matematica/Algoritmo di Erone.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Home/Daily Notes/2023/28-09-2023.md",
     "Home/Obsidian basics/Formattazione.md",
-    "UNI/Materie Ingegneria informatica.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md"
+    "UNI/Materie Ingegneria informatica.md"
   ]
 }

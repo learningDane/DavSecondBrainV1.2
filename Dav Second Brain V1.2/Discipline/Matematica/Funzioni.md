@@ -15,6 +15,7 @@ $$\forall \ b \in B,\ \exists \ a \in A,\ t.c.\ f(a)=b$$
 a ogni elemento di $B$ è associato almeno un elemento di $A$.
 ##### __biunivoca__ o bicettiva o 
 Una funzione sia iniettiva che suriettiva, lega ad ogni elemento di $A$ uno ed uno solo elemento di $B$ e ad ogni elemento di $B$ uno ed uno solo elemento di $A$.
+Una funzione è invertibile se e solo se è biunivoca.
 
 ##### Condizioni
 Se il codominio contiene meno elementi del dominio la funzione non può essere iniettiva.
@@ -25,7 +26,8 @@ Una funzione è detta definita a tratti se per tratti diversi di dominio ha rela
 # Successione
 Una successione numerica è una funzione che associa ad ogni numero naturale n un numero reale r.
 Sono indicate con $f_n$ dove $n\in N$
-
+# Permutazione
+Sia $A$ un insieme, una permutazione di $A$ è una funzione $f$ biunivoca tale che $f: A \to A$.
 # Funzione crescente
 Una funzione è crescente se: $$\forall x_1\ e\ x_2\  \in D\ t.c.\ x_1<x_2\ \implies f(x_1) \leq f(x_2)$$
 È invece ___strettamente crescente___ se risulta che $f(x_1)\ <\  f(x_2)$.
