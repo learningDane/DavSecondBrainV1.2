@@ -1,4 +1,4 @@
-#uni #dimostrazione 27/09/2023
+#uni 27/09/2023
 ## Cosa è
 Procedimento algebrico che permette di calcolare il [[Massimo Comune Divisore]] tra due numeri $a$ e $b$interi attraverso un numero finito di passi basati sul calcolo di alcune divisioni.
 
