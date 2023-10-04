@@ -1,6 +1,6 @@
 #self-taught 
 WireGuard è un programma open-source e un protocollo che implementa la tecnica della [[VPN]] per creare connessioni sicure punto-punto in c
-onfigurazione routed o bridged. Viene eseguito come modulo nel [[kernel]] [[linux]] e punta ad avere prestazioni migliori rispetto ad [[IPsec]] e [[OpenVPN]]
+onfigurazione routed o bridged. Viene eseguito come modulo nel [[kernel]] [[Linux]] e punta ad avere prestazioni migliori rispetto ad [[IPsec]] e [[OpenVPN]]
 # Configurazione del client su Linux
 To enter client configuration:
 ``sudo nano /etc/wireguard/wg0.conf ``
