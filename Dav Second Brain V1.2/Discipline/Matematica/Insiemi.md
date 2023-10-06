@@ -5,11 +5,28 @@ Dato un insieme A
 $[a,\ b] = {x \in A \space : \space a\leq x \leq b}$ : insieme chiuso
 $]a,\ b[= {x\in A \space : \space a<x<b}$ : insieme aperto (anche scritto $(a, \ b)$)
 $[a, \ b) = {x\in A \space : \space a\leq x < b}$ : insieme semiaperto (o semichiuso)
-### Massimo e Minimo
+### Massimo, Maggiorante e Estremo Superiore
 Definizione: il Massimo $\overline{M}$ di un insieme $A$ per essere tale deve:
-1. essere ___Maggiorante___ di $A$: $(\overline{M} \geq a \space , \space \forall a \in A)$.
+1. essere ___Maggiorante___ di $A$: $(\overline{M} \geq a \space , \space \forall \ a \in A)$.
 2. appartenere ad $A$.
-In un insieme semiaperto superiormente il massimo non esiste. Stessa cosa per il  minimo in un insieme semiaperto inferiormente.
+In un insieme semiaperto o non limitato superiormente il massimo non esiste. Stessa cosa per il  minimo in un insieme semiaperto o non limitato inferiormente.
+##### Maggiorante $M$
+È Maggiorante di $A$ ogni numero tale che $M\geq a, \ \forall \ a \in A$ .
+##### Estremo superiore $sup$ 
+È $sup \ A$ il più piccolo tra i Maggioranti di $A$.
+Se esiste un massimo $M$ di un insieme $A$, questo è anche limite superiore $sup$.
+###### Definizione:
+$S\in  R$ 
+1. $a\leq S\ \forall \ a\ \in A$  
+2. $\forall \ \epsilon > 0 \ ;\ \exists \ x\ \in A \ \ t.c.\ x > S-\epsilon$ 
+###### Teorema di esistenza dell'estremo superiore
+Se un insieme $A$ è limitato superiormente allora il limite superiore $sup$ esiste ed è finito.
+##### Dimostrazione di "Se il massimo esiste è unico":
+$M_1<M_2$
+$M_1 \geq a \ \forall \ a \in A$ e $M_1 \in A$ 
+$M_2 \geq a \ \forall \ a \in A$ e $M_2 \in A$ 
+Ma se $M_1$ deve essere più grande di tutti gli elementi di $A$ deve essere anche più grande di $M_2$ , ma la stessa cosa vale se avessimo posto $M_1 > M_2$ , e dobbiamo avere una di queste due condizioni affinché $M_1 \neq M_2$ , allora è impossibile, $M_1$ ed $M_2$ coincidono per forza.
+
 ### Le operazioni
 Le operazioni con gli insiemi sono le seguenti:
 ##### Unione
