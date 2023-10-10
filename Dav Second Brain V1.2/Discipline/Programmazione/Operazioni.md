@@ -31,3 +31,11 @@ Le operazioni sono caratterizzate da:
 	4. sx $\to$ dx
 	5. bho
 	Vera a meno che $b$ sia falso. [[Basi della Logica#Implicazione]]
+5. Assegnamento
+	1. =
+	2. binario
+		a sinistra ci deve essere un left-value, a destra ci può essere anche un right-value, quindi `3=5;`non compila, 3 è una variabile letterale, non ha una left-value.
+	3. infisso
+	4. dx $\to$ sx
+	5. penultima, svolta prima della virgola
+	Come risultato produce la variabile aggiornata.
