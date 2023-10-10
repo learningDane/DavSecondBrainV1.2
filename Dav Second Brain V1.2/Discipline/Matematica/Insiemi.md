@@ -54,6 +54,9 @@ Indicato con il simbolo: $$\subseteq$$$$A\subseteq B\implies \forall x \in A, x 
 ##### R: i numeri reali
 	I numeri decimali non finiti
 È un insieme non numerabile perché tra due numeri ve ne sono infiniti e non esiste una  funzione bigettiva tale che $f: N \to R$.
+
+$[x]=\{ max\ k,\ con\ k \in Z;\ k\leq x \}$ ovvero la parte intera di $x$, approssimazione di $x$ per difetto.
+$\{x \} = x - [x]$ ovvero la parte decimale di $x$.
 ###### Troncatura
 Per comodità si può rappresentare un numero $r\in R$ con $n$ cifre decimali:
 $[r]_n$: troncatura del numero $r$ con $n$ cifre decimali
