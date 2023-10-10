@@ -5,4 +5,4 @@ Gregory Pearlstein - SageMath
 [[Sistemi Lineari]]
 [[Matrici]]
 [[Basi della Logica]]
-[[Numeri Complessi]]
+[[Numeri Immaginari (o Complessi)]]

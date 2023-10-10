@@ -27,3 +27,9 @@ Quindi se $z=r \ e^{i \theta}$ allora $\overline z = r\ e^{-i\theta}$.
 # Inverso di un numero complesso
 $z\cdot z^{-1} = 1$
 $z^{-1} = \frac{\overline z}{|z|^2}$ quindi se $z=a+i\ b$ allora $z^{-1} = \frac{a-i\ b}{a^2 + b^2}$ 
+# Operazioni
+### Passaggio da Forma Algebrica a Forma Trigonometrica
+$$r=\sqrt{a^2+b^2}$$
+Per $\theta \in (-\pi , \ \pi ]$ : $$\theta = \begin{cases} \frac{\pi}{2} \space se\ a=0,\ b>0 \\ -\frac{\pi}{2} \space se\ a=0,\ b<0 \\ non\ definito\ se\ a=o,\ b=0 \\ arctan(\frac{b}{a}) \space se\ a>0,\ b\ qualsiasi \\ arctan(\frac{b}{a}) + \pi \space se\ a<0,\ b\geq 0 \\ arctan (\frac{b}{a}) - \pi \space se a<0,\ b<o \end{cases}$$ Per $\theta \in [0 , \ 2\pi )$ : $$\theta = \begin{cases} \frac{\pi}{2} \space se\ a=0,\ b>0 \\ \frac{3\pi}{2} \space se\ a=0,\ b<0 \\ non\ definito\ se\ a=o,\ b=0 \\ arctan(\frac{b}{a}) + \pi \space se\ a<0,\ b\ qualsiasi \\ arctan(\frac{b}{a}) + 2\pi \space se\ a>0,\ b<0 \\ arctan (\frac{b}{a}) \space se\ a>0,\ b\geq 0 \end{cases}$$
+### Radice di un numero complesso
+Ogni numero complesso ammette esattamente $n$ radici complesse n-esime, calcolate a partire dalla forma trigonometrica del numero complesso. $$\sqrt[n]{z}=\sqrt[n]{r}\bigg(cos\bigg(\frac{\theta + 2k\pi}{n}\bigg)+i\ sin \bigg(\frac{\theta+2kn}{n}\bigg)$$ Dove $k$ è un numero naturale che varia tra $\{0,\ 1,\ 2,\ ... \,\ (n-1) \}$. Al variare di $k$ la formula descrive tutte le $n$ radici n-esime di $z$. $\bigg( \frac{\theta}{n}\bigg)$ è detto _argomento principale_ o _anomalia principale delle radici_.

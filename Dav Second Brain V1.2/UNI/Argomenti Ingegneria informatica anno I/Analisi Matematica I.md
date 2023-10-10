@@ -3,4 +3,5 @@
 [[Funzioni]] 
 [[Principio di induzione]] 
 [[Valori Assoluti]]
-[[Algoritmo di Euclide]] [[Algoritmo di Erone]] [[Massimo Comune Divisore]] [[Fattoriale]] [[Numeri periodici]] [[Disuguaglianza Bernoulli]] [[Binomio di Newton]] [[Coefficiente Binomiale]]
+[[Numeri Immaginari (o Complessi)]]
+[[Algoritmo di Euclide]] [[Algoritmo di Erone]] [[Massimo Comune Divisore]] [[Fattoriale]] [[Numeri periodici]] [[Disuguaglianza Bernoulli]] [[Binomio di Newton]] [[Coefficiente Binomiale]] [[Teorema Fondamentale dell'Algebra]]
