@@ -6,3 +6,4 @@ Gregory Pearlstein - SageMath
 [[Matrici]]
 [[Basi della Logica]]
 [[Numeri Immaginari (o Complessi)]]
+[[Rappresentazione Cartesiana]] [[Rappresentazione Parametrica]] 
