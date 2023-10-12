@@ -5,6 +5,7 @@ Le operazioni sono caratterizzate da:
 3. posizione (prefisso-infisso-postfisso)
 4. associatività (sx $\to$ dx oppure dx $\to$ sx)
 5. priorità
+La maggior parte degli operatori non cambia gli operandi, restituisce solo un valore destro risultato delle operazioni.
 # Operatori logici
 1. Negazione logica
 	1. !
@@ -31,7 +32,8 @@ Le operazioni sono caratterizzate da:
 	4. sx $\to$ dx
 	5. bho
 	Vera a meno che $b$ sia falso. [[Basi della Logica#Implicazione]]
-5. Assegnamento
+# Altri operatori
+1. Assegnamento
 	1. =
 	2. binario
 		a sinistra ci deve essere un left-value, a destra ci può essere anche un right-value, quindi `3=5;`non compila, 3 è una variabile letterale, non ha una left-value.
@@ -39,3 +41,9 @@ Le operazioni sono caratterizzate da:
 	4. dx $\to$ sx
 	5. penultima, svolta prima della virgola
 	Come risultato produce la variabile aggiornata.
+2. Operatore Ternario
+	1. (a) ? b : c;
+	2. ternario
+	3. infisso?
+	4. sx $\to$ dx
+	5. bho

@@ -25,3 +25,11 @@ Con `using namespace std;`si evita di dover aggiungere `std`successivamente.
 	restituisce la variabile già aumentata.
 2. `a++;`incremento postfisso
 	restituisce la variabile e POI la aumenta.
+3. `(a) ? b : c;`Operatore ternario
+	se `a` allora `b` altrimenti `c`.
+# Istruzioni Ripetitive
+1. while
+	`while (condizione) {statement;}`
+	Se la condizione è vera, esegue lo statement e torna a verificare la condizione, esegue lo statement finché la condizione è vera, se è falsa esco dal ciclo. Dentro lo statement quindi ci deve essere qualcosa che influisce sulla condizione, per evitare di comicniare un ciclo infinito.
+1. do
+2. for

@@ -1,8 +1,11 @@
 #uni 
 Marco Cococcioni - CLion
 [[Informazione]] 
-[[Variabili]]
-[[C++]]
-[[Operazioni]]
-[[Algoritmo DIV&MOD]]
-[[Conversione di Base]]
+[[Variabili]] 
+[[Conversioni di Variabili]] 
+[[C++]] 
+[[Operazioni]] 
+[[Cambio di Base]] 
+[[Algoritmi]] 
+[[Programmazione]] 
+[[Linguaggio di Programmazione]] 
