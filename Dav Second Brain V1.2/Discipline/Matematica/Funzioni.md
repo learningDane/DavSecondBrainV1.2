@@ -23,9 +23,11 @@ Se il codominio contiene meno elementi del dominio la funzione non può essere i
 # Funzioni a tratti
 Una funzione è detta definita a tratti se per tratti diversi di dominio ha relazioni diverse. $$f(x) = \begin{cases} \frac{x}{2} \ se\ n\ è\ pari \\ 1\ se\ è\ dispari\end{cases} $$
 
-# Successione
+# Successioni
 Una successione numerica è una funzione che associa ad ogni numero naturale n un numero reale r.
-Sono indicate con $f_n$ dove $n\in N$
+Sono indicate con $f_n$ dove $n\in N$.
+Una successione si dice limitata se: $\exists M > 0 \ t.c. \ |a_n| < M, \ \forall n \ in N$
+Il [[Limiti]] della successione è dato da: $$\forall \epsilon > 0 \exists n_0 \ in N \ con \ n_0 > 0 \ t.c. \ \forall n>n_0 \ risulta \ |a_n - a | < \epsilon$$$$lim_{n \to \infty} a_n = a$$
 # Permutazione
 Sia $A$ un insieme, una permutazione di $A$ è una funzione $f$ biunivoca tale che $f: A \to A$.
 # Funzione crescente

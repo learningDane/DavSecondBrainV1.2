@@ -1,7 +1,7 @@
 #uni 26/09/2023
 Gli insiemi vengono rappresentati con lettere maiuscole, gli oggetti con lettere minuscole. Vengono rappresentati attraverso i [[Diagrammi di Eluero-Venn]].
 ### Definizione di un insieme
-Dato un insieme A
+Dato un insieme $A$ 
 $[a,\ b] = {x \in A \space : \space a\leq x \leq b}$ : insieme chiuso
 $]a,\ b[= {x\in A \space : \space a<x<b}$ : insieme aperto (anche scritto $(a, \ b)$)
 $[a, \ b) = {x\in A \space : \space a\leq x < b}$ : insieme semiaperto (o semichiuso)
