@@ -1,0 +1,2 @@
+#uni 
+In generale questo principio, applicabile solamente in senso moltiplicativo, consiste nel sostituire una funzione infinitesima all'interno di un limite con un'altra espressione che "si comporta nello stesso modo".

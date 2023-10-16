@@ -2,9 +2,12 @@
 # Basi
 Una funzione lega due [[Insiemi]] attraverso una relazione.
 Per avere una funzione servono: due insiemi e una relazione:
-A: dominio
-B: codominio
-Relazione: $f$: relazione che a ogni elemento di $A$ associa __uno ed uno__ solo elemento di $B$.
+A: ___dominio___
+B: ___codominio___
+___Relazione___: $f$: relazione che a ogni elemento di $A$ associa __uno ed uno__ solo elemento di $B$.
+Due funzioni $f(x)$ e $g(x)$ sono ___uguali___ se hanno lo stesso Dominio e se $\forall x \in D \ : \ f(x) = g(x)$ 
+Un numero $a$ è detto ___zero della funzione___ $f(x)$ se $f(a)=0$ 
+Studiare il segno di una funzione significa cercare per quali valori del Dominio la funzione è positiva e per quali altri la funzione è negativa
 
 # Tipi di Funzioni
 ###### __iniettiva__
@@ -28,6 +31,16 @@ Una successione numerica è una funzione che associa ad ogni numero naturale n u
 Sono indicate con $f_n$ dove $n\in N$.
 Una successione si dice limitata se: $\exists M > 0 \ t.c. \ |a_n| < M, \ \forall n \ in N$
 Il [[Limiti]] della successione è dato da: $$\forall \epsilon > 0 \exists n_0 \ in N \ con \ n_0 > 0 \ t.c. \ \forall n>n_0 \ risulta \ |a_n - a | < \epsilon$$$$lim_{n \to \infty} a_n = a$$
+### Successioni monotone
+Una Successione è detta _monotona crescente_ se $\forall n \in N \ : \ a_n < a_{n+1}$
+Una Successione è invece detta _monotona non decrescente_ se $\forall n \in N \ : \ a_n \leq a_{n+1}$ 
+### Sottosuccessioni
+$b_n$ è detta sottosuccessione di $a_n$ se $\exists k: N \to N \ strettamente \ crescente \ t.c. \ b_n = a_{k_n}$ 
+##### Teorema di Regolarità per Sottosuccesioni
+Se $\lim_{n \to \infty} a_n = L (+ \infty) \ allora \ \forall a_{n_k} \ sottosuccessione \ di \ a_n \ : \ \lim_{k \to \infty} a-{n_k} = L (+ \infty)$ 
+In parole povere la sottosuccessione di una successione ha lo stesso limite della successione.
+###### Corollario del Teorema di Regolarità per Sottosuccessioni
+Se esistono due sottosuccessioni di $a_n$, $a_{n_k}$ e $a_{m_k}$ tali che $\lim_{ n \to \infty} a_{n_k} \neq \lim_{m \to \infty} a_{m_k}$ allora la successione $a_n$ non ammette limite.
 # Permutazione
 Sia $A$ un insieme, una permutazione di $A$ è una funzione $f$ biunivoca tale che $f: A \to A$.
 # Funzione crescente

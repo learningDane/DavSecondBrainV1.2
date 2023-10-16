@@ -31,13 +31,33 @@ Le forme indeterminate si presentano quando semplicemente sostituire il valore d
 # Limiti Notevoli
 $$\begin{array} {|c|c|} \hline limite & generalizzazione\\ \hline \lim_{x\rightarrow 0}\frac{sinx}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{sinf(x)}{f(x)}=1 \\ \hline \lim_{x\rightarrow 0}\frac{1-cosx}{x^2}=\frac{1}{2} & \lim_{f(x)\rightarrow 0}\frac{1-cosf(x)}{f(x)^2}=\frac{1}{2}\\ \hline \lim_{x\rightarrow 0}\frac{e^x-1}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{e^f(x)-1}{f(x)}=1 \\ \hline \lim_{x \rightarrow 0} \frac {a^x - 1}{x} = 1 & \lim_{f(x) \rightarrow 0} \frac {a^f(x) - 1}{f(x)} = 1 \\  \hline \lim_{x\rightarrow 0} \frac{x+sin(x)}{x} = 2 & \lim_{f(x)\rightarrow 0}\frac{f(x)+sin(f(x)}{f(x)}=2 \\ \hline \lim_{x\rightarrow 0}\frac{\log_a{(1+x)}}{x}=\frac{1}{\ln(a)} & \lim_{f(x)\rightarrow 0}\frac{\log_a{(1+f(x))}}{f(x)}=\frac{1}{\ln(a)}\\ \hline \lim_{x\rightarrow 0}\frac{(1+x)^b -1}{x}=b & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}(1+ \frac{a}{x})^x=e^a & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}\frac{logx}{x^c}=0 & \lim_{f(x)\rightarrow \infty}\frac{log(f(x))}{f(x)^c}=0 \\ \hline \lim_{x\rightarrow \infty}\frac{x^k}{e^x}=0 & \lim_{f(x)\rightarrow \infty}\frac{f(x)^k}{e^{f(x)}}=0\\ \hline \lim_{x \rightarrow \pm \infty}\left(1+\frac{1}{x}\right)^x=e & \lim_{f(x) \rightarrow \pm \infty}\left(1+\frac{1}{f(x)}\right)^{f(x)}=e\\ \hline \lim_{x \to \infty} \frac{x!}{x^x} = 0 \\ \hline \end{array}$$
 # Gerarchia degli infiniti
-$$\log _a x << x^b << c^x << x^x$$Per $x \to \infty$, con $a > 0 \land a \neq 1$, $b> 0$, $c>1$ 
+$$(\log _a x)^d << x^b << c^x << x! << x^x$$Per $x \to \infty$, con $a > 0 \land a \neq 1$, $b> 0$, $c>1$, $d \in R$  
+La notazione $x_n << y_n$ significa che $\lim_{n\to \infty} \frac{x_n}{y_n} = 0$
 # Dimostrazioni Limiti Notevoli
-1. $$lim_{x \to \infty} sin(\frac{1}{x}) = 0$$Dimostrazione:
-	   Adoperiamo il [[Teorema del Confronto]], se troviamo $a_n \leq b_n \leq c_n$ tali che $a_n$ ed $c_n$ si stringono attorno ad un valore troviamo anche il limite di $b_n$.
-	   Quindi: $0 \leq sin(x) \leq x$,[^1] $\forall x \in [0, \ \frac{\pi}{2}[$ e $x = \frac{1}{n} < \frac{\pi}{2}$ quindi $0 \leq sin(\frac{1}{n}) \leq \frac{1}{n}$ 
-	   Ma $lim_{n \to \infty} 0$ va ovviamente a $0$, e $lim_{n \to \infty} \frac{1}{n}$ va anche a $0$, quindi anche $lim_{x \to \infty} sin(\frac{1}{x})$ va a $0$, C.V.D.
-2. xx
+1. $lim_{x \to \infty} sin(\frac{1}{x}) = 0$
+   Adoperiamo il [[Teorema del Confronto]], se troviamo $a_n \leq b_n \leq c_n$ tali che $a_n$ ed $c_n$ si stringono attorno ad un valore troviamo anche il limite di $b_n$.
+   Quindi: $0 \leq sin(x) \leq x$,[^1] $\forall x \in [0, \ \frac{\pi}{2}[$ e $x = \frac{1}{n} < \frac{\pi}{2}$ quindi $0 \leq sin(\frac{1}{n}) \leq \frac{1}{n}$ 
+   Ma $lim_{n \to \infty} 0$ va ovviamente a $0$, e $lim_{n \to \infty} \frac{1}{n}$ va anche a $0$, quindi anche $lim_{x \to \infty} sin(\frac{1}{x})$ va a $0$, C.V.D.
+2. $\lim_{x \to \infty} \sqrt[n]{n} = 1$
+   Poniamo $1 < a_n = \sqrt[n]{n}$, quindi $n = (a_n)^n$ e $a_n = 1 + b_n$ 
+   Quindi $n= (a_n)^n=(1+b_n)^n \geq 1 + nb_n$ Per la [[Disuguaglianza Bernoulli]] 
+   $(1+ b_n)^n = 1 + nb_n + ...$ ma la somma è maggiore degli addendi quindi sicuramente $(1+b_n)^n > \begin{pmatrix} n \\ k \end{pmatrix} (b_n)^2 = \frac{n(n-1)}{2} b_n ^2$  
+   Siccome $b_n > 0$ Allora: $0 \leq b_n ^2 \leq \frac{2}{n - 1}$ 
+   Ma $\frac{2}{n-1} \to 0$ Allora $b_n \to 0$ per il [[Teorema del Confronto]].
+   Ma $n = (1 + b_n ) ^n$ Quindi $\sqrt[n]{n} \to 1$ C.V.D. 
+   Oppure: 
+   $\lim_{x \to \infty} \sqrt[n]{n} = lim_{ n \to \infty} n^{\frac{1}{n}}$  
+   Siccome in generale $a^b = e^{b\ln a}$ Allora $n^{\frac{1}{n}} = e^{\frac{1}{n} \ln n}$ Ma $\frac{1}{n} \ln n \to 0$ Quindi $lim_{ n \to \infty} n^{\frac{1}{n}} = 1$ C.V.D.
+3. $\lim_{n \to \infty} \frac{n!}{n^n} = 0$
+   Vediamo se possiamo applicare il [[Principio di Sostituzione degli Infiniti (esimi)]] e sostituire $n! = \sqrt{2 \pi n} (\frac{n}{e})^n$:
+   $$\frac{n!}{n^n} = \frac{n!}{\sqrt{2 \pi n} (\frac{n}{e})^n} \frac{\sqrt{2 \pi n} (\frac{n}{e})^n}{n^n}$$La prima frazione tende a $1$ secondo la [[Formula di Stirling]], la seconda frazione tende ad un numero quindi posso applicare il principio, allora: $$\lim_{n \to \infty} \frac{n!}{n^n} = \lim_{n \to \infty} \frac{\sqrt{2 \pi n} (\frac{n}{e})^n}{n^n} = \lim_{ n \to \infty} \frac{\sqrt{2 \pi n}}{e^n} = 0$$
+4. $\lim_{n \to \infty} \frac{a^n}{n!} = 0, \ \forall a \geq 1$ 
+   Sostituisco con la [[Formula di Stirling]]: $$\lim_{n\to \infty} \frac{a_n}{\sqrt{2 \pi n}(\frac{n}{e})^n} = \frac{(a_n e)^n}{\sqrt{2 \pi n} \ n^n} \leq  (\frac{ae}{n})^n \to 0$$
+   Quindi possiamo generalizzare la [[Limiti#Gerarchia degli infiniti]] e dire che $a^n < n!, \ \forall a \geq 1$
+5. $\lim_{n\to \infty} \sum^n _{k = 0} q^k= a_n =\frac{1-q^{n+1}}{1-q}$ 
+   Se $-1 \leq q < +1$ allora $q^{n+1} = 0$ quindi $\lim_{n \to \infty} a_n = \frac{1}{1-q}$ 
+   Se $q \geq 1$ allora $\lim_{n \to \infty} a_n = +\infty$ 
+6. $\lim_{n \to \infty} \frac{a^n}{n} = \infty$ 
 # Altro
 1. Dimostrazione che $lim_{x \to \infty} a^n = \infty; \ \ se \ a\geq 1$ : 11/10/2023 ultima pagina
 2. xx
