@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Limiti.md",
+                "file": "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
                 "mode": "source",
                 "source": false
               }
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Principio di Sostituzione degli Infiniti (esimi).md",
+                "file": "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
                 "mode": "source",
                 "source": false
               }
@@ -116,8 +116,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Limiti.md",
+                "file": "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Limiti.md",
+                "file": "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Limiti.md"
+                "file": "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md"
               }
             }
           }
@@ -209,34 +208,34 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "1ca89c66a06737de",
+  "active": "28ddbab9532d0a24",
   "lastOpenFiles": [
-    "Principio di Sostituzione degli Infiniti (esimi).md",
-    "Discipline/Matematica/Limiti.md",
-    "Discipline/Matematica/Insiemi.md",
+    "Discipline/Matematica/Formula di Stirling.md",
+    "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
+    "Discipline/Programmazione/Conversioni di Variabili.md",
+    "Discipline/Programmazione/Cambio di Base.md",
+    "Discipline/Matematica/Valori Assoluti.md",
+    "Discipline/Matematica/Teorema Fondamentale dell'Algebra.md",
+    "Discipline/Matematica/Teorema del Confronto.md",
+    "Discipline/Matematica/Spazi vettoriali.md",
+    "Discipline/Matematica/Sistemi Lineari.md",
+    "Discipline/Matematica/Simboli matematici.md",
+    "Discipline/Matematica/Massimo Comune Divisore.md",
     "Discipline/Matematica/Funzioni.md",
-    "Discipline/Scienze Sociali/Effetto Dunning-Kruger.md",
+    "Discipline/Matematica/Insiemi.md",
+    "Discipline/Matematica/Equazioni e Disequazioni.md",
+    "Discipline/Matematica/Equazioni di secondo Grado.md",
     "Home/Daily Notes/2023/16-10-2023.md",
+    "Discipline/Matematica/Limiti.md",
+    "Discipline/Scienze Sociali/Effetto Dunning-Kruger.md",
     "Discipline/Matematica/Disuguaglianza Bernoulli.md",
     "Home/Daily Notes/2023/15-10-2023.md",
     "Home/ToDo.md",
     "Home/Daily Notes/2023/10-10-2023.md",
-    "Discipline/Matematica/Equazioni di secondo Grado.md",
-    "Formula di Stirling.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Matematica/Principio di induzione.md",
     "Discipline/Matematica/Coefficiente Binomiale.md",
     "Home/Daily Notes/2023/14-10-2023.md",
-    "Home/Daily Notes/2023/13-10-2023.md",
-    "Discipline/Matematica/Teorema del Confronto.md",
-    "Discipline/Matematica/Valori Assoluti.md",
-    "Discipline/Programmazione/Informazione.md",
-    "Cambio di Base.md",
-    "Home/Daily Notes/2023/12-10-2023.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Discipline/Programmazione/Linguaggio di Programmazione.md",
-    "UNI/Materie Ingegneria informatica.md",
-    "Conversioni di Variabili.md",
     "Home/Production",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Matematica/media",
