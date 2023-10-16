@@ -5,10 +5,24 @@ Per avere una funzione servono: due insiemi e una relazione:
 A: ___dominio___
 B: ___codominio___
 ___Relazione___: $f$: relazione che a ogni elemento di $A$ associa __uno ed uno__ solo elemento di $B$.
+###### Funzioni Uguali
 Due funzioni $f(x)$ e $g(x)$ sono ___uguali___ se hanno lo stesso Dominio e se $\forall x \in D \ : \ f(x) = g(x)$ 
+###### Zeri di una Funzione
 Un numero $a$ è detto ___zero della funzione___ $f(x)$ se $f(a)=0$ 
-Studiare il segno di una funzione significa cercare per quali valori del Dominio la funzione è positiva e per quali altri la funzione è negativa
-
+###### Studiare il Segno di una Funzione
+___Studiare il segno___ di una funzione significa cercare per quali valori del Dominio la funzione è positiva e per quali altri la funzione è negativa.
+###### Simmetrie
+Una funzione è detta ___pari___ (simmetrica rispetto all'asse $y$) se $f(x) = f(-x)$, ed è detta ___dispari___ (simmetrica rispetto all'origine) se $f(x)=-f(-x)$ .
+###### Funzioni crescenti, in senso lato, monotone
+Una funzione è detta ___crescente___ in un intervallo $I$ se $\forall x_1, x_2 \in I, x_1 < x_2 \ : \ f(x_1) < f(x_2)$ , è detta invece ___non decrescente___ o ___crescente in senso lato___, se $f(x_1) \leq f(x_2)$. Vale un discorso speculare per la decrescenza.
+Una funzione è detta ___monotona___ se è sempre crescente o decrescente.
+###### Funzione Inversa
+Data la funzione biunivoca $y=f(x)$ da $A$ a $B$, la funzione inversa di $f$ è la funzione biunivoca $x=f^{-1}(y)$ da $B$ a $A$, che associa ad ogni $y$ di $B$ il valore $x$ di $A$ tale che $y=f(x)$.
+Se una funzione ammette inversa, si dice ___invertibile___.
+Il grafico di una funzione e quello della sua inversa sono simmetrici rispetto alla bisettrice del primo e del terzo quadrante.
+###### Funzione Composta
+Date le funzioni $g$ ed $f$, la funzione composta $g \circ f$ associa ad ogni $x$  del dominio di $f$ che ha immagine $f(x)$ nel dominio d $g$ il valore $y=g[f(x)]$ .
+In generale $g \circ f \neq f \circ g$ .
 # Tipi di Funzioni
 ###### __iniettiva__
 $$\forall a_1,a_2 \in A\ \ t.c.\ \ a_1\neq a_2 \implies f(a_1) \neq f(a_2)$$
@@ -16,12 +30,16 @@ A ogni elemento di $B$, $f$ lega al più un elemento di $A$.
 ##### __suriettiva__ o invertibile
 $$\forall \ b \in B,\ \exists \ a \in A,\ t.c.\ f(a)=b$$
 a ogni elemento di $B$ è associato almeno un elemento di $A$.
-##### __biunivoca__ o bicettiva o 
+##### __biunivoca__ o bicettiva 
 Una funzione sia iniettiva che suriettiva, lega ad ogni elemento di $A$ uno ed uno solo elemento di $B$ e ad ogni elemento di $B$ uno ed uno solo elemento di $A$.
 Una funzione è invertibile se e solo se è biunivoca.
 
 ##### Condizioni
 Se il codominio contiene meno elementi del dominio la funzione non può essere iniettiva.
+# Funzioni Periodiche
+Una funzione è detta ___periodica___ di periodo $T$, con $T> 0$, se $\forall k \in Z \ : \ f(x) = f(x + kT)$ .
+Una funzione periodica non può essere iniettiva.
+Se una funzione è periodica di periodo $T_1$, allora $f(kx)$ è periodica di periodo $T= \frac{T_1}{k}$ .
 
 # Funzioni a tratti
 Una funzione è detta definita a tratti se per tratti diversi di dominio ha relazioni diverse. $$f(x) = \begin{cases} \frac{x}{2} \ se\ n\ è\ pari \\ 1\ se\ è\ dispari\end{cases} $$
@@ -33,7 +51,7 @@ Una successione si dice limitata se: $\exists M > 0 \ t.c. \ |a_n| < M, \ \foral
 Il [[Limiti]] della successione è dato da: $$\forall \epsilon > 0 \exists n_0 \ in N \ con \ n_0 > 0 \ t.c. \ \forall n>n_0 \ risulta \ |a_n - a | < \epsilon$$$$lim_{n \to \infty} a_n = a$$
 ### Successioni monotone
 Una Successione è detta _monotona crescente_ se $\forall n \in N \ : \ a_n < a_{n+1}$
-Una Successione è invece detta _monotona non decrescente_ se $\forall n \in N \ : \ a_n \leq a_{n+1}$ 
+Una Successione è invece detta _monotona non decrescente (o crescente in senso lato)_ se $\forall n \in N \ : \ a_n \leq a_{n+1}$ 
 ### Sottosuccessioni
 $b_n$ è detta sottosuccessione di $a_n$ se $\exists k: N \to N \ strettamente \ crescente \ t.c. \ b_n = a_{k_n}$ 
 ##### Teorema di Regolarità per Sottosuccesioni
@@ -58,3 +76,69 @@ $\forall \ x_1\ e\ x_2 \in D\ e\ \geq 0$
 	ma $x_2 + x_1$ è maggiore di zero perché $x_2$ e $x_1$ sono positivi
 	e $x_2 - x_1$ è anche maggiore di zero poiché $x_2 > x_1$ per tesi
 	Allora $f(x)=x^2$ è crescente, inoltre essendo entrambi diversi da $0$, il loro prodotto non può essere $0$, quindi la funzione è ___strettamente crescente___.
+# Principali Funzioni
+###### Funzione esponenziale $y=x^2$ 
+```chart
+type: line
+labels: [-3,-2,-1,0,1,2,3]
+series:
+  - title: x axis
+	data: [0,0,0,0,0,0,0,0,0]
+	series:
+  - title: f(x)
+	data: [9,4,1,0,1,4,9]
+  - title:
+	data: [-3]
+tension: 0.2
+width: 80%
+labelColors: false
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```
+###### Funzione Logaritmica $y=\ln x$ 
+```chart
+type: line
+labels: [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6]
+series:
+  - title: x axis
+	data: [0,0,0,0,0,0,0,0,0,0,0,0,0]
+	series:
+  - title: f(x)
+	data: [-15,-5,0,0.4,0.69331,0.91,1.1,1.25,1.39,1.5,1.61,1.70,1.9]
+  - title:
+	data: [10]
+tension: 0.2
+width: 80%
+labelColors: false
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```
+###### Funzione Tangente $y=\tan x$ 
+```chart
+type: line
+labels: [-4,-3.5,-3,-2.5,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2,2.5,3,3.5,4]
+series:
+  - title: x axis
+	data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+	series:
+  - title: f(x)
+	data: [-1.2,-0.37,0.14,0.75,2.18,14]
+  - title: f(x)
+	data: [\,\,\,\,\,-14,-1.5,-0.54,0,0.54,1.5,14]
+  - title: f(x)
+	data: [\,\,\,\,\,\,\,\,\,\,\,-14,-1.5,-0.54,0,0.54,1.5]
+tension: 0.2
+width: 80%
+labelColors: false
+fill: false
+beginAtZero: false
+bestFit: false
+bestFitTitle: undefined
+bestFitNumber: 0
+```

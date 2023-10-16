@@ -25,14 +25,24 @@ I limiti hanno le seguenti proprietà:
 # Forme Indeterminate
 Le forme indeterminate si presentano quando semplicemente sostituire il valore del limite all'incognita non basta perché porta a uno di 4 casi particolari:
 1. $0 \cdot \infty$ 
-2. $\frac{\infty}{0}$ 
+2. $\frac{0}{0}$ 
 3. $\infty ^ 0$ 
 4. $\infty - \infty$ 
+5. $\frac{\infty}{\infty}$ 
+6. $0^0$ 
+7. $1^\infty$ 
 # Limiti Notevoli
 $$\begin{array} {|c|c|} \hline limite & generalizzazione\\ \hline \lim_{x\rightarrow 0}\frac{sinx}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{sinf(x)}{f(x)}=1 \\ \hline \lim_{x\rightarrow 0}\frac{1-cosx}{x^2}=\frac{1}{2} & \lim_{f(x)\rightarrow 0}\frac{1-cosf(x)}{f(x)^2}=\frac{1}{2}\\ \hline \lim_{x\rightarrow 0}\frac{e^x-1}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{e^f(x)-1}{f(x)}=1 \\ \hline \lim_{x \rightarrow 0} \frac {a^x - 1}{x} = 1 & \lim_{f(x) \rightarrow 0} \frac {a^f(x) - 1}{f(x)} = 1 \\  \hline \lim_{x\rightarrow 0} \frac{x+sin(x)}{x} = 2 & \lim_{f(x)\rightarrow 0}\frac{f(x)+sin(f(x)}{f(x)}=2 \\ \hline \lim_{x\rightarrow 0}\frac{\log_a{(1+x)}}{x}=\frac{1}{\ln(a)} & \lim_{f(x)\rightarrow 0}\frac{\log_a{(1+f(x))}}{f(x)}=\frac{1}{\ln(a)}\\ \hline \lim_{x\rightarrow 0}\frac{(1+x)^b -1}{x}=b & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}(1+ \frac{a}{x})^x=e^a & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}\frac{logx}{x^c}=0 & \lim_{f(x)\rightarrow \infty}\frac{log(f(x))}{f(x)^c}=0 \\ \hline \lim_{x\rightarrow \infty}\frac{x^k}{e^x}=0 & \lim_{f(x)\rightarrow \infty}\frac{f(x)^k}{e^{f(x)}}=0\\ \hline \lim_{x \rightarrow \pm \infty}\left(1+\frac{1}{x}\right)^x=e & \lim_{f(x) \rightarrow \pm \infty}\left(1+\frac{1}{f(x)}\right)^{f(x)}=e\\ \hline \lim_{x \to \infty} \frac{x!}{x^x} = 0 \\ \hline \end{array}$$
 # Gerarchia degli infiniti
 $$(\log _a x)^d << x^b << c^x << x! << x^x$$Per $x \to \infty$, con $a > 0 \land a \neq 1$, $b> 0$, $c>1$, $d \in R$  
 La notazione $x_n << y_n$ significa che $\lim_{n\to \infty} \frac{x_n}{y_n} = 0$
+Se il limite $\lim_{x\to a}\frac{f(x)}{g(x)} =$
+1. $non \ esiste$ : gli infiniti ___non sono confrontabili___.
+2. $0$ : $g(x)$ è un ___infinito di ordine superiore___.
+3. $\pm \infty$ : $g(x)$ è un infinito di ordine inferiore.
+##### Ordine
+Dati due infiniti $f(x)$ e $g(x)$, per $x \to a$, si dice che $f(x)$ è un infinito di ordine $\gamma$ ($\gamma >0$) rispetto a $g(x)$, se: $$\lim_{x \to a} \frac{f(x)}{[g(x)]^\gamma } = L \neq 0$$
+Dove $g(x)$ è detto __Infinito Campione__.
 # Dimostrazioni Limiti Notevoli
 1. $lim_{x \to \infty} sin(\frac{1}{x}) = 0$
    Adoperiamo il [[Teorema del Confronto]], se troviamo $a_n \leq b_n \leq c_n$ tali che $a_n$ ed $c_n$ si stringono attorno ad un valore troviamo anche il limite di $b_n$.
