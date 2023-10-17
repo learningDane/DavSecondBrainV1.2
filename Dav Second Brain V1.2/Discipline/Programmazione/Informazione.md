@@ -66,5 +66,11 @@ Numeri reali _normalizzati_:
 1. una mantissa con parte intera costituita da un solo bit di valore $1$
 2. rappresentazione tripla costituita da tre numeri naturali
 $r \iff R = \langle s, E, F \rangle$ dove $s$ codifica il segno, $F$ codifica la parte frazionaria della mantissa su $G$ bit e $E$ codifica l'esponente su $K$ bit. $$r = (s == 0) ? [+1+f) \cdot due^e)] : [-(1+f) \cdot due^e)]$$
-$f= \frac{F}{2^G}$ è la parte frazionaria
+$f= \frac{F}{2^G}$ è la parte frazionaria della mantissa $(m=1 + f = 1+ \frac{F}{2^G})$ 
+$e = +E-(2^{k-1} -1 )$ è l'esponente rappresentato dal numero naturale $E$ (rappresentazione con Bias).
+Una conseguenza dell'_uno implicito_ è l'impossibilità di rappresentare lo zero!
+1. __Half Precision__: massimo modulo: $11111,1111111111_{due} = 2^{17}$ 
+   minimo modulo: $00000,0000000000 = 2^{-15}$ 
+2. __Single Precision__: massimo modulo: $2^{+129}$
+   minimo modulo: $2^{-127}$ 
 # bho
