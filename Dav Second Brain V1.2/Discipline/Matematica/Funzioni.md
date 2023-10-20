@@ -60,10 +60,17 @@ In parole povere la sottosuccessione di una successione ha lo stesso limite dell
 ###### Corollario del Teorema di Regolarità per Sottosuccessioni
 Se esistono due sottosuccessioni di $a_n$, $a_{n_k}$ e $a_{m_k}$ tali che $\lim_{ n \to \infty} a_{n_k} \neq \lim_{m \to \infty} a_{m_k}$ allora la successione $a_n$ non ammette limite.
 ### Limiti di successioni
+___OGNI successione monotona ammette limite___.
 Ogni Successione Monotona limitata ammette come limite l'estremo, superiore o inferiore che sia.
-Definizione per Successione crescente: #teorema
+1. Limite di una successione crescente limitata superiormente: #teorema
 	Ipotesi: $a_n \leq a_n + 1$ , $\forall n \in N$ ; $\exists M \ t.c. \ a_n \leq M$ , $\forall n \in N$
 	Tesi: $\lim_{n \to \infty} a_n = \sup a_n$ 
+2. Il limite di una successione crescente non limitata superiormente: #teorema 
+   ipotesi:
+	   1. $a_n \leq a_{n+1}$ 
+	   2. $\forall k \in R \ : \ \exists \overline n \ t.c. \ a_{\overline n} > k$ 
+   tesi: 
+	   $\lim_{n \to \infty} a_n = + \infty$
 # Permutazione
 Sia $A$ un insieme, una permutazione di $A$ è una funzione $f$ biunivoca tale che $f: A \to A$.
 # Funzione crescente

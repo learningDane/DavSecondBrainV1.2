@@ -22,6 +22,11 @@ I limiti hanno le seguenti proprietà:
    Tesi: $lim_{n \to \infty} (a_n \cdot b_n) = lim_{n \to \infty} a_n \cdot lim_{n \to \infty} b_n$
 3. Ipotesi:  $lim_{n \to \infty} a_n=L$   e   $lim_{n \to \infty} b_n=M$ 
    Tesi: $lim_{n \to \infty} (\frac{a_n}{b_n}) = \frac{lim_{n \to \infty} a_n}{lim_{n \to \infty} b_n}$ 
+# Regole Generali
+1. Date $a_n \to \infty$ e $b_n$ limitata inferiormente: $a_n + b_n \to \infty$ 
+2. dati $k_1 > k_2$: $\lim_{n \to \infty} \frac{n^{k_1}} {n^{k_2}} = \infty$ 
+3. Dati $a_n \ e \ b_n \to \infty$ : $a_n b_n \to \infty$ 
+4. 
 # Forme Indeterminate
 Le forme indeterminate si presentano quando semplicemente sostituire il valore del limite all'incognita non basta perché porta a uno di 4 casi particolari:
 1. $0 \cdot \infty$ 
@@ -32,7 +37,18 @@ Le forme indeterminate si presentano quando semplicemente sostituire il valore d
 6. $0^0$ 
 7. $1^\infty$ 
 # Limiti Notevoli
-$$\begin{array} {|c|c|} \hline limite & generalizzazione\\ \hline \lim_{x\rightarrow 0}\frac{sinx}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{sinf(x)}{f(x)}=1 \\ \hline \lim_{x\rightarrow 0}\frac{1-cosx}{x^2}=\frac{1}{2} & \lim_{f(x)\rightarrow 0}\frac{1-cosf(x)}{f(x)^2}=\frac{1}{2}\\ \hline \lim_{x\rightarrow 0}\frac{e^x-1}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{e^f(x)-1}{f(x)}=1 \\ \hline \lim_{x \rightarrow 0} \frac {a^x - 1}{x} = 1 & \lim_{f(x) \rightarrow 0} \frac {a^f(x) - 1}{f(x)} = 1 \\  \hline \lim_{x\rightarrow 0} \frac{x+sin(x)}{x} = 2 & \lim_{f(x)\rightarrow 0}\frac{f(x)+sin(f(x)}{f(x)}=2 \\ \hline \lim_{x\rightarrow 0}\frac{\log_a{(1+x)}}{x}=\frac{1}{\ln(a)} & \lim_{f(x)\rightarrow 0}\frac{\log_a{(1+f(x))}}{f(x)}=\frac{1}{\ln(a)}\\ \hline \lim_{x\rightarrow 0}\frac{(1+x)^b -1}{x}=b & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}(1+ \frac{a}{x})^x=e^a & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}\frac{logx}{x^c}=0 & \lim_{f(x)\rightarrow \infty}\frac{log(f(x))}{f(x)^c}=0 \\ \hline \lim_{x\rightarrow \infty}\frac{x^k}{e^x}=0 & \lim_{f(x)\rightarrow \infty}\frac{f(x)^k}{e^{f(x)}}=0\\ \hline \lim_{x \rightarrow \pm \infty}\left(1+\frac{1}{x}\right)^x=e & \lim_{f(x) \rightarrow \pm \infty}\left(1+\frac{1}{f(x)}\right)^{f(x)}=e\\ \hline \lim_{x \to \infty} \frac{x!}{x^x} = 0 \\ \hline \end{array}$$
+$$\begin{array} {|c|c|} \hline limiti & limiti
+\\ \hline
+\lim_{x\rightarrow \infty}\frac{\sin \frac{1}{x}}{\frac{1}{x}}=1 & 
+\lim_{x \to \infty} \frac{1-\cos\frac{1}{x}}{\frac{1}{x^2}}=1\\ \hline
+\lim_{x\to \infty} \frac{a^x}{x^b} = +\infty &
+\lim_{x \to \infty} \sqrt[x]{x} = 1 \\ \hline
+\lim_{x \to \infty} \frac{x!}{x^x} = 0 &
+\lim_{x \to \infty} \frac{c^x}{x!} = 0 \\ \hline
+\lim_{x\to \infty} \frac{\log_a(1+\frac{1}{x})}{\frac{1}{x}} =\log_a e &
+\lim_{x \to \infty} \sqrt[x]{x^b}=1
+\\ \hline a > 1, \ b \in N, \ c \geq 1\\ \hline
+\end{array}$$
 # Gerarchia degli infiniti
 $$(\log _a x)^d << x^b << c^x << x! << x^x$$Per $x \to \infty$, con $a > 0 \land a \neq 1$, $b> 0$, $c>1$, $d \in R$  
 La notazione $x_n << y_n$ significa che $\lim_{n\to \infty} \frac{x_n}{y_n} = 0$
@@ -72,3 +88,4 @@ Dove $g(x)$ è detto __Infinito Campione__.
 1. Dimostrazione che $lim_{x \to \infty} a^n = \infty; \ \ se \ a\geq 1$ : 11/10/2023 ultima pagina
 2. xx
 [^1]:  Dimostrazione che $sin(x) \leq x$ //
+$$\begin{array} {|c|c|} \hline limite & generalizzazione\\ \hline \lim_{x\rightarrow 0}\frac{sinx}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{sinf(x)}{f(x)}=1 \\ \hline \lim_{x\rightarrow 0}\frac{1-cosx}{x^2}=\frac{1}{2} & \lim_{f(x)\rightarrow 0}\frac{1-cosf(x)}{f(x)^2}=\frac{1}{2}\\ \hline \lim_{x\rightarrow 0}\frac{e^x-1}{x}=1 & \lim_{f(x)\rightarrow 0}\frac{e^f(x)-1}{f(x)}=1 \\ \hline \lim_{x \rightarrow 0} \frac {a^x - 1}{x} = 1 & \lim_{f(x) \rightarrow 0} \frac {a^f(x) - 1}{f(x)} = 1 \\  \hline \lim_{x\rightarrow 0} \frac{x+sin(x)}{x} = 2 & \lim_{f(x)\rightarrow 0}\frac{f(x)+sin(f(x)}{f(x)}=2 \\ \hline \lim_{x\rightarrow \infty}\frac{\log_a{(1+\frac{1}{x})}}{\frac{1}{x}}=\log_a e & \lim_{f(x)\rightarrow 0}\frac{\log_a{(1+f(x))}}{f(x)}=\frac{1}{\ln(a)}\\ \hline \lim_{x\rightarrow 0}\frac{(1+x)^b -1}{x}=b & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}(1+ \frac{a}{x})^x=e^a & \lim_{f(x)\rightarrow 0}\frac{(1+f(x))^b -1}{f(x)}=b\\ \hline \lim_{x\rightarrow \infty}\frac{logx}{x^c}=0 & \lim_{f(x)\rightarrow \infty}\frac{log(f(x))}{f(x)^c}=0 \\ \hline \lim_{x\rightarrow \infty}\frac{x^k}{e^x}=0 & \lim_{f(x)\rightarrow \infty}\frac{f(x)^k}{e^{f(x)}}=0\\ \hline \lim_{x \rightarrow \pm \infty}\left(1+\frac{1}{x}\right)^x=e & \lim_{f(x) \rightarrow \pm \infty}\left(1+\frac{1}{f(x)}\right)^{f(x)}=e\\ \hline \lim_{x \to \infty} \frac{x!}{x^x} = 0 \\ \hline \end{array}$$
