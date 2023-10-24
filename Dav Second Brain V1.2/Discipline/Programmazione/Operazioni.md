@@ -32,6 +32,13 @@ La maggior parte degli operatori non cambia gli operandi, restituisce solo un va
 	4. sx $\to$ dx
 	5. bho
 	Vera a meno che $b$ sia falso. [[Basi della Logica#Implicazione]]
+# Operatori bit a bit
+1. $|$ OR bit a bit
+2. $\&$ AND bit a bit
+3. __^__ OR esclusivo bit a bit
+4. $\sim$ complemento bit a bit
+5. $<<$ traslazione a sinistra
+6. $>>$ traslazione a destra
 # Altri operatori
 1. Assegnamento
 	1. =

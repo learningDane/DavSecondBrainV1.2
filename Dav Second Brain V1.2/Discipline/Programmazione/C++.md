@@ -1,11 +1,11 @@
 #uni 27/09/2023
 ## Basi:
-È un linguaggio _Case Sensitive_, ovvero non puoi usare la denominazione che vuoi per variabili ecc.
+È un linguaggio _Case Sensitive_, ovvero distingue fra maiuscole e minuscole.
 Ogni statement seguito da `;`diventa una istruzione espressiva.
 ## Codice:
 `#include`include le librerie, seguita poi `<xx>`per le librerie interne e `"xx.h"`per le librerie esterne ma contenute nel progetto.
-Con `using namespace std;`si evita di dover aggiungere `std`successivamente.
-`int main() {}`è il periodo base.
+Con `using namespace std;` indichi al compilatore che tutti i nomi usati nel programma si riferiscono allo standard ANSI-C++.
+`int main() {}`dichiarazione della funzione main, il periodo base.
 
 `cout<< xxx;`stampa xxx nella console (output)
 `<<endl;` finisce la riga corrente e si usa con `cout<< xx << endl;`

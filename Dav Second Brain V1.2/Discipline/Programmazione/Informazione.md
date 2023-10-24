@@ -50,27 +50,4 @@ dove $(2^{p-1} - 1)$ è detto ___Bias___.
 Lo zero anche qua viene rappresentato uno volta sola.
 ###### Intervallo di rappresentabilità 
 $$[-(2^{p-1}+1, \ 2^{p-1}], \ ossia \ [-bias, \ bias + 1]$$
-### Numeri Reali
-##### Virgola Fissa
-Si usa un numero di bit fisso per la parte intera ed un numero di bit fisso per la parte frazionaria. Sia $r$ un numero reale da rappresentare, indiciamo con $I(r)$ la parte intera e con $F(r)$ la parte razionale. Siano $p$ i bit per rappresentare $r$, $f$ quelli per la parte frazionaria e $(p-f)$ i bit per la parte intera: $$R=\sum^{p-f-1}_{i=-f} a_i\beta^{1}=a_{p-f-1}\beta^{p-f-1}+...+a_0\beta⁰+a_{-1}\beta^{-1}+...+a_{-f}\beta^{-f}$$
-Dove $a_{-1}\beta^{-1}+...+a_{-f}\beta^{-f}$ è la parte frazionaria. Per ricavarla si usa il seguente procedimento, chiamato __Procedura _parte frazionaria-parte intera___:
-$f_0=F(r)$
-Se $f_0 \neq 0$ :
-$f_{-1} = F(f_0 \cdot 2)$    $a_{-1} = I(f_0 \cdot 2)$
-$f_{-2} = F(f_{-1})$  ecc...
-fino a che $f_{-j} = 0$ oppure si è raggiunta la precisione desiderata.
-È possibile incontrare parti frazionarie che hanno bisogno di un numero infinito di cifre per essere rappresentate, in questo caso c'è una parte periodica che si ripete all'infinito e va operato un troncamento alla cifra necessaria per la precisione desiderata.
-##### Virgola Mobile
-È data da una mantissa, la lunghezza della quale determina la precisione, e da una base con esponente, che determina l'intervallo di rappresentabilità: $r=\pm m \cdot \beta^e$, con $m$ mantissa, $beta$ e $e$ esponente.
-Numeri reali _normalizzati_:
-1. una mantissa con parte intera costituita da un solo bit di valore $1$
-2. rappresentazione tripla costituita da tre numeri naturali
-$r \iff R = \langle s, E, F \rangle$ dove $s$ codifica il segno, $F$ codifica la parte frazionaria della mantissa su $G$ bit e $E$ codifica l'esponente su $K$ bit. $$r = (s == 0) ? [+1+f) \cdot due^e)] : [-(1+f) \cdot due^e)]$$
-$f= \frac{F}{2^G}$ è la parte frazionaria della mantissa $(m=1 + f = 1+ \frac{F}{2^G})$ 
-$e = +E-(2^{k-1} -1 )$ è l'esponente rappresentato dal numero naturale $E$ (rappresentazione con Bias).
-Una conseguenza dell'_uno implicito_ è l'impossibilità di rappresentare lo zero!
-1. __Half Precision__: massimo modulo: $11111,1111111111_{due} = 2^{17}$ 
-   minimo modulo: $00000,0000000000 = 2^{-15}$ 
-2. __Single Precision__: massimo modulo: $2^{+129}$
-   minimo modulo: $2^{-127}$ 
 # bho
