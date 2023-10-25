@@ -74,3 +74,25 @@ Sono possibili tutte le operazioni degli interi, che agiscono sulla codifica dei
 	7. `\"` virgolette
 ### Nota
 le sequenze di escape e le rappresentazioni ottale e esadecimale di un carattere vanno racchiuse fra apici '' quando rappresentano un _letterale carattere_.
+# Enumerati
+### In memoria
+Sono costituiti da insiemi di costanti intere, definite dal programmatore, ciascuna individuata da un identificatore e detta ___enumeratore___. Servono per rappresentare informazioni non numeriche definite dal programmatore e sono utilizzate per variabili che assumono solo un numero limitato di valori.
+### Operazioni
+Sono possibili tutte le operazioni di confronto e quelle degli interi, che agiscono sulla codifica degli enumeratori.
+### Esempi
+```
+enum Giorni {lun, mar, mer, gio = 7, ven, sab = 9, dom};
+Giorni oggi = lun; //0
+oggi += 8; //ven
+cout << oggi << endl; //8, conversione implicita
+
+enum {rosso, giallo, verde} semaforo;
+semaforo = rosso;
+```
+# Costanti
+### In memoria
+### Operazioni
+Una costante può solo fare da valore sinistro, non può subire operazioni di assegnazione dopo che ha ricevuto un valore.
+### Esempi
+`const int hakunamatata = 4;`
+# sf

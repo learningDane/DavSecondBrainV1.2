@@ -36,43 +36,7 @@
             }
           },
           {
-            "id": "c96dcb4655009b1e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Informazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "799312fb6f31eaa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Variabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6aedb5c2fbceab51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Memoria RAM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ae39545e3605f3d7",
+            "id": "f47285879009b6d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -83,7 +47,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -149,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/ToDo.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/ToDo.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/ToDo.md"
+                "file": "Discipline/Programmazione/C++.md"
               }
             }
           }
@@ -221,18 +187,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "aaa475e4a4ca8779",
+  "active": "f47285879009b6d3",
   "lastOpenFiles": [
-    "Discipline/Programmazione/Variabili.md",
-    "Discipline/Programmazione/Informazione.md",
+    "Home/ToDo.md",
+    "Discipline/Programmazione/C++.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "UNI/Materie Ingegneria informatica.md",
     "Discipline/Programmazione/Operazioni.md",
+    "Discipline/Programmazione/Variabili.md",
+    "Discipline/Programmazione/Conversioni di Variabili.md",
     "Memoria RAM.md",
+    "Discipline/Programmazione/Informazione.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Home/Daily Notes/2023/25-10-2023.md",
     "Home/Obsidian basics/Embedding.md",
     "Discipline/Programmazione/Programmazione.md",
-    "Discipline/Programmazione/C++.md",
-    "Home/ToDo.md",
     "Home/Daily Notes/2023/24-10-2023.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
@@ -248,8 +216,6 @@
     "Discipline/Matematica/Algoritmi/Algoritmo per Pi.md",
     "Discipline/Programmazione/Algoritmi.md",
     "Discipline/Matematica/Algoritmi",
-    "Discipline/Matematica/Logaritmi.md",
-    "Home/Daily Notes/2023/20-10-2023.md",
     "Home/Production",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Matematica/media",

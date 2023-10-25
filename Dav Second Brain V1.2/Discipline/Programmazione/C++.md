@@ -33,3 +33,19 @@ Con `using namespace std;` indichi al compilatore che tutti i nomi usati nel pro
 	Se la condizione è vera, esegue lo statement e torna a verificare la condizione, esegue lo statement finché la condizione è vera, se è falsa esco dal ciclo. Dentro lo statement quindi ci deve essere qualcosa che influisce sulla condizione, per evitare di comicniare un ciclo infinito.
 1. do
 2. for
+# Struttura di un programma
+_basic main program_
+	`int main ()`_compound statement_
+_compound statement_ 
+	`{`statement sequence `}`
+_statement_
+1. declaration statement
+2. definition statement
+3. expression statement
+	   `expr | opt ;
+	   Esempi:
+		   `5;`
+		   `a+b;`
+1. structured statement
+2. jump statement
+3. labeled statement

@@ -54,3 +54,4 @@ La maggior parte degli operatori non cambia gli operandi, restituisce solo un va
 	3. infisso?
 	4. sx $\to$ dx
 	5. bho
+3. Operatore `sizeof(variabile)` c++
