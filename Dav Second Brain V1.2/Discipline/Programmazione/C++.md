@@ -46,6 +46,57 @@ _statement_
 	   Esempi:
 		   `5;`
 		   `a+b;`
-1. structured statement
-2. jump statement
-3. labeled statement
+4. structured statement
+	1. compound statement
+	2. selection-statement
+	3. iteration statement
+5. jump statement
+6. labeled statement
+# Arrays/Vettori
+Una array è un gruppo di variabili che possono essere chiamate attraverso l'aggiunta di un indice al nome del gruppo
+```
+tipo nomeArray[numero di elementi] = {elemento1, elemento2, ecc};
+nomeArray[numero dell'elemento] = valore da assegnare;
+```
+### Array Multidimensionali
+```
+tipo nomeArray[dimensione1][dimensione2][dimensione3] = { 
+{ { {} , {} , ecc} , { {} , {} , ecc} , ecc } ,
+{ {} , {} , ecc } ,
+ecc 
+}
+nomeArray[indice1][indice2][indice3] = valore;
+```
+# Istruzione if
+```
+if (condizione) {statement}
+else if (condizione) {statement}
+esle {statement}
+```
+# Istruzione _switch_ e _break_
+```
+switch (indice) {
+	case 1:
+		statement
+		break;
+	case 2:
+		statement
+	default:
+		statement
+}
+```
+Posso rimpiazzare gli _int_ con dei _char_:
+```
+switch (indice) {
+	case 'a':
+		statement
+		break;
+	case 'b': case 'B':
+		statement
+	default:
+		statement
+}
+```
+# Istruzioni ripetitive
+### While
+### Do-While

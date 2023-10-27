@@ -7,3 +7,4 @@ Gregory Pearlstein - SageMath
 [[Basi della Logica]]
 [[Numeri Immaginari (o Complessi)]]
 [[Rappresentazione Cartesiana]] [[Rappresentazione Parametrica]] 
+[[Mappe Lineari]] 
