@@ -43,11 +43,13 @@ $$\begin{array} {|c|c|} \hline limiti & limiti
 \lim_{x \to \infty} \frac{1-\cos\frac{1}{x}}{\frac{1}{x^2}}=1\\ \hline
 \lim_{x\to \infty} \frac{a^x}{x^b} = +\infty &
 \lim_{x \to \infty} \sqrt[x]{x} = 1 \\ \hline
+\lim_{n \to \infty} \frac{\ln n}{n^\alpha}=0 &
+\\ \hline
 \lim_{x \to \infty} \frac{x!}{x^x} = 0 &
 \lim_{x \to \infty} \frac{c^x}{x!} = 0 \\ \hline
 \lim_{x\to \infty} \frac{\log_a(1+\frac{1}{x})}{\frac{1}{x}} =\log_a e &
 \lim_{x \to \infty} \sqrt[x]{x^b}=1
-\\ \hline a > 1, \ b \in N, \ c \geq 1\\ \hline
+\\ \hline a > 1, \ b \in N, \ c \geq 1 \\ \hline
 \end{array}$$
 # Gerarchia degli infiniti
 $$(\log _a x)^d << x^b << c^x << x! << x^x$$Per $x \to \infty$, con $a > 0 \land a \neq 1$, $b> 0$, $c>1$, $d \in R$  
@@ -59,6 +61,11 @@ Se il limite $\lim_{x\to a}\frac{f(x)}{g(x)} =$
 ##### Ordine
 Dati due infiniti $f(x)$ e $g(x)$, per $x \to a$, si dice che $f(x)$ è un infinito di ordine $\gamma$ ($\gamma >0$) rispetto a $g(x)$, se: $$\lim_{x \to a} \frac{f(x)}{[g(x)]^\gamma } = L \neq 0$$
 Dove $g(x)$ è detto __Infinito Campione__.
+# Vari Limiti Generali
+1. $$\lim_{n \to \infty} \frac{n^a}{n^b}=\begin{cases} +\infty \ , \ a>b \\ 0 \ ,\ a<b \\ 1 \ , \ a=b \end{cases}$$
+2. $$\lim_{n \to \infty} \sum^n_{k=0} a_k n^k = \begin{cases} +\infty \ , \ a_k\geq 0 \\ -\infty \ , \ a_k < 0 \end{cases}$$
+3. $$\lim_{n \to \infty} n^m[a_n + \frac{a_{n-1}}{n} + ...+ \frac{a_0}{n^m}]=\begin{cases}\infty \ , \ a_m>0 \\ -\infty \ , \ a_m <0 \end{cases}$$
+4. $$\lim_{n \to \infty} a_n^{b_n} = e^{b_n \ln a_n}$$
 # Dimostrazioni Limiti Notevoli
 1. $lim_{x \to \infty} sin(\frac{1}{x}) = 0$
    Adoperiamo il [[Teorema del Confronto]], se troviamo $a_n \leq b_n \leq c_n$ tali che $a_n$ ed $c_n$ si stringono attorno ad un valore troviamo anche il limite di $b_n$.

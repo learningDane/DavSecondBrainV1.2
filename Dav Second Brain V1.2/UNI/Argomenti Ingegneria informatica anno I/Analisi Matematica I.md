@@ -1,6 +1,7 @@
 #uni Berselli Luigi Carlo
 [[Insiemi]] 
 [[Funzioni]] 
+[[Successioni]]
 [[Principio di induzione]] 
 [[Valori Assoluti]]
 [[Numeri Immaginari (o Complessi)]]
