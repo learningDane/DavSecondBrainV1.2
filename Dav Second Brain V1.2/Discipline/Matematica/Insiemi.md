@@ -44,6 +44,11 @@ Il prodotto cartesiano tra due insiemi è un insieme composto tra coppie ordinat
 Indicato con il simbolo: $$\subseteq$$$$A\subseteq B\implies \forall x \in A, x \in B $$
 	Dire che A è un sottoinsieme di B vuol dire che ogni elemento di A è anche un elemento di B.
 
+# Punti Interni, Esterni e di Frontiera
+Un _punto interno_ è un punto per il quale esiste almeno un intorno interamente contenuto nell'insieme. Definizione: $x_0 \in A$ , $x_0$ è un punto interno di $A$ se $$\exists \epsilon>0 \ t.c. \ B(x_0,\epsilon) \subset A$$
+Un _punto esterno_ è un punto per il quale esiste almeno un intorno completamente contenuto nel complementare dell'insieme. Definizione: $x_0$ è esterno ad $A$ se $$\exists \epsilon >0 : B(x_0,\epsilon)\cap A = \emptyset$$
+Un _punto di frontiera_ è un punto sia interno che esterno.
+Definizione: $x_0$ è un punto di Frontiera di $A$ se $$\forall \epsilon > 0 :\exists y_1\in A, \ \exists y_2 \in A^C : y_1,y_2 \in B(x_0, \epsilon)$$
 ### Diversi tipi di insiemi:
 ##### N: i numeri naturali
 	numeri interi positivi

@@ -36,5 +36,12 @@ Se non metti il `https://` (che rende il link assoluto), il browser lo prende co
 `<a href="il link" target="_blank"> blah blah </a>` con questo attributo _target="_blank"_ apre il link in una nuova pagina.
 `<a href="mailto:indirizzoemail"> send me an email </a>`
 ## Tabelle
+```
+<table>
+<tr>
+
+</tr>
+</table>
+```
 ## Commenti
 `<!-- commentooo -->`
