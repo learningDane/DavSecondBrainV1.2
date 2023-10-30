@@ -22,6 +22,7 @@ I limiti hanno le seguenti proprietà:
    Tesi: $lim_{n \to \infty} (a_n \cdot b_n) = lim_{n \to \infty} a_n \cdot lim_{n \to \infty} b_n$
 3. Ipotesi:  $lim_{n \to \infty} a_n=L$   e   $lim_{n \to \infty} b_n=M$ 
    Tesi: $lim_{n \to \infty} (\frac{a_n}{b_n}) = \frac{lim_{n \to \infty} a_n}{lim_{n \to \infty} b_n}$ 
+Ma in generale il limite é indifferente da come é definito l' $x_0$ al quale tende.
 # Regole Generali
 1. Date $a_n \to \infty$ e $b_n$ limitata inferiormente: $a_n + b_n \to \infty$ 
 2. dati $k_1 > k_2$: $\lim_{n \to \infty} \frac{n^{k_1}} {n^{k_2}} = \infty$ 
@@ -91,6 +92,7 @@ Dove $g(x)$ è detto __Infinito Campione__.
    Se $-1 \leq q < +1$ allora $q^{n+1} = 0$ quindi $\lim_{n \to \infty} a_n = \frac{1}{1-q}$ 
    Se $q \geq 1$ allora $\lim_{n \to \infty} a_n = +\infty$ 
 6. $\lim_{n \to \infty} \frac{a^n}{n} = \infty$ 
+7. $\lim_{n \to \infty} \sin(n) = N/E$ 
 # Altro
 1. Dimostrazione che $lim_{x \to \infty} a^n = \infty; \ \ se \ a\geq 1$ : 11/10/2023 ultima pagina
 2. xx

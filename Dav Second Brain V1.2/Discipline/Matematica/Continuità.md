@@ -9,3 +9,6 @@ $f,g : D \to R,  \ x_0 \in D, \ f,g \ continue \ in \ x_0$
 	$f\cdot g$ è continua in $x_0$ 
 	$\frac{f}{g}$ è continua in $x_0$ se $g(x_0) \neq 0$ 
 Il contrario non sempre vale.
+# Continuità e funzioni composte
+Ipotesi: $f$ è continua in $x_0$ e $g$ è continua in $y_0=f(x_0)$ 
+Tesi> $g(f(x))$ è continua in $x_0$ 

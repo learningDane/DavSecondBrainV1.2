@@ -21,3 +21,7 @@ Algoritmi equivalenti:
 2. hanno lo stesso dominio di uscita.
 3. In corrispondenza degli stessi valori del dominio di ingresso producono gli stessi valori del dominio di uscita.
 Quindi: _forniscono lo stesso risultato, ma possono avere diversa efficienza e possono essere profondamente diversi_.
+# Algoritmi di Ordinamento
+### Selection-Sort
+
+### Bubble-Sort

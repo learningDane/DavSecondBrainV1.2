@@ -100,3 +100,5 @@ switch (indice) {
 # Istruzioni ripetitive
 ### While
 ### Do-While
+# Classi
+### C-String

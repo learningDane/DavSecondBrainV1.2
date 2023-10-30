@@ -36,6 +36,16 @@ Una funzione è invertibile se e solo se è biunivoca.
 
 ##### Condizioni
 Se il codominio contiene meno elementi del dominio la funzione non può essere iniettiva.
+# Invertibilitá di una Funzione
+In generale, sotto alcune ipotesi, l'inversa di una funzione é invertibile.
+Definizione di invertibile:
+$f:[a,b] \to Im(f) \ esiste \ g : Im(f) \to [a,b]$ con $g(f(x)) = x$ e $f(g(y)) = y$ 
+##### Teorema
+Ipotesi: $f in C([a,b]) \ invertibile : f:[a,b] \to [c,d]$ 
+Tesi: $\exists g \in C([c,d]) ; g=f^{-1} ; \ g : [c,d] \to [a,b]$ 
+### Esempi
+$\sin h(x) = \frac{e^x - e^{-x}}{2} \implies \sin h^{-1} x = settore \sin h(x)$ 
+$\frac{1}{\sin(x)} \neq \sin^{-1} (x) \neq \arcsin (x)$ 
 # Funzioni Periodiche
 Una funzione è detta ___periodica___ di periodo $T$, con $T> 0$, se $\forall k \in Z \ : \ f(x) = f(x + kT)$ .
 Una funzione periodica non può essere iniettiva.
@@ -88,6 +98,23 @@ $\forall \ x_1\ e\ x_2 \in D\ e\ \geq 0$
 	ma $x_2 + x_1$ è maggiore di zero perché $x_2$ e $x_1$ sono positivi
 	e $x_2 - x_1$ è anche maggiore di zero poiché $x_2 > x_1$ per tesi
 	Allora $f(x)=x^2$ è crescente, inoltre essendo entrambi diversi da $0$, il loro prodotto non può essere $0$, quindi la funzione è ___strettamente crescente___.
+# Teoremi
+### Teorema di Weierstrass
+Ipotesi: $f : [a,b] \to R : f \in C([a,b])$ 
+Tesi: $\exists x_m \in [a,b] \ , \ x_M \in [a,b] \ t.c. \ f(x_m) = min \ , \ f(x_M) = Max$ 
+### Teorema degli Zeri
+Ipotesi: $f\in C([a,b]) : f(a) \cdot f(b) < 0$ 
+Tesi: $\exists \overline c \in [a,b] \ t.c. \ f(\overline c ) = 0$ 
+Attraverso questo teorema, con il metodo della bisezione é possibile trovare la posizione dello zero, di volta in volta dimezzando il campo di valori.
+Dimostrazione attraverso il [[Limiti#Teorema della Permanenza del Segno]] : 
+Abbiamo $f(a_n) < 0 \to \lim f(a_n) = f(c) \leq 0$ e $f(b_n) < 0 \to \lim f(b_n) = f(c) \geq 0$ 
+Quindi $f(c) \leq 0$ e $f(c) \geq 0$ 
+Allora $f(c)=0$ 
+# Teorema dei Valori Intermedi
+Ipotesi: $f \in C([a,b])$ quindi per il Teorema di Weierstrass esistono massimo e minimo $m=min \ f$ e $M = max \ f$ 
+Tesi: $\exists \overline c \in [a,b] \ t.c\ f(\overline c) = λ \in ]m,M[$ 
+Per dimostrarlo basta traslare la funzione sull'asse y di modo che λ sia in $y=0$ e poi si applica il teorema degli zeri., dato che ne sono rispettate le ipotesi
+Esiste poi il _Secondo Teorema dei Valori Intermedi_ dove semplicemente nella formulazione invece di massimo e minimo si usano estremo inferiore ed estremo superiore.
 # Principali Funzioni
 ###### Funzione esponenziale $y=x^2$ 
 ```chart
