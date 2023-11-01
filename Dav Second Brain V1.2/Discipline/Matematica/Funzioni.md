@@ -41,7 +41,7 @@ In generale, sotto alcune ipotesi, l'inversa di una funzione é invertibile.
 Definizione di invertibile:
 $f:[a,b] \to Im(f) \ esiste \ g : Im(f) \to [a,b]$ con $g(f(x)) = x$ e $f(g(y)) = y$ 
 ##### Teorema
-Ipotesi: $f in C([a,b]) \ invertibile : f:[a,b] \to [c,d]$ 
+Ipotesi: $f \in C([a,b]) \ invertibile : f:[a,b] \to [c,d]$ 
 Tesi: $\exists g \in C([c,d]) ; g=f^{-1} ; \ g : [c,d] \to [a,b]$ 
 ### Esempi
 $\sin h(x) = \frac{e^x - e^{-x}}{2} \implies \sin h^{-1} x = settore \sin h(x)$ 

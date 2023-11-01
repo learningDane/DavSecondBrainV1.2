@@ -38,10 +38,28 @@ Se non metti il `https://` (che rende il link assoluto), il browser lo prende co
 ## Tabelle
 ```
 <table>
-<tr>
-
-</tr>
+	<tr> //tr sono le righe
+		<th> </th>
+		<th> ecc //th  sono le colonne (table-heading)
+	</tr>
+	
+	<tr>
+		<td> dsrfgerg </td> //table data
+		<td> ecc
+	</tr>
+	
+	<tr> ecc
 </table>
+```
+# Liste
+`<ul>` se lista deve essere non-ordinata
+`<ol>`se lista deve essere ordinata
+`<dl>`se la lista deve avere descrizioni aggiuntive
+```
+<ul>
+	<li> sfwf </li>
+	<li> ecc
+</ul>
 ```
 ## Commenti
 `<!-- commentooo -->`
