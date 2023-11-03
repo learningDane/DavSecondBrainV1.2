@@ -28,8 +28,11 @@ L'HTML è un linguaggio di pubblico dominio, la cui sintassi è stabilita dal [[
 `<hr>` una linea separatrice
 ## Attributi
 `<p style="attributo; altro attributo"> </p>` 
-`Color: colore` 
+`style="Color: colore"` 
+`style="border: il bordo che vuoi (oppure none)"` 
 `background-color` 
+`height="pixel di altezza"` 
+`width="pixel di larghezza"` 
 ## Link
 Se non metti il `https://` (che rende il link assoluto), il browser lo prende come link relativo.
 `<a href="il link"> blah blah </a>` apre il link nella stessa pagina.
@@ -51,7 +54,7 @@ Se non metti il `https://` (che rende il link assoluto), il browser lo prende co
 	<tr> ecc
 </table>
 ```
-# Liste
+## Liste
 `<ul>` se lista deve essere non-ordinata
 `<ol>`se lista deve essere ordinata
 `<dl>`se la lista deve avere descrizioni aggiuntive
@@ -60,6 +63,31 @@ Se non metti il `https://` (che rende il link assoluto), il browser lo prende co
 	<li> sfwf </li>
 	<li> ecc
 </ul>
+
+<dl>
+	<dt> blah blah </dt>
+	<dd> descrizione </dd>
+	<dt> ecc
+</dl>
+```
+## Elementi in Blocco
+Un elemento in blocco aggiunge spazi prima e dopo di se
+`<div>` 
+`<hr>` 
+`<pre>` 
+`<tutte le liste>` 
+## Altri Elementi
+`<div>` 
+`<iframe src="il link"> //serve per includere una pagina` 
+## Sintassi per i Simboli
+`&il segno;` oppure con Unicode : `&#numero;` [tabella unicode](https://www.brescianet.com/appunti/vari/unicode.htm)
+## I Form
+```
+<form>
+	<label for="per cosa è l'imput"> La label </label>
+	<br>
+	<input type="tipo ti input (eg: text, number, checkbox)" name="il nome" id="l'id">
+</form>
 ```
 ## Commenti
-`<!-- commentooo -->`
+`<!-- commentooo -->` 
