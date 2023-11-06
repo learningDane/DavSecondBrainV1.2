@@ -96,9 +96,20 @@ switch (indice) {
 	default:
 		statement
 }
-```
+``` 
 # Istruzioni ripetitive
 ### While
 ### Do-While
 # Classi
 ### C-String
+Una stringa è una array di _char_ avente lunghezza arbitraria e che ad un certo punto contiene il carattere di arresto `\0`.
+Una qualunque array: `char stringa[] = {'p','a','r','o','l','a'};` 
+Letterale stringa: `char stringa[] = "parola";` 
+Come su tutte le array non si possono usare gli operatori di assegnamento sui letterali stringa, si possono solo usare durante l'inizializzazione, input ed output.
+#### Libreria `<cstring>` 
+1. `strlen()` restituisce un intero che è il numero di caratteri (length).
+2. `strcpy()` copia una stringa dentro un'altra stringa destinazione.
+3. `strcmp()` è una sorta di operatore confronto, restituisce un numero positivo, negativo, oppure 0.
+4. `tolower()` rende tutti i caratteri minuscoli.
+5. `toupper()` rende tutti i caratteri maiuscoli.
+6. `strcat()` concatena due stringhe in una sola.
