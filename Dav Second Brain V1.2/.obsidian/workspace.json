@@ -36,19 +36,55 @@
             }
           },
           {
-            "id": "e09496f9d09c8543",
+            "id": "ebed11b6f6245393",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/C++.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d92e494862c58abd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Matematica/Rappresentazione Cartesiana.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56a6e054c5594516",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29d42578c2b734f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Matematica/Rappresentazione Parametrica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -77,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "estremo supe",
+                "query": "angolo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,8 +134,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -115,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/C++.md",
+                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/C++.md",
+                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/C++.md"
+                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md"
               }
             }
           }
@@ -187,35 +222,36 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e09496f9d09c8543",
+  "active": "56a6e054c5594516",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Matematica/Rappresentazione Parametrica.md",
+    "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+    "Discipline/Matematica/Rappresentazione Cartesiana.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "Discipline/Matematica/Vettori.md",
     "UNI/Materie Ingegneria informatica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Linux/Pacman.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Home/Random/Investments 2023.md",
+    "Home/SQphotography/Allora.md",
+    "Discipline/Matematica/Logaritmi.md",
+    "Discipline/Programmazione/Char.md",
+    "Discipline/Finanza/Padre Ricco, Padre Povero.md",
+    "Discipline/Finanza",
+    "Home/Daily Notes/2023/07-11-2023.md",
+    "Discipline/Programmazione/C++.md",
     "Home/Daily Notes/2023/06-11-2023.md",
     "Discipline/Matematica/Insiemi.md",
     "Discipline/Matematica/Funzioni.md",
     "Home/Daily Notes/2023/05-11-2023.md",
     "Home/Random/ToDo.md",
-    "Discipline/Programmazione/C++.md",
-    "Discipline/Linux/Pacman.md",
     "Home/Daily Notes/2023/04-11-2023.md",
     "Discipline/Linux/Aur.md",
     "Discipline/Programmazione/web/HTML.md",
     "Home/Daily Notes/2023/03-11-2023.md",
-    "Home/SQphotography/Allora.md",
     "Home/Daily Notes/2023/02-11-2023.md",
     "Home/SQphotography",
-    "Discipline/Matematica/Sistemi Lineari.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Discipline/Matematica/Limiti.md",
-    "Home/Daily Notes/2023/01-11-2023.md",
-    "Discipline/Programmazione/Algoritmi.md",
-    "Discipline/Matematica/Formula di Stirling.md",
-    "Home/Daily Notes/2023/31-10-2023.md",
-    "Home/Daily Notes/2023/30-10-2023.md",
-    "Discipline/Matematica/Continuità.md",
-    "Home/Daily Notes/2023/28-10-2023.md",
     "Discipline/Programmazione/web",
     "Discipline/Matematica/Algoritmi",
     "Home/Production",

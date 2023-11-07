@@ -10,3 +10,4 @@ Marco Cococcioni - CLion
 [[Programmazione]] 
 [[Linguaggio di Programmazione]] 
 [[Memoria RAM]]
+[[Char]] 

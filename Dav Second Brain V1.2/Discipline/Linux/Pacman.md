@@ -1,4 +1,5 @@
 #self-taught 
+Pacman è il Package Manager di [[Arch]].
 `pacman -S` di solito serve per sincronizzare/installare (`pacman -Syu` aggiorna tutte le app)
 	`y` sincronizza dai Mirror
 	`yy` force-synchronises le app

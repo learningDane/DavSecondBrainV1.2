@@ -8,3 +8,4 @@ Gregory Pearlstein - SageMath
 [[Numeri Immaginari (o Complessi)]]
 [[Rappresentazione Cartesiana]] [[Rappresentazione Parametrica]] 
 [[Mappe Lineari]] 
+[[Mutua Posizione di due Rette nel Piano]] 
