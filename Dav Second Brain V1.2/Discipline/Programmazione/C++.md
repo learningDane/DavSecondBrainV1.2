@@ -19,6 +19,7 @@ Con `using namespace std;` indichi al compilatore che tutti i nomi usati nel pro
 5. `double`= floating point number, 64 bit, numero decimale
 6. `char`= single character, 8 bit, carattere singolo, circondato da virgolette singole
 7. `string`= frase, ? bit, frase, circondato da doppie virgolette
+8. `struct`= è un contenitore di variabili diversi, definito dal programmatore di volta in volta. Questa può essere definita al di fuori di funzioni ma non alloca memoria.
 
 # Operatori
 1. `++a;` incremento prefisso
@@ -67,6 +68,7 @@ ecc
 }
 nomeArray[indice1][indice2][indice3] = valore;
 ```
+### Vettori Dinamici
 # Istruzione if
 ```
 if (condizione) {statement}

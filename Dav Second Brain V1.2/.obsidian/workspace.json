@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "e09496f9d09c8543",
+            "id": "a95f071bc394fa77",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -187,17 +187,18 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e09496f9d09c8543",
+  "active": "a95f071bc394fa77",
   "lastOpenFiles": [
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "UNI/Materie Ingegneria informatica.md",
+    "Home/Daily Notes/2023/07-11-2023.md",
+    "Discipline/Programmazione/C++.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Home/Daily Notes/2023/06-11-2023.md",
     "Discipline/Matematica/Insiemi.md",
     "Discipline/Matematica/Funzioni.md",
     "Home/Daily Notes/2023/05-11-2023.md",
     "Home/Random/ToDo.md",
-    "Discipline/Programmazione/C++.md",
     "Discipline/Linux/Pacman.md",
     "Home/Daily Notes/2023/04-11-2023.md",
     "Discipline/Linux/Aur.md",
@@ -215,7 +216,6 @@
     "Home/Daily Notes/2023/31-10-2023.md",
     "Home/Daily Notes/2023/30-10-2023.md",
     "Discipline/Matematica/Continuità.md",
-    "Home/Daily Notes/2023/28-10-2023.md",
     "Discipline/Programmazione/web",
     "Discipline/Matematica/Algoritmi",
     "Home/Production",
