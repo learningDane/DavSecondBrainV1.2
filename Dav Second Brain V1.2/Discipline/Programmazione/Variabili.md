@@ -2,6 +2,9 @@
 # Tipo di variabile
 Il tipo di variabile definisce le dimensioni della variabile, ovvero il numero di celle, quali valori può assumere e quali sono le operazioni che ci si può eseguire.
 ![[Memoria RAM#Tipi]]
+# Luogo di Definizione
+Se una variabile viene definita al di fuori di una funzione, viene immagazzinata nella memoria statica e viene chiamata variabile ___globale___, che viene caricata all'avviarsi del programma e distrutta quando il programma si chiude.
+Esiste poi la me moria dinamica ___"Heap"___.
 # Numeri interi
 ##### In memoria
 4 celle (32 bit - 4 byte)

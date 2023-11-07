@@ -110,11 +110,24 @@ Dimostrazione attraverso il [[Limiti#Teorema della Permanenza del Segno]] :
 Abbiamo $f(a_n) < 0 \to \lim f(a_n) = f(c) \leq 0$ e $f(b_n) < 0 \to \lim f(b_n) = f(c) \geq 0$ 
 Quindi $f(c) \leq 0$ e $f(c) \geq 0$ 
 Allora $f(c)=0$ 
-# Teorema dei Valori Intermedi
+### Teorema dei Valori Intermedi
 Ipotesi: $f \in C([a,b])$ quindi per il Teorema di Weierstrass esistono massimo e minimo $m=min \ f$ e $M = max \ f$ 
 Tesi: $\exists \overline c \in [a,b] \ t.c\ f(\overline c) = λ \in ]m,M[$ 
 Per dimostrarlo basta traslare la funzione sull'asse y di modo che λ sia in $y=0$ e poi si applica il teorema degli zeri., dato che ne sono rispettate le ipotesi
 Esiste poi il _Secondo Teorema dei Valori Intermedi_ dove semplicemente nella formulazione invece di massimo e minimo si usano estremo inferiore ed estremo superiore.
+### Teorema di Rolle
+Ipotesi: $f \in C([a,b]) , f \ derivabile \ in \ ]a,b[ , f(a) = f(b)$ 
+Tesi: $\exists c \in ]a,b[ : f'(c) = 0$ 
+### Teorema di Lagrange
+Ipotesi: $f \in C([a,b]) , f \ derivabile \ in \ ]a,b[$
+Tesi: $\exists c \in ]a,b[ : f'(c) = \frac {f(b) - f{a}}{b-a}$ 
+###### I corollario
+###### II Corollario
+se $f'(x) \geq 0 , \forall x \in ]a,b[ \implies f \ crescente$ 
+###### III Corollario
+se $f'(x) > 0 \forall x \in ]a,b[ \implies f'(x_0)=0$ o
+###### IV Corollario
+
 # Principali Funzioni
 ###### Funzione esponenziale $y=x^2$ 
 ```chart
