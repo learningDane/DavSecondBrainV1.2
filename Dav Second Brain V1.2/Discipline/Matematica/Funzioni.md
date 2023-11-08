@@ -1,4 +1,5 @@
 #uni 26/09/2023
+[[Funzioni#Teoremi]] 
 # Basi
 Una funzione lega due [[Insiemi]] attraverso una relazione.
 Per avere una funzione servono: due insiemi e una relazione:
@@ -127,6 +128,7 @@ se $f'(x) \geq 0 , \forall x \in ]a,b[ \implies f \ crescente$
 ###### III Corollario
 se $f'(x) > 0 \forall x \in ]a,b[ \implies f'(x_0)=0$ o
 ###### IV Corollario
+se $f \in C([a,b]) \ , \ f \ derivabile \ in \ ]a,b[ \\ {x_0} \ , \ \lim_{x\to x_0^+} f'\neq \lim_{x \to x_0^-} f' \implies f \ non \ derivabile$ 
 
 # Principali Funzioni
 ###### Funzione esponenziale $y=x^2$ 

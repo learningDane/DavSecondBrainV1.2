@@ -32,7 +32,11 @@ $$f'_-(x_0)\neq f'_+(x_0) \neq \pm \infty$$E l'angolo compreso è: $$\tan \alpha
 Per studiare massimi e minimi di una funzione si studia il suo andamento attraverso la [[Derivata]] Prima. Se la Derivata è positiva la funzione sale, se è negativa scende. Nei punti in cui $f'(x_0) = 0$ abbiamo dei punti di massimo e minimo, ne possiamo trovare altri agli estremi degli insiemi che formano il dominio.
 # Derivata II, Concavità
 Quando la Derivata Seconda è positiva, la derivata prima sale e quindi si ha una concavità verso l'alto, se è negativa la derivata prima scende e si ha quindi una concavità verso il basso.
+###### Punti di Flesso
 Nelle radici della funzione derivata Seconda di una Funzione troviamo i ___Punti di Flesso___, che possono essere ascendenti, discendenti, orizzontali, verticali oppure obliqui:
 ### Flesso Orizzontale
 $$f'(x_0) = f''(x_0) = 0$$
 ### Flesso Obliquo
+$$f''(x_0) + 0 ; \ f'(x_0) \neq 0$$
+### Flesso Verticale
+$$f''(x_0) \nexists \ ; \ f'_-(x_0)=f'_+(x_0)= \pm \infty$$ 
