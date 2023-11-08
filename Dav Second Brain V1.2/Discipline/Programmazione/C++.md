@@ -59,7 +59,7 @@ Una array è un gruppo di variabili che possono essere chiamate attraverso l'agg
 tipo nomeArray[numero di elementi] = {elemento1, elemento2, ecc};
 nomeArray[numero dell'elemento] = valore da assegnare;
 ```
-### Array Multidimensionali
+### Array Multidimensionali / Matrici
 ```
 tipo nomeArray[dimensione1][dimensione2][dimensione3] = { 
 { { {} , {} , ecc} , { {} , {} , ecc} , ecc } ,
@@ -69,6 +69,13 @@ ecc
 nomeArray[indice1][indice2][indice3] = valore;
 ```
 ### Vettori Dinamici
+Prima di c++ '13 non si poteva scrivere `int vettore[size]` , si doveva usare una allocazione manuale della memoria:
+```
+size = 7;
+int *array = new int[size]{3,5,8,12, ecc};
+delte[] array;
+```
+RICORDA di usare il `delete[]` per deallocare la memoria.
 # Istruzione if
 ```
 if (condizione) {statement}

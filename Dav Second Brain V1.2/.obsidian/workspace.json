@@ -36,48 +36,48 @@
             }
           },
           {
-            "id": "ebed11b6f6245393",
+            "id": "1e225bd55b4b4d10",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d92e494862c58abd",
+            "id": "555bd48fd9b03013",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Rappresentazione Cartesiana.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "56a6e054c5594516",
+            "id": "8c0100ffa5a4b778",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+                "file": "Studio di Funzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "29d42578c2b734f1",
+            "id": "b19dfc47e333544f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Rappresentazione Parametrica.md",
+                "file": "Discipline/Matematica/Funzioni.md",
                 "mode": "source",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "angolo",
+                "query": "matri",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -150,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+                "file": "Studio di Funzioni.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+                "file": "Studio di Funzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md"
+                "file": "Studio di Funzioni.md"
               }
             }
           }
@@ -222,17 +223,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "56a6e054c5594516",
+  "active": "8c0100ffa5a4b778",
   "lastOpenFiles": [
-    "Discipline/Matematica/Rappresentazione Parametrica.md",
-    "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
-    "Discipline/Matematica/Rappresentazione Cartesiana.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Discipline/Matematica/Vettori.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
+    "Studio di Funzioni.md",
+    "Discipline/Matematica/Funzioni.md",
     "UNI/Materie Ingegneria informatica.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Home/Daily Notes/2023/08-11-2023.md",
+    "Discipline/Matematica/Rappresentazione Parametrica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "Discipline/Matematica/Rappresentazione Cartesiana.md",
+    "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+    "Discipline/Matematica/Vettori.md",
     "Discipline/Linux/Pacman.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Home/Random/Investments 2023.md",
     "Home/SQphotography/Allora.md",
     "Discipline/Matematica/Logaritmi.md",
@@ -243,14 +247,11 @@
     "Discipline/Programmazione/C++.md",
     "Home/Daily Notes/2023/06-11-2023.md",
     "Discipline/Matematica/Insiemi.md",
-    "Discipline/Matematica/Funzioni.md",
     "Home/Daily Notes/2023/05-11-2023.md",
     "Home/Random/ToDo.md",
     "Home/Daily Notes/2023/04-11-2023.md",
     "Discipline/Linux/Aur.md",
     "Discipline/Programmazione/web/HTML.md",
-    "Home/Daily Notes/2023/03-11-2023.md",
-    "Home/Daily Notes/2023/02-11-2023.md",
     "Home/SQphotography",
     "Discipline/Programmazione/web",
     "Discipline/Matematica/Algoritmi",
