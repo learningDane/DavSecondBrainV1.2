@@ -2,6 +2,7 @@
 Gregory Pearlstein - SageMath
 [[Spazi vettoriali]] 
 [[Vettori]]
+[[Piani nello Spazio]] 
 [[Sistemi Lineari]]
 [[Matrici]]
 [[Basi della Logica]]
