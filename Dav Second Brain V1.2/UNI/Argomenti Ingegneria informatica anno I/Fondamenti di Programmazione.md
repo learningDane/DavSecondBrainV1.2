@@ -11,3 +11,7 @@ Marco Cococcioni - CLion
 [[Linguaggio di Programmazione]] 
 [[Memoria RAM]]
 [[Char]] 
+[[Librerie]] 
+[[Moduli]] 
+[[File in c++]] 
+[[Classi]] 
