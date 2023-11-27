@@ -70,21 +70,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "32c314acacce5eee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Linux/Dappnode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -150,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Linux/Dappnode.md",
+                "file": "Formula di Taylor.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Linux/Dappnode.md",
+                "file": "Formula di Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Linux/Dappnode.md"
+                "file": "Formula di Taylor.md"
               }
             }
           }
@@ -222,13 +210,13 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "32c314acacce5eee",
+  "active": "9dd9c5d0af95c7ae",
   "lastOpenFiles": [
+    "Home/Daily Notes/2023/24-11-2023.md",
     "Formula di Taylor.md",
     "File in c++.md",
     "Discipline/Linux/Dappnode.md",
     "Classi.md",
-    "Home/Daily Notes/2023/24-11-2023.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "UNI/Materie Ingegneria informatica.md",
     "Librerie.md",
