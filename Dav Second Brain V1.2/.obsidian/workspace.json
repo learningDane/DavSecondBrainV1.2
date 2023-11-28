@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/28-11-2023.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/28-11-2023.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+                "file": "Home/Daily Notes/2023/28-11-2023.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md"
+                "file": "Home/Daily Notes/2023/28-11-2023.md"
               }
             }
           }
@@ -200,10 +200,11 @@
   },
   "active": "f24fe1457c25f616",
   "lastOpenFiles": [
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
+    "Home/Daily Notes/2023/28-11-2023.md",
     "UNI/Materie Ingegneria informatica.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
     "File in c++.md",
     "Home/Daily Notes/2023/27-11-2023.md",
     "Formula di Taylor.md",
@@ -225,7 +226,6 @@
     "Discipline/Matematica/Spazi vettoriali.md",
     "Discipline/Matematica/Vettori.md",
     "Discipline/Matematica/Rappresentazione Cartesiana.md",
-    "Discipline/Matematica/Matrici.md",
     "Discipline/Finanza",
     "Home/SQphotography",
     "Discipline/Programmazione/web",
