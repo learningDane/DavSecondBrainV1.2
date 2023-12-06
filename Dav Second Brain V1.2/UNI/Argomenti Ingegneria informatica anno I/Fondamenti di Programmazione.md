@@ -14,4 +14,5 @@ Marco Cococcioni - CLion
 [[Librerie]] 
 [[Moduli]] 
 [[File in c++]] 
-[[Classi]] 
+[[Classi]] e [[Struct]] 
+[[Puntatori]] 
