@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "c771447650bfec17",
+            "id": "28c9a38ff468bab3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,21 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6a9c3deab5634b9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Preprocessore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Preprocessore.md",
+                "file": "Moduli.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Preprocessore.md",
+                "file": "Moduli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Preprocessore.md"
+                "file": "Moduli.md"
               }
             }
           }
@@ -198,18 +186,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "6a9c3deab5634b9c",
+  "active": "28c9a38ff468bab3",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Preprocessore.md",
-    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Programmazione/Preprocessore.md",
     "Moduli.md",
+    "Formula di Taylor.md",
+    "Discipline/Programmazione/Librerie.md",
+    "Discipline/Programmazione/File in c++.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Life.md",
+    "Home/Random/ToDo.md",
+    "Home/Daily Notes/2023/24-10-2023.md",
+    "Home/Daily Notes/2023/18-12-2023.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Home/Daily Notes/2023/13-12-2023.md",
     "Discipline/Programmazione/Puntatori.md",
-    "Librerie.md",
-    "Formula di Taylor.md",
-    "File in c++.md",
     "Discipline/Programmazione/Classi.md",
     "Discipline/Programmazione/Struct.md",
     "Home/Daily Notes/2023/05-12-2023.md",
@@ -222,10 +214,6 @@
     "Home/Daily Notes/2023/23-11-2023.md",
     "Discipline/Programmazione/Variabili.md",
     "Home/Daily Notes/2023/22-11-2023.md",
-    "Home/Random/ToDo.md",
-    "Home/Daily Notes/2023/10-11-2023.md",
-    "Home/Daily Notes/2023/21-11-2023.md",
-    "Home/Daily Notes/2023/14-11-2023.md",
     "Discipline/Finanza",
     "Home/SQphotography",
     "Discipline/Programmazione/web",
