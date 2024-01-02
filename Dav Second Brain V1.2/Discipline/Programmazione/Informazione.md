@@ -49,5 +49,4 @@ Decodifica: $$a = A - (2^{p - 1} - 1) $$
 dove $(2^{p-1} - 1)$ è detto ___Bias___.
 Lo zero anche qua viene rappresentato uno volta sola.
 ###### Intervallo di rappresentabilità 
-$$[-(2^{p-1}+1, \ 2^{p-1}], \ ossia \ [-bias, \ bias + 1]$$
-# bho
+$$[-(2^{p-1}+1, \ 2^{p-1}], \ ossia \ [-bias, \ bias + 1]$$ 

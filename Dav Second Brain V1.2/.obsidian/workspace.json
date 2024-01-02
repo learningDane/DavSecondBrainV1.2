@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Programmazione/Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Programmazione/Programmazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Programmazione/Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Moduli.md"
+                "file": "Discipline/Programmazione/Programmazione.md"
               }
             }
           }
@@ -188,11 +188,24 @@
   },
   "active": "28c9a38ff468bab3",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Puntatori.md",
+    "Discipline/Programmazione/Programmazione.md",
     "Discipline/Programmazione/Preprocessore.md",
+    "Discipline/Programmazione/Operazioni.md",
+    "Discipline/Programmazione/Memoria RAM.md",
+    "Discipline/Programmazione/Linguaggio di Programmazione.md",
+    "Discipline/Programmazione/Librerie.md",
+    "Discipline/Programmazione/Informazione.md",
+    "Discipline/Programmazione/File in c++.md",
+    "Discipline/Programmazione/Conversioni di Variabili.md",
+    "Discipline/Programmazione/Classi.md",
+    "Discipline/Programmazione/Char.md",
+    "Discipline/Programmazione/Cambio di Base.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Algoritmi.md",
+    "Home/Daily Notes/2023/19-12-2023.md",
     "Moduli.md",
     "Formula di Taylor.md",
-    "Discipline/Programmazione/Librerie.md",
-    "Discipline/Programmazione/File in c++.md",
     "UNI/Materie Ingegneria informatica.md",
     "Life.md",
     "Home/Random/ToDo.md",
@@ -201,19 +214,6 @@
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Home/Daily Notes/2023/13-12-2023.md",
-    "Discipline/Programmazione/Puntatori.md",
-    "Discipline/Programmazione/Classi.md",
-    "Discipline/Programmazione/Struct.md",
-    "Home/Daily Notes/2023/05-12-2023.md",
-    "Home/Daily Notes/2023/28-11-2023.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare ed Analisi Matematica II.md",
-    "Home/Daily Notes/2023/27-11-2023.md",
-    "Home/Daily Notes/2023/24-11-2023.md",
-    "Discipline/Linux/Dappnode.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "Home/Daily Notes/2023/23-11-2023.md",
-    "Discipline/Programmazione/Variabili.md",
-    "Home/Daily Notes/2023/22-11-2023.md",
     "Discipline/Finanza",
     "Home/SQphotography",
     "Discipline/Programmazione/web",
