@@ -36,67 +36,19 @@
             }
           },
           {
-            "id": "d6262415e57e65a2",
+            "id": "bf11824ef518e8b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Linux/Equazioni Differenziali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "baf588871697be11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Limiti.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f8d567285b7cc5d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/Daily Notes/2023/08-01-2024.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c1991d644a82e19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Formula di Taylor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcce2b3d439faaeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Coefficiente Binomiale.md",
+                "file": "Moduli.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "invert",
+                "query": "massimo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Formula di Taylor.md",
+                "file": "Moduli.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Formula di Taylor.md",
+                "file": "Moduli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Formula di Taylor.md"
+                "file": "Moduli.md"
               }
             }
           }
@@ -237,8 +189,24 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "f67a7ae669feaa70",
+  "active": "bf11824ef518e8b7",
   "lastOpenFiles": [
+    "Home/Daily Notes/2023/22-01-2024.md",
+    "Discipline/Matematica/Serie Numeriche.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Untitled.md",
+    "Home/Daily Notes/2023/18-01-2024.md",
+    "Home/Random/ToDo.md",
+    "Discipline/Programmazione/Algoritmi.md",
+    "Algori.md",
+    "Home/Daily Notes/2023/16-01-2024.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Limiti.md",
+    "Home/Daily Notes/2023/08-01-2024.md",
+    "Home/Daily Notes/2023/11-01-2024.md",
+    "Discipline/Matematica/Coefficiente Binomiale.md",
+    "Home/Daily Notes/2023/12-01-2024.md",
+    "Discipline/Matematica/Numeri Immaginari (o Complessi).md",
     "Discipline/Matematica/Vettori.md",
     "Discipline/Matematica/Valori Assoluti.md",
     "Discipline/Matematica/Teorema Fondamentale dell'Algebra.md",
@@ -249,22 +217,6 @@
     "Discipline/Matematica/Sistemi Lineari.md",
     "Discipline/Matematica/Simboli matematici.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
-    "Discipline/Matematica/Rappresentazione Cartesiana.md",
-    "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
-    "Discipline/Matematica/Principio di induzione.md",
-    "Discipline/Matematica/Numeri periodici.md",
-    "Discipline/Matematica/Numeri Immaginari (o Complessi).md",
-    "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
-    "Discipline/Matematica/Matrici.md",
-    "Discipline/Matematica/Massimo Comune Divisore.md",
-    "Discipline/Matematica/Logaritmi.md",
-    "Discipline/Matematica/Limiti.md",
-    "Discipline/Matematica/Integrazione per Parti.md",
-    "Discipline/Matematica/Integrali per Sostituzione.md",
-    "Discipline/Matematica/Insiemi.md",
-    "Discipline/Matematica/Funzioni.md",
-    "Discipline/Matematica/Formula di Stirling.md",
-    "Discipline/Matematica/Equazioni di secondo Grado.md",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Finanza",
     "Home/SQphotography",
