@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Linux/Aur.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Linux/Aur.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Moduli.md",
+                "file": "Discipline/Linux/Aur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +154,7 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "frequency"
               }
             }
           },
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Moduli.md"
+                "file": "Discipline/Linux/Aur.md"
               }
             }
           }
@@ -191,6 +189,9 @@
   },
   "active": "bf11824ef518e8b7",
   "lastOpenFiles": [
+    "Arch.md",
+    "Home/Daily Notes/2023/08-02-2024.md",
+    "Moduli.md",
     "Home/Daily Notes/2023/22-01-2024.md",
     "Discipline/Matematica/Serie Numeriche.md",
     "UNI/Materie Ingegneria informatica.md",
@@ -214,9 +215,6 @@
     "Discipline/Matematica/Successioni.md",
     "Discipline/Matematica/Studio di Funzioni.md",
     "Discipline/Matematica/Spazi vettoriali.md",
-    "Discipline/Matematica/Sistemi Lineari.md",
-    "Discipline/Matematica/Simboli matematici.md",
-    "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Finanza",
     "Home/SQphotography",
