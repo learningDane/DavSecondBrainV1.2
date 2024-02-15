@@ -17,3 +17,4 @@ Marco Cococcioni - CLion
 [[Classi]] e [[Struct]] 
 [[Puntatori]] 
 [[Preprocessore]] 
+[[Nuggets per l'esame]] 
