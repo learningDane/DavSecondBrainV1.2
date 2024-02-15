@@ -15,3 +15,15 @@ Oppure
 # Aur Helper
 ## YAY
 Yay è uno Aur Helper.
+###### Cercare
+`yay nomeapp`
+per cercare sia sulle repo officiali sia sulla AUR:
+`yay -Ss nomeapp`
+###### Installare un pacchetto
+`yay -S nomeapp`
+###### Rimuovere un pacchetto
+`yay -R nomeapp`
+Per rimuovere un pacchetto e le sue dependencies: 
+`yay -Rns nomeapp`
+Rimuovere dependencies inutilizzate a livello globale:
+`yay -Yc` 
