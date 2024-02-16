@@ -37,18 +37,9 @@ In generale per effettuare un cambio di base si passa per la rappresentazione in
 	2. da 16 a 2, ogni cifra in base 16 diventa 4 cifre in base 2
 #### Somma:
 per sommare due numeri binari il metodo più facile e più intuitivo è l'addizione in colonna, quando si ottiene un 2, semplicemente si mette 0 e si riporta 1 alla cifra successiva in ordine di significato. $$ \begin{cases} \ 1010100+ \\ \ 0101111= \\ 10000011 \end{cases} $$
-### Numeri interi
+## Numeri Interi
 [[Rappresentazione in Modulo e Segno]] 
-##### Seconda rappresentazione: in complemento a 2 (in complemento di base)
-In questa rappresentazione lo zero viene rappresentato una volta sola. Questa è la rappresentazione usata dai calcolatori, perché basta sommare i valori binari per fare la somma tra due numeri, si può quindi utilizzare la stessa circuiteria dei numeri naturali.
-Codifica: $$A = (a \geq 0) \ ? \ |a| \ : \ due^p - |a|$$
-Decodifica: $$a = (a_{p-1} == 0 ) \ ? \ A \ : \ -(due^p - A)$$Quindi fino a metà dei numeri rappresentabili il numero è positivo e cresce al crescere del valore del binario, dopo il numero col valore assoluto più alto è negativo, e da questo si continua a salire. Esempio: $1111 = -1$, $0110$ = 6, $0001 = 1$, $1000 = -8$.
-###### Intervallo di rappresentabilità
-$$[-(2^{(p-1)}-1), \ (2^{(p-1)}-1)]$$
-##### Terza rappresentazione: con bias
-Codifica: $$A = a + (2^{p-1} - 1 )$$
-Decodifica: $$a = A - (2^{p - 1} - 1) $$
-dove $(2^{p-1} - 1)$ è detto ___Bias___.
-Lo zero anche qua viene rappresentato uno volta sola.
-###### Intervallo di rappresentabilità 
-$$[-(2^{p-1}+1, \ 2^{p-1}], \ ossia \ [-bias, \ bias + 1]$$ 
+[[Rappresentazione in Complemento a 2]] 
+[[Rappresentazione con Bias dei Numeri Naturali]] 
+## Numeri Reali
+[[Rappresentazione in Virgola Fissa]] 
