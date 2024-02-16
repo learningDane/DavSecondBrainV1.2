@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "2e5f603330473cd5",
+            "id": "c438fe97e3f36e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nuggets per l'esame.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "massi",
+                "query": "massimo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nuggets per l'esame.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nuggets per l'esame.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,15 +167,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nuggets per l'esame.md"
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,34 +190,34 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "2e5f603330473cd5",
+  "active": "c438fe97e3f36e20",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Informazione.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Nuggets per l'esame.md",
-    "Discipline/Programmazione/Librerie.md",
-    "Discipline/Programmazione/Char.md",
-    "Home/Daily Notes/2023/11-02-2024.md",
-    "Discipline/Matematica/Serie Numeriche.md",
-    "Home/Daily Notes/2023/07-02-2024.md",
+    "Introduzione alla Programmazione.md",
+    "Discipline/Programmazione/Linguaggio di Programmazione.md",
     "UNI/Materie Ingegneria informatica.md",
-    "Home/Daily Notes/2023/02-02-2024.md",
-    "Discipline/Matematica/Derivata.md",
-    "Discipline/Matematica/Continuità.md",
-    "Discipline/Matematica/Coefficiente Binomiale.md",
-    "Discipline/Linux/Equazioni Differenziali.md",
-    "Discipline/Sistemi/conduttore elettrico.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
-    "Home/Daily Notes/2023/01-02-2024.md",
-    "ad.md",
-    "Home/Daily Notes/2023/30-01-2024.md",
+    "Discipline/Programmazione/Algoritmi.md",
+    "Discipline/Programmazione/Programmazione.md",
+    "Home/Random/ToDo.md",
+    "Home/Daily Notes/2023/15-02-2024.md",
+    "Discipline/Linux/Aur.md",
+    "Arch.md",
+    "Home/Daily Notes/2023/08-02-2024.md",
+    "Moduli.md",
+    "Home/Daily Notes/2023/22-01-2024.md",
+    "Discipline/Matematica/Serie Numeriche.md",
+    "Untitled.md",
+    "Home/Daily Notes/2023/18-01-2024.md",
+    "Algori.md",
+    "Home/Daily Notes/2023/16-01-2024.md",
     "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Limiti.md",
+    "Home/Daily Notes/2023/08-01-2024.md",
+    "Home/Daily Notes/2023/11-01-2024.md",
+    "Discipline/Matematica/Coefficiente Binomiale.md",
+    "Home/Daily Notes/2023/12-01-2024.md",
     "Discipline/Matematica/Numeri Immaginari (o Complessi).md",
-    "Discipline/Matematica/Teorema Fondamentale dell'Algebra.md",
-    "Discipline/Matematica/Valori Assoluti.md",
-    "Discipline/Matematica/Formula di Taylor.md",
-    "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
-    "Discipline/Matematica/Formula di Stirling.md",
-    "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Finanza",
     "Home/SQphotography",
