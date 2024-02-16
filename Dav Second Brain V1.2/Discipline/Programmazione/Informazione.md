@@ -38,12 +38,7 @@ In generale per effettuare un cambio di base si passa per la rappresentazione in
 #### Somma:
 per sommare due numeri binari il metodo più facile e più intuitivo è l'addizione in colonna, quando si ottiene un 2, semplicemente si mette 0 e si riporta 1 alla cifra successiva in ordine di significato. $$ \begin{cases} \ 1010100+ \\ \ 0101111= \\ 10000011 \end{cases} $$
 ### Numeri interi
-##### Prima rappresentazione: in modulo e segno
-Per rappresentare i numeri interi CON SEGNO, un bit viene allocato per la rappresentazione del segno, il primo bit, se $0$ allora $n$ è positivo, se $1$ allora $n$ è negativo. Per esempio su $p=4$ bit, il numero $1011 = -3$. In questa rappresentazione lo zero viene rappresentato due volte, una volta negativo ed una positivo, perdendo così un possibile elemento.
-Codifica: $$A = (segno_a, \ |a|)$$
-Decodifica: $$a = (a_{p-1} == 0 ) \ ? \ |a| \ : \ -|a|$$
-###### Intervallo di rappresentabilità
-$$[-(2^{(p-1)}-1), \ (2^{(p-1)}-1)]$$
+[[Rappresentazione in Modulo e Segno]] 
 ##### Seconda rappresentazione: in complemento a 2 (in complemento di base)
 In questa rappresentazione lo zero viene rappresentato una volta sola. Questa è la rappresentazione usata dai calcolatori, perché basta sommare i valori binari per fare la somma tra due numeri, si può quindi utilizzare la stessa circuiteria dei numeri naturali.
 Codifica: $$A = (a \geq 0) \ ? \ |a| \ : \ due^p - |a|$$
