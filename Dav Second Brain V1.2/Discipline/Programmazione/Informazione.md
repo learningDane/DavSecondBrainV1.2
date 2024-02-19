@@ -43,3 +43,4 @@ per sommare due numeri binari il metodo più facile e più intuitivo è l'addizi
 [[Rappresentazione con Bias dei Numeri Naturali]] 
 ## Numeri Reali
 [[Rappresentazione in Virgola Fissa]] 
+[[Rappresentazione in Virgola Mobile]] 

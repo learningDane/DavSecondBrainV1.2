@@ -5,3 +5,5 @@ Per la parte intera si usano le tecniche note, per la parte frazionaria si usa i
 	se $f_0 \neq 0$ eseguire la seguente procedura iterativa:
 		$f_{-1} = F(f_0*2) \ \ a_{-1} = I(f_0*2)$ 
 		$f_{-2} = F(f_{-1}*2) \ \ a_{-2} = I(f_{-1}*2)$ 
+		fino a che $f_{-j} = 0$ oppure si è raggiunta la precisione desiderata.
+	alcuni parti frazionali hanno bisogno di u numero infinito di cifre, in questi casi operiamo un __troncamento__ al numero di cifre che abbiamo a disposizione, aggiungendo un errore di troncatura.

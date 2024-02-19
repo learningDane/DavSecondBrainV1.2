@@ -46,11 +46,15 @@ Le parentesi tonde fanno diventare qualunque espressione un fattore, che viene c
 	Vera a meno che $b$ sia falso. [[Basi della Logica#Implicazione]]
 # Operatori bit a bit
 1. $|$ OR bit a bit
+	0,0-0; 0,1-1; 1,1-1
 2. $\&$ AND bit a bit
-3. __^__ OR esclusivo bit a bit
+	0,0-0; 0,1-0; 1,1-1
+3. __^__ XOR esclusivo bit a bit
+	0,0-0; 0,1-1; 1,1-0
 4. $\sim$ complemento bit a bit
-5. $<<$ traslazione a sinistra
-6. $>>$ traslazione a destra
+	0-1; 1-0
+5. $<<$ traslazione a sinistra e >> traslazione a destra: `a>>b` 
+	operatore binario che trasla di `b` bit i singoli bit di `a`. Esempio: `19 (10011)>>2 = 4(100)` 
 # Altri operatori
 1. Assegnamento
 	1. =

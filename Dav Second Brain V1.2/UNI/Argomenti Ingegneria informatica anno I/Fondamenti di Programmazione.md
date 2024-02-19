@@ -1,15 +1,14 @@
-#uni p.37
+#uni p0 fatta, p1.18
 Marco Cococcioni - CLion
 [[Introduzione alla Programmazione]] 
 [[Algoritmi]] 
-[[Linguaggio di Programmazione]] 
 [[Informazione]] 
-[[Variabili]] 
-[[Conversioni di Variabili]] 
+[[Linguaggio di Programmazione]] 
 [[C++]] 
-[[Operazioni]] 
-[[Cambio di Base]] 
-[[Memoria RAM]]
+[[Operatori]] 
+[[Variabili]] 
+[[Memoria RAM]] 
+[[Conversioni di Variabili]] 
 [[Char]] 
 [[Librerie]] 
 [[Moduli]] 

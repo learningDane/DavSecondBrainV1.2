@@ -36,24 +36,12 @@
             }
           },
           {
-            "id": "a338e90afd0ec77b",
+            "id": "5dfafa062d55fbd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "66c4be4fc618ee64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rappresentazione in Virgola Fissa.md",
+                "file": "Discipline/Programmazione/Operatori.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/Operatori.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/Operatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,12 +167,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
+                "file": "Discipline/Programmazione/Operatori.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,18 +189,27 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "a338e90afd0ec77b",
+  "active": "5dfafa062d55fbd8",
   "lastOpenFiles": [
-    "UNI/Materie Ingegneria informatica.md",
-    "Rappresentazione in Virgola Fissa.md",
-    "Discipline/Programmazione/Informazione.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Programmazione/Variabili.md",
+    "UNI/Materie Ingegneria informatica.md",
+    "Discipline/Programmazione/Memoria RAM.md",
+    "Discipline/Programmazione/Operatori.md",
+    "Oggetti.md",
+    "Discipline/Programmazione/Informazione.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Conversioni di Variabili.md",
+    "Discipline/Programmazione/Cambio di Base.md",
+    "Discipline/Programmazione/Linguaggio di Programmazione.md",
+    "Rappresentazione in Virgola Fissa.md",
+    "Rappresentazione in Virgola Mobile.md",
+    "Home/Daily Notes/2023/19-02-2024.md",
     "Rappresentazione con Bias dei Numeri Naturali.md",
     "Rappresentazione in Complemento a 2.md",
     "Rappresentazione in Modulo e Segno.md",
     "Home/Daily Notes/2023/16-02-2024.md",
     "Introduzione alla Programmazione.md",
-    "Discipline/Programmazione/Linguaggio di Programmazione.md",
     "Discipline/Programmazione/Algoritmi.md",
     "Discipline/Programmazione/Programmazione.md",
     "Home/Random/ToDo.md",
@@ -221,15 +217,6 @@
     "Discipline/Linux/Aur.md",
     "Arch.md",
     "Home/Daily Notes/2023/08-02-2024.md",
-    "Moduli.md",
-    "Home/Daily Notes/2023/22-01-2024.md",
-    "Discipline/Matematica/Serie Numeriche.md",
-    "Untitled.md",
-    "Home/Daily Notes/2023/18-01-2024.md",
-    "Algori.md",
-    "Home/Daily Notes/2023/16-01-2024.md",
-    "Discipline/Matematica/Funzioni.md",
-    "Discipline/Matematica/Limiti.md",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Finanza",
     "Home/SQphotography",
