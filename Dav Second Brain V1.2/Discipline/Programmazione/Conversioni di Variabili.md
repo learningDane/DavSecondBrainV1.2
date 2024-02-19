@@ -5,6 +5,7 @@ La conversione a booleano di un numero: se il numero è diverso da zero, _true_,
 # Conversioni implicite
 Se un operatore ha entrambi gli operandi interi o reali, ma di lunghezza diversa, quello di lunghezza minore viene convertito al tipo di quello di lunghezza maggiore.
 Se un operatore ha un operando intero ed uno reale, il valore dell'operando intero viene convertito a reale ed il risultato è un reale.
+Possono anche avvenire ovviamente conversioni implicite in sequenza, per esempio da carattere a reale: da carattere ad intero e da intero a reale.
 ##### Conversioni più significative per l'assegnamento
 1. Ad una variabile di tipo reale può essere assegnato un valore intero
 2. ad una variabile tipo intero può essere assegnato un valore di tipo reale, booleano, enumerazione e carattere.

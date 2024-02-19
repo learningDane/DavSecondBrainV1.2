@@ -31,10 +31,9 @@ Per condividere una variabile va definita globalmente e con il tag _external_: `
 2. $\& \&$ AND logico o congiunzione
 3. $!$ NOT logico o negazione
 # Carattere
-### In memoria
-Generalmente un byte. Il valore può essere espresso in decimale, ottale (`\cifraottale`) ed esadecimale (`\xcifraesadecimale`).
-### Operazioni
+Generalmente occupa un byte. Il valore può essere espresso in __decimale__, __ottale__ (`\cifraottale`) ed __esadecimale__ (`\xcifraesadecimale`).
 Sono possibili tutte le operazioni degli interi, che agiscono sulla codifica dei caratteri.
+La codifica usata dipende dall'implementazione ma la più comune è quella ASCII.
 ### Valori
 1. letterale carattere: un carattere racchiuso fra apici $'a'$
 2. caratteri di controllo: combinazioni speciali che iniziano con un backslash:
@@ -45,9 +44,9 @@ Sono possibili tutte le operazioni degli interi, che agiscono sulla codifica dei
 	5. `\'` apice
 	7. `\"` virgolette
 ### Nota
-le sequenze di escape e le rappresentazioni ottale e esadecimale di un carattere vanno racchiuse fra apici '' quando rappresentano un _letterale carattere_.
-# Enumerati
-### In memoria
+le sequenze di escape e le rappresentazioni ottale e esadecimale di un carattere vanno racchiuse fra apici 'xxx' quando rappresentano un _letterale carattere_.
+![[Pasted image 20240219161113.png]]
+# Enumerati 
 Sono costituiti da insiemi di costanti intere, definite dal programmatore, ciascuna individuata da un identificatore e detta ___enumeratore___. Servono per rappresentare informazioni non numeriche definite dal programmatore e sono utilizzate per variabili che assumono solo un numero limitato di valori.
 ### Operazioni
 Sono possibili tutte le operazioni di confronto e quelle degli interi, che agiscono sulla codifica degli enumeratori.

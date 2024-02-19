@@ -54,7 +54,10 @@ Le parentesi tonde fanno diventare qualunque espressione un fattore, che viene c
 4. $\sim$ complemento bit a bit
 	0-1; 1-0
 5. $<<$ traslazione a sinistra e >> traslazione a destra: `a>>b` 
-	operatore binario che trasla di `b` bit i singoli bit di `a`. Esempio: `19 (10011)>>2 = 4(100)` 
+	operatore binario che trasla di `b` bit i singoli bit di `a`. Esempio: `19 (10011)>>2 = 4(100)` 	
+# Operatori di confronto
+Sono eseguibili sui tipi predefiniti (o aritmetici) e restituiscono un valore booleano. Si distinguono tra operatori di uguaglianza (== e !=) e operatori di relazione (>>, >=, ecc), i primi hanno precedenza inferiore.
+
 # Altri operatori
 1. Assegnamento
 	1. =
@@ -71,6 +74,7 @@ Le parentesi tonde fanno diventare qualunque espressione un fattore, che viene c
 	4. sx $\to$ dx
 	5. bho
 3. Operatore `sizeof(variabile)` c++
+	char = bool = 1; short = 2; int = long = float = 4; double = 8; long double = 12;
 4. Virgola
 	1. `,`
 	2. binario
