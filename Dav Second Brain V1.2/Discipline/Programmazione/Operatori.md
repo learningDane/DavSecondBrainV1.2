@@ -81,3 +81,4 @@ Sono eseguibili sui tipi predefiniti (o aritmetici) e restituiscono un valore bo
 	3. infisso
 	4. sx $\to$ dx
 	5. ha la priorità più bassa di tutti
+	Restituisce il valore della seconda espressione, il valore della prima espressione viene ignorato.

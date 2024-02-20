@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Materie Ingegneria informatica.md",
+                "file": "UNI/Materie Ingegneria informatica Unipi.md",
                 "mode": "source",
                 "source": false
               },
@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "999f5f737796b167",
+            "id": "e11d192df10c6f85",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "8ecc6e1bb4772dab",
+            "id": "08ffc5818a90aa42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -58,9 +58,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc89da49bf7fa2d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Programmazione/C++.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -89,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "massimo",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/C++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
+                "file": "Discipline/Programmazione/C++.md"
               }
             }
           }
@@ -201,21 +213,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "999f5f737796b167",
+  "active": "dc89da49bf7fa2d3",
   "lastOpenFiles": [
-    "Discipline/Programmazione/Operatori.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Operatori.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "Discipline/Programmazione/Linguaggio di Programmazione.md",
+    "Home/Daily Notes/2023/20-02-2024.md",
     "Discipline/Programmazione/Conversioni di Variabili.md",
     "Discipline/Programmazione/Variabili.md",
     "Pasted image 20240219161113.png",
-    "UNI/Materie Ingegneria informatica.md",
     "Home/Daily Notes/2023/19-02-2024.md",
     "Discipline/Programmazione/Memoria RAM.md",
     "Oggetti.md",
     "Discipline/Programmazione/Informazione.md",
-    "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Cambio di Base.md",
-    "Discipline/Programmazione/Linguaggio di Programmazione.md",
     "Rappresentazione in Virgola Fissa.md",
     "Rappresentazione in Virgola Mobile.md",
     "Rappresentazione con Bias dei Numeri Naturali.md",
