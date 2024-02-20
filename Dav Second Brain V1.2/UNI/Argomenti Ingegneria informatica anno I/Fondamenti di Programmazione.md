@@ -1,4 +1,4 @@
-#uni p0 fatta, p1.145
+#uni p0 fatta, p1.156
 p1.123!!!
 Marco Cococcioni - CLion
 [[Introduzione alla Programmazione]] 

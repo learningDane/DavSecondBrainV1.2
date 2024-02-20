@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/C++.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/C++.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/C++.md"
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
               }
             }
           }
@@ -213,10 +213,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "dc89da49bf7fa2d3",
+  "active": "e11d192df10c6f85",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/C++.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Operatori.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Programmazione/Linguaggio di Programmazione.md",

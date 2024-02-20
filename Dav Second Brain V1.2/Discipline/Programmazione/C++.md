@@ -164,6 +164,37 @@ Col comando di esecuzione del programma, lo _stream_ `cout` può essere ridirett
 # Concetto di Funzione
 Una variabile dichiarata all'interno di una funzione si dice locale ed è visibile solo all'interno di essa. Lo stesso nome usato su variabili in funzione diverse si riferisce ad oggetti diversi. La memoria per queste variabili locali viene assegnata alla chiamata di una istanza di uan funzione e viene deallocata alla fine della medesima istanza, le variabili locali infatti non mantengono il valore tra le diverse istanze della stessa funzione.
 Una funzione può chiamare altre funzioni, ma se una funzione chiama un'altra istanza di se stessa, si dice ___ricorsiva___. 
+# Librerie
+Una libreria è un insieme di funzioni precompilate. Ogni libreria è formata da coppie di file, in uno vi è la dichiarazione delle funzioni (.h) e nell'altro vi è il corpo delle funzioni (.cpp).
+Per includere una libreria bisogna usare la direttiva `#include`.
+Queste sono le componenti della ___libreria std___.
+1. cstdlib
+	abs(n)
+	rand(), casuale tra zero e RAND_MAX
+	srand(n) inizializza la funzione rand()
+2. cctype
+	isalnum(c)
+	isalpha(c)
+	isdigit(c)
+	islower(c)
+	isprint(c)
+	isspace(c)
+	isupper(c)
+3. cmath (x è double)
+	sin(x)
+	cos(x)
+	tan(x)
+	asin(x)
+	acos(x)
+	atan(x)
+	exp(x)
+	log(x)
+	log10(x)
+	fabs(x)
+	ceil(x)
+	floor(x)
+	pow(x,y) //x^y
+	sqrt(x)
 # Classi
 ### C-String
 Una stringa è una array di _char_ avente lunghezza arbitraria e che ad un certo punto contiene il carattere di arresto `\0`.
