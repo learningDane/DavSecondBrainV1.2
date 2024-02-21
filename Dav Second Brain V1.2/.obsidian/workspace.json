@@ -36,12 +36,24 @@
             }
           },
           {
-            "id": "e11d192df10c6f85",
+            "id": "37149389bf55efdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7fe21038503572a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Programmazione/Variabili.md",
                 "mode": "source",
                 "source": false
               }
@@ -213,16 +225,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "e11d192df10c6f85",
+  "active": "37149389bf55efdb",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Variabili.md",
+    "Discipline/Programmazione/Operatori.md",
     "Discipline/Programmazione/C++.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
-    "Discipline/Programmazione/Operatori.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
-    "Discipline/Programmazione/Linguaggio di Programmazione.md",
     "Home/Daily Notes/2023/20-02-2024.md",
+    "Discipline/Programmazione/Linguaggio di Programmazione.md",
     "Discipline/Programmazione/Conversioni di Variabili.md",
-    "Discipline/Programmazione/Variabili.md",
     "Pasted image 20240219161113.png",
     "Home/Daily Notes/2023/19-02-2024.md",
     "Discipline/Programmazione/Memoria RAM.md",

@@ -60,6 +60,22 @@ cout << oggi << endl; //8, conversione implicita
 enum {rosso, giallo, verde} semaforo;
 semaforo = rosso;
 ```
+# Tipi Derivati
+1. riferimenti
+	è un identificatore che individua un oggetto, non si possono creare riferimenti a riferimenti. Deve sempre essere dichiarato ed inizializzato.  I riferimenti sono utilissimi usati come argomenti di funzioni. Un riferimento const può avere come argomento una variabile, ma non il contrario. `int &nome = variabile;` , `const_cast` converte un riferimento const in un riferimento non const.
+2. puntatori
+	Un puntatore è un oggetto il cui valore rappresenta l'indirizzo di un altro oggetto o di una funzione. Se un puntatore è const non si può usarlo per modificare l'oggetto a cui punta, anche se non const. Se provato a stampare restituisce il valore esadecimale dell'indirizzo contenuto. Molto utili come parametri di funzioni, come i riferimenti. Usati nelle liste e nelle array dinamiche. `int*puntatore = &variabile;` 
+3. array
+	l'identificatore di una array identifica l'indirizzo del primo elemento della array.
+	___Aritmetica dei puntatori___:
+		se l'espressione p rappresenta l'indirizzo di un oggetto di tipo T, allora l'espressione (p+1) rappresenta l'indirizzo di un oggetto sempre di tipo T, che si trova successivamente in memoria. 
+		Se p=addr e il tipo T occupa n locazioni di memoria allora `(p+i) = addr+ni.` 
+	`int nome[dimensione] = {a,b,c};`
+	___Array multidimensionali___:
+		ogni elemento della prima array è come se fosse un puntatore ad un'altra array. `int nome[larghezza][altezza][lunghezza];` 
+1. strutture
+2. unioni
+3. classi
 # Costanti
 ### In memoria
 ### Operazioni
