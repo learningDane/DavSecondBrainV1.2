@@ -164,6 +164,8 @@ Col comando di esecuzione del programma, lo _stream_ `cout` può essere ridirett
 # Concetto di Funzione
 Una variabile dichiarata all'interno di una funzione si dice locale ed è visibile solo all'interno di essa. Lo stesso nome usato su variabili in funzione diverse si riferisce ad oggetti diversi. La memoria per queste variabili locali viene assegnata alla chiamata di una istanza di uan funzione e viene deallocata alla fine della medesima istanza, le variabili locali infatti non mantengono il valore tra le diverse istanze della stessa funzione.
 Una funzione può chiamare altre funzioni, ma se una funzione chiama un'altra istanza di se stessa, si dice ___ricorsiva___. 
+# Stringhe
+Una stringa è una sequenza di caratteri. In c++ non esiste il tipo stringa, sono invece delle array di caratteri, che memorizzano stringhe (un carattere per elemento) e il carattere nullo `'\0'` finale. Gli operatori di ingresso ed uscita accettano stringhe come argomento: l'operatore di ingresso legge i caratteri dallo stream di ingresso, saltando eventuali spazi bianchi in testa e li memorizza in sequenza fino a che non incontra un carattere spazio, che viene registrato come carattere nullo ed indica la fine della stringa.
 # Librerie
 Una libreria è un insieme di funzioni precompilate. Ogni libreria è formata da coppie di file, in uno vi è la dichiarazione delle funzioni (.h) e nell'altro vi è il corpo delle funzioni (.cpp).
 Per includere una libreria bisogna usare la direttiva `#include`.
@@ -195,16 +197,11 @@ Queste sono le componenti della ___libreria std___.
 	floor(x)
 	pow(x,y) //x^y
 	sqrt(x)
-# Classi
-### C-String
-Una stringa è una array di _char_ avente lunghezza arbitraria e che ad un certo punto contiene il carattere di arresto `\0`.
-Una qualunque array: `char stringa[] = {'p','a','r','o','l','a'};` 
-Letterale stringa: `char stringa[] = "parola";` 
-Come su tutte le array non si possono usare gli operatori di assegnamento sui letterali stringa, si possono solo usare durante l'inizializzazione, input ed output.
 #### Libreria `<cstring>` 
-1. `strlen()` restituisce un intero che è il numero di caratteri (length).
-2. `strcpy()` copia una stringa dentro un'altra stringa destinazione.
-3. `strcmp()` è una sorta di operatore confronto, restituisce un numero positivo, negativo, oppure 0.
-4. `tolower()` rende tutti i caratteri minuscoli.
-5. `toupper()` rende tutti i caratteri maiuscoli.
-6. `strcat()` concatena due stringhe in una sola.
+1. `strlen(const char str)` restituisce un intero che è il numero di caratteri (length). Non conta il carattere nullo.
+2. `strcpy(char dest, const char sorg)` copia una stringa dentro un'altra stringa destinazione.
+3. `strcmp(const char str1. const char str2)` è una sorta di operatore confronto, restituisce un numero positivo, negativo, oppure 0.
+4. `tolower(char str)` rende tutti i caratteri minuscoli.
+5. `toupper(char str)` rende tutti i caratteri maiuscoli.
+6. `strcat(char dest, const char sorg)` concatena due stringhe in una sola.
+7. `strchr(const char str, char c)` restituisce un puntatore alla prima occorrenza di `c` in `str` oppure `0` se non ne trova.

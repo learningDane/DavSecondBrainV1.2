@@ -73,6 +73,7 @@ semaforo = rosso;
 	`int nome[dimensione] = {a,b,c};`
 	___Array multidimensionali___:
 		ogni elemento della prima array è come se fosse un puntatore ad un'altra array. `int nome[larghezza][altezza][lunghezza];` 
+	[[Algoritmi di Ordinamento Array]] 
 1. strutture
 2. unioni
 3. classi
