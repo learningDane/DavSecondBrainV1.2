@@ -16,7 +16,7 @@ I tipi si dividono in:
 # Luogo di Definizione
 Se una variabile viene definita al di fuori di una funzione, viene immagazzinata nella memoria statica e viene chiamata variabile ___globale___, che viene caricata all'avviarsi del programma e distrutta quando il programma si chiude.
 Un altro modo per condividere una variabile tra funzioni è _static_:  `static int;`.
-Esiste poi la memoria dinamica ___"Heap"___. `new*variabile = new int;` per esempio alloca una int nello heap e crea un puntatore di nome variabile a quell'allocazione.
+Esiste poi la memoria dinamica ___"Heap"___ [[Memoria Dinamica]].
 # Condividere Variabili tra file
 Per condividere una variabile va definita globalmente e con il tag _external_: `external int variabile;`.
 # Intero

@@ -1,0 +1,4 @@
+#uni 
+Quando si vuole gestire manualmente la memoria si utilizza l'___Heap___, che al contrario dello ___Stack___ che viene gestito automaticamente dall'OS, permette di allocare ed eliminare la memoria a piacimento.
+Si utilizza per esempio nei casi in cui non si sa al momento della scrittura quale siano le dimensioni di una array, non è possibile infatti definire una array di dimensioni variabili poiché la memoria nello _stack_ viene allocata prima della partenza del programma.
+È invece possibile allocare memoria nello _Heap_ a piacimento durante l'esecuzione del programma, gli oggetti così ottenuti sono detti _dinamici_ e sono allocati nella _memoria libera_.
