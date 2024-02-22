@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "2cc3cec56a0ba45f",
+            "id": "e0698dd9c7e03c03",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,33 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b6896fc1650cafcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Preprocessore.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d5828a35617b88c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Classe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,13 +94,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -140,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/Preprocessore.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/Preprocessore.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/Preprocessore.md"
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
               }
             }
           }
@@ -214,26 +188,29 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b6896fc1650cafcc",
+  "active": "e0698dd9c7e03c03",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Programmazione/Preprocessore.md",
-    "Controllo sugli Stream.md",
+    "Discipline/Programmazione/Collegamento.md",
+    "Life.md",
+    "Discipline/Programmazione/Namespace.md",
+    "Discipline/Programmazione/media/Pasted image 20240222231103 1.png",
+    "Discipline/Programmazione/Operatori.md",
+    "Discipline/Programmazione/media/Pasted image 20240222231040 1.png",
+    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+    "Discipline/Programmazione/Controllo sugli Stream.md",
     "Discipline/Programmazione/Classe.md",
-    "Collegamento.md",
     "Discipline/Programmazione/Variabili.md",
     "Discipline/Programmazione/Memoria RAM.md",
-    "Moduli.md",
+    "Discipline/Programmazione/Moduli.md",
     "Discipline/Programmazione/File in c++.md",
     "Discipline/Programmazione/Puntatore.md",
     "Home/Daily Notes/2023/22-02-2024.md",
-    "Compilazione e Linking.md",
+    "Discipline/Programmazione/Compilazione e Linking.md",
     "Discipline/Programmazione/C++.md",
-    "Namespace.md",
-    "Discipline/Programmazione/Operatori.md",
     "Discipline/Programmazione/Struct.md",
-    "Memoria Dinamica.md",
+    "Discipline/Programmazione/Memoria Dinamica.md",
     "Discipline/Programmazione/Riferimento in c++.md",
     "Discipline/Programmazione/Unione.md",
     "Discipline/Programmazione/Nuggets per l'esame.md",
@@ -242,7 +219,6 @@
     "Discipline/Programmazione/media",
     "Discipline/Programmazione/Char.md",
     "Discipline/Programmazione/Pila in c++.md",
-    "Discipline/Programmazione/Array.md",
     "Discipline/Programmazione/media/Pasted image 20240219161113.png",
     "Discipline/Matematica/media/Immagine 2023-10-09 133838 1.png",
     "Discipline/Finanza",

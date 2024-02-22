@@ -10,14 +10,14 @@ Queste operazioni sono controllate dalle _direttive_ per il preprocessore (quell
 # Define
 `#define identificatore token-string` 
 Con define posso fare si che il preprocessore sostituisca ogni istanza del mio identificatore con il valore _token-string_.
-Si può anche usare come macro:
+Si può anche usare come ___macro___, ovvero un simbolo che viene sostituito con una sequenza di elementi lessicali (la sua definizione):
 `#define massimo(A,B) ((A)>(B) ? (A) : (B))`
 Quindi ogni volta che il preprocessore trova _massimo(A,B)_ lo sostituisce con il numero più grande.
 # Compilazione condizionale
 `#if, #elif, #else, #endif`.
 ### Forme Concise
-`#ifdef = #if defined`
-`#ifndef = #if !defined`
+`#ifdef = #if defined identifier`
+`#ifndef = #if !defined identifier` 
 ### Define a riga di comando
 Linux: `g++ -DLINUX main.cpp -o main.exe`
 # Evitare la doppia implementazione di un file

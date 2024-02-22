@@ -91,3 +91,6 @@ Sono eseguibili sui tipi predefiniti (o aritmetici) e restituiscono un valore bo
 	In casi in cui oggetti diversi hanno stesso identificatore, serve a specificare a quale ci si riferisce, eg: `miaClasse::identificatore = blah;`.
 	Si antepone la namespace da quale si vuole prendere l'oggetto e si postpone l'identificatore.
 	Se non si antepone nulla vuol dire che ci si riferisce all'oggetto di visibilità locale piuttosto che globale, eg: `cout << ::identificatore << endl;`.
+# Tabella della priorità degli operatori
+![[Pasted image 20240222231040 1.png]]
+![[Pasted image 20240222231103 1.png]]
