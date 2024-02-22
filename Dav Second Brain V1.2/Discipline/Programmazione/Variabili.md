@@ -53,8 +53,8 @@ semaforo = rosso;
 4. [[Struct]] 
 	[[Pila in c++]] 
 	[[Coda in c++]] 
-1. [[Unione]]  
-2. [[Classe]] 
+5. [[Unione]]  
+6. [[Classe]] 
 # Costanti
 ### In memoria
 ### Operazioni

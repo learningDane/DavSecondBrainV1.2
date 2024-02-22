@@ -82,3 +82,12 @@ Sono eseguibili sui tipi predefiniti (o aritmetici) e restituiscono un valore bo
 	4. sx $\to$ dx
 	5. ha la priorità più bassa di tutti
 	Restituisce il valore della seconda espressione, il valore della prima espressione viene ignorato.
+5. Risoluzione di visibilità
+	1. `::`
+	2. unario
+	3. prefisso
+	4. sx -> dx
+	5. bho
+	In casi in cui oggetti diversi hanno stesso identificatore, serve a specificare a quale ci si riferisce, eg: `miaClasse::identificatore = blah;`.
+	Si antepone la namespace da quale si vuole prendere l'oggetto e si postpone l'identificatore.
+	Se non si antepone nulla vuol dire che ci si riferisce all'oggetto di visibilità locale piuttosto che globale, eg: `cout << ::identificatore << endl;`.

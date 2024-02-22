@@ -1,4 +1,4 @@
-#uni p0 fatta, p1.258
+#uni p0 fatta, p1 fatta, p2.3
 p1.123!!!
 Marco Cococcioni - CLion
 [[Introduzione alla Programmazione]] 
@@ -12,7 +12,10 @@ Marco Cococcioni - CLion
 [[Conversioni di Variabili]] 
 [[Char]] 
 [[Librerie]] 
+[[Namespace]] 
+[[Collegamento]] 
 [[Moduli]] 
+[[Compilazione e Linking]] 
 [[File in c++]] 
 [[Classe]] e [[Struct]] 
 [[Puntatore]] 
