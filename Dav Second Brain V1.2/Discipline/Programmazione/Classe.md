@@ -51,8 +51,14 @@ I costruttori vengono chiamati:
 	3. per oggetti dinamici quando viene incontrato l'operatore _new_. [[Memoria Dinamica]]
 	4. per oggetti membro di altri oggetti, quando questi ultimi vengono costruiti.
 	Un campo dati con l'attributo _const_ viene ___inizializzato___ nel momento in cui viene  definito il primo oggetto appartenente alla classe. 
-L'___inizializzazione___ avviene tramite la ___lista di inizializzazione___ del costruttore. In una classe si possono dichiarati riferimenti non inizializzati purché siano inizializzati con la lista di inizializzazione.
+### Lista di inizializzazione
+L'___inizializzazione___ dei membri può essere fatta tramite una ___lista di inizializzazione___ del costruttore: `Classe(tipo identificatore, tipo identificatore) : membro(argomento), membro(argomento) {corpo}` 
+In una classe si possono dichiarati riferimenti non inizializzati purché siano inizializzati con la lista di inizializzazione.
 Se qualche classe secondaria prevede argomenti formali allora deve essere definito un costruttore anche per la classe principale e questo deve possedere una ___lista di inizializzazione___.
+Quindi ricapitolando una lista si rende necessario per:
+	1. costanti
+	2. classi secondarie
+	3. riferimenti
 ### Costruttore di Copia
 Il costruttore di copia predefinito è una funzione che agisce fra due oggetti della stessa classe effettuando una ricopiatura membro a membro dei campi dati.
 Viene applicato:

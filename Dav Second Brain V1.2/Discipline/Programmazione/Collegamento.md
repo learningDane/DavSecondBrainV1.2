@@ -5,7 +5,7 @@ Un programma può essere formato da più unità di compilazione, che vengono svi
 	  In questo caso tale entità deve essere unica in tutto il programma.
 La regola di default è che:
 	- gli identificatori con visibilità locale hanno collegamento interno.
-	- gli identificatori con visibilità a livello di unità di compilazione hanno collegamento esterno (a meno che non siano _const_).
+	- gli identificatori con visibilità a livello di unità di compilazione hanno collegamento esterno (a meno che non siano ___const___).
 # Static
 Oltre al luogo di dichiarazione, sulla visibilità influisce anche la parola chiave ___static___:
 	1. quando applicata ad una variabile dichiarata in una funzione, la rende persistente tra diverse istanze della funzione, facendole ritenere il suo valore.

@@ -41,9 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/Collegamento.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "ce2204d83deedcf5",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
               }
             }
           }
@@ -77,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "static",
+                "query": "collegamento es",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/Collegamento.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
+                "file": "Discipline/Programmazione/Collegamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md"
+                "file": "Discipline/Programmazione/Collegamento.md"
               }
             }
           }
@@ -190,9 +201,12 @@
   },
   "active": "e0698dd9c7e03c03",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Classe.md",
+    "Discipline/Programmazione/C++.md",
+    "Discipline/Programmazione/Collegamento.md",
+    "Home/Daily Notes/2023/22-02-2024.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Programmazione/Preprocessore.md",
-    "Discipline/Programmazione/Collegamento.md",
     "Life.md",
     "Discipline/Programmazione/Namespace.md",
     "Discipline/Programmazione/media/Pasted image 20240222231103 1.png",
@@ -200,15 +214,12 @@
     "Discipline/Programmazione/media/Pasted image 20240222231040 1.png",
     "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/Controllo sugli Stream.md",
-    "Discipline/Programmazione/Classe.md",
     "Discipline/Programmazione/Variabili.md",
     "Discipline/Programmazione/Memoria RAM.md",
     "Discipline/Programmazione/Moduli.md",
     "Discipline/Programmazione/File in c++.md",
     "Discipline/Programmazione/Puntatore.md",
-    "Home/Daily Notes/2023/22-02-2024.md",
     "Discipline/Programmazione/Compilazione e Linking.md",
-    "Discipline/Programmazione/C++.md",
     "Discipline/Programmazione/Struct.md",
     "Discipline/Programmazione/Memoria Dinamica.md",
     "Discipline/Programmazione/Riferimento in c++.md",
