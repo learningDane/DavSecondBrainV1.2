@@ -1,4 +1,4 @@
-#uni p0 fatta, p1.217
+#uni p0 fatta, p1.256
 p1.123!!!
 Marco Cococcioni - CLion
 [[Introduzione alla Programmazione]] 
@@ -14,7 +14,7 @@ Marco Cococcioni - CLion
 [[Librerie]] 
 [[Moduli]] 
 [[File in c++]] 
-[[Classi]] e [[Struct]] 
-[[Puntatori]] 
+[[Classe]] e [[Struct]] 
+[[Puntatore]] 
 [[Preprocessore]] 
 [[Nuggets per l'esame]] 

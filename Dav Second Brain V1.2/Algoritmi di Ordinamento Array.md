@@ -14,3 +14,17 @@ for (int i = 0; i < n-1; i++) {
 }
 ```
 La complessità di questo algoritmo è dell'ordine $n^2$.
+# Bubble Sort
+Si scorre l'array $n-1$ volte, dove $n$ è il numero di elementi nella array scambiando due elementi contigui se non sono nell'ordine giusto. 
+```
+void bubbleSort(int vettore[], int n) {
+for (int i = 0; i < n-1; i++) {
+	for (int j = n-1; j > i; j--) {
+		if (vettore[j] < vettore[j-1]) {
+			scambia(vettore, j, j-1);
+		}
+	}
+}
+}
+```
+La complessità di questo algoritmo è dell'ordine $n^2$.

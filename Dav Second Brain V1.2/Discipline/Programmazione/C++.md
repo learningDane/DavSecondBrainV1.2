@@ -164,6 +164,12 @@ Col comando di esecuzione del programma, lo _stream_ `cout` può essere ridirett
 # Concetto di Funzione
 Una variabile dichiarata all'interno di una funzione si dice locale ed è visibile solo all'interno di essa. Lo stesso nome usato su variabili in funzione diverse si riferisce ad oggetti diversi. La memoria per queste variabili locali viene assegnata alla chiamata di una istanza di uan funzione e viene deallocata alla fine della medesima istanza, le variabili locali infatti non mantengono il valore tra le diverse istanze della stessa funzione.
 Una funzione può chiamare altre funzioni, ma se una funzione chiama un'altra istanza di se stessa, si dice ___ricorsiva___. 
+La struttura di una funzione è la seguente: `tipo nome(parametri) {corpo}` 
+___Argomenti di Default___:
+	La funzione può avere argomenti di default che entrano in gioco quando la funzione viene chiamata omettendo argomenti che hanno un valore di default: `tipo nome(int intero, int intero2, int intero3 = 6) {corpo}.`
+	Gli argomenti di default devono essere gli ultimi e durante la chiamata i dati omessi devono trovarsi in ultima posizione.
+___Overloading___:
+	Uno stesso identificatore (nome) può definire due o più funzioni diverse a patto che abbiano argomenti diversi.
 # Stringhe
 Una stringa è una sequenza di caratteri. In c++ non esiste il tipo stringa, sono invece delle array di caratteri, che memorizzano stringhe (un carattere per elemento) e il carattere nullo `'\0'` finale. Gli operatori di ingresso ed uscita accettano stringhe come argomento: l'operatore di ingresso legge i caratteri dallo stream di ingresso, saltando eventuali spazi bianchi in testa e li memorizza in sequenza fino a che non incontra un carattere spazio, che viene registrato come carattere nullo ed indica la fine della stringa.
 # Librerie

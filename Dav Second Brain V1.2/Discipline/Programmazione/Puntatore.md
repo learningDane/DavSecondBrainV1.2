@@ -1,5 +1,6 @@
 #uni
-Un puntatore è un intero la cui informazione è semplicemente l'indirizzo di un'altra variabile. È possibile specificare il tipo di variabile alla quale punta per definirne le operazioni su. 
+Un puntatore è un oggetto il cui valore rappresenta l'indirizzo di un altro oggetto o di una funzione. Se un puntatore è const non si può usarlo per modificare l'oggetto a cui punta, anche se non const. Se provato a stampare restituisce il valore esadecimale dell'indirizzo contenuto. Molto utili come parametri di funzioni, come i riferimenti. Usati nelle liste e nelle array dinamiche.
+
 ```
 int intero = 54;
 int*puntatore = &intero;
@@ -25,3 +26,7 @@ int main() {
 }
 ```
 Vengono anche usati nelle liste, dove uno dei membri di un nodo è l'indirizzo al nodo successivo.
+# Puntatore a Funzione
+I puntatori possono anche contenere indirizzi di funzioni.
+Definizione: `tipo (*nome) {corpo};`
+Chiamata attraverso il puntatore: `(*nome) (parametri);`
