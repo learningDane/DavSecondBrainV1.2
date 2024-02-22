@@ -1,4 +1,4 @@
-#uni p0 fatta, p1 fatta, p2.53
+#uni p0 fatta, p1 fatta, p2.78
 p1.123!!!
 Marco Cococcioni - CLion
 [[Introduzione alla Programmazione]] 
@@ -16,6 +16,7 @@ Marco Cococcioni - CLion
 [[Collegamento]] 
 [[Moduli]] 
 [[Compilazione e Linking]] 
+[[Controllo sugli Stream]] 
 [[Classe]] e [[Struct]] 
 [[Puntatore]] 
 [[Preprocessore]] 

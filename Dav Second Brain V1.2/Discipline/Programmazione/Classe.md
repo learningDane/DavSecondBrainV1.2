@@ -12,6 +12,7 @@ public:
 ```
 Oltre a private: e public: vi è uno stato intermedio: ___protected:___
 	un membro protetto è come un membro _private_ solo che è anche accessibile alle classi derivate e alle funzioni amiche.
+Inoltre la visibilità di un membro viene anche cambiata dalla parola chiave ___static___ [[Collegamento#Static]]. 
 
 Le funzioni membro oltre che essere dichiarate all'interno della classe, possono essere dichiarate al di fuori di essa tramite l'operatore di risoluzione di visibilità [[Operatori#Altri operatori]].
 Un oggetto appartenente ad una classe si chiama oggetto classe o istanza della classe.
@@ -22,6 +23,8 @@ All'esterno della classe si può accedere ai membri interni ad una classe tramit
 	2. un tipo se dichiarato _public_
 	3. statici
 Quindi l'operatore non può essere applicato a campi dati non statici.
+
+Ad oggetti classe costanti possono solo essere applicate ___funzioni membro costanti___: `tipo identificatore() const;`
 # Puntatore ___this___ 
 Nel corpo di una funzione membro,ci si riferisce alla corrente istanza della classe a cui la funzione viene applicata tramite il puntatore predefinito ___this___.
 ```
