@@ -7,5 +7,5 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Grandezze in Fisica]] 
 [[Misura in Fisica]] 
 ### Principi della Meccanica
-a
+
 ### Principi dell'Elettromagnetismo nel Vuoto

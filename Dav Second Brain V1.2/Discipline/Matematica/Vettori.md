@@ -13,7 +13,7 @@ Un vettore è un segmento orientato, cioè un segmento $AB$ i cui estremi sono c
 	$\vec x=(x_1,...,x_n)$  e  $\vec y = (y_1,....y_n)$  $$\vec x \bullet \vec y\ \  oppure \ <\vec x , \ \vec y> \ = \ x_1 y_1 + x_2 y_2 +\ ...\ + x_n y_n$$$$<\vec x,\vec y> \ =||\vec x||\cdot ||\vec y|| \cdot cos \gamma$$
 	Prorietà:
 	- $<\vec x , \vec y + \vec z> \  =  \ < \vec x, \vec y> + < \vec x , \vec z >$
-	- $< a \cdot \vec x , \vec y > = a\  \cdot < \vec x, \ vec y$
+	- $< a \cdot \vec x , \vec y > = a\  \cdot < \vec x, \vec y>$   
 - ___Norma___ 
 	Dato un vettore $\vec x=(x_1,...,x_n)$  e  $a\in R$  la sua Norma è $$|| \vec x|| = \sqrt {x_1 ^2 + x_2^2 +\ ...\ + x_n ^2}$$ ossia $$||\vec x || = \sqrt{<\vec x,\ \vec x>}$$ Ed è la lunghezza (modulo) del vettore.
 - ___Distanza tra due vettori___
