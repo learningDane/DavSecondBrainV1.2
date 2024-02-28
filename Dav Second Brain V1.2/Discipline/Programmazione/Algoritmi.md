@@ -21,7 +21,16 @@ Algoritmi equivalenti:
 2. hanno lo stesso dominio di uscita.
 3. In corrispondenza degli stessi valori del dominio di ingresso producono gli stessi valori del dominio di uscita.
 Quindi: _forniscono lo stesso risultato, ma possono avere diversa efficienza e possono essere profondamente diversi_.
-# Algoritmi di Ordinamento
-### Selection-Sort
-
-### Bubble-Sort
+# Complessità
+Ogni algoritmo è caratterizzato da una sua [[Complessità]].
+# Istanze
+Ogni istanza di uno stesso problema sono caratterizzate da dati diversi ed ogni istanza, a parità di dimensione può richiedere tempo diverso. Esistono quindi caso _migliore_, _peggiore_ e _medio_.
+# Concetti Chiave
+1. problema
+2. istanza
+3. efficienza
+4. caso peggiore
+5. modello di calcolo
+6. correttezza
+7. dimensione dell'istanza
+[[Algoritmi di Ordinamento Array]] 
