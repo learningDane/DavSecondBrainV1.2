@@ -1,7 +1,7 @@
 #uni 
 Gregory Pearlstein - SageMath
 [[Spazi vettoriali]] 
-[[Vettori]]
+[[Vettori]] 
 [[Piani nello Spazio]] 
 [[Sistemi Lineari]]
 [[Matrici]]

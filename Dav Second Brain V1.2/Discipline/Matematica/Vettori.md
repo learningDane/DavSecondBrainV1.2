@@ -10,7 +10,7 @@ Un vettore è un segmento orientato, cioè un segmento $AB$ i cui estremi sono c
 - ___Prodotto per uno scalare___
 	$\vec x=(x_1,...,x_n)$  e  $a\in R$ $$a\vec x = (ax_1, ..., ax_n)$$
 - ___Prodotto scalare___ Canonico
-	$\vec x=(x_1,...,x_n)$  e  $\vec y = (y_1,....y_n)$  $$\vec x \bullet \vec y\ \  oppure \ <\vec x , \ \vec y> \ = \ x_1 y_1 + x_2 y_2 +\ ...\ + x_n y_n$$$$<\vec x,\vec y> \ =||\vec x||\cdot ||\vec y|| \cdot cos \gamma$$
+	$\vec x=(x_1,...,x_n)$  e  $\vec y = (y_1,....y_n)$ $$\vec x \bullet \vec y\ \  oppure<\vec x,\vec y> \ =||\vec x||\cdot ||\vec y|| \cdot cos \gamma = \ x_1 y_1 + x_2 y_2 +\ ...\ + x_n y_n$$
 	Prorietà:
 	- $<\vec x , \vec y + \vec z> \  =  \ < \vec x, \vec y> + < \vec x , \vec z >$
 	- $< a \cdot \vec x , \vec y > = a\  \cdot < \vec x, \vec y>$   

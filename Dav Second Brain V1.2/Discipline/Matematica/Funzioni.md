@@ -132,67 +132,40 @@ se $f \in C([a,b]) \ , \ f \ derivabile \ in \ ]a,b[ \\ {x_0} \ , \ \lim_{x\to x
 
 # Principali Funzioni
 ###### Funzione esponenziale $y=x^2$ 
-```chart
-type: line
-labels: [-3,-2,-1,0,1,2,3]
-series:
-  - title: x axis
-	data: [0,0,0,0,0,0,0,0,0]
-	series:
-  - title: f(x)
-	data: [9,4,1,0,1,4,9]
-  - title:
-	data: [-3]
-tension: 0.2
-width: 80%
-labelColors: false
-fill: false
-beginAtZero: false
-bestFit: false
-bestFitTitle: undefined
-bestFitNumber: 0
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-3,10]
+disableZoom: true
+grid: true
+---
+y(x)=x^2
 ```
+
 ###### Funzione Logaritmica $y=\ln x$ 
-```chart
-type: line
-labels: [0,0.5,1,1.5,2,2.5,3,3.5,4,4.5,5,5.5,6]
-series:
-  - title: x axis
-	data: [0,0,0,0,0,0,0,0,0,0,0,0,0]
-	series:
-  - title: f(x)
-	data: [-15,-5,0,0.4,0.69331,0.91,1.1,1.25,1.39,1.5,1.61,1.70,1.9]
-  - title:
-	data: [10]
-tension: 0.2
-width: 80%
-labelColors: false
-fill: false
-beginAtZero: false
-bestFit: false
-bestFitTitle: undefined
-bestFitNumber: 0
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-3,10,-10,6]
+disableZoom: true
+grid: true
+---
+y(x)= log(x)
 ```
+
 ###### Funzione Tangente $y=\tan x$ 
-```chart
-type: line
-labels: [-4,-3.5,-3,-2.5,-2,-1.5,-1,-0.5,0,0.5,1,1.5,2,2.5,3,3.5,4]
-series:
-  - title: x axis
-	data: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
-	series:
-  - title: f(x)
-	data: [-1.2,-0.37,0.14,0.75,2.18,14]
-  - title: f(x)
-	data: [\,\,\,\,\,-14,-1.5,-0.54,0,0.54,1.5,14]
-  - title: f(x)
-	data: [\,\,\,\,\,\,\,\,\,\,\,-14,-1.5,-0.54,0,0.54,1.5]
-tension: 0.2
-width: 80%
-labelColors: false
-fill: false
-beginAtZero: false
-bestFit: false
-bestFitTitle: undefined
-bestFitNumber: 0
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: false
+grid: true
+---
+y(x)=tan(x)
 ```

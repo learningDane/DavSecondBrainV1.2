@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "382f86f029961095",
+            "id": "615eec366b6c3c31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Formula di Stirling.md",
+                "file": "Discipline/Matematica/Vettori.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Formula di Stirling.md",
+                "file": "Discipline/Matematica/Vettori.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Formula di Stirling.md",
+                "file": "Discipline/Matematica/Vettori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Formula di Stirling.md"
+                "file": "Discipline/Matematica/Vettori.md"
               }
             }
           }
@@ -188,37 +188,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "382f86f029961095",
+  "active": "615eec366b6c3c31",
   "lastOpenFiles": [
-    "Home/Daily Notes/2023/28-02-2024.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
-    "SQL.md",
-    "Basi di Dati.md",
-    "Introduzione ai Database.md",
-    "Complessità.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
-    "Informazioni sul Corso di Basi di Dati.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Logaritmi.md",
+    "Moto Uniformemente Accelerato.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+    "Moto Rettilineo Uniforme.md",
+    "Discipline/Fisica/Meccanica.md",
+    "Discipline/Programmazione/SQL.md",
+    "Esercizi MySql.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
+    "Home/Daily Notes/2023/29-02-2024.md",
+    "Dinamica.md",
+    "Statica.md",
+    "Discipline/Matematica/Formula di Stirling.md",
+    "Home/Daily Notes/2023/28-02-2024.md",
+    "Discipline/Programmazione/Introduzione ai Database.md",
+    "Discipline/Programmazione/Complessità.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
+    "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
     "Discipline/Programmazione/Algoritmi.md",
     "Home/Daily Notes/2023/27-02-2024.md",
     "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
     "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
     "Discipline/Matematica/Vettori.md",
     "Discipline/Matematica/Spazi vettoriali.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica II.md",
-    "Discipline/Fisica/Grandezze in Fisica.md",
-    "Home/Daily Notes/2023/26-02-2024.md",
-    "Discipline/Fisica/Tempo.md",
-    "Discipline/Fisica/Lunghezza.md",
-    "UNI/spam/Informazioni sul Corso di Fisica Generale I.md",
-    "Discipline/Fisica/Misura in Fisica.md",
-    "Discipline/Fisica/Massa.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
-    "Discipline/Fisica/Introduzione alla Fisica.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fondamenti di Programmazione.md",
     "Discipline/Programmazione/media/Pasted image 20240222231103 1.png",
     "Discipline/Programmazione/media/Pasted image 20240222231040 1.png",
     "Discipline/Programmazione/media",
