@@ -7,6 +7,7 @@ In un database vi sono più tabelle e possono essere combinate per formare una l
 SQL non è Case Sensitive.
 ### Chiave
 La chiave è l'identificatore di un ___Record___, è unica e quindi non può ripetersi e non può essere NULL.
+Ci sono poi le chiavi candidate, ovvero attributi in cui non ci sono ripetizioni, ma non sono chiavi a tutti gli effetti.
 ### Query
 ```MySQL
 SELECT Cognome, Nome  //proiezione  //oppure SELECT * se vuoi tutti gli attributi
@@ -74,19 +75,74 @@ Accanto ad una aggregazione posso solo mettere un'altro aggregazione e non altro
 	   `SELECT AVG(Reddito) AS RedditoTotale`
 # Query su più Tabelle
 Per riunire le tabelle si utilizza `JOIN`. 
-1. `natural join`
-2. `inner join`
-3. `left outer join`
-4. `self join`
-5. `cross join`
-6. `right outer join`
-affianca i record e li unifica in singole righe/
-EG voglio indicare nome e cognome dei medici che hanno effettuato almeno una visita: 
+1. `natural join`:
+   Combina una riga della prima tabella con una riga della seconda tabella se l'attributo ___omonimo___(che ha lo stesso nome) ha lo stesso valore in entrambe. 
+```SQL
+	SELECT DISTINCT M.Nome, M.Cognome
+	FROM Visita
+			NATURAL JOIN 
+			Medico;
+	//dove V ed M sono Alias per le tabelle.
 ```
-SELECT DISTINCT M.Nome, M.Cognome
-FROM Visita V
+2. `inner join` 
+   Crea tante righe quante ne ha la tabella con la quale vengono esplosi i campi.
+```SQL
+	SELECT DISTINCT M.Nome, M.Cognome
+	FROM Visita V
+		INNER JOIN
+		Medico M ON V.Medico = M.Matricola;
+	//dove V ed M sono Alias per le tabelle.
+```
+3. `left/right outer join` 
+   Date due tabelle, combinano ogni record della prima con tutti i record della seconda che soddisfano una condizione, mantenendo tutti i record di una delle due tabelle, riempendo gli attributi mancanti con NULL (sinistra->mantiene sinistra, destra ->mantiene destra).
+	```SQL
+	SELECT V.*
+	FROM Visitva V
+		LEFT OUTER JOIN
+		Medico M ON V.Medico = M.Matricola
+		WHERE Cognome IS NULL
+	   
+	```
+4. `self join` `(INNER JOIN)`
+	   Combina le righe di una tabella cone le riga di se stessa se si verifica la condizione
+```SQL
+indicare il codice fiscale dei pazienti che sono stati visitati più di una volta da un ostesso medico della clinica nel mese corrente
+SELECT DISTINCT V1.Paziente
+FROM Visita V1
 	INNER JOIN
-	Medico M ON V.Medico = M.Matricola;
-//dove V ed M sono Alias per le tabelle.
+	Visitaa V2 ON (
+		V.2Medico = V1.Medico
+		NAD V2.Paziente = V1.Paziente
+		AND V2.DATA <> V1.Data
+		)
+WHERE MONTH(V1.Data)=MONTH(CURRENT_DATE)
+	AND YEAR(V1.Data) = YEAR(CURRENT_DATE)
+	AND MONTH(V2.Data) = MONTH(CURRENT_DATE) 
+	AND YEAR(V2.Data) =  YEAR(CURRENT_DATE);
+//se non metto DISTINCT il paziente compare n-1 volte.
 ```
+5. `cross join`
+Se ci sono attributi su più tabelle che hanno lo stesso nome si verifica ambitguità e si rende necessario differenziarli con la ridenominazione, molto apprezzato l'uso dell'___UpperCamelCase___.
+Il join si può fare, con attenzione, su un numero di tabelle maggiore di due. 
+L'ordine non importa, tanto il DBS riscrive la query come meglio desidera. usati prima di una query per costruire risultati intermedi.
+```SQL
+WITH name1 AS
+(
+	SLECT ..
+	FROM ..
+	WHERE ..
+)
+, name2 AS
+(
+	S
+	F
+	W
+)
+SELECT COUNT(*)
+FROM 
+WHERE
+```
+# Common Table Expression (CTE)
+Sono ___result set___ dotati di identificatore che possono essere 
+
 [[Esercizi MySql]] 

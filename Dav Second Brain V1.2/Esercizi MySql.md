@@ -28,6 +28,6 @@ WHERE YEAR(DataLaurea) = YEAR(CURRENT_DATE)
 SELECT Matricola, Cognome
 FROM STUDENTI
 WHERE YEAR(DataIscrizione) < 5
-	AND DataLaure > (2010|05|30)
-	AND DataLaurea < (2011|1|1)
+	AND DataLaure > '2010-05-30'
+	AND DataLaurea < '2011-1-1'
 ```

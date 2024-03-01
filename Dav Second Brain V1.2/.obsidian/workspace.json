@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Vettori.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Vettori.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Vettori.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Vettori.md"
+                "file": "Discipline/Programmazione/SQL.md"
               }
             }
           }
@@ -190,6 +190,10 @@
   },
   "active": "615eec366b6c3c31",
   "lastOpenFiles": [
+    "Esercizi MySql.md",
+    "Discipline/Programmazione/SQL.md",
+    "Home/Daily Notes/2023/01-03-2024.md",
+    "Discipline/Matematica/Vettori.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Matematica/Funzioni.md",
@@ -198,8 +202,6 @@
     "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
     "Moto Rettilineo Uniforme.md",
     "Discipline/Fisica/Meccanica.md",
-    "Discipline/Programmazione/SQL.md",
-    "Esercizi MySql.md",
     "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
     "Home/Daily Notes/2023/29-02-2024.md",
     "Dinamica.md",
@@ -214,8 +216,6 @@
     "Home/Daily Notes/2023/27-02-2024.md",
     "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
     "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
-    "Discipline/Matematica/Vettori.md",
-    "Discipline/Matematica/Spazi vettoriali.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
