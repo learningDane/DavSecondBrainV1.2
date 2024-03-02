@@ -164,7 +164,7 @@ title:
 xLabel: 
 yLabel: 
 bounds: [-10,10,-10,10]
-disableZoom: false
+disableZoom: true
 grid: true
 ---
 y(x)=tan(x)

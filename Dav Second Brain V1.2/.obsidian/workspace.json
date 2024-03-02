@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "615eec366b6c3c31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investments 2024.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investments 2024.md",
+                "file": "UNI/Materie Ingegneria informatica Unipi.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Investments 2024.md",
+                "file": "UNI/Materie Ingegneria informatica Unipi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Investments 2024.md"
+                "file": "UNI/Materie Ingegneria informatica Unipi.md"
               }
             }
           }
@@ -188,10 +176,15 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "615eec366b6c3c31",
+  "active": "9266864c4efe4ed1",
   "lastOpenFiles": [
-    "Home/Random/Investments 2023.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Esercizi MySql.md",
+    "Discipline/Programmazione/SQL.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
+    "Discipline/Fisica/effetto Joule.md",
     "Investments 2024.md",
+    "Home/Random/Investments 2023.md",
     "Discipline/Programmazione/Rappresentazione in Modulo e Segno.md",
     "Discipline/Linux/Arch.md",
     "Piani nello Spazio.md",
@@ -199,23 +192,18 @@
     "Mappe Lineari.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Home/Daily Notes/2023/02-03-2024.md",
-    "Discipline/Programmazione/SQL.md",
-    "Esercizi MySql.md",
     "Home/Daily Notes/2023/01-03-2024.md",
     "Discipline/Matematica/Vettori.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
-    "Discipline/Matematica/Funzioni.md",
     "Discipline/Matematica/Logaritmi.md",
     "Moto Uniformemente Accelerato.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
     "Moto Rettilineo Uniforme.md",
     "Discipline/Fisica/Meccanica.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
     "Home/Daily Notes/2023/29-02-2024.md",
     "Dinamica.md",
     "Statica.md",
-    "Discipline/Matematica/Formula di Stirling.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
