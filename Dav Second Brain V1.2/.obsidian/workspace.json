@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Investments 2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Investments 2024.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Investments 2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md"
+                "file": "Investments 2024.md"
               }
             }
           }
@@ -190,8 +190,17 @@
   },
   "active": "615eec366b6c3c31",
   "lastOpenFiles": [
-    "Esercizi MySql.md",
+    "Home/Random/Investments 2023.md",
+    "Investments 2024.md",
+    "Discipline/Programmazione/Rappresentazione in Modulo e Segno.md",
+    "Discipline/Linux/Arch.md",
+    "Piani nello Spazio.md",
+    "Fattoriale.md",
+    "Mappe Lineari.md",
+    "Discipline/Matematica/Rappresentazione Parametrica.md",
+    "Home/Daily Notes/2023/02-03-2024.md",
     "Discipline/Programmazione/SQL.md",
+    "Esercizi MySql.md",
     "Home/Daily Notes/2023/01-03-2024.md",
     "Discipline/Matematica/Vettori.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
@@ -207,15 +216,6 @@
     "Dinamica.md",
     "Statica.md",
     "Discipline/Matematica/Formula di Stirling.md",
-    "Home/Daily Notes/2023/28-02-2024.md",
-    "Discipline/Programmazione/Introduzione ai Database.md",
-    "Discipline/Programmazione/Complessità.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
-    "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
-    "Discipline/Programmazione/Algoritmi.md",
-    "Home/Daily Notes/2023/27-02-2024.md",
-    "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
-    "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
