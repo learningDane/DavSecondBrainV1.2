@@ -1,6 +1,7 @@
 #uni 
 ___Traiettoria___: Insieme delle posizioni di un oggetto in funzione del tempo.
-_Legge Oraria_: $$x(t)=x_0+vt+\frac{1}{2}at^2$$La derivata della velocità è l'accelerazione.
+# Legge Oraria 
+$$x(t)=x_0+vt+\frac{1}{2}at^2$$La derivata della velocità è l'accelerazione.
 
 ```functionplot
 ---

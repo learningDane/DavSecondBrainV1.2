@@ -31,3 +31,16 @@ WHERE YEAR(DataIscrizione) < 5
 	AND DataLaure > '2010-05-30'
 	AND DataLaurea < '2011-1-1'
 ```
+• Indicare l’incasso totale degli ultimi due anni, realizzato grazie alle visite dei
+medici cardiologi della clinica.
+
+• Indicare il numero di pazienti di sesso femminile che, nel quarantesimo anno
+d’età, sono stati visitati, una o più volte, sempre dallo stesso gastroenterologo.
+
+• Indicare l’età media dei pazienti mai visitati da ortopedici.
+
+• Indicare nome e cognome dei pazienti che sono stati visitati non meno di due
+volte dalla dottoressa Gialli Rita.
+
+• Indicare il reddito medio dei pazienti che sono stati visitati solo da medici con
+parcella superiore a 100 euro, negli ultimi sei mesi.
