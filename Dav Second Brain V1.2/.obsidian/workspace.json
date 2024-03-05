@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insiemi in Spazi multidimensionali.md",
+                "file": "Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
                 "mode": "source",
                 "source": false
               }
@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Insiemi in Spazi multidimensionali.md",
+                "file": "Discipline/Programmazione/Complessità.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bubble",
+                "query": "ricerca bi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Insiemi in Spazi multidimensionali.md",
+                "file": "Discipline/Programmazione/Complessità.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Insiemi in Spazi multidimensionali.md",
+                "file": "Discipline/Programmazione/Complessità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Insiemi in Spazi multidimensionali.md"
+                "file": "Discipline/Programmazione/Complessità.md"
               }
             }
           }
@@ -202,20 +203,24 @@
   },
   "active": "71a15fb3ef6fcc36",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Algoritmi di Ricerca Array.md",
+    "Discipline/Programmazione/Algoritmi.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
+    "Home/Random/Investments 2024.md",
+    "Home/Daily Notes/2023/05-03-2024.md",
+    "Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica II.md",
-    "Insiemi in Spazi multidimensionali.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
-    "Teoremi sulle Funzioni Continue in Spazi multidimensionali.md",
+    "Discipline/Programmazione/Teoremi sulle Funzioni Continue in Spazi multidimensionali.md",
     "Discipline/Fisica/Accelerazione di Gravità.md",
     "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
-    "Moto Uniformemente Accelerato.md",
-    "Esercizi MySql.md",
+    "Discipline/Fisica/Moto Uniformemente Accelerato.md",
+    "Discipline/Programmazione/Esercizi MySql.md",
     "Home/Daily Notes/2023/04-03-2024.md",
     "Discipline/Matematica/Funzioni.md",
     "Discipline/Programmazione/SQL.md",
     "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
     "Discipline/Fisica/effetto Joule.md",
-    "Investments 2024.md",
     "Home/Random/Investments 2023.md",
     "Discipline/Programmazione/Rappresentazione in Modulo e Segno.md",
     "Discipline/Linux/Arch.md",
@@ -224,10 +229,6 @@
     "Mappe Lineari.md",
     "Discipline/Matematica/Rappresentazione Parametrica.md",
     "Home/Daily Notes/2023/02-03-2024.md",
-    "Home/Daily Notes/2023/01-03-2024.md",
-    "Discipline/Matematica/Vettori.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algebra Lineare.md",
-    "Discipline/Matematica/Logaritmi.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",

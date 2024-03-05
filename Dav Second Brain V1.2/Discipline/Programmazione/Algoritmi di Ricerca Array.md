@@ -1,4 +1,4 @@
-#uni 
+L#uni 
 # Ricerca Lineare
 La ricerca lineare scorre il vettore in sequenza a partire dall'elemento inferiore, fino a che non incontra il bersaglio o fino all'elemento superiore.
 Questo algoritmo va bene se l'array non è ordinata, se invece è ordinata ci sono metodi migliori.
