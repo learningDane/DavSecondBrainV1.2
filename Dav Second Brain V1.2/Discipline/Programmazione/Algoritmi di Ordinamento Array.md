@@ -28,3 +28,26 @@ for (int i = 0; i < n-1; i++) {
 }
 ```
 La complessità di questo algoritmo è dell'ordine $n^2$.
+# Quicksort
+Si prende un'elemento dell'array come ___perno___ a caso (circa) e si divide l'array in due array, a sinistra tutti gli elementi più piccoli del Perno e a destra quelli più grandi. Poi se le array nuove sono maggiori di uno si chiama recursivamente la quicksort su di esse, che verranno a loro volta scomposte in altre array ecc.
+```c++
+void quicksort(int A[], int inf = 0, int sup = n-1) {
+	int perno = A[(inf+sup)/2], s = inf, d = sup;
+	while (s <= d) {
+		while (A[s] < perno) s++;
+		while (a[d] > perno) d--;
+		if (s>d) break;
+		exchange(A[s],A[d]);
+		s++;
+		d--;
+	}
+	if (inf < d) quicksort(a, inf, d);
+	if (sup > s) quicksort(a, s, sup);
+}
+```
+Complessità:
+	- caso peggiore: $o(n^2)$ 
+	- caso medio: $o(nlog(n))$ 
+	- caso migliore: $o(nlog(n))$ ma con una costante nascosta minore rispetto al caso medio.
+
+[[Torre di Hanoi]] 

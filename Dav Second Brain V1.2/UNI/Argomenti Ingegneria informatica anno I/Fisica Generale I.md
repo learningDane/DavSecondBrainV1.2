@@ -11,4 +11,5 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Moto Rettilineo Uniforme]] 
 [[Moto Uniformemente Accelerato]] 
 [[Accelerazione di Gravità]] 
+[[Moto Circolare]] 
 ### Principi dell'Elettromagnetismo nel Vuoto

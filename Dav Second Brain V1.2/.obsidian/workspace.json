@@ -34,21 +34,9 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "13006d696875e3b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -115,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
+                "file": "UNI/Materie Ingegneria informatica Unipi.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
+                "file": "UNI/Materie Ingegneria informatica Unipi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md"
+                "file": "UNI/Materie Ingegneria informatica Unipi.md"
               }
             }
           }
@@ -189,15 +177,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "13006d696875e3b1",
+  "active": "9266864c4efe4ed1",
   "lastOpenFiles": [
+    "Moto Circolare.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
+    "Torre di Hanoi.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
+    "Home/Daily Notes/2023/06-03-2024.md",
     "Sistema Informativo.md",
     "Algebra Relazionale.md",
     "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
-    "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
     "Discipline/Matematica/Insiemi.md",
-    "Home/Daily Notes/2023/06-03-2024.md",
     "Funzioni in Spazi multidimensionali.md",
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica II.md",
     "Discipline/Programmazione/Teoremi sulle Funzioni Continue in Spazi multidimensionali.md",
@@ -205,18 +198,13 @@
     "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica I.md",
     "Discipline/Programmazione/Algoritmi di Ricerca Array.md",
     "Discipline/Programmazione/Algoritmi.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
     "Home/Random/Investments 2024.md",
     "Discipline/Fisica/Accelerazione di Gravità.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
     "Discipline/Fisica/Moto Uniformemente Accelerato.md",
     "Discipline/Programmazione/Esercizi MySql.md",
     "Home/Daily Notes/2023/04-03-2024.md",
     "Discipline/Matematica/Funzioni.md",
     "Discipline/Programmazione/SQL.md",
-    "Discipline/Fisica/effetto Joule.md",
-    "Home/Random/Investments 2023.md",
-    "Discipline/Programmazione/Rappresentazione in Modulo e Segno.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
