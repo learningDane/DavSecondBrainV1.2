@@ -36,3 +36,75 @@ Il modello dei dati è l'insieme di costrutti utilizzati per organizzare i dati 
 In ogni base di dati esistono:
 - ___schema___: sostanzialmente invariante nel tempo, descrive la struttura della tabella 
 - ___istanza___: i valori attuali, che possono cambiare anche molto rapidamente, inoltre ci possono essere più istanze diverse.
+# Modelli dei Dati
+- Modelli logici:
+	- adottati nei DBMS esistenti per l'organizzazione dei dati
+		- utilizzati dai programmi
+		- indipendenti dalle strutture fisiche
+	- Esempi: relazionale, reticolare, gerarchico, a oggetti, basato su XML
+- Modelli Concettuali
+	- permettono di rappresentare i dati in modo indipendente da ogni sistema
+		- cercano di descrivere i concetti del mondo reale
+		- sono utilizzati nelle fasi preliminari di progettazione
+	- il più diffuso è il modello ___Entity-Relationship (ER)___ 
+# Architettura di un DBMS
+___utente -> schema logico -> schema interno -> Database___ 
+1. schema logico
+	- descrizione della base di dati nel modello logico
+		- ad esempio la struttura della tabella
+2. schema interno (o fisico)
+	-  rappresentazione dello schema logico per mezzo di strutture memorizzazione
+		- ad esempio record con puntatori, ordinati in un certo modo
+3. il livello logico è indipendente da quello fisico:
+	- una tabella è utilizzata nello stesso modo qualunque sia la sua realizzazione fisica (che può cambiare nel tempo)
+# Linguaggi per Basi di Dati
+Linguaggi: 
+	- linguaggi testuali interattivi ([[SQL]]) 
+	- comandi in linguaggi testuali immersi in un linguaggio ospite ([[C++]], Java, ecc)
+	- con interfacce amichevoli
+distinzione terminologica:
+	- ___data definition language___ (DDL) per la definizione di schemi (logici o fisici)
+	- ___data manipulation language___ (DML) per l'interrogazione e l'aggiornamento di (istanze di) basi di dati. 
+# Indipendenza dei Dati
+- l'accesso ai dati avviene solo tramite il livello esterno (che può coincidere con il livello logico)
+- Indipendenza fisica:
+	- il livello logico e quello esterno
+# Personaggi
+- progettisti e realizzatori di DBMS
+- progettisti della base di dati e amministratori della base di dati
+- progettisti e programmatori di applicazioni
+- utenti:
+	- utenti finali: eseguono applicazioni predefinite
+	- utenti casuali: eseguono operazioni non previste a priori
+# Vantaggi e Svantaggi dei DBMS
+Vantaggi:
+	1. dati come risorsa comune e database come modello della realtà
+	2. gestione centralizzata con possibilità di standardizzazione ed ___economia di scala___
+	3. disponibilità di servizi integrati
+	4. riduzione di ridondanze e inconsistenze
+	5. indipendenza dei dati
+		1. favorisce lo sviluppo e la manutenzione delle applicazioni
+Svantaggi:
+	1. costo dei prodotti e della transizione verso di essi
+	2. non scorporabilità delle funzionalità (con riduzione di efficienza)
+# Modello Logico
+Tre modelli logici ___tradizionali___:
+- gerarchico e reticolare
+	- utilizzano riferimenti espliciti (puntatori) fra record
+- relazionale
+	- è basato su valori
+	- anche i riferimenti fra dati in strutture (relazioni) diverse sono rappresentati per mezzo dei valori stessi.
+modelli logici più recenti:
+- a oggetti
+- basato su XML
+- NoSQL
+### Relazionale
+Tutti i dati sono rappresentati  come ___relazioni___ e manipolati con gli operatori dell'[[Algebra Relazionale]] o del calcolo relazionale.
+Il modello relazionale consente al _progettista_ di database di creare una rappresentazione consistente e logica dell'[[Informazione]]. La consistenza è ottenuta inserendo nel progetto del database appropriati vincoli, che formano lo ___schema logico___. 
+La struttura base del modello relazionale è costituita da:
+1. uno o più ___attributi___ o campi dato. Ogni campo dato ha un tipo e quindi un dominio. I nomi attributo vengono indicati con lettere dell'alfabeto a partire dalla $A$. Gli insiemi di attributi invece si indicano con le lettere a partire dalla $Z$. 
+2. una o più ___tuple___ (i record). Una  tupla su un insieme di attributi $X$ è una funzione che associa a ciascun attributo $A \in X$ un elemento, o valore, nel dominio $D_A$ di $A$.
+$t[A]$ indica il valore della tupla $t$ sull'attributo $A$. 
+$t[Y]$ indica il valore della tupla $t$ sull'insieme di attributi $Y$. 
+Una ___istanza___ di Database è l'insieme dei valori delle tuple sugli attributi.
+Se l'attributo $A$ ha come dominio $D_A$, allora ogni tupla $t[A]$ può assumere come valore solo elementi appartenenti a $D_A$ oppure NULL. 
