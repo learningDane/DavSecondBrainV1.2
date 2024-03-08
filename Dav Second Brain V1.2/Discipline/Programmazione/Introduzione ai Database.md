@@ -91,20 +91,10 @@ Svantaggi:
 Tre modelli logici ___tradizionali___:
 - gerarchico e reticolare
 	- utilizzano riferimenti espliciti (puntatori) fra record
-- relazionale
+- relazionale [[Modello Logico Relazione]] 
 	- è basato su valori
 	- anche i riferimenti fra dati in strutture (relazioni) diverse sono rappresentati per mezzo dei valori stessi.
 modelli logici più recenti:
 - a oggetti
 - basato su XML
 - NoSQL
-### Relazionale
-Tutti i dati sono rappresentati  come ___relazioni___ e manipolati con gli operatori dell'[[Algebra Relazionale]] o del calcolo relazionale.
-Il modello relazionale consente al _progettista_ di database di creare una rappresentazione consistente e logica dell'[[Informazione]]. La consistenza è ottenuta inserendo nel progetto del database appropriati vincoli, che formano lo ___schema logico___. 
-La struttura base del modello relazionale è costituita da:
-1. uno o più ___attributi___ o campi dato. Ogni campo dato ha un tipo e quindi un dominio. I nomi attributo vengono indicati con lettere dell'alfabeto a partire dalla $A$. Gli insiemi di attributi invece si indicano con le lettere a partire dalla $Z$. 
-2. una o più ___tuple___ (i record). Una  tupla su un insieme di attributi $X$ è una funzione che associa a ciascun attributo $A \in X$ un elemento, o valore, nel dominio $D_A$ di $A$.
-$t[A]$ indica il valore della tupla $t$ sull'attributo $A$. 
-$t[Y]$ indica il valore della tupla $t$ sull'insieme di attributi $Y$. 
-Una ___istanza___ di Database è l'insieme dei valori delle tuple sugli attributi.
-Se l'attributo $A$ ha come dominio $D_A$, allora ogni tupla $t[A]$ può assumere come valore solo elementi appartenenti a $D_A$ oppure NULL. 

@@ -41,7 +41,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
+                "file": "Modello Logico Relazione.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9874500d75e97d3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Programmazione/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
+                "file": "Modello Logico Relazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md",
+                "file": "Modello Logico Relazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/Introduzione ai Database.md"
+                "file": "Modello Logico Relazione.md"
               }
             }
           }
@@ -190,12 +203,14 @@
   },
   "active": "589bd70c470ec7d9",
   "lastOpenFiles": [
+    "Modello Logico Relazione.md",
+    "Discipline/Programmazione/SQL.md",
+    "Discipline/Programmazione/Introduzione ai Database.md",
     "UNI/spam/Informazioni sul Corso di Fisica Generale I.md",
     "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
     "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Home/Daily Notes/2024",
-    "Discipline/Programmazione/Introduzione ai Database.md",
     "Home/Daily Notes/2023/01-03-2024.md",
     "Home/Daily Notes/2023/27-02-2024.md",
     "Home/Daily Notes/2023/01-02-2024.md",
@@ -215,8 +230,6 @@
     "Algebra Relazionale.md",
     "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
     "Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
-    "Discipline/Matematica/Insiemi.md",
-    "Funzioni in Spazi multidimensionali.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",
