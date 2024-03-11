@@ -3,7 +3,7 @@ Un sistema informativo è costituito da risorse e regole per lo svolgimento coor
 Le risorse possono essere persone, macchine, soldi ecc...
 Il sistema informativo è la componente del sistema organizzativo che acquisisce, elabora, conserva, produce le informazioni di interesse ed esegue/gestisce i processi informativi.
 Il concetto di sistema informativo è indipendente da qualsiasi automatizzazione, esistono organizzazioni che esistono da secoli senza impiegare automatizzazione. La parte del sistema informativo che gestisce informazioni con tecnologia informatica è il sistema informativo automatizzato (o sistema informatico).
-Il cuore di un sistema informativo automatizzato è il database [[Introduzione ai Database]].
+Il cuore di un sistema informativo automatizzato è il database [[Database]].
 ### Gestione delle informazioni
 1. raccolta, acquisizione
 2. archiviazione, conservazione

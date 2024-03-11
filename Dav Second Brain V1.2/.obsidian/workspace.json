@@ -58,9 +58,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "96805ffa8329bfb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modello Logico Relazione.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modello Logico Relazione.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modello Logico Relazione.md"
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md"
               }
             }
           }
@@ -201,11 +213,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "589bd70c470ec7d9",
+  "active": "96805ffa8329bfb9",
   "lastOpenFiles": [
+    "Discipline/Programmazione/Database.md",
     "Modello Logico Relazione.md",
+    "Discipline/Matematica/Derivata.md",
     "Discipline/Programmazione/SQL.md",
-    "Discipline/Programmazione/Introduzione ai Database.md",
     "UNI/spam/Informazioni sul Corso di Fisica Generale I.md",
     "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
     "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
@@ -229,7 +242,6 @@
     "Sistema Informativo.md",
     "Algebra Relazionale.md",
     "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
-    "Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",

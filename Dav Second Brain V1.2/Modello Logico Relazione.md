@@ -22,7 +22,12 @@ bho ----------------------------------------
 ### Dipendenze funzionali 
 Dati due insieme di attributi x e y sulla relazione $r$ esiste una dipendenza funziona le da x a y, ovvero si dice che x determina y, ovvero $x \to y$, se e solo se date due tuple distinte $t_1$ e $t_2$, se queste due tuple assumono gli stessi valori sulle x allora assumo gli stessi valori sulle y. 
 I ___vincoli di chiave___ sono particolari tipi di vincoli, che fanno parte delle ___dipendenze funzionali___.
-# Vincolo di Integrità referenziale
+# Vincoli
+-----bho----
+- vincolo di chiave
+- vincolo di tupla
+- vincolo di dominio
+### Vincolo di Integrità referenziale
 Informazioni in relazioni diverse posso essere correlate
 attraverso valori comuni, si usano normalmente i valori delle chiavi.
 Un ___vincolo di integrità referenziale___ fra gli attributi $X$

@@ -98,3 +98,11 @@ modelli logici più recenti:
 - a oggetti
 - basato su XML
 - NoSQL
+# Operazioni di aggiornamento
+- Operazioni di Inserimento
+	- violazione dei vincoli intra-relazionali
+	- violazione dell'integrità referenziale
+- operazione di cancellazione
+	- violazione dell'integrità referenziale
+- operazione di modifica
+	- modifica = cancellazione + inserimento
