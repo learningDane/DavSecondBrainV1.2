@@ -49,5 +49,51 @@ Complessità:
 	- caso peggiore: $o(n^2)$ 
 	- caso medio: $o(nlog(n))$ 
 	- caso migliore: $o(nlog(n))$ ma con una costante nascosta minore rispetto al caso medio.
+# Insertion Sort
+prende un elemento e lo inserisce al posto giusto
+```
+void sortArray(int arr[], int len) {
+	int mano = 0;
+	int occhio = 0;
+	for (int iter = 1; iter < len ; iter++) {
+		mano = arr[iter];
+		occhio = iter -1;
+		
+		while (occhio >= 0 && arr[occhio] > 0) {
+			arr[occhio+1] = arr[occhio];
+			--occhio;
+		}
+		arr[occhio + 1] = mano;
+	}
+}
+```
 
+# Mergesort
+```c++
+void mergeSort(Elem*& s1) {
+	if (s1==NULL || s1->next == NULL) return;
+	ELEM*p = s1->next;
+	s1->next = p->next;
+	p->next =s2;
+	s2=p;
+	split(s1->next,s2);
+}
+void merge(Elem*&s1, Elem*&s2) {
+	if (s2 == NULL) return;
+	if (s1 == NULL) {
+		s1 = s2;
+		return;
+	}
+	if ( s1->inf <= s2 ->inf) {
+		merge (s1->next, s2);
+	}
+	else {
+		merge(s2->next, s1);
+		s1 = s2;
+	}
+}
+```
+Complessità $T(0)=T(1)=d$ 
+$T(n)= b+T(n-2)$ 
+# Vario
 [[Torre di Hanoi]] 

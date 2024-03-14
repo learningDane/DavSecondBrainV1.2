@@ -36,43 +36,31 @@
             }
           },
           {
-            "id": "589bd70c470ec7d9",
+            "id": "e7d0b544a13db2b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modello Logico Relazione.md",
+                "file": "Discipline/Programmazione/Database.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d9874500d75e97d3",
+            "id": "7bb1ff182f7e33ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96805ffa8329bfb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+                "file": "Ottimizzazione delle Interrogazioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#self-taught",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +106,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+                "file": "Ottimizzazione delle Interrogazioni.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+                "file": "Ottimizzazione delle Interrogazioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md"
+                "file": "Ottimizzazione delle Interrogazioni.md"
               }
             }
           }
@@ -213,16 +202,27 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "96805ffa8329bfb9",
+  "active": "7bb1ff182f7e33ff",
   "lastOpenFiles": [
     "Discipline/Programmazione/Database.md",
+    "Network.md",
+    "Ottimizzazione delle Interrogazioni.md",
+    "Home/Daily Notes/2024/14-03-2024.md",
+    "Home/Daily Notes/2024/13-03-2024.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "Comandi Base Unix.md",
+    "Home/Daily Notes/2024/12-03-2024.md",
+    "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
+    "Discipline/Programmazione/Compilazione e Linking.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
+    "Discipline/Programmazione/Torre di Hanoi.md",
     "Modello Logico Relazione.md",
-    "Discipline/Matematica/Derivata.md",
     "Discipline/Programmazione/SQL.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+    "Discipline/Matematica/Derivata.md",
     "UNI/spam/Informazioni sul Corso di Fisica Generale I.md",
     "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
     "UNI/spam/Informazioni sul corso di Algoritmi e Strutture Dati.md",
-    "UNI/Materie Ingegneria informatica Unipi.md",
     "Home/Daily Notes/2024",
     "Home/Daily Notes/2023/01-03-2024.md",
     "Home/Daily Notes/2023/27-02-2024.md",
@@ -231,17 +231,6 @@
     "Home/Daily Notes/2023/02-01-2024.md",
     "Home/Daily Notes/2023/02-02-2024.md",
     "Home/Daily Notes/2023/02-03-2024.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Analisi Matematica II.md",
-    "Home/Daily Notes/2023/07-03-2024.md",
-    "Moto Circolare.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
-    "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
-    "Torre di Hanoi.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
-    "Home/Daily Notes/2023/06-03-2024.md",
-    "Sistema Informativo.md",
-    "Algebra Relazionale.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Basi di Dati.md",
     "UNI/spam",
     "Discipline/Fisica/media",
     "Discipline/Fisica/media/Pasted image 20240226111306.png",

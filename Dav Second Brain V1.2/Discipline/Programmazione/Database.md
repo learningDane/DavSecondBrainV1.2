@@ -29,7 +29,7 @@ Serve una gestione delle transazioni: una transazione è un insieme di operazion
 Le transazioni sono atomiche e devono funzionare correttamente anche in presenza di concorrenza.
 I risultati di una transazione conclusa positivamente devono essere permanenti e corrisponde ad un impegno (___commit___) a mantenere traccia del risultato in modo definitivo, anche in presenza di guasti e di esecuzione concorrente.
 ### Efficienza di un Database
-I database devono cercare di utilizzare al meglio le risorse di spazio di memoria, principale e secondaria, e tempo, di esecuzione e di risposta. Minore efficienza di un Database  porta ad affrontare spese più grandi per maggiore spazio di archiviazione o a esperienze di utilizzo peggiori.
+I database devono cercare di utilizzare al meglio le risorse di spazio di memoria, principale e secondaria, e tempo, di esecuzione e di risposta. Minore efficienza di un Database  porta ad affrontare spese più grandi per maggiore spazio di archiviazione o a esperienze di utilizzo peggiori. Qui è quindi di grande importanza l'[[Ottimizzazione delle Interrogazioni]]. 
 ### Modello dei Dati
 Il modello dei dati è l'insieme di costrutti utilizzati per organizzare i dati di interesse e descriverne la dinamica. Questo modello dei dati fornisce ai programmi applicativi una vista astratta dei dati.
 ### Schema ed Istanza
