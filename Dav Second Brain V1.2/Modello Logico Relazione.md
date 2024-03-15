@@ -35,3 +35,9 @@ Un ___vincolo di integrità referenziale___ fra gli attributi $X$
 relazione $R_2$ impone ai valori su $X$ in $R_1$ di comparire
 come valori della chiave primaria di $R_2$. In questo caso l’ordine degli attributi tra
 cui è stabilito il vincolo è significativo.
+# Profili delle Relazioni
+Informazioni quantitative:
+	- cardinalità di ciascuna relazione
+	- dimensione delle tuple
+	- dimensione dei valori
+	- slide--------------------------------------------------------
