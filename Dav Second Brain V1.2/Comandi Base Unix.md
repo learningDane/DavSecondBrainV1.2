@@ -21,6 +21,8 @@ Compilare un singolo file in [[C++]]
 	[[Compilazione e Linking]] 
 Eseguire programma
 	`./eseguibile` 
+	`-g` indica a che punto del programma si trova, va usato con valgrind
+	`time` prima di un comando indica il tempo di esecuzione
 Tastiera
 	`setxkbmap nomeTastiera` cambia la tastiera (it=italiano, us=international) 
 Root / Sudo
@@ -37,3 +39,7 @@ scrivere roba in un file
 	`echo "testodainserire" > nome del file` 
 cambiare i permessi di un file/cartella
 	`chmod` e poi `+rwx` o `+x` o `777`(tutti i privilegi a tutti) e poi `il nome`
+
+# Altro
+[[Comandi Unix Network]] 
+[[Comandi Unix File]] 

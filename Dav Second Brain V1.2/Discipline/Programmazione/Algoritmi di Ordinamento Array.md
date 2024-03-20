@@ -95,5 +95,6 @@ void merge(Elem*&s1, Elem*&s2) {
 ```
 Complessità $T(0)=T(1)=d$ 
 $T(n)= b+T(n-2)$ 
+complessità del Merge  Sort: $\Theta (n \log n)$ in tutti i casi.
 # Vario
 [[Torre di Hanoi]] 
