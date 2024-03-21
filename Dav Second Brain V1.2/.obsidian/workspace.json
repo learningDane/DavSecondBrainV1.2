@@ -53,7 +53,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scripting in Bash.md",
+                "file": "Home/Daily Notes/2024/21-03-2024.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b7e0d2c99ea8225",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arch Linux Installation.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -139,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scripting in Bash.md",
+                "file": "Arch Linux Installation.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scripting in Bash.md",
+                "file": "Arch Linux Installation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scripting in Bash.md"
+                "file": "Arch Linux Installation.md"
               }
             }
           }
@@ -213,10 +225,12 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "ec1c315db1208fc9",
+  "active": "5b7e0d2c99ea8225",
   "lastOpenFiles": [
-    "Comandi Unix File.md",
+    "Home/Daily Notes/2024/21-03-2024.md",
+    "Arch Linux Installation.md",
     "Scripting in Bash.md",
+    "Comandi Unix File.md",
     "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
     "Comandi Base Unix.md",
     "Home/Daily Notes/2024/20-03-2024.md",
@@ -239,8 +253,6 @@
     "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
     "Discipline/Programmazione/Torre di Hanoi.md",
     "Discipline/Programmazione/SQL.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
-    "Discipline/Matematica/Derivata.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",
