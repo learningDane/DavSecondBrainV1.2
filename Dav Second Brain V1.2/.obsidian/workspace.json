@@ -60,18 +60,6 @@
             }
           },
           {
-            "id": "5b7e0d2c99ea8225",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Arch Linux Installation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d519d48f2ea7e50d",
             "type": "leaf",
             "state": {
@@ -82,9 +70,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e7f60d8fb82c1391",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Arch + Hyprland Setup.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Arch Linux Installation.md",
+                "file": "Arch + Hyprland Setup.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Arch Linux Installation.md",
+                "file": "Arch + Hyprland Setup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Arch Linux Installation.md"
+                "file": "Arch + Hyprland Setup.md"
               }
             }
           }
@@ -225,9 +225,11 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "5b7e0d2c99ea8225",
+  "active": "e7f60d8fb82c1391",
   "lastOpenFiles": [
+    "Arch + Hyprland Setup.md",
     "Home/Daily Notes/2024/21-03-2024.md",
+    "Home/Daily Notes/2024/22-03-2024.md",
     "Arch Linux Installation.md",
     "Scripting in Bash.md",
     "Comandi Unix File.md",
@@ -251,8 +253,6 @@
     "Home/Daily Notes/2024/12-03-2024.md",
     "Discipline/Programmazione/Compilazione e Linking.md",
     "UNI/Argomenti Ingegneria informatica anno I/Algoritmi e Strutture di Dati.md",
-    "Discipline/Programmazione/Torre di Hanoi.md",
-    "Discipline/Programmazione/SQL.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",
