@@ -46,21 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0d05e83c49ba6e86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/SQL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Discipline/Programmazione/Algoritmi di Ordinamento Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md"
+                "file": "Discipline/Programmazione/Algoritmi di Ordinamento Array.md"
               }
             }
           }
@@ -201,8 +188,10 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "0d05e83c49ba6e86",
+  "active": "28818e6896a2e239",
   "lastOpenFiles": [
+    "Discipline/Linux/freeRDP.md",
+    "Home/Daily Notes/2024/17-04-2024.md",
     "Discipline/Programmazione/SQL.md",
     "Home/Daily Notes/2024/11-04-2024.md",
     "Home/Daily Notes/2024/21-03-2024.md",
@@ -220,7 +209,6 @@
     "Home/Daily Notes/2024/20-03-2024.md",
     "Discipline/Matematica/Equazioni Differenziali.md",
     "Discipline/Linux/Comandi Unix Network.md",
-    "Discipline/Linux/freeRDP.md",
     "Discipline/Programmazione/Alberi.md",
     "Home/Daily Notes/2024/19-03-2024.md",
     "Discipline/Programmazione/Valgrind.md",
@@ -228,7 +216,6 @@
     "Modello Logico Relazione.md",
     "Home/Daily Notes/2024/14-03-2024.md",
     "Discipline/Programmazione/Database.md",
-    "Discipline/Programmazione/Network.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",

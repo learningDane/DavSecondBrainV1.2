@@ -1,4 +1,7 @@
 #uni 
+Il [[Algoritmi di Ordinamento Array#Mergesort]] è ottimo.
+Il [[Algoritmi di Ordinamento Array#Quicksort]] è ottimo nel caso medio.
+Non sempre il limite è raggiungibile: la ricerca è $\Omega (\log n)$.
 # Selection Sort
 Si cerca l'elemento più piccolo tra i rimanenti N-i e si scambia con l'elemento in posizione i, per i = 0, 1, ... , N-1.
 ```
@@ -96,5 +99,12 @@ void merge(Elem*&s1, Elem*&s2) {
 Complessità $T(0)=T(1)=d$ 
 $T(n)= b+T(n-2)$ 
 complessità del Merge  Sort: $\Theta (n \log n)$ in tutti i casi.
+# Counting Sort
+Il counting Sort ordina una sequenza di interi e si può usare solamente se conosco i valori minimo e massimo degli elementi da ordinare.
+Per ogni valore presente nell'array si contano gli elementi di quel valore utilizzando un array ausiliario di lunghezza MAX - MIN + 1 e larghezza 2.
+Quando ho finito di contare so quali numeri ci sono e quante volte appaiono e posso quindi inserirli nell'array iniziale.
+Non è un algoritmo work in place perché necessita di un'altra array.
+# Radix Sort
+Non è basato su confronto. Parte dalla cifra meno significativa. Ha una complessità di $O(d(n+k))$ dove $d$ è la lunghezza delle sequenze, $k$ è il numero dei possibili valori di ogni cifra. Rende necessaria memoria ausiliaria. Conviene quando $d$ è molto minore di $n$.
 # Vario
 [[Torre di Hanoi]] 
