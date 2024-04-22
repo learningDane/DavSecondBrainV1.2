@@ -9,5 +9,6 @@
   },
   "userIgnoreFilters": [
     "Home/Daily Notes/"
-  ]
+  ],
+  "vimMode": true
 }

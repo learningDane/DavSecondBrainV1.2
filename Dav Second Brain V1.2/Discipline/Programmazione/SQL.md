@@ -110,7 +110,7 @@ indicare il codice fiscale dei pazienti che sono stati visitati più di una volt
 SELECT DISTINCT V1.Paziente
 FROM Visita V1
 	INNER JOIN
-	Visitaa V2 ON (
+	Visita V2 ON (
 		V.2Medico = V1.Medico
 		NAD V2.Paziente = V1.Paziente
 		AND V2.DATA <> V1.Data
@@ -144,5 +144,29 @@ WHERE
 ```
 # Common Table Expression (CTE)
 Sono ___result set___ dotati di identificatore che possono essere 
+# Group By
+A partire da una relazione A crea una relazione B con le tuple in cui appare lo stesso valore per l'attributo indicato.
+# Having
+Si usa insieme a `GROUP BY` al posto di `WHERE`.
+# Costrutto EXISTS
+Questo è un modo per scrivere subquery correlate. Controlla solo se il resultset della subquery esiste o meno (controlla quindi se ha almeno 1 record e non esiste se è vuoto).
+# Divisione
+La divisione tra una relazione A ed una relazione B produce una relazione C che contiene tutte le tuple di A che hanno una relazione con OGNUNA delle tuple di B. In SQL abbiamo 2 modi per implementare la divisione:
+- indicare i pazienti visitati da TUTTI i medici: (rel1->visita(paziente,medico), rel2->medico)
+```MySql
+SELECT P.CodFiscale
+FROM Medico M
+WHERE NOT EXISTS
+	(
+		SELECT *
+		FROM Visita V
+		WHERE V.Medico = M.Matricola
+			AND V.Paziente = PCodFiscale
+			)
 
-[[Esercizi MySql]] 
+SELECT V.Paziente
+FROM Visita V
+GROUP BY V.Paziente
+HAVING COUNT(DISTINCT V.Medico) = (SELECT COUNT(*))
+```
+[[Esercizi MySql]]
