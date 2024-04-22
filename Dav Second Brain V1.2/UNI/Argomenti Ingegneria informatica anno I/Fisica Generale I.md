@@ -14,3 +14,5 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Moto in Coordinate Polari in un piano]] 
 [[Moto del Proiettile]] 
 ### Principi dell'Elettromagnetismo nel Vuoto
+[[Carica Elettrica]] 
+[[Legge di Coulombe]] 
