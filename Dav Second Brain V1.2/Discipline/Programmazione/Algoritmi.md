@@ -13,7 +13,7 @@ Le operazioni usate appartengono ad una delle seguenti categorie:
  2. __Non ambiguità__: ogni azione deve essere univocamente interpretabile dall'esecutore.
  3. __Finitezza__: il numero totale di azioni da eseguire, per ogni insieme di dati in ingresso, deve essere finito.
 Ha le seguenti proprietà essenziali:
-1. __Correttezza__: un algoritmo è corretto se esso perviene alla soluzioni del compito cui è preposto, senza difettare di alcun passo fondamentale.
+1. __Correttezza__: un algoritmo è corretto se esso perviene alla soluzioni del compito cui è preposto, senza difettare di alcun passo fondamentale, quindi __risolve__ il problema computazionale.
 2. __Efficienza__: un algoritmo è efficiente se perviene alla soluzione del compito cui è preposto nel modo più veloce possibile, compatibilmente con la sua correttezza.
 # Algoritmi equivalenti
 Algoritmi equivalenti:

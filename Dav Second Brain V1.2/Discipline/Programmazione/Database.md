@@ -91,7 +91,7 @@ Svantaggi:
 Tre modelli logici ___tradizionali___:
 - gerarchico e reticolare
 	- utilizzano riferimenti espliciti (puntatori) fra record
-- relazionale [[Modello Logico Relazione]] 
+- relazionale [[Modello Logico Relazionale]] 
 	- è basato su valori
 	- anche i riferimenti fra dati in strutture (relazioni) diverse sono rappresentati per mezzo dei valori stessi.
 modelli logici più recenti:

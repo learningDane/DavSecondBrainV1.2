@@ -54,7 +54,7 @@ Complessità:
 	- caso migliore: $o(nlog(n))$ ma con una costante nascosta minore rispetto al caso medio.
 # Insertion Sort
 prende un elemento e lo inserisce al posto giusto
-```
+```c++
 void sortArray(int arr[], int len) {
 	int mano = 0;
 	int occhio = 0;
