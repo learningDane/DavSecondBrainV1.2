@@ -45,3 +45,6 @@ $f(n)$ è $\Omega(g(n))$ se esistono un intero $n_0$ ed una costante $c>0$ tali 
 5. per ogni costante $k$, $k$ è $O(1)$ 
 6. per $m \leq p$, $n^m$ è $O(n^p)$ 
 7. un polinomio di grado $m$ è $O(n^m)$ 
+# Classi di complessità
+Le classi di complessità sono le seguenti:
+	costante, logaritmica, lineare, $n\log n$, quadratica, cubica, polinomiale, esponenziale, esponenziale $n^n$.
