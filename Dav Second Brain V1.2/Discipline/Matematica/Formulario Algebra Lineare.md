@@ -1,0 +1,16 @@
+#uni #formulario
+- $u \cdot v = ||u|| \cdot ||v|| \cos \theta$ .
+- $u \times v = ||u|| \cdot ||v|| \sin \theta$ .
+- $u \cdot v = 0$ : ortogonali.
+- $u \times v = 0$ : linearmente dipendenti.
+- $\begin{pmatrix} a & b \\ c & d \end{pmatrix}^T = \begin{pmatrix} a & c \\ b & d \end{pmatrix}$ è la ___trasposta___ e $(AB)^T=B^T \cdot A^T$ 
+- $A$ è simmetrica se $A^T=A$ .
+- matrice antisimmetrica: $\begin{pmatrix} 0 & b & c \\ -b & 0 & d \\ -c & -d & 0 \end{pmatrix}$ .
+- dimensione di una matrice simmetrica $n\times n$: $dim A= \frac{n(n+1)}{2}$ .
+- se $V$ è uno S.V. e β è una sua base, allora $dim(V)=|β|$ = numero degli elementi di una sua qualsiasi base.
+- uno S.V. $V$ è dato dato da $V=Span(u_1,u_2,u_3)$ : $u_1,u_2,u_3$ sono ___generatori___ di $V$ e sono linearmente indipendenti, allora $(u_1,u_2,u_3)$ è una base di $V$.
+- la base canonica di un S.V. è composta da $n$ matrici nulle meno che un elemento $=1$ .
+- matrice identica $I=\begin{pmatrix} 1&0&0 \\ 0&1&0 \\ 0&0&1\end{pmatrix}$ è quindi tale che $AI=IA=A$ .
+- prodotto tra matrici $(AB)_{i,j}=\sum_{k=1}^nA_{i,k}\cdot B_{k,j}$ con $A^{m \times n},B^{n \times l} \rightarrow AB^{m,l}$  
+- ___Lemma di Eliminazione___ siano $v_1,...,v_{n+1}$ dei vettori in uno S.V. V, se $v_{n+1}$ è combinazione lineare degli altri allora $SPAN(v_1,...,v_{n+1}) = SPAN(v_1,...,v_n)$ 
+- ___Formula di Grassmann___ $dim(V+W) + dim(V\cap W)=dim(V)+dim(W)$ 
