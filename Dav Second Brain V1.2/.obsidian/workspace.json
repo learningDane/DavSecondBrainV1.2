@@ -46,29 +46,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "917693a0d97e4cf2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "71c39895976a8e5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Equazioni Differenziali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Equazioni Differenziali.md",
+                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Equazioni Differenziali.md",
+                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Equazioni Differenziali.md"
+                "file": "Discipline/Matematica/Formulario Algebra Lineare.md"
               }
             }
           }
@@ -208,8 +188,9 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "71c39895976a8e5f",
+  "active": "4647197b13668e30",
   "lastOpenFiles": [
+    "Discipline/Matematica/Equazioni Differenziali.md",
     "Algoritmo PageRank.md",
     "Discipline/Matematica/Derivata.md",
     "Discipline/Matematica/Funzioni.md",
@@ -235,7 +216,6 @@
     "Discipline/Programmazione/Algoritmi di Ricerca Array.md",
     "Discipline/Programmazione/Array.md",
     "Discipline/Programmazione/C++.md",
-    "Discipline/Matematica/Teorema Fondamentale dell'Algebra.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",

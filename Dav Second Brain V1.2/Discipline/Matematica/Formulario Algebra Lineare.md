@@ -33,3 +33,5 @@
 - ___Matrice Cambio di Base___: $V$ S.V. di dimensione finita, $v_1,...v_n$ prima base di $V$, $w_1,...,w_n$ seconda base di $V$ 
   1. scrivo $v_1$ usando la prima base: $v_1=c_{1,1}w_1+c_{1,2}w_2+...+c_{1,n}w_n$ e i coefficienti $c_{x,y}$ formano la prima colonna della matrice
   2. continuo fino ad $c_n$ 
+  oppure
+  1. $mat=$ (inversa di matrice base d'arrivo) $\cdot$ (matrice associata rispetto a basi canoniche) $\cdot$ (matrice base di partenza)
