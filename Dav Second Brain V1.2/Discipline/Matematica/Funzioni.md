@@ -111,7 +111,7 @@ Dimostrazione attraverso il [[Limiti#Teorema della Permanenza del Segno]] :
 Abbiamo $f(a_n) < 0 \to \lim f(a_n) = f(c) \leq 0$ e $f(b_n) < 0 \to \lim f(b_n) = f(c) \geq 0$ 
 Quindi $f(c) \leq 0$ e $f(c) \geq 0$ 
 Allora $f(c)=0$ 
-### Teorema dei Valori Intermedi
+### Teorema dei Valori Intermedi/dei Carabinieri/del Sandwich
 Ipotesi: $f \in C([a,b])$ quindi per il Teorema di Weierstrass esistono massimo e minimo $m=min \ f$ e $M = max \ f$ 
 Tesi: $\exists \overline c \in [a,b] \ t.c\ f(\overline c) = λ \in ]m,M[$ 
 Per dimostrarlo basta traslare la funzione sull'asse y di modo che λ sia in $y=0$ e poi si applica il teorema degli zeri., dato che ne sono rispettate le ipotesi

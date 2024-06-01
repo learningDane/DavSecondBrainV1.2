@@ -30,3 +30,6 @@
 - ___Matrice Inversa___ data una $A$ quadrata $m\times m$, $A^{-1}$ è tale che $AA^{-1}=A^{-1}A=Id$ 
 	  1. se $m=2$ allora $A^{-1}=\frac{1}{det(A)} \begin{pmatrix} d & -b \\ -c & a \end{pmatrix}$ con $A=\begin{pmatrix} a&b \\ c&d \end{pmatrix}$ e se $det(A) = 0$ l'inversa non esiste.
 	  2. Caso generale $A\begin{pmatrix} a&b&c\ |&1&0&0 \\ d&e&f\ | &0&1&0 \\ g&h&i\ | &0&0&1 \end{pmatrix}$ e lavoro alla jordan fino a che la metà di sinistra non torni identica: $\begin{pmatrix} 1&0&0\ |&j&k&l \\ 0&1&0\ | &m&n&o \\ 0&0&1\ | &p&q&r \end{pmatrix}$ e la parte di destra è $A^{-1}$ .
+- ___Matrice Cambio di Base___: $V$ S.V. di dimensione finita, $v_1,...v_n$ prima base di $V$, $w_1,...,w_n$ seconda base di $V$ 
+  1. scrivo $v_1$ usando la prima base: $v_1=c_{1,1}w_1+c_{1,2}w_2+...+c_{1,n}w_n$ e i coefficienti $c_{x,y}$ formano la prima colonna della matrice
+  2. continuo fino ad $c_n$ 

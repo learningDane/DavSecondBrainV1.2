@@ -46,9 +46,29 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "917693a0d97e4cf2",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "71c39895976a8e5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Matematica/Equazioni Differenziali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -114,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
+                "file": "Discipline/Matematica/Equazioni Differenziali.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
+                "file": "Discipline/Matematica/Equazioni Differenziali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md"
+                "file": "Discipline/Matematica/Equazioni Differenziali.md"
               }
             }
           }
@@ -188,10 +208,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "4647197b13668e30",
+  "active": "71c39895976a8e5f",
   "lastOpenFiles": [
-    "Home/Daily Notes/2024/01-06-2024.md",
+    "Algoritmo PageRank.md",
+    "Discipline/Matematica/Derivata.md",
+    "Discipline/Matematica/Funzioni.md",
+    "Discipline/Matematica/Limiti.md",
+    "Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
+    "Discipline/Filosofia/Gettatezza.md",
+    "Discipline/Scienze Sociali/minorità.md",
+    "erg.md",
+    "Discipline/Scienze Sociali/terrore.md",
+    "Discipline/Filosofia/Heidegger.md",
     "Discipline/Matematica/Formulario Algebra Lineare.md",
+    "Home/Daily Notes/2024/01-06-2024.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "Home/Daily Notes/2024/31-05-2024.md",
     "Home/Random/ToDo.md",
@@ -206,16 +236,6 @@
     "Discipline/Programmazione/Array.md",
     "Discipline/Programmazione/C++.md",
     "Discipline/Matematica/Teorema Fondamentale dell'Algebra.md",
-    "Discipline/Matematica/Teorema del Confronto.md",
-    "Discipline/Matematica/Vettori.md",
-    "Discipline/Matematica/Valori Assoluti.md",
-    "Discipline/Matematica/Sistemi Lineari.md",
-    "Discipline/Matematica/Serie Numeriche.md",
-    "Discipline/Matematica/Numeri periodici.md",
-    "Discipline/Matematica/Numeri Immaginari (o Complessi).md",
-    "Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
-    "Discipline/Matematica/Matrici.md",
-    "Discipline/Matematica/Massimo Comune Divisore.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",
