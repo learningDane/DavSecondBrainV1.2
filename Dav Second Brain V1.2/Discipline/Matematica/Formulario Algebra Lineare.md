@@ -51,3 +51,12 @@
 - ___Minore___: determinante delle sottomatrici quadrate
 - ___Rango___: massima dimensione di un minore con determinante $\neq 0$ .
   1. oppure massimo numero di righe/colonne linearmente indipendenti = $dim(Span(righe/colonne))$ 
+- ___Teorema di Rouché-Capelli___: 
+  1. considero un sistema $Ax=b$ 
+  2. costruisco la matrice $\hat A=(A |b)$ , aggiungiamo quindi la colonna $b$ 
+  Allora
+  1. il sistema ammette soluzione solo se $rango(A)=rango(\hat A)$ 
+  2. se ha soluzione, allora la soluzione generale dipende da $k$ parametri con $k=n-r$ , $n$ numero di incognite e $r$ rango delle due matrici ed inoltre $k=dim(ker(A))$ .
+  I casi quindi sono 2:
+	  1. i due ranghi sono uguali $\to$ $b$ è comb lin di $c_1,...,c_n$ 
+	  2. $rango(\hat A) = rango(A) + 1$ $\to$ $b$ NON è comb lin di $c_1,...,c_n$ 
