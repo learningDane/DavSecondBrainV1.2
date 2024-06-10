@@ -8,11 +8,13 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Misura in Fisica]] 
 ### Principi della Meccanica
 [[Meccanica]] 
+[[Leggi di Newton o Principi della Dinamica]] 
 [[Moto Rettilineo Uniforme]] 
 [[Moto Uniformemente Accelerato]] 
 [[Accelerazione di Gravità]] 
 [[Moto in Coordinate Polari in un piano]] 
 [[Moto del Proiettile]] 
+[[Moto Circolare]] 
 ### Principi dell'Elettromagnetismo nel Vuoto
 [[Carica Elettrica]] 
 [[Legge di Coulombe]] 
