@@ -13,7 +13,7 @@ Programma:
 	Programma effettivo indicato a fine corso sul registro
 Testi:
 	non consiglia libri, fa due esempi: R.Serway, Principi di Fisica Vol un, oppure Fisica per le scienze e Ingegneria Vol 1 e 2, EdiSES.
-	Consiglia però un testo con esercizi svolti. Esercizi della prof al sito [www.pi.infn.it/~ciocci] dal 2013 ad oggi.
+	Consiglia però un testo con esercizi svolti. Esercizi della prof al sito www.pi.infn.it/~ciocci dal 2013 ad oggi.
 	M.Zani, L.Duo, P.Taroni - Esercizi di Fisica Meccanica e Termodinamica - EdiSES
 	F.Porto, G Lanzone.
 Esami:

@@ -3,6 +3,7 @@
 - $u \times v = ||u|| \cdot ||v|| \sin \theta$ .
 - $u \cdot v = 0$ : ortogonali.
 - $u \times v = 0$ : linearmente dipendenti.
+- angolo tra $v,w: \cos(\omega)=\frac{v \cdot w}{||v|| \cdot ||w||}$ 
 - $\begin{pmatrix} a & b \\ c & d \end{pmatrix}^T = \begin{pmatrix} a & c \\ b & d \end{pmatrix}$ è la ___trasposta___ e $(AB)^T=B^T \cdot A^T$ 
 - $A$ è simmetrica se $A^T=A$ .
 - matrice antisimmetrica: $\begin{pmatrix} 0 & b & c \\ -b & 0 & d \\ -c & -d & 0 \end{pmatrix}$ .
@@ -23,6 +24,7 @@
 - se $ker(f) = \{ \emptyset \}$  allora $f$ è iniettiva
 - se $v_1,...,v_n$ sono una base di $V$ allora $f(v_1),...,f(v_n)$ sono generatori di $Im(f)$, ma non è detto che siano linearmente indipendenti, lo sono solo se $f$ è iniettiva e quindi se $ker(f)$ è vuoto.
 - ___Teo. Rank Nullity___: se $f :V\to W$ è applicazione lineare allora $dim(ker(f))+dim(Im(f))=dim(V)$ , corollario: se $dim(V) > dim(W)$ allora $f$ non è iniettiva, se $dim(V) < dim(W)$ allora $f$ non può essere suriettiva ($Im(f)\neq W$). Se invece $dim(V) = dim(W)$ allora $f$ è biettiva.
+  Se ci riferiamo ad una matrice: $dim(ker(A))+rank(A)=n$ con $n$ = numero di colonne 
 - ___Matrice Associata___ ad una applicazione lineare:
   $f:V \to W$ , ${v_1,...,v_n}$ base di $V$ , ${w_1,...,w_m}$ base di $W$ 
   1. calcolo $f(v_1)=c_{1,1}w_1+c_{2,1}w_2+...+c_{m,1}w_m$ e i coefficienti sono la prima colonna della matrice,
@@ -53,6 +55,8 @@
 - ___Minore___: determinante delle sottomatrici quadrate
 - ___Rango___: massima dimensione di un minore con determinante $\neq 0$ .
   1. oppure massimo numero di righe/colonne linearmente indipendenti = $dim(Span(righe/colonne))$ 
+  2. oppure numero di pivot dopo una riduzione gaussiana a scala
+  3. oppure la dimensione dell'immagine dell'applicazione lineare
 - ___Teorema di Rouché-Capelli___: 
   1. considero un sistema $Ax=b$ 
   2. costruisco la matrice $\hat A=(A |b)$ , aggiungiamo quindi la colonna $b$ 
@@ -63,17 +67,16 @@
 	  1. i due ranghi sono uguali $\to$ $b$ è comb lin di $c_1,...,c_n$ 
 	  2. $rango(\hat A) = rango(A) + 1$ $\to$ $b$ NON è comb lin di $c_1,...,c_n$ 
 - ___Regola di Cramer___: dato un sistema lineare $Ax=b$ con $A=n\times n$, allora ogni incognita è data da: $x_i=\frac{det(A_i)}{det(A)}$ dove $x_i$ è la matrice ottenuta sostituendo la i-esima colonna con la colonna $b$ dei termini noti. 
-- ___Traccia___: (di mat quadrata) somma degli elementi sulla diagonale principale.
 - ___Autovalori, Autovettori, Autospazi, Diagonalizzabilità___:
   1. un numero λ si dice _Autovalore_ (relativo ad autovettore ecc) di $A$ se esiste un _Autovettore_ $v\neq 0$ t.c. $Av=λv$ .
      per trovare gli autovalori di $A$: $det(A-λ\cdot Id)=0$
-     otteniamo un polinomio in λ di grado $n$ se $A$ è una matrice $n\times n$, che chiamiamo ___polinomio caratteristico di $A$___. Le radici (gli autovalori) appartengono a $C$, possono essere quindi complessi o reali, e possono avere molteplicità.
-     Il **prodotto** degli autovalori è uguale al termine noto del polinomio caratteristico ed è uguale al determinante della matrice. La **somma** degli autovalori è uguale alla traccia della matrice. Si dice ___molteplicità algebrica di una λ___ ($m_a(λ)$) quante volte λ è radice del pol, caratteristico. Si dice ___molteplicità geometrica di una λ___ ($m_g(λ)$) la dimensione dell'autospazio di λ e quindi $m_g(λ)=dim(ker(A-λ \cdot Id))=n-rango(A_λ\cdot Id_n)$ .
+     otteniamo un polinomio in λ di grado $n$ se $A$ è una matrice $n\times n$, che chiamiamo ___polinomio caratteristico di $A$___. Le radici (gli autovalori) appartengono a $C$, possono essere quindi complessi o reali, e possono avere molteplicità. $P(λ)=det(A-λId)$ 
+     Il **prodotto** degli autovalori è uguale al termine noto del polinomio caratteristico ed è uguale al determinante della matrice (quindi se un $λ=0$ allora $det(A)=0$. La **somma** degli autovalori è uguale alla traccia della matrice. Si dice ___molteplicità algebrica di una λ___ ($m_a(λ)$) quante volte λ è radice del pol, caratteristico. Si dice ___molteplicità geometrica di una λ___ ($m_g(λ)$) la dimensione dell'autospazio di λ e quindi $m_g(λ)=dim(ker(A-λ \cdot Id))=n-rango(A_λ\cdot λId)$ .
   1. dato un _Autovalore_ λ, si dice _Autospazio_ di λ l'insieme di tutti gli autovettori, compreso lo zero, relativi a λ.
   Quando si diagonalizza una matrice, gli autovalori diventano gli elementi sulla diagonale e gli autovettori diventano le colonne della matrice $M$.
   ___TH di Diagonalizzazione___: una matrice $A$ $n\times n$ è diagonalizzabile se e solo se $m_g(λ)=m_a(λ) \ , \ \forall λ$ quindi se $1\leq m_g(λ) \leq m_a(λ)$ e quindi se tutti gli autovalori hanno $m_g(λ)=1$ .
   Posso dare queste stesse esatte definizioni per applicazioni lineari $f:V\to V$ 
-- matrici ___simili___: siano $A$ e $B$ 2 matrici simili, hanno:
+- Due matrici $A,B$ sono ___simili___ se $\exists M \ invertibile \ t.c. \ B=M^{-1}AM$, allora hanno:
   1. stesso polinomio caratteristico
   2. stessi autovalori
   3. stesso determinante
@@ -84,6 +87,10 @@
   3. nessuna diagonalizzazione, forma alla Jordan su reali o complessi.
 - ___TH DERIVATO DA Th Fond dell'Algebra___: sia $p(x)$ un polinomio monico di grado $n$ a coefficienti $\in C$. Allora $p(x)=(x-λ_1)(x-λ_2)\cdot ... \cdot (x-λ_n)$ dove quindi $λ_1,...,λ_n$ sono le radici di $p(x)$ .
 - se una matrice è triangolare inf o sup, gli autovalori sono gli elementi sulla diagonale.
+- ___Fattorizzazione $A=LU$___: $L=\begin{pmatrix} 1&0&0 \\ d&1&0 \\ e&f&1 \end{pmatrix}$ e $U=\begin{pmatrix} a&g&h \\ 0&b&i \\ 0&0&c \end{pmatrix}$ quindi $LU=\begin{pmatrix} a&g&h \\ ad&dg+b&dh+i \\ ea&eg+bf&eh+fi+c \end{pmatrix}=A$ 
+- ___Dischi di Gershgorin___:
+  In un unione di $n$ dischi ci sono $n$ autovalori, quindi in ogni disco isolato c'è un autovalore _Reale_ (se fosse Complesso nello stesso cerchio ci dovrebbe essere anche il suo coniugato). 
+- ___Matrice Riducibile___: una matrice $A$ si dice riducibile se esiste una matrice di permutazione $P$ tale che $PAP^T=\begin{pmatrix} A_{11}&A_{12}\\ 0&A_{22} \end{pmatrix}$ con $A_{11},A_{22}$ matrici quadrate.
 Geometria:
 - angolo tra retta e piano: $\cos β=\frac{|<(a,b,c piano),(direzione retta)>|}{||(a,b,c piano)|| \cdot ||(direz retta)||}$ 
 - distanza punto-retta nel piano: $dist(P,retta)=\frac{|ax_0+by_0+c|}{\sqrt{a^2+b^2}}$ 

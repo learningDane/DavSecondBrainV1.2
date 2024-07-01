@@ -14,6 +14,7 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Accelerazione di Gravità]] 
 [[Moto in Coordinate Polari in un piano]] 
 [[Moto del Proiettile]] 
+[[Attrito]] 
 [[Moto Circolare]] 
 ### Principi dell'Elettromagnetismo nel Vuoto
 [[Carica Elettrica]] 

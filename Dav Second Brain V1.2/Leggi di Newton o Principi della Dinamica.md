@@ -1,6 +1,7 @@
 #uni 
 # Prima legge di Newton (Principio di Inerzia)
 Se la somma delle forze che agiscono su un corpo è nulla, allora il corpo in quiete rimarrà in quiete, mentre se è in moto continuerà a muoversi di moto rettilineo uniforme.
+Un sistema di riferimento in cui questo principio viene rispettato si dice ___sistema di riferimento inerziale___.
 # Seconda legge di Newton (Principio di Proporzionalità)
 La forza agente su un corpo è direttamente proporzionale all'accelerazione, ne condivide la direzione ed il verso, ed è direttamente proporzionale alla massa. $$\vec F=m\vec a$$
 # Terza legge di Newton (Principio di Azione e Reazione)
