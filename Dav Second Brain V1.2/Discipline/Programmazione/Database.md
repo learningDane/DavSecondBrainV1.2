@@ -4,7 +4,14 @@ Un Database è l'insieme di dati gestito da un [[DBMS]].
 I Database hanno:
 - dimensioni molto maggiori della memoria centrale del sistema di calcolo utilizzato
 - tempo di vita indipendente dalle singole esecuzioni dei programmi che lo utilizzano (__persistenza__ dei dati)
-- 
+Una base di dati è una risorsa integrata, condivisa fra applicazioni e quindi necessita di meccanismi di autorizzazione e controllo della concorrenza e dell'incoerenza.
+In ogni base di dati esistono:
+- ___schema___: invariante nel tempo, descrive la struttura del DB
+- ___istanza___: insieme dei valori attuali
+Il linguaggio usato per interagire con i database è l'[[SQL]].
+
+
+
 Cosa è un Database? Questo è semplicemente un deposito per le informazioni. Queste però vengono depositate secondo alcuni criteri ovviamente. I database sono studiati per facilitare l'interazione con i dati. 
 Un database è un insieme di dati gestito da un DBMS (database management system).
 Il ___modello logico relazionale___:

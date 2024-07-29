@@ -48,6 +48,18 @@
             }
           },
           {
+            "id": "e49115f764e48f2b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DBMS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "7c35051ba7e282e7",
             "type": "leaf",
             "state": {
@@ -70,9 +82,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb764635bf3322e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algebra Relazionale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -139,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/Database.md",
+                "file": "Algebra Relazionale.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/Database.md",
+                "file": "Algebra Relazionale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/Database.md"
+                "file": "Algebra Relazionale.md"
               }
             }
           }
@@ -213,14 +237,16 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "f67a7ae669feaa70",
+  "active": "eb764635bf3322e1",
   "lastOpenFiles": [
-    "Home/Random/Reels.md",
-    "Home/Daily Notes/2024/29-07-2024.md",
+    "Discipline/Programmazione/Modello Logico Relazionale.md",
+    "Algebra Relazionale.md",
     "DBMS.md",
     "Discipline/Programmazione/Database.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
     "Discipline/Programmazione/Sistema Informativo.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Home/Daily Notes/2024/29-07-2024.md",
+    "Home/Random/Reels.md",
     "Discipline/Programmazione/Algebra Relazionale.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Fondamenti di Programmazione.md",
@@ -241,8 +267,6 @@
     "Home/Random/Investments 2024.md",
     "Home/Random/Investments 2023.md",
     "Home/Random/How to make engaging edits in Videos.md",
-    "Home/Daily Notes/2024/16-06-2024.md",
-    "Attrito.md",
     "www.pi.infn.it",
     "Home/Daily Notes/2024",
     "UNI/spam",

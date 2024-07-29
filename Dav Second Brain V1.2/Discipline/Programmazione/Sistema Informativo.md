@@ -18,3 +18,7 @@ Il cuore di un sistema informativo automatizzato è il [[Database]].
 Senza interpretazione un _dato_ serve a poco, ad uno stesso dato infatti si possono dare diverse interpretazioni.
 La rappresentazione  precisa di forme più ricche di informazione e conoscenza è difficile.
 I dati sono una risorsa strategica e sono spesso il risultato di organizzazione e codifica delle informazioni.
+### Problemi
+I possibili problemi che si possono incontrare avendo a che fare con un Sistema informativo sono:
+- Ridondanza delle informazioni
+- Incoerenza: versioni diverse

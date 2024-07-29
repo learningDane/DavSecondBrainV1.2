@@ -1,43 +1,50 @@
 #uni 
+Proposto da Edward Frank Codd nel 1970 per favorire l'indipendenza dei dati. Si basa sul concetto matematico di relazione, con una variante. Le relazioni hanno naturale rappresentazione per mezzo di Tabelle.
 Tutti i dati sono rappresentati  come ___relazioni___ e manipolati con gli operatori dell'[[Algebra Relazionale]] o del calcolo relazionale.
-Il modello relazionale consente al _progettista_ di database di creare una rappresentazione consistente e logica dell'[[Informazione]]. La consistenza è ottenuta inserendo nel progetto del database appropriati vincoli, che formano lo ___schema logico___. 
-La struttura base del modello relazionale è costituita da:
-1. uno o più ___attributi___ o campi dato. Ogni campo dato ha un tipo e quindi un dominio. I nomi attributo vengono indicati con lettere dell'alfabeto a partire dalla $A$. Gli insiemi di attributi invece si indicano con le lettere a partire dalla $Z$. 
-2. una o più ___tuple___ (i record). Una  tupla su un insieme di attributi $X$ è una funzione che associa a ciascun attributo $A \in X$ un elemento, o valore, nel dominio $D_A$ di $A$.
-$t[A]$ indica il valore della tupla $t$ sull'attributo $A$. 
-$t[Y]$ indica il valore della tupla $t$ sull'insieme di attributi $Y$. 
-Una ___istanza___ di Database è l'insieme dei valori delle tuple sugli attributi.
-Se l'attributo $A$ ha come dominio $D_A$, allora ogni tupla $t[A]$ può assumere come valore solo elementi appartenenti a $D_A$ oppure NULL. 
---------- slides --------------
-# Chiave
-Un attributo per essere chiave per una relazione $r$ deve essere: 
-	- superchiave = un'insieme $k$ di attributi è una superchiave per una relaizone $r$ se $r$ non contiene due _tuple_ distinte $t_1$ e $t_2$ con $t_1[k] = t_2[k]$.
-	- minimale = contenere un solo attributo
-Non sta scritto da nessuna parte che le chiavi sono uniche.
-L'insieme di tutti gli attributi è una ___superchiave___, altrimenti sarebbero due tuple uguali. Ogni relazione ha quindi almeno una chiave.
-Le chiavi possono avere come valore NULL.
-Attributi che non si ripetono ma non sono chiavi si chiamano chiavi candidate.
-### Chiave esterna
-bho ----------------------------------------
-### Dipendenze funzionali 
-Dati due insieme di attributi x e y sulla relazione $r$ esiste una dipendenza funziona le da x a y, ovvero si dice che x determina y, ovvero $x \to y$, se e solo se date due tuple distinte $t_1$ e $t_2$, se queste due tuple assumono gli stessi valori sulle x allora assumo gli stessi valori sulle y. 
-I ___vincoli di chiave___ sono particolari tipi di vincoli, che fanno parte delle ___dipendenze funzionali___.
-# Vincoli
------bho----
-- vincolo di chiave
-- vincolo di tupla
-- vincolo di dominio
-### Vincolo di Integrità referenziale
-Informazioni in relazioni diverse posso essere correlate
-attraverso valori comuni, si usano normalmente i valori delle chiavi.
-Un ___vincolo di integrità referenziale___ fra gli attributi $X$
-(anche più di uno) di una relazione $R_1$ e un’altra
-relazione $R_2$ impone ai valori su $X$ in $R_1$ di comparire
-come valori della chiave primaria di $R_2$. In questo caso l’ordine degli attributi tra
-cui è stabilito il vincolo è significativo.
-# Profili delle Relazioni
-Informazioni quantitative:
-	- cardinalità di ciascuna relazione
-	- dimensione delle tuple
-	- dimensione dei valori
-	- slide--------------------------------------------------------
+Una relazione matematica è un sottoinsieme qualsiasi di un insieme prodotto da una qualche operazione tra uno o più insiemi detti ___Domini___. 
+- Non c'è ordinamento tra le __tuple__ 
+- non esistono tuple uguali
+- ogni tupla è ordinata al suo interno
+La struttura della tabella può essere posizionale, quindi l'ordine dei domini nella tabella dipende dall'ordine degli stessi nella relazione, oppure non posizionale, in cui a ciascun dominio di associa un nome unico nella tabella, che ne descrive il ruolo.
+I riferimenti fra dati in relazioni diverse sono rappresentati per mezzo di ___valori___ dei domini che compaiono nelle tuple. 
+# Definizioni
+- ___Schema di Relazione___: $R(X)$ con $R$ nome della relazione e $X$ insieme di attributi
+- ___Schema di Base di Dati___: $R={R_1(X_1),...,R_m(X_m)}$ quindi un insieme di schemi di relazione
+- Una tupla su un insieme di attributi $X$ è una funzione che associa a ciascun attributo $A \in X$ un valore nel dominio di $A$, il simbolo $t[A]$ denota il valore della tupla $t$ sull'attributo $A$ 
+- ___Istanza di Relazione___ su uno schema $R(X)$: insieme $r$ di tuple su $X$ 
+- ___Istanza di base di dati___ su uno schema $R$: insieme di relazioni $r={r_1,...,r_m}$ dove ogni $r_i$ è una relazione sullo schema $R_i(X_i)$ 
+# Valore Nullo
+Il modello relazionale impone ai dati una struttura rigida, se una informazione manca non conviene usare valori particolari, viene utilizzato il valore ___NULL___. Si devono però imporre restrizioni sulla presenza di valori nulli in una relazione.
+NULL può volere dire per esempio:
+- valore sconosciuto
+- valore inesistente
+- valore senza informazione
+I DBMS non distinguono i tipi di valore nullo!
+# Chiave e Superchiave
+Un insieme $K$ di attributi è una __superchiave__ per una relazione $r$ se $r$ non contiene due tuple distinte $t_1$ e $t_2$ con $t_1[K]=t_2[K]$ 
+K è una __chiave__ per $r$ se è una superchiave minimale di $r$  (ovvero non contiene un'altra superchiave).
+Una relazione è un insieme e per definizione quindi non può avere due elementi (le tuple) uguali, quindi ogni relazione ha almeno una chiave, la superchiave rappresentata dall'insieme degli attributi su cui è definita.
+I valori NULL nelle chiavi non permettono di identificare le tuple e quindi devono essere limitati.
+# Vincoli di Integrità
+Un vincolo di integrità è una __proprietà__ associata ad una base di dati, che se soddisfatta esprime la correttezza del DB rispetto all'applicazione.
+Questi permettono una descrizione più accurata della realtà, sono utili nella progettazione e sono usati nei [[DBMS]] nella esecuzione delle interrogazioni.
+I vincoli corrispondono a proprietà reali e interessano tutte le istanze e se sono tutti soddisfatti garantiscono la correttezza dello schema.
+In particolare un vincolo di integrità è una funzione booleana chiamata su ogni istanza della base di dati.
+Esistono due tipi di vincoli di integrità:
+- intra-relazionali
+- inter-relazionali
+###### Vincoli intrarelazionali
+Il suo soddisfacimento è definito rispetto ad una singola relazione della base di dati.
+- ___Vincolo di Tupla___: può essere valutata su ciascuna tupla indipendentemente dalle altre.
+- ___Vincolo di dominio___: vincolo di tupla che coinvolge un solo attributo.
+###### Vincoli interrelazionali
+Il suo soddisfacimento è definito rispetto a più relazioni della base di dati
+###### Vincoli di chiave
+I vincoli di chiave sono particolari vincoli che fanno parte delle ___dipendenza funzionali___
+###### Dipendenze funzionali
+Formalmente:
+Dati due insiemi di attributi $X$ e $Y$, si dice che $X$ determina $Y$ ($X \to Y$) se e solo se date due tuple distinte $t_1$ e $t_2$, se $t_1[X]=t_2[X]$ allora $t_1[Y]=t_2[Y]$ 
+###### Vincolo di Integrità Referenziale
+Un vincolo di integrità referenziale fra gli attributi $X$ di una relazione $R_1$ e una relazione $R_2$ impone ai valori su $X$ in $R_1$ DIVERSI da NULL di comparire come valori della chiave primaria di $R_2$. Nota che in questo caso l'ordine degli attributi tra cui è stabilito il vincolo è significativo.
+###### Reazione alla violazione di vincoli
+Quando si tenta di compiere un'operazione che viola un vincolo entrano in gioco diversi meccanismi, che prendono il nome di ___azioni compensative___.
