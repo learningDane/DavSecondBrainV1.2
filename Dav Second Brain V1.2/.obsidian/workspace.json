@@ -36,55 +36,43 @@
             }
           },
           {
-            "id": "65226ee5ba20da70",
+            "id": "66708a39de5b4750",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Fisica/Moto Circolare.md",
+                "file": "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "20e11b69fdd7c038",
+            "id": "7c35051ba7e282e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
+                "file": "Discipline/Programmazione/Sistema Informativo.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f6a9d0d52939d047",
+            "id": "c2b9a0af20b617f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df3c6f50c0fb0152",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
+                "file": "Discipline/Programmazione/Database.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -113,7 +101,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "query",
+                "query": "resolve",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +122,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -150,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
+                "file": "Discipline/Programmazione/Database.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md",
+                "file": "Discipline/Programmazione/Database.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Matematica/Formulario Algebra Lineare.md"
+                "file": "Discipline/Programmazione/Database.md"
               }
             }
           }
@@ -224,8 +213,25 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "df3c6f50c0fb0152",
+  "active": "f67a7ae669feaa70",
   "lastOpenFiles": [
+    "Home/Random/Reels.md",
+    "Home/Daily Notes/2024/29-07-2024.md",
+    "DBMS.md",
+    "Discipline/Programmazione/Database.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Discipline/Programmazione/Sistema Informativo.md",
+    "Discipline/Programmazione/Algebra Relazionale.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Fondamenti di Programmazione.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno II",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I",
+    "Algoritmo di Dijkstra.md",
+    "Discipline/Fisica/Moto Circolare.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Fisica Generale I.md",
+    "Discipline/Matematica/Formulario Algebra Lineare.md",
+    "Home/Daily Notes/2024/25-07-2024.md",
+    "Home/Daily Notes/2024/26-07-2024.md",
     "Home/Daily Notes/2024/27-06-2024.md",
     "Home/Daily Notes/2024/25-06-2024.md",
     "Contratto Fotografia.md",
@@ -237,22 +243,7 @@
     "Home/Random/How to make engaging edits in Videos.md",
     "Home/Daily Notes/2024/16-06-2024.md",
     "Attrito.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Fisica Generale I.md",
-    "Leggi di Newton o Principi della Dinamica.md",
-    "UNI/spam/Informazioni sul Corso di Fisica Generale I.md",
-    "www.pi.infn.it/~ciocci.md",
     "www.pi.infn.it",
-    "Home/Daily Notes/2024/10-06-2024.md",
-    "UNI/Materie Ingegneria informatica Unipi.md",
-    "Discipline/Fisica/Moto Rettilineo Uniforme.md",
-    "Home/Daily Notes/2024/07-06-2024.md",
-    "Discipline/Matematica/Formulario Algebra Lineare.md",
-    "Home/Daily Notes/2024/06-06-2024.md",
-    "Home/Daily Notes/2024/05-06-2024.md",
-    "Home/Daily Notes/2024/04-06-2024.md",
-    "Home/Daily Notes/2024/03-06-2024.md",
-    "Discipline/Matematica/Equazioni Differenziali.md",
-    "Algoritmo PageRank.md",
     "Home/Daily Notes/2024",
     "UNI/spam",
     "Discipline/Fisica/media",
@@ -265,8 +256,6 @@
     "Discipline/Finanza",
     "Home/SQphotography",
     "Discipline/Programmazione/web",
-    "Discipline/Matematica/Algoritmi",
-    "Home/Production",
     "Immagine 2023-10-09 133838.png"
   ]
 }

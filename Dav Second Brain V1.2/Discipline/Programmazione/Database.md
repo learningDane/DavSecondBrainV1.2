@@ -1,4 +1,10 @@
 #uni 
+Una Base di Dati è il cuore di un sistema informativo automatizzato, cioè un insieme organizzato di dati utilizzati per rappresentare le informazioni di interesse.
+Un Database è l'insieme di dati gestito da un [[DBMS]].
+I Database hanno:
+- dimensioni molto maggiori della memoria centrale del sistema di calcolo utilizzato
+- tempo di vita indipendente dalle singole esecuzioni dei programmi che lo utilizzano (__persistenza__ dei dati)
+- 
 Cosa è un Database? Questo è semplicemente un deposito per le informazioni. Queste però vengono depositate secondo alcuni criteri ovviamente. I database sono studiati per facilitare l'interazione con i dati. 
 Un database è un insieme di dati gestito da un DBMS (database management system).
 Il ___modello logico relazionale___:
