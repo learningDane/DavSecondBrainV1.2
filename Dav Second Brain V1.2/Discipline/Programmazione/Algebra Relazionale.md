@@ -45,6 +45,11 @@ Queste informazioni sono memorizzate nel ___catalogo___ e aggiornate e vengono u
 ### Ottimizzazione Algebrica
 Il termine ottimizzazione è improprio perché il processo utilizza euristiche. Questo processo si basa sulla nozione di equivalenza.
 L'euristica fondamentale: selezioni e proiezioni il più presto possibile.
+### Procedura Euristica di Ottimizzazione
+1. decomporre le selezioni congiuntive in successive selezioni atomiche
+2. anticipare selezioni a partire dalle più selettive
+3. combinare prodotti cartesiani e selezioni per formare join
+4. anticipare le proiezioni (anche introducendone di nuove)
 ### Equivalenza di Espressioni
 Due espressioni sono equivalenti se producono lo stesso risultato (qualunque sia l'istanza attuale). I DBMS cercano di eseguire espressioni equivalenti ma meno costose.
 ___Push Selections Down___:
@@ -65,6 +70,28 @@ Un grafo diretto è detto aciclico se non contiene cicli.
 # Albero
 Un grafo non orientato si dice __connesso__ se esiste un cammino tra ogni coppia di vertici.
 Un albero è un grafo non orientato nel quale due vertici qualsiasi sono connessi da un solo cammino.
+Gli alberi vengono usati come rappresentazione interna delle interrogazioni: le foglie sono dati, quindi relazioni o file e i nodi intermedi sono operatori, quindi prima operatori algebrici e poi effettivi operatori di accesso ai dati.
+![[Pasted image 20240814002057.png]] 
+# Relazioni Derivate
+Sono relazioni in funzione del contenuto di altre relazioni. 
+Ne esistono 2 tipi:
+- Viste __materializzate___
+  sono relazioni derivate memorizzate nella base di dati e quindi sono immediatamente disponibili, sono però ridondanti, pesanti e raramente supportate dai [[DBMS]]
+- Viste __virtuali__ (o semplicemente __viste__)
+  non sono memorizzate e quindi vengono calcolate quando chiamate. Vengono eseguite sostituendo la loro definizione al posto della vista. Servono solo per semplificare la scrittura delle interrogazioni e quindi la manutenibilità del codice.
+Esempio di _vista_: $supervisione=\pi_{etc}(afferenza \bowtie direzione)$ 
+# Calcolo Relazionale
+Questo è una famiglia di linguaggi dichiarativi basati sul calcolo dei predicati del primo ordine. Un altro modo per esprimere query oltre all'algebra relazionale.
+Si divide in:
+- __TRC__: calcolo relaizonale sulle tuple:
+- __DRC__: calcolo relazionale sui domini con dichiarazioni di _range_ 
+Le espressioni hanno la seguente forma: $$\{A_1:x_1,...,A_k:x_k|f\}$$
+dove:
+- $f$ è una formula
+- $A_i$ è un attributo
+- $x_i$ è una variabile
+- $A_1:x_1,...,A_n:x_n$ è chiamata ___target list___ e descrive il risultato
+Il risultato è una relazione su $A_1,...,A_k$ che contiene tuple di valori per $x_1,...,x_k$ che rendono vera la formula $f$ rispetto ad una istanza di base di dati a cui l'espressione è applicata.
 # Simboli Katex Utili
 leftarrow: \leftarrow: $\leftarrow$ 
 select: sigma: $\sigma$ 

@@ -58,6 +58,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6787a119539c8fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -203,9 +215,11 @@
   },
   "active": "f274dbaa8b6e8574",
   "lastOpenFiles": [
-    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
-    "Discipline/Programmazione/Algebra Relazionale.md",
     "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
+    "Pasted image 20240814002503.png",
+    "Discipline/Programmazione/Algebra Relazionale.md",
+    "Pasted image 20240814002057.png",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
     "Discipline/Programmazione/Database.md",
     "Discipline/Programmazione/Modello Logico Relazionale.md",
     "Home/Random/ToDo.md",
@@ -230,7 +244,6 @@
     "Contratto Fotografia.md",
     "Home/SQphotography/Allora.md",
     "Home/Random/Moto.md",
-    "Home/Random/Investments 2024.md",
     "www.pi.infn.it",
     "Home/Daily Notes/2024",
     "UNI/spam",
