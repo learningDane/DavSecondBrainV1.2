@@ -5,5 +5,7 @@ Algebra Relazionale:
 [[Sistema Informativo]] 
 [[Database]] 
 [[DBMS]] 
+[[Modello Logico Relazionale]] 
+[[Algebra Relazionale]] 
 SQL:
 [[SQL]] 
