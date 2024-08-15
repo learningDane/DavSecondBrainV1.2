@@ -7,5 +7,7 @@ Algebra Relazionale:
 [[DBMS]] 
 [[Modello Logico Relazionale]] 
 [[Algebra Relazionale]] 
+[[Calcolo Relazionale]] 
+[[Metodologie e Modelli Progettuali]] 
 SQL:
 [[SQL]] 

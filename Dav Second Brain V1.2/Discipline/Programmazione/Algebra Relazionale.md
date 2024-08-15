@@ -80,18 +80,15 @@ Ne esistono 2 tipi:
 - Viste __virtuali__ (o semplicemente __viste__)
   non sono memorizzate e quindi vengono calcolate quando chiamate. Vengono eseguite sostituendo la loro definizione al posto della vista. Servono solo per semplificare la scrittura delle interrogazioni e quindi la manutenibilità del codice.
 Esempio di _vista_: $supervisione=\pi_{etc}(afferenza \bowtie direzione)$ 
-# Calcolo Relazionale
-Questo è una famiglia di linguaggi dichiarativi basati sul calcolo dei predicati del primo ordine. Un altro modo per esprimere query oltre all'algebra relazionale.
-Si divide in:
-- __TRC__: calcolo relaizonale sulle tuple:
-- __DRC__: calcolo relazionale sui domini con dichiarazioni di _range_ 
-Le espressioni hanno la seguente forma: $$\{A_1:x_1,...,A_k:x_k|f\}$$
-dove:
-- $f$ è una formula
-- $A_i$ è un attributo
-- $x_i$ è una variabile
-- $A_1:x_1,...,A_n:x_n$ è chiamata ___target list___ e descrive il risultato
-Il risultato è una relazione su $A_1,...,A_k$ che contiene tuple di valori per $x_1,...,x_k$ che rendono vera la formula $f$ rispetto ad una istanza di base di dati a cui l'espressione è applicata.
+# Calcolo e Algebra: i limiti
+[[Calcolo Relazionale]] e algebra relazionale sono sostanzialmente equivalenti, ci sono però interrogazioni non esprimibili:
+- calcolo di valori derivati: possiamo solo estrarre valori, non calcolarne di nuovi
+- interrogazioni inerentemente ricorsive, come la ___chiusura ricorsiva___:
+  _per ogni impiegato trovare tutti i superiori_, in algebra relazionale l'operazione si simulerebbe con un numero di join __illimitato__.
+# Divisione
+Dati due insiemi di attributi disgiunti $X_1,X_2$, una relazione $r$ su $X_1 \cup X_2$ e una relazione $r_2$ su $X_2$, la ___divisione___ $r \div r_2$ è una relazione su $X_1$ che contiene le tuple ottenute come proiezione di tuple di $r$ che si combinano con tutte le tuple di $r_2$ per formare tuple di $r$: $$r\div r_2= \{t_1 su X_1 | per \ ogni \ t_2 \in r_2 \ esiste \ t \in r\ con \ t[X_1] = t_1 \ e \ t[X_2]=t_2\}$$
+Quindi in parole povere restituisce solo i valori di un attributo di $r$ che hanno una tupla per ogni valori di un attributo di $r_2$. Ad Esempio $sedi \div uffici$ restituisce tutte le filiali che hanno tutti gli uffici.
+Questo è un operatore __derivato__ poiché può essere espresso come segue: $$r\div r_2=\pi_{X_1}(r)-\pi_{X_1}((\pi_{X_1}(r) \times r_2)-r)$$
 # Simboli Katex Utili
 leftarrow: \leftarrow: $\leftarrow$ 
 select: sigma: $\sigma$ 
