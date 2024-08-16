@@ -6,9 +6,9 @@ Il ___ciclo di vita___ di un [[Sistema Informativo]]:
 2. attività iterativa.
 # Waterfall Model
 Questo è il primo modello da scegliere, e ne esistono di vari, il più vecchio è il __waterfall model__: in questo modello le fasi sono ordinate e _non ripetibili_:
-1. Studio di fattibilità
-2. raccolta ed analisi dei requisiti
-   1. acquisizione dei requisiti
+1. ___Studio di fattibilità___
+2. ___raccolta ed analisi dei requisiti___
+   1. ___acquisizione dei requisiti___
       da interviste di utenti, normative, procedure aziendali e realizzazioni preesistenti, importante il ___ranking dei requisiti___.
       Regole generali per la documentazione che segue l'interazione con gli utenti:
       - standardizzare la struttura delle frasi
@@ -20,10 +20,13 @@ Questo è il primo modello da scegliere, e ne esistono di vari, il più vecchio 
 	  - riorganizzare le frasi per concetti
    1. analisi dei requisiti
       coadiuvata da linguaggi specifici per definire i requisiti, ad esempio [[UML]] 
-3. progettazione
-4. realizzazione
-5. validazione e collaudo
-6. funzionamento o ___shipping___ 
+3. ___progettazione___
+	   divisa in progettazione dei dati (e quindi scelta del [[Modello dei dati]] e delle applicazioni. Si Progetta per diversi livelli di astrazione: concettuale, logico e fisico.
+1. ___realizzazione___
+2. ___validazione e collaudo___
+3. ___funzionamento o shipping___ 
+# Altro
+![[Pasted image 20240815235035.png]]
 # Esempi documentazione
 Si vuole realizzare una base di dati per una società che
 eroga corsi: di ogni corso vogliamo rappresentare i dati

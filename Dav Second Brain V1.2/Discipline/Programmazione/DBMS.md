@@ -13,18 +13,7 @@ e garantisce:
 - efficacia
   migliorare la produttività dellìutilizzatore
 Una __transazione__ è un insieme di operazioni da considerare indivisibile ("___Atomico___"), corretto anche in presenza di concorrenza e con effetti definitivi. La conclusione positiva di una transazione corrisponde ad un impegno a mantenere traccia del risultato in modo definitivo.
-Nei DBMS esiste una porzione della base di dati che contiene una descrizione centralizzata dei dati. Viene introdotto il concetto di ___modello dei dati___: insieme di costrutti utilizzati per organizzare i dati di interesse e descriverne la dinamica.
-L'organizzazione dei dati è data dal ___modello logico___ utilizzato, che è indipendente dalle strutture fisiche. I modelli logici possono essere
-- [[Modello Logico Relazionale]] 
-- reticolare
-- gerarchico
-- a oggetti
-- basato su XML
-Ci sono poi i ___modelli concettuali___:
-- rappresentano i dati in modo indipendente da ogni sistema
-- descrivono i concetti del mondo reale
-- sono utilizzati nelle fasi preliminari di progettazione
-- il più diffuso è il modello Entity-Relationship (ER)
+Nei DBMS esiste una porzione della base di dati che contiene una descrizione centralizzata dei dati. Viene introdotto il concetto di [[Modello dei dati]].
 ### Architettura a tre livelli di un DBMS
 1. Utente
 2. Schema Esterno

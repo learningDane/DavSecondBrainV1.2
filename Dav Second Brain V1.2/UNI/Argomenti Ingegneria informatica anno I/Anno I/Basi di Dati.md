@@ -9,5 +9,7 @@ Algebra Relazionale:
 [[Algebra Relazionale]] 
 [[Calcolo Relazionale]] 
 [[Metodologie e Modelli Progettuali]] 
+[[Modello dei dati]] 
+[[Modello Entity-Relationship]] 
 SQL:
 [[SQL]] 
