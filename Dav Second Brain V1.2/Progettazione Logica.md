@@ -20,5 +20,10 @@ Una ridondanza è un'informazione significativa ma derivabile, durante questa fa
 Una ridondanza semplifica le interrogazioni ma appesantisce gli aggiornamenti e occupa maggiore spazio.
 Le  ridondanze possono essere _attributi derivabili_ oppure _relationship derivabili_.
 #### Eliminazione delle generalizzazioni
+Il [[Modello Logico Relazionale]] non può rappresentare direttamente le generalizzazioni, si eliminano quindi le gerarchie, sostituendole con entity e relationship.
+Le possibilità sono:
+- accorpamento delle figlie nel genitore
+- accorpamento del genitore nelle figlie
+- sostituzione della generalizzazione con relationship
 #### Partizionamento/accorpamento di entity e relationship
 #### Scelta degli identificatori primari
