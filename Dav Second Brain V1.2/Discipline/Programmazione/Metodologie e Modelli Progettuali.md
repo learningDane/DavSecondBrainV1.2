@@ -21,7 +21,7 @@ Questo è il primo modello da scegliere, e ne esistono di vari, il più vecchio 
    1. analisi dei requisiti
       coadiuvata da linguaggi specifici per definire i requisiti, ad esempio [[UML]] 
 3. ___progettazione___
-	   divisa in progettazione dei dati (e quindi scelta del [[Modello dei dati]] e delle applicazioni. Si Progetta per diversi livelli di astrazione: concettuale, logico e fisico.
+	   divisa in progettazione dei dati (e quindi scelta del [[Modello dei dati]] e delle applicazioni. Si Progetta per diversi livelli di astrazione: [[Progettazione Concettuale]], [[Progettazione Logica]] e fisica che lavorano rispettivamente su schema concettuale, logico e fisico.
 1. ___realizzazione___
 2. ___validazione e collaudo___
 3. ___funzionamento o shipping___ 

@@ -11,5 +11,7 @@ Algebra Relazionale:
 [[Metodologie e Modelli Progettuali]] 
 [[Modello dei dati]] 
 [[Modello Entity-Relationship]] 
+[[Progettazione Concettuale]] 
+[[Progettazione Logica]] 
 SQL:
 [[SQL]] 

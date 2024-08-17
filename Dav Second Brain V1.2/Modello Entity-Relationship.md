@@ -1,14 +1,7 @@
 #uni 
 Anche detto modello __E-R__, è il [[Modello dei dati]] concettuale più diffuso.
+Uno schema __E-R__ sebbene necessario non è quasi mai sufficiente ad esprimere tutti i dettagli di una applicazione, ci sono dei vincoli non esprimibili e per questo si rende necessario associarci una documentazione di supporto.
 Prevede i seguenti costrutti:
-- Costrutti di Base:
-  1. ___Entità___
-  2. ___Relationship___
-  3. ___Attributo___
-- Altri costrutti:
-  1. Identificatore
-  2. generalizzazione
-  3. ...
 # Entity
 Una entità è una classe di oggetti (fatte, persone, cose) con proprietà comuni ed esistenza _autonoma_.
 Non cambia da una istanza all'altra: un "impiegato" rimane sempre un "impiegato" senza altre proprietà note oltre a quelle che lo definiscono "impiegato".
@@ -51,7 +44,7 @@ Si dice Generalizzazione __Totale__ se ogni occorrenza del Genitore è occorrenz
 Si dice __Esclusiva__ se ogni occorrenza del genitore è occorrenza di al più una figlia, altrimenti di dice __Sovrapposta__.
 Se una generalizzazione ha solo un'entità figlia si parla di __Sottoinsieme__.
 Il genitore di una generalizzazione totale può non avere identificatore, purché …
-# Media
+# Esempi
 ![[Pasted image 20240816121719.png]]
 ![[Pasted image 20240816094228.png]]
 ![[Pasted image 20240816123548.png]]
@@ -59,3 +52,21 @@ Il genitore di una generalizzazione totale può non avere identificatore, purch�
 Relationship ricorsiva con ruoli: 
 ![[Pasted image 20240816095415.png]]
 ![[Pasted image 20240816095905.png]]
+#### Dizionario dei dati (entity):
+
+| entity    | descrizione             | attributi                 | identificatore |
+| --------- | ----------------------- | ------------------------- | -------------- |
+| impiegato | dipendente dell'azienda | codice<br>cognome<br>nome | codice         |
+| ecc       |                         |                           |                |
+#### Dizionario dei dati (relationship)
+
+| relazioni | descrizione                  | componenti                | attributi |
+| --------- | ---------------------------- | ------------------------- | --------- |
+| afferenza | afferenza ad un appartamento | impiegato<br>dipartimento | data      |
+#### Regole di Vincolo
+1. Il direttore di un dipartimento deve afferire a tale dipartimento
+2. un impiegato non deve avere uno stipendio maggiore del direttore del dipartimento al quale afferisce
+3. _ecc.._ 
+#### Regole di Derivazione
+1. il numero di impiegati di un dipartimento si ottiene contando gli impiegati che afferiscono a tale dipartimento
+2. _ecc..._ 

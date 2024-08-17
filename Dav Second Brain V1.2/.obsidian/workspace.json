@@ -48,43 +48,31 @@
             }
           },
           {
-            "id": "633bad271a794a4a",
+            "id": "c4442252e3fbe6b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
+                "file": "Progettazione Concettuale.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fbe25e79f97e2ba2",
+            "id": "15cdaf1e9126e140",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modello dei dati.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17193cbd56a2923a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modello Entity-Relationship.md",
+                "file": "Progettazione Logica.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -151,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modello Entity-Relationship.md",
+                "file": "Progettazione Logica.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modello Entity-Relationship.md",
+                "file": "Progettazione Logica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,15 +191,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modello Entity-Relationship.md"
+                "file": "Progettazione Logica.md"
               }
             }
+          },
+          {
+            "id": "c2aafc520f9e357c",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 235.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -222,25 +219,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false
+      "audio-recorder:Start/stop recording": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "17193cbd56a2923a",
+  "active": "15cdaf1e9126e140",
   "lastOpenFiles": [
-    "Pasted image 20240816123548.png",
-    "Pasted image 20240816123003.png",
-    "Pasted image 20240816121719.png",
-    "Pasted image 20240816095905.png",
-    "Pasted image 20240816095713.png",
-    "Pasted image 20240816095415.png",
-    "Pasted image 20240816094228.png",
-    "Pasted image 20240816000159.png",
-    "Pasted image 20240816000123.png",
-    "Modello dei dati.md",
-    "Modello Entity-Relationship.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Progettazione Concettuale.md",
     "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
-    "Home/Media/Pasted image 20240815235035.png",
+    "Progettazione Logica.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Home/Media/Pasted image 20240816000123.png",
+    "Home/Media/Pasted image 20240816000159.png",
+    "Home/Media/Pasted image 20240816095415.png",
+    "Home/Media/Pasted image 20240816095713.png",
+    "Home/Media/Pasted image 20240816095905.png",
+    "Home/Media/Pasted image 20240816121719.png",
+    "Home/Media/Pasted image 20240816123003.png",
+    "Home/Media/Pasted image 20240816123548.png",
+    "Pasted image 20240816174815.png",
+    "Pasted image 20240816175151.png",
+    "Modello Entity-Relationship.md",
+    "Modello dei dati.md",
     "Discipline/Programmazione/DBMS.md",
     "Discipline/Programmazione/Modello Logico Relazionale.md",
     "Graph Database.md",
@@ -250,7 +250,6 @@
     "Home/Media",
     "Discipline/Programmazione/Algebra Relazionale.md",
     "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
-    "Home/Media/Pasted image 20240814002503.png",
     "Discipline/Programmazione/Database.md",
     "Home/Random/ToDo.md",
     "Home/Daily Notes/2023/02-10-2023.md",
@@ -265,7 +264,6 @@
     "Discipline/Programmazione/Algoritmo di Dijkstra.md",
     "Discipline/Fisica/Moto Circolare.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Fisica Generale I.md",
-    "Discipline/Matematica/Formulario Algebra Lineare.md",
     "www.pi.infn.it",
     "Home/Daily Notes/2024",
     "UNI/spam",
