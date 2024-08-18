@@ -40,7 +40,7 @@ Il suo soddisfacimento è definito rispetto ad una singola relazione della base 
 ###### Vincoli interrelazionali
 Il suo soddisfacimento è definito rispetto a più relazioni della base di dati
 ###### Vincoli di chiave
-I vincoli di chiave sono particolari vincoli che fanno parte delle ___dipendenza funzionali___
+I vincoli di chiave sono particolari vincoli che fanno parte delle ___dipendenza funzionali___ [[Dipendenza Funzionale]].
 ###### Dipendenze funzionali
 Formalmente:
 Dati due insiemi di attributi $X$ e $Y$, si dice che $X$ determina $Y$ ($X \to Y$) se e solo se date due tuple distinte $t_1$ e $t_2$, se $t_1[X]=t_2[X]$ allora $t_1[Y]=t_2[Y]$ 

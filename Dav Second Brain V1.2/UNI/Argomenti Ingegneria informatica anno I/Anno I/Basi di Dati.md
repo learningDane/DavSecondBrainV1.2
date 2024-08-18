@@ -13,5 +13,7 @@ Algebra Relazionale:
 [[Modello Entity-Relationship]] 
 [[Progettazione Concettuale]] 
 [[Progettazione Logica]] 
+[[Dipendenza Funzionale]] 
+[[Normalizzazione]] 
 SQL:
 [[SQL]] 
