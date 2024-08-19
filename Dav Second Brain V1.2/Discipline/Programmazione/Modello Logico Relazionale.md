@@ -24,7 +24,19 @@ I DBMS non distinguono i tipi di valore nullo!
 Un insieme $K$ di attributi è una __superchiave__ per una relazione $r$ se $r$ non contiene due tuple distinte $t_1$ e $t_2$ con $t_1[K]=t_2[K]$ 
 K è una __chiave__ per $r$ se è una superchiave minimale di $r$  (ovvero non contiene un'altra superchiave).
 Una relazione è un insieme e per definizione quindi non può avere due elementi (le tuple) uguali, quindi ogni relazione ha almeno una chiave, la superchiave rappresentata dall'insieme degli attributi su cui è definita.
-I valori NULL nelle chiavi non permettono di identificare le tuple e quindi devono essere limitati.
+I valori NULL nelle chiavi non permettono di identificare le tuple e quindi devono essere limitati. 
+### Calcolo delle chiavi con [[Dipendenza Funzionale]]
+Definizione di chiave e superchiave tramite le FD:
+Dato uno schema $R(T,F)$, un insieme di attributi $k \in T$ si dice __superchiave__ di $R$ se $K \to T \in F^+$.
+Un insieme di attributi $K \in T$ si dice __chiave__ di $R$ se $K$ è una superchiave di $R$ e se non esiste alcun sottoinsieme proprio di $K$ che sia superchiave di $R$.
+Trovare tutte le chiavi di $R(Z)$ ha complessità esponenziale nel caso peggiore:
+- Gli attributi che stanno solo a sinistra stanno in tutte le chiavi, chiamiamo $N$ questo insieme
+- quelli che stanno solo a destra non stanno in nessuna chiave
+- si aggiunge a $N$ un attributo ala volta tra quelli che non stanno solo a destra, poi una coppia di attributi e così via... Chiamiamo $X_i$ questo sottoinsieme di attributi, ogni volta si controlla se la FD $N \cup X_i \to Z$ esiste
+### Verificare una chiave
+Per verificare se un insieme di attributi è chiave o superchiave possiamo usare l'algoritmo per il calcolo della chiusura di un insieme di attributi ([[Dipendenza Funzionale#Calcolo di $X +$]]).
+- $X \in T$ è superchiave di $R(T,F)$  se e solo se $X \to T \in F^+$, ovvero se e solo se $T \in X^+$ 
+- $X \in T$ è chiave di $R(T,F)$ se e solo se $T \in X^+$, e non esiste $Y \in X$ tale che $T \in Y^+$ 
 # Vincoli di Integrità
 Un vincolo di integrità è una __proprietà__ associata ad una base di dati, che se soddisfatta esprime la correttezza del DB rispetto all'applicazione.
 Questi permettono una descrizione più accurata della realtà, sono utili nella progettazione e sono usati nei [[DBMS]] nella esecuzione delle interrogazioni.

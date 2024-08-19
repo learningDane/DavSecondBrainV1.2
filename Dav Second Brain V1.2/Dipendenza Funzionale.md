@@ -37,3 +37,71 @@ E indichiamo con $F \vdash X \to Y$ il fatto che la FD $X \to Y$ sia derivabile 
   $\{ X \to Y \} \vdash XZ \to Y$ 
 - ___Identità___:
   $\{ \} \vdash X \to X$ 
+# Chiusura di un insieme di attributi
+Dato uno schema $R(T,F)$ con $X \in T$, la chiusura di $X$ rispetto a $F$ è definita come: $$X_F^+=\{ A \in T |F \vdash X \to A \}$$
+Se non vi sono ambiguità per semplicità scriviamo $X^+$.
+### Teorema della chiusura degli attributi
+$$F \vdash X \to Y \iff Y \in X^+$$
+# Correttezza e Completezza
+$RI$ è corretto se $F \vdash X \to Y \implies F \vDash X \to Y$ : applicando $RI$ ad un insieme di $F$ di FD si ottengono solo dipendenze logicamente implicate da $F$.
+$RI$ è completo se $F \vDash X \to Y \implies X \to Y$ : applicando $RI$ ad un insieme $F$ di FD si ottengono tutte le dipendenze logicamente implicate da $F$.
+#### Teorema
+_Le regole di inferenza di Armstrong sono corrette e complete_.
+Questo teorema ci permette di scambiare $\vDash$ (soddisfa) con $\vdash$ (implica) ovunque, in particolare nella definizione di chiusura degli attributi.
+Si può dimostrare che le regole di inferenza di Armstrong sono __minimali__, cioè ignorandone anche solo una di esse, l'insieme di regole che rimane non è più completo.
+# Chiusura di un insieme di dipendenza funzionali
+Sia $F$ definito su $R(Z)$, la chiusura di $F$ è l'insieme $F^+$ di tutte le FD implicate da $F$: $$F^+= \{ X \to Y | F \implies X \to Y \}$$
+Dato un insieme $F$ definite su $R(Z)$, un'istanza $r$ di $R$ che soddisfa $F$ soddisfa anche le FD di $F^+$.
+# Calcolo di $F^+$ 
+per calcolare $F^+$ possiamo usare le regole di inferenza di Armstrong:
+_Input_: $R(T,F)$ 
+_Output_: $F^+$ 
+$F^+ \gets F$ 
+__while__ ($F^+$ non cambia) __do__
+	__for each__ $f \in F^+$ __do__
+		applicare riflessività ed additività a $f$ e aggiungere a $F^+$ le dipendenze ottenute
+	__for each__ £f_1,f_2 \in F^+$ __do__ 
+		se possibile, applicare transitività a $f_1$ e $f_2$ e aggiungere a $F^+$ la dipendenza ottenuta.
+__return__ $F^+$ 
+### Calcolo di $X^+$ 
+Il calcolo di $F^+$ è molto costoso poiché ha una complessità esponenziale. Spesso però invece ci interessa verificare se $F^+$ contiene una certa FD, non generare l'intera chiusura, per fare ciò basta calcolare $X^+$ per il teorema di chiusura degli attributi:
+_Input_: $R(T,F), X \in T$ 
+_Output_: $X^+$ 
+$X^+ \gets X$ 
+__while__ ($X^+$ non cambia) __do__ 
+	__for each__ $W \to V \in F$ __do__ 
+		__if__ $W \in X^+$ __and__ $V \notin X^+$ __then__
+			$X^+ \gets X^+ \cup V$ 
+__return__ $X^+$ 
+# Equivalenza
+Due insiemi $F$ e $G$ di FD sugli attributi $T$ di una relazione $R(T)$ sono ___equivalenti___, in simboli $F \equiv G$, se e solo se $F^+ = G^+$. A quel punto si dice che $F$ è una ___copertura___ di $G$ e viceversa.
+L'equivalenza ci permette di stabilire se due schemi di relazione rappresentano gli stessi fatti: basta che abbiano gli stessi attributi e FD equivalenti.
+Per verificare l'equivalenza è sufficiente che:
+- tutte le FD di $F$ appartengano a $G^+$ 
+- tutte le FD di $G$ appartengano a $F^+$ 
+# Ridondanza
+Sia $F$ un insieme di FD, data $X \to Y \in F$, $X$ contiene un ___attributo estraneo___ se e solo se $X- \{ A \} \to Y \in F^+$.
+$X \to Y$ è una FD ___ridondante___ se e solo se $X \to Y \in (F- \{ X \to Y \})^+$ 
+Le FD che NON contengono attributi __estranei__ e la cui parte destra è un unico attributo, sono dette FD ___elementari___.
+# Copertura Minimale
+Sia $F$ un insieme di FD, $F$ è una ___copertura minimale___ se e solo se:
+- ogni parte destra di una FD ha un unico attributo
+- le FD non contengono attributi estranei
+- non esistono dipendenza ridondanti
+quindi se e solo sono tutte FD elementari non ridondanti.
+Ogni tanto una copertura minimale viene chiamata _insieme minimale_ oppure _copertura canonica_.
+### Teorema
+Per ogni insieme di FD esiste una copertura minimale. (il teorema non dice nulla sull'unicità della cop. min.)
+### Calcolo della copertura minimale
+_input_: insieme $F$ di FD
+_output_: copertura minimale $G$ di $F$ 
+$G \gets F$ 
+__for each__ $X \to Y$ __do__
+	$Z \gets X$ 
+	__for each__ $A \in X$ __do__ 
+		__if__ $Y \in (Z-(A))_F^+$ __then__ 
+			$Z \gets Z- \{A\}$ 
+	$G \gets (G-\{X\to Y\} ) \cup \{ Z \to Y \}$ 
+__for each__ $f \in (G- \{f \} )^+$ __then__
+	$G \gets G- \{f\}$ 
+__return__ $G$ 

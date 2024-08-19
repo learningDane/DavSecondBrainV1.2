@@ -24,61 +24,15 @@
           {
             "id": "66708a39de5b4750",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "3bbc1d78a743996d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/Modello Logico Relazionale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4442252e3fbe6b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione Concettuale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f856743529b3b14a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Progettazione Logica.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2a2f9ecce6a14baa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dipendenza Funzionale.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -94,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -161,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dipendenza Funzionale.md",
+                "file": "Normalizzazione.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dipendenza Funzionale.md",
+                "file": "Normalizzazione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dipendenza Funzionale.md"
+                "file": "Normalizzazione.md"
               }
             }
           },
@@ -245,15 +199,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2a2f9ecce6a14baa",
+  "active": "25608fce4697accd",
   "lastOpenFiles": [
-    "Progettazione Logica.md",
-    "Progettazione Concettuale.md",
+    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
     "Dipendenza Funzionale.md",
     "Discipline/Programmazione/Modello Logico Relazionale.md",
-    "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
-    "Normalizzazione.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
+    "Normalizzazione.md",
+    "Discipline/Programmazione/Algebra Relazionale.md",
+    "Progettazione Logica.md",
+    "Progettazione Concettuale.md",
     "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
     "Home/Media/Pasted image 20240816000123.png",
     "Home/Media/Pasted image 20240816000159.png",
@@ -273,7 +229,6 @@
     "Cammino Minimo.md",
     "Grafi.md",
     "Home/Media",
-    "Discipline/Programmazione/Algebra Relazionale.md",
     "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
     "Discipline/Programmazione/Database.md",
     "Home/Random/ToDo.md",
@@ -285,7 +240,6 @@
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Fondamenti di Programmazione.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I",
-    "Discipline/Programmazione/Algoritmo di Dijkstra.md",
     "www.pi.infn.it",
     "Home/Daily Notes/2024",
     "UNI/spam",
