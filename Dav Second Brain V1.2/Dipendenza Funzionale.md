@@ -87,11 +87,12 @@ Le FD che NON contengono attributi __estranei__ e la cui parte destra è un unic
 Sia $F$ un insieme di FD, $F$ è una ___copertura minimale___ se e solo se:
 - ogni parte destra di una FD ha un unico attributo
 - le FD non contengono attributi estranei
-- non esistono dipendenza ridondanti
+- non esistono dipendenze ridondanti
 quindi se e solo sono tutte FD elementari non ridondanti.
 Ogni tanto una copertura minimale viene chiamata _insieme minimale_ oppure _copertura canonica_.
+Per trovare la copertura minimale di un $F$ basta scomporre le FD: da $(A\to BC)$ passi a $(A \to B, A\to C)$ 
 ### Teorema
-Per ogni insieme di FD esiste una copertura minimale. (il teorema non dice nulla sull'unicità della cop. min.)
+Per ogni insieme di FD esiste una copertura minimale (il teorema non dice nulla sull'unicità della cop. min.).
 ### Calcolo della copertura minimale
 _input_: insieme $F$ di FD
 _output_: copertura minimale $G$ di $F$ 

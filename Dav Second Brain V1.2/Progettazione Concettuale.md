@@ -1,5 +1,5 @@
 #uni 
-La progettazione concettuale è la prima fase del terzo stadio del [[Metodologie e Modelli Progettuali#Waterfall Model]], in particolare quella che porta alla realizzazione dello schema concettuale. -> [[Progettazione Logica]] 
+La progettazione concettuale è la prima fase del terzo stadio del [[Metodologie e Modelli Progettuali#Waterfall Model]], in particolare quella che porta alla realizzazione dello schema concettuale ([[Modello Entity-Relationship]]). -> [[Progettazione Logica]] 
 # La metodologia per la progettazione
 1. analisi dei requisiti
    - analizzare i requisiti ed eliminare ambiguità

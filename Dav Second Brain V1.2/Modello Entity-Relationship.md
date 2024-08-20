@@ -1,6 +1,6 @@
 #uni 
 Anche detto modello __E-R__, è il [[Modello dei dati]] concettuale più diffuso.
-Uno schema __E-R__ sebbene necessario non è quasi mai sufficiente ad esprimere tutti i dettagli di una applicazione, ci sono dei vincoli non esprimibili e per questo si rende necessario associarci una documentazione di supporto.
+Uno schema __E-R__ sebbene necessario non è quasi mai sufficiente ad esprimere tutti i dettagli di una applicazione, ci sono dei vincoli non esprimibili e per questo si rende necessario associarci una documentazione di supporto. Quando si costruisce uno schema E-R va tenuto conto della normalizzazione su entity e relationship.
 Prevede i seguenti costrutti:
 # Entity
 Una entità è una classe di oggetti (fatte, persone, cose) con proprietà comuni ed esistenza _autonoma_.
