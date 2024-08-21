@@ -36,19 +36,19 @@
             }
           },
           {
-            "id": "ce1c573524cd1439",
+            "id": "c9aec785532e0c32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Normalizzazione.md",
+                "file": "Gestione della Concorrenza.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modello Entity-Relationship.md",
+                "file": "Gestione della Concorrenza.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modello Entity-Relationship.md",
+                "file": "Gestione della Concorrenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modello Entity-Relationship.md"
+                "file": "Gestione della Concorrenza.md"
               }
             }
           }
@@ -186,14 +186,22 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "audio-recorder:Start/stop recording": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "bd39029a4d4aae89",
+  "active": "c9aec785532e0c32",
   "lastOpenFiles": [
-    "Normalizzazione.md",
+    "Gestione delle Transazioni.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "Gestione della Concorrenza.md",
+    "Pasted image 20240821152255.png",
+    "Discipline/Programmazione/DBMS.md",
+    "Discipline/Programmazione/Ottimizzazione delle Interrogazioni.md",
+    "Modello dei dati.md",
+    "Media/Pasted image 20240821131745.png",
+    "Normalizzazione.md",
+    "Home/Daily Notes/2024/21-08-2024.md",
     "Discipline/Programmazione/Modello Logico Relazionale.md",
     "Modello Entity-Relationship.md",
     "Progettazione Concettuale.md",
@@ -201,34 +209,24 @@
     "Dipendenza Funzionale.md",
     "Home/Daily Notes/2024/20-08-2024.md",
     "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
-    "UNI/Materie Ingegneria informatica Unipi.md",
     "Discipline/Programmazione/Algebra Relazionale.md",
     "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
-    "Home/Media/Pasted image 20240816000123.png",
-    "Home/Media/Pasted image 20240816000159.png",
-    "Home/Media/Pasted image 20240816095415.png",
-    "Home/Media/Pasted image 20240816095713.png",
-    "Home/Media/Pasted image 20240816095905.png",
-    "Home/Media/Pasted image 20240816121719.png",
-    "Home/Media/Pasted image 20240816123003.png",
-    "Home/Media/Pasted image 20240816123548.png",
-    "Pasted image 20240816174815.png",
-    "Pasted image 20240816175151.png",
-    "Modello dei dati.md",
-    "Discipline/Programmazione/DBMS.md",
+    "Media/Pasted image 20240816000123.png",
+    "Media/Pasted image 20240816000159.png",
+    "Media/Pasted image 20240816095415.png",
+    "Media/Pasted image 20240816095713.png",
+    "Media/Pasted image 20240816095905.png",
+    "Media/Pasted image 20240816121719.png",
+    "Media/Pasted image 20240816123003.png",
+    "Media/Pasted image 20240816123548.png",
     "Graph Database.md",
     "Discipline/Programmazione/Calcolo Relazionale.md",
     "Cammino Minimo.md",
     "Grafi.md",
-    "Home/Media",
+    "Media",
     "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
     "Discipline/Programmazione/Database.md",
     "Home/Random/ToDo.md",
-    "Home/Daily Notes/2023/02-10-2023.md",
-    "Discipline/Programmazione/Sistema Informativo.md",
-    "Home/Daily Notes/2024/12-08-2024.md",
-    "Home/Daily Notes/2024/29-07-2024.md",
-    "Home/Random/Reels.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I",
     "www.pi.infn.it",

@@ -1,19 +1,19 @@
 #uni 
 Il __Sistema di Gestione di Basi di Dati__ (o [[Database]] management system, __DBMS__) gestisce collezioni di dati:
-- grandi
-- persistenti
+- _grandi_ $\to$ gestione sofisticata
+- _persistenti_ $\to$ in memoria secondaria (lenta) $\to$ limitare accesso a memoria lenta
   tempo di vita indipendente dalle singole esecuzioni dei programmi che le utilizzano
-- condivise
+- _condivise_ $\to$ meccanismi di autorizzazione e [[Gestione della Concorrenza]]  
 e garantisce:
-- privacy
-- affidabilità
-  i [[Database]] sono una risorsa pregiata e vanno protetti, la tecnica fondamentale inerente è la gestione delle __transazioni__. 
-- efficienza
+- _privacy_
+- _affidabilità_
+  i [[Database]] sono una risorsa pregiata e vanno protetti, la tecnica fondamentale inerente è la [[Gestione delle Transazioni]]. 
+- _efficienza_
   utilizzare al meglio le risorse di spazio e di tempo
-- efficacia
-  migliorare la produttività dellìutilizzatore
-Una __transazione__ è un insieme di operazioni da considerare indivisibile ("___Atomico___"), corretto anche in presenza di concorrenza e con effetti definitivi. La conclusione positiva di una transazione corrisponde ad un impegno a mantenere traccia del risultato in modo definitivo.
+- _efficacia_
+  migliorare la produttività dell'utilizzatore
 Nei DBMS esiste una porzione della base di dati che contiene una descrizione centralizzata dei dati. Viene introdotto il concetto di [[Modello dei dati]].
+Un DBMS può essere ___monoutente___ o ___multiutente___ a seconda del numero di utenti che possono usufruirne simultaneamente.
 ### Architettura a tre livelli di un DBMS
 1. Utente
 2. Schema Esterno
@@ -27,3 +27,5 @@ Nei DBMS esiste una porzione della base di dati che contiene una descrizione cen
 L'accesso ai dati avviene solo tramite livello esterno (che può coincidere con i livello logico).
 __Indipendenza Fisica__: il livello logico ed esterno sono indipendenti da quello fisico
 __Indipendenza logica__: il livello esterno è indipendente da quello logico
+# Media
+![[Pasted image 20240821131745.png]]

@@ -5,6 +5,7 @@ Algebra Relazionale:
 [[Sistema Informativo]] 
 [[Database]] 
 [[DBMS]] 
+[[Modello dei dati]] 
 [[Modello Logico Relazionale]] 
 [[Algebra Relazionale]] 
 [[Calcolo Relazionale]] 
@@ -15,5 +16,9 @@ Algebra Relazionale:
 [[Progettazione Logica]] 
 [[Dipendenza Funzionale]] 
 [[Normalizzazione]] 
+[[Gestione delle Transazioni]] 
+[[Gestione della Concorrenza]] 
+[[Ottimizzazione delle Interrogazioni]] 
+
 SQL:
 [[SQL]] 
