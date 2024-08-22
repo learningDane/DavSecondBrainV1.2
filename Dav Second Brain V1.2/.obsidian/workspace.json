@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "c9aec785532e0c32",
+            "id": "61b878d09e9bc4bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestione della Concorrenza.md",
+                "file": "Discipline/Programmazione/Gestione della Concorrenza.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dipendenza funziona",
+                "query": "arco",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestione della Concorrenza.md",
+                "file": "Discipline/Programmazione/Gestione della Concorrenza.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestione della Concorrenza.md",
+                "file": "Discipline/Programmazione/Gestione della Concorrenza.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,12 +166,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestione della Concorrenza.md"
+                "file": "Discipline/Programmazione/Gestione della Concorrenza.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -189,27 +189,32 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "c9aec785532e0c32",
+  "active": "f67a7ae669feaa70",
   "lastOpenFiles": [
-    "Gestione delle Transazioni.md",
+    "Pasted image 20240822195239.png",
+    "Discipline/Programmazione/Grafo.md",
+    "Discipline/Programmazione/Gestione della Concorrenza.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Discipline/Programmazione/Algebra Relazionale.md",
+    "Cammino Minimo.md",
+    "Discipline/Programmazione/Alberi.md",
+    "Home/Daily Notes/2024/22-08-2024.md",
+    "Discipline/Programmazione/Gestione delle Transazioni.md",
     "UNI/Materie Ingegneria informatica Unipi.md",
-    "Gestione della Concorrenza.md",
     "Pasted image 20240821152255.png",
     "Discipline/Programmazione/DBMS.md",
     "Discipline/Programmazione/Ottimizzazione delle Interrogazioni.md",
-    "Modello dei dati.md",
+    "Discipline/Programmazione/Modello dei dati.md",
     "Media/Pasted image 20240821131745.png",
-    "Normalizzazione.md",
+    "Discipline/Programmazione/Normalizzazione.md",
     "Home/Daily Notes/2024/21-08-2024.md",
     "Discipline/Programmazione/Modello Logico Relazionale.md",
-    "Modello Entity-Relationship.md",
-    "Progettazione Concettuale.md",
-    "Progettazione Logica.md",
-    "Dipendenza Funzionale.md",
+    "Discipline/Programmazione/Modello Entity-Relationship.md",
+    "Discipline/Programmazione/Progettazione Concettuale.md",
+    "Discipline/Programmazione/Progettazione Logica.md",
+    "Discipline/Programmazione/Dipendenza Funzionale.md",
     "Home/Daily Notes/2024/20-08-2024.md",
     "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
-    "Discipline/Programmazione/Algebra Relazionale.md",
     "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
     "Media/Pasted image 20240816000123.png",
     "Media/Pasted image 20240816000159.png",
@@ -221,12 +226,8 @@
     "Media/Pasted image 20240816123548.png",
     "Graph Database.md",
     "Discipline/Programmazione/Calcolo Relazionale.md",
-    "Cammino Minimo.md",
     "Grafi.md",
     "Media",
-    "Discipline/Programmazione/Esercizi Algebra Relazionale.md",
-    "Discipline/Programmazione/Database.md",
-    "Home/Random/ToDo.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I",
     "www.pi.infn.it",

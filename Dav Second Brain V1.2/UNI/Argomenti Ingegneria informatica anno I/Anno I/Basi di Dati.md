@@ -8,6 +8,7 @@ Algebra Relazionale:
 [[Modello dei dati]] 
 [[Modello Logico Relazionale]] 
 [[Algebra Relazionale]] 
+[[Grafo]] 
 [[Calcolo Relazionale]] 
 [[Metodologie e Modelli Progettuali]] 
 [[Modello dei dati]] 

@@ -5,6 +5,7 @@ Una Interrogazione può essere espressa in modo __dichiarativo__, specificando l
 Si definisce il _comportamento_ delle interrogazioni in modo procedurale utilizzando le espressioni dell'algebra relazione.
 Si definisce il _risultato_ di una interrogazione in modo dichiarativo utilizzando le espressioni del __calcolo relazionale__, che è l'effettiva semantica del linguaggio.
 L'Algebra è data da dati e operatori, nell'algebra relazione i dati sono relazioni e gli operatori che sono su relazioni, producono relazioni e possono essere composti.
+Per una chiara visualizzazione possiamo usare un [[Grafo]].
 # Operatori dell'Algebra Relazionale
 Operatori su insiemi:
 	Le relazioni sono insiemi, i risultati devono essere relazioni e si possono applicare solo a relazioni definite sugli stessi attributi.
@@ -56,22 +57,6 @@ ___Push Selections Down___:
 	Riduce la dimensione del risultato intermedio e quindi il costo dell'operazione $$\sigma(R_1 \bowtie R_2)\equiv R_1 \bowtie \sigma(R_2)$$
 ___Push Projections down___:
 	Riduce risultato intermedio $$\pi(R_1\bowtie R_2)\equiv R_1 \bowtie \pi(R_2)$$
-# Grafo
-Un Grafo $G=(V,E)$ consiste in:
-- un insieme $V$ di __vertici__ (o __nodi__).
-- un insieme $E$ di coppie di vertici, detti __archi__.
-  Ogni arco connette due vertici
-Un __grafo Orientato__ (o __diretto__) è un grafo di archi orientati e rappresenta relazioni orientate tra coppie di oggetti.
-Un __grafo non orientato__ (o __non diretto__) è un grafo di archi non orientati e rappresenta relazioni simmetriche tra coppie di oggetti.
-# Cammino e Ciclo
-Un cammino di un grafo $G=(V,E)$ da un vertice $x$ ad $y$ è dato da una sequenza di vertici $v_i$ di $V$ con $v_0=x$ e $v_k=y$, tale che per ogni $1 \leq i \leq k$, l'arco $(v_{i-1},v_i) \in E$ 
-Un cammino $(v_0,...,v_k)$ tale che $v_0=v_k$ è detto __ciclo__.
-Un grafo diretto è detto aciclico se non contiene cicli.
-# Albero
-Un grafo non orientato si dice __connesso__ se esiste un cammino tra ogni coppia di vertici.
-Un albero è un grafo non orientato nel quale due vertici qualsiasi sono connessi da un solo cammino.
-Gli alberi vengono usati come rappresentazione interna delle interrogazioni: le foglie sono dati, quindi relazioni o file e i nodi intermedi sono operatori, quindi prima operatori algebrici e poi effettivi operatori di accesso ai dati.
-![[Pasted image 20240814002057.png]] 
 # Relazioni Derivate
 Sono relazioni in funzione del contenuto di altre relazioni. 
 Ne esistono 2 tipi:
