@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "61b878d09e9bc4bd",
+            "id": "850db8242c0241b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Daily Notes/2024/30-08-2024.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "dca893aaed2b8e85",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Daily Notes/2024/30-08-2024.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Daily Notes/2024/30-08-2024.md",
+                "file": "Discipline/Programmazione/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Daily Notes/2024/30-08-2024.md"
+                "file": "Discipline/Programmazione/SQL.md"
               }
             }
           }
@@ -189,34 +190,37 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "61b878d09e9bc4bd",
+  "active": "850db8242c0241b6",
   "lastOpenFiles": [
-    "UNI/Materie Ingegneria informatica Unipi.md",
-    "Home/Daily Notes/2024/30-08-2024.md",
-    "Pasted image 20240822195239.png",
-    "Discipline/Programmazione/Grafo.md",
-    "Discipline/Programmazione/Gestione della Concorrenza.md",
+    "Home/Daily Notes/2024/08-09-2024.md",
+    "Esercizi salute.sql.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
-    "Discipline/Programmazione/Algebra Relazionale.md",
-    "Cammino Minimo.md",
-    "Discipline/Programmazione/Alberi.md",
-    "Home/Daily Notes/2024/22-08-2024.md",
-    "Discipline/Programmazione/Gestione delle Transazioni.md",
-    "Pasted image 20240821152255.png",
-    "Discipline/Programmazione/DBMS.md",
+    "Discipline/Programmazione/Esercizi Slide Pistolesi.md",
+    "Discipline/Programmazione/SQL.md",
+    "Home/Daily Notes/2024/07-09-2024.md",
+    "SQL VECCHIO.md",
+    "Gestione dell'Affidabilità.md",
+    "Home/SQphotography/Reels.md",
+    "Home/Daily Notes/2024/06-09-2024.md",
+    "Home/SQphotography/Videography.md",
+    "Discipline/Matematica/Limiti.md",
+    "Discipline/Matematica/Numeri periodici.md",
+    "Discipline/Matematica/Massimo Comune Divisore.md",
+    "Discipline/Matematica/Funzioni in Spazi multidimensionali.md",
+    "Discipline/Matematica/Equazioni Differenziali.md",
+    "Discipline/Matematica/Continuità.md",
+    "Discipline/Matematica/Coefficiente Binomiale.md",
+    "Discipline/Matematica/Binomio di Newton.md",
+    "Home/Daily Notes/2024/05-09-2024.md",
+    "Home/Daily Notes/2024/04-09-2024.md",
+    "Home/Daily Notes/2024/03-09-2024.md",
+    "Home/Random/Investments 2024.md",
+    "Home/Random/Investments 2023.md",
+    "Home/Random/Workflow.md",
     "Discipline/Programmazione/Ottimizzazione delle Interrogazioni.md",
-    "Discipline/Programmazione/Modello dei dati.md",
+    "Pasted image 20240822195239.png",
+    "Pasted image 20240821152255.png",
     "Media/Pasted image 20240821131745.png",
-    "Discipline/Programmazione/Normalizzazione.md",
-    "Home/Daily Notes/2024/21-08-2024.md",
-    "Discipline/Programmazione/Modello Logico Relazionale.md",
-    "Discipline/Programmazione/Modello Entity-Relationship.md",
-    "Discipline/Programmazione/Progettazione Concettuale.md",
-    "Discipline/Programmazione/Progettazione Logica.md",
-    "Discipline/Programmazione/Dipendenza Funzionale.md",
-    "Home/Daily Notes/2024/20-08-2024.md",
-    "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
-    "Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
     "Media/Pasted image 20240816000123.png",
     "Media/Pasted image 20240816000159.png",
     "Media/Pasted image 20240816095415.png",
@@ -224,9 +228,6 @@
     "Media/Pasted image 20240816095905.png",
     "Media/Pasted image 20240816121719.png",
     "Media/Pasted image 20240816123003.png",
-    "Graph Database.md",
-    "Discipline/Programmazione/Calcolo Relazionale.md",
-    "Grafi.md",
     "Media",
     "UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I",

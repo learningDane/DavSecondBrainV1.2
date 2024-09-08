@@ -21,6 +21,11 @@ FROM Persona
 WHERE Età < 40
 	AND Cognome = 'Lepre';
 ```
+L'ordine in cui si legge, si scrive e viene processata una Query è il seguente:
+1. FROM
+2. WHERE
+3. SELECT
+4. DISTINCT
 ### Direttive
 BETWEEN = `WHERE Età BETWEEN 45 AND 60;` oppure `WHERE Età <= 60 AND Età >= 45;` include sempre gli estremi.
 ### Valori NULL
@@ -35,14 +40,24 @@ Formati:
 	- DATE: YYYY-MM-DD
 	- TIMESTAMP: YYYY-MM-DD HH:MM:SS
 DATE_FORMAT:
-	guarda tabella su slide- --------
+
+| %Y  | anno (4 cifre)                   |
+| --- | -------------------------------- |
+| $y  | anno (2 cifre)                   |
+| %M  | nome del mese                    |
+| %m  | mese (2 cifre)                   |
+| %d  | giorno del mese                  |
+| %W  | nome del giorno della settimana  |
+| %w  | giorno della settimana {0,...,6} |
+| %T  | orario (hh:mm:ss)                |
+
 Stampare nel seguente formato: ('dd||mm||yyyy, nome_giorno'): `SELECT Matricola, DATE_FORMAT(DataKaurea,'%d blah blah guarda slide')` -------------
 Indicare la matricola degli studenti che si sono laureati di mercoledì: `WHERE DATE_FORMAT(DataLaurea, '%w') = 3;` 
 
-Le funzioni DAY,MONTH,YEAR SLIDE --------------. `YEAR(DataIscrizione) > 2000;`
+Le funzioni DAY,MONTH,YEAR prendono come argomento una data e ne restituiscono, rispettivamente, giorno, mese, anno. `YEAR(DataIscrizione) > 2000;`
 Indicare il cognome degli studenti che si sono laureati _5 anni fa_, si usa la parola chiave CURRENT_DATE: `WHERE YEAR(DataLaurea) = YEAR(CURRENTE_DATE) - 5;`
 
-Le date in MySQL non possono essere sottratte tramite l'operatore '-', ma occorre usare `DATEDIFF()` : numero di giorni che separano due date: `SELECT Matricola, DATEDIFF('2005-07-15'-DataIscrizione)` prima viene la date più recente e poi quella più remota.
+Le date in MySQL non possono essere sottratte tramite l'operatore '-', ma occorre usare `DATEDIFF()` : numero di GIORNI che separano due date: `SELECT Matricola, DATEDIFF('2005-07-15'-DataIscrizione)` prima viene la date più recente e poi quella più remota.
 Non sottrarre o sommare date perché è bestemmia!!!
 DATE_ADD e DATE_SUB permettono di sommare o sottrarre intervalli di tempo ad una data e vengono espressi con la keyword INTERVAL.
 `INTERVAL NumeroInterno [YEAR|MONTH|DAY]`
@@ -55,7 +70,7 @@ Altre funzioni:
 	- DAYOFWEEK() //1,...,7
 	- WEEKDAY() //0,...,6
 	- LAST_DAY() //ultimo giorno del mese della data
-	- DAYOFYEAR() //mese in 2 cifre
+	- MONTHOFYEAR() //mese in 2 cifre
 	- WEEKOFYEAR() //numero della settimana dell'anno
 	- YEARWEEK() //anno e settimana
 # Operatori
@@ -122,7 +137,15 @@ WHERE MONTH(V1.Data)=MONTH(CURRENT_DATE)
 //se non metto DISTINCT il paziente compare n-1 volte.
 ```
 5. `cross join`
-Se ci sono attributi su più tabelle che hanno lo stesso nome si verifica ambitguità e si rende necessario differenziarli con la ridenominazione, molto apprezzato l'uso dell'___UpperCamelCase___.
+	   prodotto cartesiano: moltiplica ogni tupla della prima tabella con tutte le tuple della seconda tabella
+```MySql
+SELECT COUNT(DISTINCT P.CodFiscale) 
+FROM Paziente P 
+	CROSS JOIN 
+	Medico M 
+WHERE P.Nome = M.Nome;
+```
+Se ci sono attributi su più tabelle che hanno lo stesso nome si verifica ambiguità e si rende necessario differenziarli con la ridenominazione, molto apprezzato l'uso dell'___UpperCamelCase___.
 Il join si può fare, con attenzione, su un numero di tabelle maggiore di due. 
 L'ordine non importa, tanto il DBS riscrive la query come meglio desidera. usati prima di una query per costruire risultati intermedi.
 ```SQL
@@ -169,4 +192,5 @@ FROM Visita V
 GROUP BY V.Paziente
 HAVING COUNT(DISTINCT V.Medico) = (SELECT COUNT(*))
 ```
-[[Esercizi MySql]]
+[[Esercizi Slide Pistolesi]]
+[[Esercizi salute.sql]] 

@@ -20,6 +20,12 @@ Algebra Relazionale:
 [[Gestione delle Transazioni]] 
 [[Gestione della Concorrenza]] 
 [[Ottimizzazione delle Interrogazioni]] 
+[[Gestione dell'Affidabilità]] 
+
+[[Esercizi Algebra Relazionale]] 
 
 SQL:
 [[SQL]] 
+
+[[Esercizi Slide Pistolesi]] 
+[[Esercizi salute.sql]] 
