@@ -24,10 +24,13 @@ WHERE Età < 40
 L'ordine in cui si legge, si scrive e viene processata una Query è il seguente:
 1. FROM
 2. WHERE
-3. SELECT
-4. DISTINCT
+3. GROUP BY
+4. HAVING
+5. SELECT
+6. DISTINCT
 ### Direttive
 BETWEEN = `WHERE Età BETWEEN 45 AND 60;` oppure `WHERE Età <= 60 AND Età >= 45;` include sempre gli estremi.
+Le condizioni nel WHERE sono applicate ai record prima di un eventuale raggruppamento.
 ### Valori NULL
 Gli attributi non chiave possono essere NULL, ovvero l'informazione manca. Quando nelle condizioni viene esaminato un attributo NULL, a priori assume False, anche NULL=NULL è falso. Se voglio cercare attributi NULL devo usare IS, se voglio attributi non NULL devo usare IS NOT NULL.
 NULL ha valore mancante ma può avere un significato logicamente definito (per esempio dataLaurea è NULL = non laureato). 
@@ -88,6 +91,8 @@ Accanto ad una aggregazione posso solo mettere un'altro aggregazione e non altro
 	```
 1. media
 	   `SELECT AVG(Reddito) AS RedditoTotale`
+5. Deviazione Standard
+	`SELECT STDDEV(Reddito) AS DeviazioneStandard` 
 # Query su più Tabelle
 Per riunire le tabelle si utilizza `JOIN`. 
 1. `natural join`:
@@ -165,12 +170,56 @@ SELECT COUNT(*)
 FROM 
 WHERE
 ```
-# Common Table Expression (CTE)
-Sono ___result set___ dotati di identificatore che possono essere 
-# Group By
-A partire da una relazione A crea una relazione B con le tuple in cui appare lo stesso valore per l'attributo indicato.
+# Derived Table
+Sono tabelle volatili (vengono cancellate alla fine dell'esecuzione) che possono essere incapsulate nel FROM, sono utili per costruire risultati intermedi. Per costruire una derived table è sufficiente eseguire una ridenominazione con AS di una query, esempio: 
+```MySQL
+Indicare la matricola dei medici che non hanno mai visitato di giovedì
+SELECT DISTINCT V1.Medico 
+FROM Visita V1 LEFT OUTER JOIN 
+	( 
+		SELECT V2.Medico                  |
+		FROM Visita V2                    |-> derived table
+		WHERE DAYOFWEEK(V2.Data) = 4      |
+	) 
+	AS D                              |-> alias (obbligatorio) della Derived Table
+	ON V1.Medico = D.Medico |oppure| USING(Medico)
+WHERE D.Medico IS NULL;
+```
+# Raggruppamento/Group by
+Suddivide un insieme di record in gruppi di record e in ogni ogni gruppo il valore di un (o più) attributo è costante in tutti i record.
+OGNI GRUPPO GENERA UN SOLO RECORD NEL RESULT SET
+```MySQL
+Indicare la parcella media dei medici di ciascuna specializzazione
+select specializzazione, avg(parcella) as parcellamedia
+from medico
+group by specializzazione;
+l´operatore avg() è applicato gruppo per gruppo (calcola un valore riepilogativo per il gruppo)
+specializzazione invece assume lo stesso valore in un gruppo
+```
 # Having
-Si usa insieme a `GROUP BY` al posto di `WHERE`.
+Si usa insieme a `GROUP BY` per porre condizioni sui gruppi, ad esempio raggruppa per specializzazione ma mostra solo le specializzazioni con più di due medici.
+Queste condizioni sono applicate ai gruppi __dopo__ il raggruppamento.
+REGOLA: __nelle interrogazioni con raggruppamento, le condizioni esprimibili con operatori di aggregazione devono sempre essere argomento della clausola having__.
+```mysql
+SELECT Specializzazione 
+FROM Medico 
+GROUP BY Specializzazione 
+HAVING COUNT(*) > 2;
+``` 
+# Common Table Expression (CTE)
+Sono ___result set___ dotati di identificatore che possono essere usati prima di una query per costruire risultati intermedi.
+Sono parti di codice i cui risultati sono stoccati in memoria, nominati, e usati dalla query immediatamente dopo.
+```MySQL
+WITH
+	name1 AS (query1)
+	,
+	name2 AS (query2)
+	,
+	...
+	,
+	nameN AS (queryN)
+(query finale);
+```
 # Costrutto EXISTS
 Questo è un modo per scrivere subquery correlate. Controlla solo se il resultset della subquery esiste o meno (controlla quindi se ha almeno 1 record e non esiste se è vuoto).
 # Divisione

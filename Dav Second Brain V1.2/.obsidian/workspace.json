@@ -36,7 +36,7 @@
             }
           },
           {
-            "id": "850db8242c0241b6",
+            "id": "7448e60c9264514d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,9 +46,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b6e15b587a69ee2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Esercizi salute.sql.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -115,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Esercizi salute.sql.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md",
+                "file": "Esercizi salute.sql.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Discipline/Programmazione/SQL.md"
+                "file": "Esercizi salute.sql.md"
               }
             }
           }
@@ -190,13 +202,20 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "850db8242c0241b6",
+  "active": "3b6e15b587a69ee2",
   "lastOpenFiles": [
-    "Home/Daily Notes/2024/08-09-2024.md",
+    "Discipline/Programmazione/SQL.md",
     "Esercizi salute.sql.md",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Home/Daily Notes/2024/10-09-2024.md",
+    "UNI/spam/Informazioni sul Corso di Basi di Dati.md",
+    "UNI/Materie Ingegneria informatica Unipi.md",
+    "Media/Pasted image 20240909094826.png",
+    "Media/Pasted image 20240909094840.png",
+    "Media/Pasted image 20240909094857.png",
+    "Home/Daily Notes/2024/09-09-2024.md",
+    "Home/Daily Notes/2024/08-09-2024.md",
     "Discipline/Programmazione/Esercizi Slide Pistolesi.md",
-    "Discipline/Programmazione/SQL.md",
     "Home/Daily Notes/2024/07-09-2024.md",
     "SQL VECCHIO.md",
     "Gestione dell'Affidabilità.md",
@@ -214,10 +233,6 @@
     "Home/Daily Notes/2024/05-09-2024.md",
     "Home/Daily Notes/2024/04-09-2024.md",
     "Home/Daily Notes/2024/03-09-2024.md",
-    "Home/Random/Investments 2024.md",
-    "Home/Random/Investments 2023.md",
-    "Home/Random/Workflow.md",
-    "Discipline/Programmazione/Ottimizzazione delle Interrogazioni.md",
     "Pasted image 20240822195239.png",
     "Pasted image 20240821152255.png",
     "Media/Pasted image 20240821131745.png",
@@ -225,9 +240,6 @@
     "Media/Pasted image 20240816000159.png",
     "Media/Pasted image 20240816095415.png",
     "Media/Pasted image 20240816095713.png",
-    "Media/Pasted image 20240816095905.png",
-    "Media/Pasted image 20240816121719.png",
-    "Media/Pasted image 20240816123003.png",
     "Media",
     "UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "UNI/Argomenti Ingegneria informatica anno I/Anno I",
