@@ -1,0 +1,44 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#kope",
+      "color": {
+        "a": 1,
+        "rgb": 16769187
+      }
+    },
+    {
+      "query": "tag:#self-taught  ",
+      "color": {
+        "a": 1,
+        "rgb": 1760000
+      }
+    },
+    {
+      "query": "tag:#uni  ",
+      "color": {
+        "a": 1,
+        "rgb": 6054102
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 0.4644019503233206,
+  "close": false
+}
