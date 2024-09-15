@@ -220,26 +220,178 @@ WITH
 	nameN AS (queryN)
 (query finale);
 ```
-# Costrutto EXISTS
+# Subquery
+Queste rappresentano una alternativa al join per query su più tabelle.
+Sono formate da una query esterna ed una query interna.
+I record ottenuti dalla subquery non dipendono dalla outer query.
+### Noncorrelated subquery
+Si incapsulano nel WHERE per ottenere risultati (eliminati alla fine dell'esecuzione) usati dalla outer query per determinare il result set finale. Si usa tramite `IN` o `NON IN`, per controllare se il record della outer query è o non è nel result set della subquery.
+Indicare nome, cognome e parcella degli ortopedici SPEZZARE che hanno effettuato almeno una visita nell'anno 2013
+```MySql
+select medico.nome, medico.cognome, medico.parcella  |
+from medico                                          |-> outer query
+where medico.specializzazione = 'ortopedia'          |
+	and medico.matricola IN (     
+		select visita.medico              |
+		from visita                       |-> subquery
+		where year(visita.data) = 2013    |
+		);
+```
+### Teorema di equivalenza join-subquery
+Data una query con subquery è sempre possibile passare alla versione basata su join, e viceversa.
+### Subquery scalare
+Questa restituisce un unico record, composto da un unico attributo.
+### Correlated Subquery
+Il risultato (uno per ogni tupla della query esterna) dipende da ciascuna tupla della query esterna, simile alla chiamata di una funzione.
+Una correlated subquery è eseguita per ogni record della query esterna e il suo risultato ne dipende.
+Questa può anche essere inserita nel SELECT.
+```MySQL
+SELECT DISTINCT V1.Medico 
+FROM Visita V1 
+WHERE YEAR(V1.Data) = 2013 
+	AND MONTH(V1.Data) = 10 
+	AND V1.Paziente NOT IN ( 
+		SELECT V2.Paziente 
+		FROM Visita V2 
+		WHERE V2.Medico = V1.Medico 
+			AND V2.Data < V1.Data 
+		)
+```
+### Costrutto EXISTS
 Questo è un modo per scrivere subquery correlate. Controlla solo se il resultset della subquery esiste o meno (controlla quindi se ha almeno 1 record e non esiste se è vuoto).
 # Divisione
 La divisione tra una relazione A ed una relazione B produce una relazione C che contiene tutte le tuple di A che hanno una relazione con OGNUNA delle tuple di B. In SQL abbiamo 2 modi per implementare la divisione:
 - indicare i pazienti visitati da TUTTI i medici: (rel1->visita(paziente,medico), rel2->medico)
 ```MySql
-SELECT P.CodFiscale
-FROM Medico M
-WHERE NOT EXISTS
-	(
-		SELECT *
-		FROM Visita V
-		WHERE V.Medico = M.Matricola
-			AND V.Paziente = PCodFiscale
-			)
+SELECT P.CodFiscale 
+FROM Paziente P 
+WHERE NOT EXISTS ( 
+	SELECT * 
+	FROM Medico M 
+	WHERE NOT EXISTS ( 
+		SELECT * 
+		FROM Visita V 
+		WHERE V.Medico = M.Matricola AND V.Paziente = P.CodFiscale 
+	) 
+);
 
 SELECT V.Paziente
 FROM Visita V
 GROUP BY V.Paziente
 HAVING COUNT(DISTINCT V.Medico) = (SELECT COUNT(*))
 ```
+# Stored Procedure
+Le stored procedures sono programmi dichiarativo-procedurali memorizzati nel [[DBMS]], vengono invocati tramite chiamata e possono ricevere e/o restituire valori.
+Le applicazioni possono essere autorizzate ad eseguire stored procedures, ma gli è vietato l'accesso alle tabelle.
+Le restrizioni sono impostate con opportuni grant.
+Sono supportate a partire dalla versione 5.0 di MySQL.
+Scrivere una stored procedure che restituisca le specializzazioni mediche offerte dalla clinica:
+```MySQL
+DROP PROCEDURE IF EXISTS mostra_specializzazioni; 
+DELIMITER $$ 
+CREATE PROCEDURE mostra_specializzazioni( ) 
+	BEGIN 
+		SELECT DISTINCT Specializzazione 
+		FROM Medico; 
+	END $$ 
+DELIMITER ;
+
+per chiamarla poi:
+CALL mostra_specializzazioni();
+```
+### Variabili Locali
+Queste sono usate all'interno di una stored procedure per memorizzare informazioni intermedie di ausilio, devono essere dichiarate tutte insieme all'inizio del body.
+```MySQL
+DECLARE nome_variabile tipo(size) DEFAULT valore_default;
+```
+Il valore default se non specificato è NULL. La capacità se non specificata è quella di default del tipo.
+è possibile assegnare un valore ad una variabile in due modi: SET oppure SELECT+INTO:
+```MySQL
+DECLARE min_visite_mensili INT DEFAULT 0; 
+. 
+. 
+SET min_visite_mensili := 
+	(
+		SELECT ecc
+		FROM ecc
+	)
+
+oppure
+
+DECLARE visite_mese_attuale INT DEFAULT 0; 
+.
+.
+SELECT COUNT(*) INTO visite_mese_attuale 
+FROM ecc;
+```
+### Variabili User-Defined
+Queste sono inizializzate dall'utente senza necessità di dichiarazione e il loro ciclo di vita equivale alla durata della connessione al server MySQL. Queste variabili non necessitano di un tipo definito, possono assumere qualsiasi tipo di dato.
+Il loro contenuto è visibile ovunque, ma solo all'utente che le ha inizializzate.
+Il loro identificatore deve iniziare con `@` 
+Variabili user-defined e locali possono solo assumere valori scalari.
+### Parametri di una stored procedure
+##### In ingresso
+I parametri sono in ingresso per default se non specificato.
+```MySQL
+Scrivere una stored procedure che stampi la parcella media di una specializzazione specificata come parametro
+
+DROP PROCEDURE IF EXISTS parcella_media_spec;
+
+DELIMITER $$
+CREATE PROCEDURE parcella_media_spec(IN _specializzazione VARCHAR(100))
+	BEGIN
+		SELECT AVG(medico.parcella)
+		FROM medico
+		WHERE medico.specializzazione = _specializzazione;
+	END $$
+DELIMITER;
+
+CALL parcella_media_spec('ortopedia');    |-> chiamata
+```
+##### In uscita
+Un parametro in uscita può essere modificato per assumere il valore del risultato della stored procedure.
+```MySQL
+Scrivere una stored procedure che restituisca il numero di pazienti visitati da medici di una data specializzazione, ricevuta come parametro
+
+DROP PROCEDURE IF EXISTS tot_pazienti_visitati_spec;
+DELIMITER $$
+CREATE PROCEDURE tot_pazienti_visitati_spec(
+		IN _specializzazione VARCHAR(100),
+		OUT totale_pazienti_ INT)
+	BEGIN
+		SELECT COUNT(DISTINCT visita.paziente) INTO totale_pazienti_
+		FROM visita
+			inner join medico
+			on visita.medico = medico.matricola
+		where medico.specializzazione = _specializzazione;
+	END $$
+DELIMITER;
+
+CALL tot_pazienti_visitati_spec('neurologia', @quantipazienti);
+
+SELECT @quantipazienti;
+```
+# Istruzioni condizionali
+Permettono di modificare il flusso di esecuzione.
+```MySQL
+IF condizione THEN
+	blocco di istruzioni
+ELSEIF condizione THEN
+	blocco di istruzioni
+ELSE
+	blocco di istruzioni
+END IF;   |->obbligatorio punto e virgola
+```
+# Istruzioni CASE
+Equivale allo `switch` del [[C++]].
+```MySQL
+CASE
+WHEN condizione THEN
+	istruzioni
+WHEN condizione THEN
+	istruzioni
+END CASE; 
+```
+
 [[Esercizi Slide Pistolesi]]
 [[Esercizi salute.sql]] 
