@@ -8,7 +8,7 @@ Anno I
 [[Fisica Generale I]] 
 [[Fondamenti di Programmazione]] 
 Anno II
-[[Elettrotecnica]] 
-[[Progettazione Web]] 
-[[Reti Logiche]] 
-[[Ricerca Operativa]] 
+[[Elettrotecnica]] 6cfu
+[[Progettazione Web]] non blocca niente 6cfu
+[[Reti Logiche]] 9cfu
+[[Ricerca Operativa]] non blocca niente 9cfu
