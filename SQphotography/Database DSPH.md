@@ -37,6 +37,7 @@ Pagamento:
 2. prezzo concordato
 3. data emissione
 4. data di pagamento
+5. Mezzo di pagamento (contante, bonifico ecc)
 Lavorante:
 1. chiave (codFiscale)
 2. nome

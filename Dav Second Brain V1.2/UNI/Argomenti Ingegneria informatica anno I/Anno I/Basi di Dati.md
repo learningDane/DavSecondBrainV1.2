@@ -22,6 +22,7 @@ Algebra Relazionale:
 [[Ottimizzazione delle Interrogazioni]] 
 [[Gestione dell'Affidabilità]] 
 
+[[Cheatsheet creazione Database]] 
 [[Esercizi Algebra Relazionale]] 
 
 SQL:

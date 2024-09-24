@@ -2,7 +2,7 @@
 La progettazione logica è la seconda fase del terzo stadio del [[Metodologie e Modelli Progettuali#Waterfall Model]], in particolare quella che porta alla realizzazione dello schema logico.
 L'obiettivo di questa fase è quello di tradurre lo schema concettuale prodotto durante la [[Progettazione Concettuale]] in uno schema logico che rappresenti gli stessi dati in maniera corretta ed efficiente.
 I dati in ingresso sono: 
-- schema concettuale
+- schema concettuale ([[Modello Entity-Relationship]])
 - informazioni sul carico applicativo
 - modello logico
 Mentre i dati in uscita sono:

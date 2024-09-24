@@ -22,45 +22,43 @@
             }
           },
           {
-            "id": "3fff8f76c3808af4",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1deaea05c255f844",
+            "id": "82cd89ea516c3134",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Progettazione Concettuale.md",
+                "file": "Problema di Programmazione Lineare (DPL).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83835dff7685022d",
+            "id": "926b5903c81b48d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SQphotography/Database/Requisiti Database DSPH.md",
+                "file": "Modello Matematico.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f39a1dbabaf4078",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modello di Programmazione Lineare.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SQphotography/Database/Requisiti Database DSPH.md",
+                "file": "Problema di Programmazione Lineare (DPL).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SQphotography/Database/Requisiti Database DSPH.md",
+                "file": "Problema di Programmazione Lineare (DPL).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SQphotography/Database/Requisiti Database DSPH.md"
+                "file": "Problema di Programmazione Lineare (DPL).md"
               }
             }
           }
@@ -186,29 +184,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83835dff7685022d",
+  "active": "82cd89ea516c3134",
   "lastOpenFiles": [
-    "SQphotography/Allora.md",
-    "SQphotography/Database/Requisiti Database DSPH.md",
-    "SQphotography/Database",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Progettazione Concettuale.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Metodologie e Modelli Progettuali.md",
-    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Modello di Programmazione Lineare.md",
+    "Modello Matematico.md",
+    "Problema di Programmazione Lineare (DPL).md",
+    "Ricerca Operativa.md",
     "Dav Second Brain V1.2/UNI/Materie Ingegneria informatica Unipi.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Normalizzazione.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Modello Entity-Relationship.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Dipendenza Funzionale.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Algebra Relazionale.md",
-    "Dav Second Brain V1.2/Esercizi salute.sql.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Gestione della Concorrenza.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Gestione delle Transazioni.md",
-    "Dav Second Brain V1.2/Gestione dell'Affidabilità.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/SQL.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Progettazione Logica.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Successioni.md",
-    "Dav Second Brain V1.2/Home/Daily Notes/2023/15-09-2024.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Funzioni.md",
+    "Reti Logiche.md",
+    "Regione Ammissibile.md",
+    "Risoluzione di un Problema.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Sistemi Lineari.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Simboli matematici.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Serie Numeriche.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Rappresentazione Parametrica.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Rappresentazione Cartesiana.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Principio di induzione.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Numeri periodici.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Numeri Immaginari (o Complessi).md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Matrici.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Massimo Comune Divisore.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Logaritmi.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Limiti.md",
-    "Dav Second Brain V1.2/Continuità.md"
+    "Dav Second Brain V1.2/Discipline/Matematica/Integrazione per Parti.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Integrali per Sostituzione.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Insiemi.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II",
+    "SQphotography/Database"
   ]
 }
