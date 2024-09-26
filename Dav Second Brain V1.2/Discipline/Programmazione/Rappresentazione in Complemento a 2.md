@@ -1,6 +1,15 @@
 #uni 
 In questa rappresentazione lo zero viene rappresentato una volta sola. Questa è la rappresentazione usata dai calcolatori, perché basta sommare i valori binari per fare la somma tra due numeri, si può quindi utilizzare la stessa circuiteria dei numeri naturali.
-Codifica: $$A = (a \geq 0) \ ? \ |a| \ : \ due^p - |a|$$
-Decodifica: $$a = (a_{p-1} == 0 ) \ ? \ A \ : \ -(due^p - A)$$Quindi fino a metà dei numeri rappresentabili il numero è positivo e cresce al crescere del valore del binario, dopo il numero col valore assoluto più alto è negativo, e da questo si continua a salire. Esempio: $1111 = -1$, $0110$ = 6, $0001 = 1$, $1000 = -8$.
-###### Intervallo di rappresentabilità
-$$[-2^{(p-1)}, \ (2^{(p-1)}-1)]$$
+# Come
+Se $X$ comincia con $0$ (quindi $MSB = 0$) allora $x$ è positivo e sale al crescere di $X$.
+Se $X$ comincia con $1$ (quindi $MSB = 1$) allora $x$ è negativo e sale al crescere di $X$.
+$X=00...00 \implies x = 0$ 
+$X=01...11 \implies x = 2^{(p-1)}-1$ 
+$X=10...00 \implies x = -2^{(p-1)}$ 
+$X = 11...11 \implies x = -1$ 
+Codifica:
+$$X = \begin{cases} x \ \ \ x \geq 0 \\ 2^N+1 \ \ \ x < 0 \end{cases}$$
+Decodifica:
+$$x = \begin{cases} X \ se \ MSB = 0 \\ - (\overline X + 1) \ se \ MSB = 1 \end{cases}$$
+Intervallo di Rappresentabilità:
+$$[-2^{(N-1)}, \ (2^{(N-1)}-1)]$$

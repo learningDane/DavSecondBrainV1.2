@@ -26,7 +26,7 @@ Algebra Relazionale:
 [[Esercizi Algebra Relazionale]] 
 
 SQL:
-[[SQL]] 
+[[MySQL]] 
 
 [[Esercizi Slide Pistolesi]] 
 [[Esercizi salute.sql]] 

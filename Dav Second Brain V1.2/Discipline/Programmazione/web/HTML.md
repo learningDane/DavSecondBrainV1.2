@@ -1,4 +1,31 @@
-#self-taught 
+#uni 
+HTML (___HyperText Markup Language___) is a _markup_ language. Markup is a way of specifing information about the content.
+In the last decade a strong consensus has grown around the belief that HTML documents should only focus on structure and content of the document, and not how this document is visualized, which is left to [[CSS]]. 
+This way of operating ensures: maintainability, speed, accessibility, better instructions for search engines -> SEO.
+An HTML docuement is split into Head and Body, the head contains descriptive elements about the document, the body instead contains what should be displayed.
+# Simplest HTML document
+```HTML
+<!DOCTYPE html>
+<title>titolo</title>
+<p>paragraph</p>
+```
+# Complete HTML document
+```HTML
+<meta charset = "utf-8">
+<script src="js/html5shiv.js"></script> specifies the Javascript documents needed
+<link rel="stylesheet" href="css/main.css"> specifies the style (CSS) document
+```
+# Elements
+`<h></h>` heading
+`<p><p/>` paragraph
+`<div>` not displayed by the browser, does nothing
+`<a>` anchor, has attribute `href="link/image"></a>`
+links can be to external sites, resources within the current site, resources within the same page, particular locations on other page, instructions for user's email program, instructions to execute javascript function.
+
+
+
+
+---
 HTML (___HyperText Markup Language___) è un linguaggio di _markup_ nato per la formattazione e impaginazione di documenti ipertestuali.
 L'HTML è un linguaggio di pubblico dominio, la cui sintassi è stabilita dal [[World Wide Web Consortium]] (W3C).
 # Codice

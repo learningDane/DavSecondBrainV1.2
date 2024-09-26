@@ -1,16 +1,4 @@
 #uni 
-Questo è un problema in cui abbiamo dei vincoli sulla capacità di produzione e dobbiamo ottimizzare guadagni o spese o tempo ecc. (UN SOLO OBIETTIVO!!!) 
-Il [[Modello Matematico]] da applicare a questa classe di problemi è il [[Modello di Programmazione Lineare]]. 
-
-Un problema di programmazione lineare segue il seguente [[Modello Matematico]]:
-$$\begin{cases} min/max \ c \cdot x \\ Ax \leq b \\ Bx \geq d \\ Cx = e\end{cases}$$
-Ogni problema DPL può essere portato nella seguente forma standard:
-___Problema di Programmazione Lineare in forma Primale Standard___:
-$$\begin{cases} max \ c \cdot x \\ Ax \leq b\end{cases}$$
-1. i $\geq$ diventano $\leq$
-2. i $=$ diventano un sistema $\begin{cases} \leq \\ \leq \end{cases}$ (sdoppio)
-3. i $min$ diventano $max$, poiché $\overline x \in argmax \ f \leftrightarrow \overline x \in argmax \ -f$ 
-# Esempio
 Una ditta produce laminato di Tipo A e laminato di Tipo B (il prodotto).
 Ogni laminato passa per i reparti MateriePrime, Taglio, Finiture Tipo A, Finiture Tipo B (in base a se è tipo A o B).
 Il guadagno è 8,4 per il Tipo A e 11,2 per il tipo B.

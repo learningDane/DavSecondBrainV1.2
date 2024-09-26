@@ -7,7 +7,7 @@ Una transazione comprende una o più operazioni di accesso al [[Database]]:
 In termini più informatici una __transazione__ è una parte di programma caratterizzata da __inizio__, una __fine__ e al cui interno deve essere eseguita __una sola volta__ uno dei seguenti comandi:
 - `commit` per terminare correttamente
 - `rollback`/`abort` per abortire la transazione
-In [[SQL]]:
+In [[MySQL]]:
 - `begin-transaction`
 - `end transaction` 
 Esempio di transazione:

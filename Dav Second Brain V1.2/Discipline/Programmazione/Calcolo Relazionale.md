@@ -27,6 +27,6 @@ dove:
   6. Gli attributi di $Z$ devono comparire nello schema di relazione che costituisce il campo di variabilità, o ___range___, di $x$ 
 - $L$ è la _range list_, che elenca le variabili libere della formula $f$ con i relativi campi di variabilità, o _range_ 
 - $f$ è una formula
-Con il calcolo sulle tuple non si possono esprimere alcune interrogazioni, per esempio le unioni. Per questo motivo [[SQL]] (che è basato su questo calcolo) prevede un operatore esplicito di unione, ma non tutte le versioni prevedono intersezione e differenza.
+Con il calcolo sulle tuple non si possono esprimere alcune interrogazioni, per esempio le unioni. Per questo motivo [[MySQL]] (che è basato su questo calcolo) prevede un operatore esplicito di unione, ma non tutte le versioni prevedono intersezione e differenza.
 	Esempio: Trovare mat, nome, età e stip degli impiegati che guadagnano più di 40: $$\{i,*|i(Impiegati) |i.Stipendio > 40\}$$
 	Esempio: trovare mat e nome dei capi i cui impiegati guadagnano più di 40: $$\{Matr,Nome:i'.(Matr,Nome)|i'(Impiegati),s(Supervisione),i(Impiegati)|i'.Matr=s.Capo \land s.Impiegato=i.Matr \landi.Stipendio>40\}$$

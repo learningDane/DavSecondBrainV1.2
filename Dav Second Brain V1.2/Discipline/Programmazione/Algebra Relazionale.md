@@ -34,7 +34,7 @@ Operatori su relazioni:
 # Ottimizzazione delle Interrogazioni
 Il ___query processor___ (o ottimizzatore) è un modulo del [[DBMS]] che si occupa di ottimizzare le query che invece sono espresse ad alto livello.
 Questa è l'__esecuzione delle Interrogazioni__:
-	[[SQL]]: Analisi lessicale, sintattica e semantica -> Algebra: ottimizzazione algebrica -> algebra: ottimizzazione basata sui costi
+	[[MySQL]]: Analisi lessicale, sintattica e semantica -> Algebra: ottimizzazione algebrica -> algebra: ottimizzazione basata sui costi
 ### Profili delle Relazioni
 Contengono informazioni quantitative:
 - cardinalità delle relazioni

@@ -1,6 +1,6 @@
 #uni 
 Per risolvere un problema dobbiamo:
-1. Partendo dal [[Problema]] 
+1. Partendo dal [[Problema]], Raccolta Dati
 2. Tradurre in [[Modello Matematico]], definendo variabili, ___vincoli___ e ___funzione obiettivo___.
 3. Applicare la [[Teoria]] di risoluzione del modello matematico
 4. Applicare un [[Algoritmo]] 

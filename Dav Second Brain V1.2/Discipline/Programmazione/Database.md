@@ -8,7 +8,7 @@ Una base di dati è una risorsa integrata, condivisa fra applicazioni e quindi n
 In ogni base di dati esistono:
 - ___schema___: invariante nel tempo, descrive la struttura del DB
 - ___istanza___: insieme dei valori attuali
-Il linguaggio usato per interagire con i database è l'[[SQL]].
+Il linguaggio usato per interagire con i database è l'[[MySQL]].
 
 
 
@@ -16,7 +16,7 @@ Cosa è un Database? Questo è semplicemente un deposito per le informazioni. Qu
 Un database è un insieme di dati gestito da un DBMS (database management system).
 Il ___modello logico relazionale___:
 	cerca su internet
-Il linguaggio usato per i database è [[SQL]]. 
+Il linguaggio usato per i database è [[MySQL]]. 
 Concetti chiave: 
 	guarda le slide
 Un Database ha dimensioni molto maggiore della memoria centrale del sistema di calcolo utilizzato e ha un tempo di vita indipendente dalle singole esecuzioni dei programmi che le utilizzano (___persistenza___ dei dati).
@@ -72,7 +72,7 @@ ___utente -> schema logico -> schema interno -> Database___
 	- una tabella è utilizzata nello stesso modo qualunque sia la sua realizzazione fisica (che può cambiare nel tempo)
 # Linguaggi per Basi di Dati
 Linguaggi: 
-	- linguaggi testuali interattivi ([[SQL]]) 
+	- linguaggi testuali interattivi ([[MySQL]]) 
 	- comandi in linguaggi testuali immersi in un linguaggio ospite ([[C++]], Java, ecc)
 	- con interfacce amichevoli
 distinzione terminologica:

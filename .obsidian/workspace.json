@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1cde4f6b8aa0976",
+            "id": "9a94a382269a3ce8",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,43 +22,43 @@
             }
           },
           {
-            "id": "82cd89ea516c3134",
+            "id": "90cad7c7af59849b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Problema di Programmazione Lineare (DPL).md",
+                "file": "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Reti Logiche.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "926b5903c81b48d2",
+            "id": "4746a6b6ccee32a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modello Matematico.md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Schema del Calcolatore.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7f39a1dbabaf4078",
+            "id": "8f04c5d88ed3e102",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modello di Programmazione Lineare.md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Problema di Programmazione Lineare (DPL).md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Problema di Programmazione Lineare (DPL).md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Problema di Programmazione Lineare (DPL).md"
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md"
               }
             }
           }
@@ -184,34 +184,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "82cd89ea516c3134",
+  "active": "8f04c5d88ed3e102",
   "lastOpenFiles": [
-    "Modello di Programmazione Lineare.md",
-    "Modello Matematico.md",
-    "Problema di Programmazione Lineare (DPL).md",
-    "Ricerca Operativa.md",
+    "Pasted image 20240926120628.png",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
+    "Pasted image 20240926120554.png",
+    "Pasted image 20240926130537.png",
+    "Pasted image 20240926121437.png",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Schema del Calcolatore.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Reti Logiche.md",
+    "Pasted image 20240926120906.png",
+    "Pasted image 20240926120819.png",
+    "Pasted image 20240926120649.png",
+    "Pasted image 20240926114039.png",
     "Dav Second Brain V1.2/UNI/Materie Ingegneria informatica Unipi.md",
-    "Reti Logiche.md",
-    "Regione Ammissibile.md",
-    "Risoluzione di un Problema.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Sistemi Lineari.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Simboli matematici.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Serie Numeriche.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Rappresentazione Parametrica.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Rappresentazione Cartesiana.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Principio di Sostituzione degli Infiniti (esimi).md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Principio di induzione.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Numeri periodici.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Numeri Immaginari (o Complessi).md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Mutua Posizione di due Rette nel Piano.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Matrici.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Massimo Comune Divisore.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Logaritmi.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Limiti.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Integrazione per Parti.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Integrali per Sostituzione.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Insiemi in Spazi multidimensionali.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Insiemi.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Teorema di Rappresentazione dei Poliedri (di Weyl).md",
+    "Teorema di Rappresentazione dei Poliedri/di Weyl.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Ricerca Operativa.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Poliedro.md",
+    "Teorema di Rappresentazione dei Poliedri",
+    "Dav Second Brain V1.2/Discipline/Matematica/Combinazione Conica.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Funzioni.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Combinazione Convessa.md",
+    "bho.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Problema di Programmazione Lineare (PL).md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Problema di Assegnamento.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Problema di Produzione.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Progettazione Web.md",
+    "Pasted image 20240925140440.png",
+    "Dav Second Brain V1.2/Discipline/Programmazione/web/HTML.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Internet.md",
+    "Pasted image 20240925140559.png",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Elettrotecnica.md",
+    "Dav Second Brain V1.2/UNI/spam/Informazioni sul Corso di Elettrotecnica.md",
+    "Dav Second Brain V1.2/UNI/spam/informazioni sul Corso di Progettazione Web.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Software Stack.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/MySQL.md",
+    "Dav Second Brain V1.2/UNI/spam/Informazioni sul Corso di Reti Logiche.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Risoluzione di un Problema.md",
     "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II",
     "SQphotography/Database"
   ]

@@ -61,3 +61,53 @@ These communications between systems are operated by ___Internet Exchange Points
 Large websites now not only connect to IXPs but now also are connected to multiple other networks as a way of improving the performance of their sites, since _physical distance is a problem_ (latency). 
 Sometimes companies mirror data centers in data centers located near IXPs.
 # Domain Name System (DNS)
+The user requests to the DNS the IP address of a said website, the DNS provides it and the machine accesses the server of the website.
+# Domain Levels
+server1.www.website.com
+1. server1 = fourth level domain
+2. www = third level domain
+3. website = second level domain (SLD)
+4. com = top level domain (TLD)
+with the last being the more specific.
+Generic top-level domain (gTLD):
+- unrestriced: com, net, org, info
+- sponsored: gov, mil, edu, and other
+- new TLDs
+Country code top-level domain (ccTLD)
+- us, ca, uk, au.
+- internationalized domain names.
+# Name Registration
+Domain names are assigned by special organizations called domain name registrars. These companies have been given the permission to do so by the appropriate gTLD and/or cc(TLD)
+# Domain Name address resolution process
+If the resolution is already in the computer's cache (which is not browser specific but can instead be used by every process) it simply resolves with it, otherwise the request is sent to the primary DNS server, which can give the answer or forward it to higher level DNSs.
+# URL
+There needs to be a consistent structure to websites so that users can easily access the contents,  the web this is the ___Uniform Resource Locator___, URL.
+http://www.website.com/index.php?page=17#article
+1. http = protocol, based on the protocol the request is sent on a specific port (80 for http)
+2. www.website.com = domain
+3. index.php = path
+4. page=17 = query string
+5. article = fragment
+### Query String
+### HTTP
+The Hypertext Transfer Protocol estabilishes a TCP connection on port 80 (by default). There are ports for multiplexing and demultiplexing. To a request, the server responds with a response code, headers and an optional message, which can include file content.
+The most common http requests are GET and POST.
+Request specifies:
+1. client browser, OPsystem
+2. accepted formats
+3. accepted language
+4. accepted encoding
+5. to keep alice TCP connection
+6. cache control
+Answer specifies:
+1. timestamp
+2. server type
+3. content enconding, lenghth and type
+4. Content (HTML, CSS, JS)
+##### Response Codes
+- 2## codes are for successful responses
+- 3## redirection-related responses
+- 4## client errors
+- 5## server errors
+# Web Servers
+A web server is fundamentally a computer that responds to http requests. Regardless of the physical aspects of a particular server, one must run a [[Software Stack]]. 
