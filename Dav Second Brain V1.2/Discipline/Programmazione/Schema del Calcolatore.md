@@ -1,4 +1,4 @@
-#uni 
+x#uni 
 ```mermaid
 graph TD
     A[Rete di Interconnessione - BUS] ==Media==> B[Interfacce]
@@ -25,12 +25,13 @@ I registri sono locazioni di memoria interne, a 32bit, e sono ___generali___ o _
 | ---------------- | ------ |
 | EAX - ah, ax, al | EIP    |
 | EBX - bh, bx, bl | EF     |
-| ECX - ch, cx, cl |        |
+| ECX - ch, cx, cl | DF     |
 | EDX - dh, dx, dl |        |
 | EBP - bp         |        |
 | ESI - si         |        |
 | EDI - di         |        |
 | ESP - sp         |        |
+dove $E = 32bit$, $X = 16bit$, $H \ e\ L = 8bit$ ed infine $L \in X$ 
 ___General___:
 ___EAX___ = accumulatore = serve per memorizzare operandi di operazioni aritmetiche
 ___EBX___ = base = indirizzo di base per accesso in memoria
@@ -50,6 +51,7 @@ ___EF___ = extended flag register = ha 32 elementi detti ___flag___, queste flag
 	Riassunto:
 	1. operazione su interi: guardare OF, SF, ZF (CF non significativo)
 	2. operazione su naturali: guardare CF, ZF (OF e SF non significativi)
+	DF = direction flag, STD set direction flag mette 1 (copia indietro), CDL clear direction flag mette 0 (copia in avanti).
 E sta per _extended_, infatti prima i registri erano a 16bit, poi siamo passati a 32bit. 
 ##### Condizioni al reset
 I registri generali non sono rilevanti

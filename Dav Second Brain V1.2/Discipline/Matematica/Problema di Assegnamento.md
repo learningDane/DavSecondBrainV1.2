@@ -33,3 +33,7 @@ $b \in R^8$
 $A \in M^{16,16}$ 
 # Cooperativo vs Non Cooperativo
 Nei problemi di assegnamento, e solo in quelli di assegnamento, per ogni soluzione cooperativa ce ne è una non cooperativa, quindi sono lo stesso problema, ed è indipendente quale dei due risolvo.
+# Numero di Variabili e Vincoli nella Forma Primale Standard
+dati $i$ operatori e $j$ progetti
+Numero di Variabili: $i\cdot j$
+Numero di Vincoli: $i\cdot j +2i+2j$ 
