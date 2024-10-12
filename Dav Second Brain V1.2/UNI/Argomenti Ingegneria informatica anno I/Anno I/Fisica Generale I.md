@@ -18,4 +18,4 @@ Michele Virgilio michele.virgilio@unipi.it __Elettromagnetismo__
 [[Moto Circolare]] 
 ### Principi dell'Elettromagnetismo nel Vuoto
 [[Carica Elettrica]] 
-[[Legge di Coulombe]] 
+[[Legge di Coulombe]] prova
