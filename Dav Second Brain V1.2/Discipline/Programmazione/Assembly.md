@@ -217,7 +217,7 @@ Nel nostro ambiente devi includere il file utility con la direttiva:
   prelevano da tastiera con eco a video 2,4 o 8 caratteri da tastiera e mettono in AL, AX, EAX il numero esadecimale digitato, ignorano qualunque altro carattere che viene premuto.
 ### Ingresso/Uscita di numeri decimali
 - indecimal_byte, indecimal_word, indecimal_long:
-  prelevano ta tastiera con eco a video fino a 3,5,10 cifre decimali e lo mettono in Al, AX, EAX. Ignorano qualunque altro carattere premuto, se il numero è troppo grande viene troncato, si può premere invio per dare in ingresso meno di 3,5,10 cifre.
+  prelevano ta tastiera con eco a video fino a 3,5,10 cifre decimali e lo mettono in AL, AX, EAX. Ignorano qualunque altro carattere premuto, se il numero è troppo grande viene troncato, si può premere invio per dare in ingresso meno di 3,5,10 cifre.
 - outdecimal_byte/word/long
   stampano su video il contenuto di AL, AX, EAX interpretato come naturale sul numero di cifre strettamente necessario.
 # Indirizzamento delle istruzioni operative
@@ -734,4 +734,4 @@ OI registri usati come puntatore implicito sono differenti: ESI come sorgente ed
 `SCASsuf` confronta il contenuto del registro AL,AX, EAX (suffisso) con la locazione (sing, doppia, quad) di memoria indirizzata da EDI, con lo stesso algoritmo della CMP. A seconda di DF incrementa/decrementa EDI di 1,2,4.
 # Prefissi di Ripetizione
 `REP` può essere usato con MOVS, STOS, INS, OUTS e LODS(non ha senso).
-`REPE`/`REPNE` può essere usato con CMPS e SCAS, si fanno al massimo EcX ripetizioni finché la condizione specificata è vera.
+`REPE`/`REPNE` può essere usato con CMPS e SCAS, si fanno al massimo EcX ripetizioni finché la condizione specificata è vera. 

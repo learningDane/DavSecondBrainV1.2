@@ -22,24 +22,32 @@
             }
           },
           {
-            "id": "f93707473f5864a2",
+            "id": "a200a64089a526f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmo del Simplesso.md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4f0e98115f42e419",
+            "id": "42e926521aeab4a0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a4a63bdf940c32a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dav Second Brain V1.2/Discipline/Matematica/Teoria della Dualità.md",
+                "file": "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno I/Algebra Lineare.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fb23866c98157bd8",
@@ -113,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algoritmo del Simplesso.md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algoritmo del Simplesso.md",
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algoritmo del Simplesso.md"
+                "file": "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md"
               }
             }
           }
@@ -162,8 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,37 +180,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f93707473f5864a2",
+  "active": "a200a64089a526f3",
   "lastOpenFiles": [
-    "Dav Second Brain V1.2/Discipline/Matematica/Teoria della Dualità.md",
-    "Algoritmo del Simplesso.md",
-    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Ricerca Operativa.md",
-    "Dav Second Brain V1.2/UNI/Materie Ingegneria informatica Unipi.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Rete Combinatoria.md",
     "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Reti Logiche.md",
+    "Dav Second Brain V1.2/UNI/Materie Ingegneria informatica Unipi.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno I/Algebra Lineare.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Insiemi.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Gestione della Concorrenza.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno I/Basi di Dati.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Progettazione Concettuale.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Modello Entity-Relationship.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
+    "Algoritmo del Simplesso.md",
+    "Dav Second Brain V1.2/Discipline/Matematica/Teoria della Dualità.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/ascii.md",
+    "Dav Second Brain V1.2/UNI/Argomenti Ingegneria informatica anno I/Anno II/Ricerca Operativa.md",
+    "Dav Second Brain V1.2/Discipline/Programmazione/Rete Combinatoria.md",
     "Algebra di Boole.md",
     "Dav Second Brain V1.2/Discipline/Logica/Basi della Logica.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Equazioni Differenziali.md",
     "Pasted image 20241008120814.png",
     "Pasted image 20241008120127.png",
     "Dav Second Brain V1.2/Discipline/Programmazione/Introduzione alle Reti Logiche.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Assembly.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Numeri Immaginari (o Complessi).md",
     "Dav Second Brain V1.2/Discipline/Programmazione/Schema del Calcolatore.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/ascii.md",
     "Dav Second Brain V1.2/Discipline/Matematica/MatLab.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Problema di Programmazione Lineare (PL).md",
     "Dav Second Brain V1.2/Discipline/Matematica/Problema di Assegnamento.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Poliedro.md",
     "Dav Second Brain V1.2/Discipline/Matematica/Teorema di Rappresentazione dei Poliedri (di Weyl).md",
     "Dav Second Brain V1.2/Discipline/Matematica/Problema di Produzione.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Teorema Fondamentale dei Problemi PL.md",
-    "Dav Second Brain V1.2/Discipline/Matematica/Risoluzione di un Problema.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Rete Logica.md",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Note sull'Architettura Intel-AMD a 64bit.md",
-    "Note sull'Architettura Intel/AMD a 64bit.md",
     "Note sull'Architettura Intel",
-    "Dav Second Brain V1.2/Discipline/Programmazione/Ottimizzazione di Assembly.md",
     "Pasted image 20240927130820.png",
     "Pasted image 20240927130304.png",
     "Pasted image 20240927125838.png",
