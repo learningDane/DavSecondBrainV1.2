@@ -6,4 +6,4 @@ Prerequisiti:
 1. parte 1,2,3 = [[Algebra Lineare]]: operazioni su matrici, risoluzione sistemi lineari, inversa di matrice, teorema del rango/numero di soluzione di sistemi lineare.
 2. parte 4 = [[Analisi Matematica II]] 
 Useremo [[MatLab]], in particolare la optimization toolbox.
-Allo scritto possiamo usare il nostro calcolatore.
+Allo scritto possiamo usare il nostro calcolatore, con matlab e tutti gli appunti che vuoi (compreso obsidian), basta non comunicare con altri, pena inferno all'orale e disprezzo della creatura migliore del mondo aka Massimo Pappalardo (lo amo).

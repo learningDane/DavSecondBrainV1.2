@@ -12,6 +12,7 @@ Argomenti
 [[Vertice]] 
 [[Teorema di Rappresentazione dei Poliedri (di Weyl)]]  
 [[MatLab]] 
+[[Regole Anticiclo di Blend]] 
 Parte 1:
 [[Problema di Programmazione Lineare (PL)]] 
 	[[Teorema Fondamentale dei Problemi PL]] 
@@ -20,3 +21,9 @@ Parte 1:
 	[[Problema di Produzione]] 
 	[[Problema di Assegnamento]] 
 	[[Problema di Trasporto]] 
+	[[Problema dello Zaino]]
+	[[Problema Bin-Packing]] 
+Parte 2:
+`A,b sono a componenti intere (ovvero razionali)` 
+[[Problema di Programmazione Lineare Intera (PLI)]] 
+	[[Teorema Astratto di Equivalenza tra PL e PLI]] 
