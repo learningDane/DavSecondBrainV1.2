@@ -1,4 +1,5 @@
 #uni 
+# Linprog
 Per risolvere un [[Problema di Programmazione Lineare (PL)]], [[MatLab]] offre ___linprog___.
 Risolve i problemi nel seguente forma: $$\begin{cases} min \ c^T x \\ Ax \leq b \\ A_{eq} = b_{eq} \\ LB \leq x \leq UB \end{cases}$$
 dove $LB$ e $UB$ sono i vettori dei lower e upper bound.
@@ -17,3 +18,5 @@ Digitare: (ordine e nomi alle matrici non contano, conta solo ordine nel comando
 >> [x,v]=linprog(c,A,b,Aeq,beq,LB,UB)
 >> appare soluzione: x=(val ottimo)
 ```
+# Intlinprog
+$$\begin{cases} min \ c^T x \\ Ax \leq b \\ A_{eq} = b_{eq} \\ LB \leq x \leq UB \\ x \end{cases}$$

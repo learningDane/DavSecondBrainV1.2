@@ -207,7 +207,7 @@ Nel nostro ambiente devi includere il file utility con la direttiva:
 `.INCLUDE "./files/utility.s"`
 1. inline: consente di portare una stringa di max 80 caratteri in un buffer di memoria digitando da tastiera con eco su video
    - parametri di ingresso: EBX: indirizzo di memoria del buffer, CX: numero di caratteri da leggere (max 80)
-    la lettura da tastiera termina dopo 78 caratteri o se premete invio, vengono aggiunti in doa al buffer i caratteri LF 0x0A e CR 0x0D
+    la lettura da tastiera termina dopo 78 caratteri o se premete invio, vengono aggiunti in coda al buffer i caratteri LF 0x0A e CR 0x0D
     il sottoprogramma interpreta backspace come ordine di cancellare dal buffer e dal video l'ultimo carattere digitato
 2. outline: stampa a video max 80 caratteri, si ferma prima se trova un carattere di ritorno carrello, stampando anche i caratteri necessari ad andare a capo.
    parametri di ingresso: EBX indirizzo di memoria del buffer.
