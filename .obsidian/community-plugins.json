@@ -1,5 +1,6 @@
 [
   "dataview",
   "obsidian-charts",
-  "obsidian-functionplot"
+  "obsidian-functionplot",
+  "obsidian-tikzjax"
 ]
