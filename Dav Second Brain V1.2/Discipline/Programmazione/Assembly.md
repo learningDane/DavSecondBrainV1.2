@@ -212,8 +212,8 @@ Nel nostro ambiente devi includere il file utility con la direttiva:
 2. outline: stampa a video max 80 caratteri, si ferma prima se trova un carattere di ritorno carrello, stampando anche i caratteri necessari ad andare a capo.
    parametri di ingresso: EBX indirizzo di memoria del buffer.
 3. outmess: parametri di ingresso EBX indirizzo memoria buffer, CX numero di caratteri da stampare a video.
-### Ingresso/Uscita di numeri esadecimali
-- inbyte, inword, inword:
+### Ingresso/Uscita di caratteri esadecimali
+- inbyte, inword, inlong:
   prelevano da tastiera con eco a video 2,4 o 8 caratteri da tastiera e mettono in AL, AX, EAX il numero esadecimale digitato, ignorano qualunque altro carattere che viene premuto.
 ### Ingresso/Uscita di numeri decimali
 - indecimal_byte, indecimal_word, indecimal_long:
