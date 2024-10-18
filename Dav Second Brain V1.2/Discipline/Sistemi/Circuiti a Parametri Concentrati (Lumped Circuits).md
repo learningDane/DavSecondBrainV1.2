@@ -1,34 +1,27 @@
-Sono circuiti le cui distanze fra le componenti sono permettono di trascurare le variazioni del segnale elettrico (utilizzano approssimazione di **non estendersi nello spazio**)
+Questi sono circuiti le cui distanze fra le componenti sono tali da generare variazioni del segnale elettrico trascurabili (utilizzano approssimazione di **non estendersi nello spazio**).
+Affinché le distanze siano tali da non influire sul segnale elettrico devono essere molto minori di $\lambda$ ($d<<\lambda$), la lunghezza d'onda del segnale elettrico, definita come $\lambda=\frac{v}{f}$.
+I due casi tipici in cui invece l'estensione di un circuito non può essere trascurata sono i seguenti:
+- $d\simeq \lambda$ 
+- $f>>50Hz$, $50Hz$ è la frequenza tipica della rete di casa, un esempio di frequenza molto maggiore è la radio, che lavora tra i $75$ e i $108MHz$.
 
-Come si semplifica un Circuito?
+# Semplificazione di un Circuito
 1. Semplifico le [[#Resistenze in Serie]]
 2. Semplifico le [[#Resistenze in Parallelo]]
 3. Trasformo le [[#Resistenze a Triangolo]] ($Y->\Delta$)
 4. Trasformo le [[#Resistenze a Stella]] ($\Delta->Y$)
-
-# Corrente
-## Definizione
-
-Scorre in senso opposto al movimento degli elettroni dal - al + e si definisce:
-
-$$\lim_{\delta t\to0}\frac{\Delta q} {\Delta t}=i(t)=[A] $$
-$$i(t)=\frac{d\ q(t)}{d\ t}=[A]$$
 ## Generatori di Corrente
 
 ```
 generatore di corrente
 ```
 - E' dotato di *contrassegno* che indica dove sta il + (ovvero il verso di scorrimento della corrente)
-- Non ne posso conoscere la Differenza di Potenziale hai due capi
+- Non ne conosco immediatamente la caduta di potenziale, va calcolata
 - $i(t) \ = \ costante$ corrente *continua*
-- $i(t) \ \neq \ costante$ varia in secondo *sinusoide* corrente *alternata*
+- $i(t) \ = \ alternata$ varia nel tempo in maniera sinusoidale
 - $i(t) \ = \ 0$ allora A e B collegati con un [[#Circuito Aperto]]
-
 ### Generatori di Corrente in Serie
 
-Non puoi mettere [[#Generatori di Corrente]] in serie a meno che non consideri dei [[#Generatori di Corrente Reali]] (R in *parallelo*)
-
-
+Non puoi mettere [[#Generatori di Corrente]] in serie a meno che non siano dei [[#Generatori di Corrente Reali]] (R in *parallelo*)
 ### Generatori di Corrente in Parallelo
 
 ```
@@ -37,7 +30,6 @@ generatore di corrente
 
 La corrente totale ($i_{tot}(t)$) è rappresentata dalla somma algebrica di tutte le correnti presenti nel parallelo secondo la [[Prima Legge di Kirchkoff]] :
 $$i_{tot}(t)=i_1(t)+i_2(t)+...+i_n(t)$$
-
 # Tensione/Potenziale
 ## Definizione
 
@@ -46,7 +38,6 @@ $$V_{ab}(t)=\frac{L_{ab}(t)}{q^{(+)}}=[\frac{w}{C}]=[V]$$
 Forti parallelismi tra ***rete elettrica*** e ***rete idraulica***: le cariche vanno da Potenziale Maggiore a Potenziale Minore. 
 
 Se il circuito non ha "salti" di Potenziale allora serve una "pompa": il [[#Generatore di Tensione]]
-
 ## Generatori di Tensione 
 ```
 generatore di tensione
@@ -56,20 +47,16 @@ generatore di tensione
 - $V(t) \ = \ costante$ si dice che genera corrente in *continua*
 - $V(t) \ \neq \ costante$ allora varia secondo *sinusoide* -> corrente *alternata*
 - $V(t) \ = \ 0$ allora A e B collegati in [[#Corto Circuito]]
-
 ### Generatori di Tensione in Serie
-
 Dei [[#Generatori di Tensione]] sono in *serie* se sono attraversati dalla stessa corrente
 ```
 generatori in serie
 ```
-
 La $V_{eq}$ sarà data dalla somma algebrica di tutti i generatori nella serie:
 $$V_{eq}=V_{AB}=V_1+V_2+...+V_n$$
 il segno di ogni singola V dipende dal verso della corrente e dal contrassegno su ognuno di essi:
 - se corrente concorde al contrassegno allora ***meno*** (riferimento [[#Associato]])
 - se corrente opposta al contrassegno allora ***più*** (riferimento [[#Non Associato]])
-
 ### Generatori di Tensione in Parallelo
 
 Non puoi mettere dei [[#Generatori di Tensione]] in *parallelo* a meno che non consideri [[#Generatori di Tensione Reali]] (R in serie).
@@ -77,7 +64,6 @@ Non puoi mettere dei [[#Generatori di Tensione]] in *parallelo* a meno che non c
 Secondo la [[Seconda Legge di Kirchkoff]] la somma dei voltaggi calcolati su una maglia è uguale a 0:
 $$\sum^{n}_{I=1}V_i(t)=0$$
 # Generatori Pilotati
-
 ```
 generatore di tensione
 ```
@@ -85,7 +71,6 @@ Possono essere di *tensione* o di *corrente* e vengono influenzati da altre corr
 es.
 $$V_{BA}(t)= \alpha V(t)$$
 $$i_{BA}=\beta V(t)$$
-
 # Bipoli Elettrici
 
 |                  | Memoria | Energia                           | t Invariante                   |
