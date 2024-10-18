@@ -21,8 +21,8 @@ Parte 1:
 	[[Problema di Produzione]] 
 	[[Problema di Assegnamento]] 
 	[[Problema di Trasporto]] 
-	[[Problema dello Zaino]]
-	[[Problema Bin-Packing]] 
+	[[Problema dello Zaino]] finire
+	[[Problema Bin-Packing]] finire
 Parte 2:
 `A,b sono a componenti intere (ovvero razionali)` 
 [[Problema di Programmazione Lineare Intera (PLI)]] 

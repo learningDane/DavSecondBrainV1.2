@@ -1,4 +1,5 @@
 #uni 
+Un problema di Assegnamento è un [[Problema di Programmazione Lineare (PL)]], è infatti un caso particolare del [[Problema di Trasporto]], pertanto ne eredità la peculiarità di avere la stessa soluzione sia a variabili intere che reali.
 
 |       | progetti | IS  | CS  | TI  | AB  |
 | ----- | -------- | --- | --- | --- | --- |
@@ -10,7 +11,7 @@
 | 4     |          | 19  | 18  | 14  | 24  |
 Un gruppo bancario deve far fare 4 progetti ed indice un bando al quale partecipano 4 aziende, ogni azienda quota un prezzo per ogni progetto. Per ogni progetto ci vuole un mese, e ogni azienda può fare un solo progetto alla volta.
 ### Modello Matematico
-$$\begin{cases} min \ C^Tx \\ X_{1,1}+X_{1,2}+X_{1,3}+X_{1,4} = 1 \\ ... \\ X_{1,1}+X_{2,1}+X_{3,1}+X_{4,1} = 1 \\ ... \\  X_{i,j} \geq 0 \end{cases}$$
+$$\begin{cases} min \ C^Tx \\ X_{1,1}+X_{1,2}+X_{1,3}+X_{1,4} = 1 \\ ... \\ X_{1,1}+X_{2,1}+X_{3,1}+X_{4,1} = 1 \\ ... \\  X_{i,j} \geq 0 \end{cases}$$quindi $$\begin{cases} min \ c^T x \\ \begin{pmatrix} 1..1|0..0|..|0..0 \\ 0..0|1..1|0..0|..|0..0\\.. \\ 0..0|0..0|..|0..0|1..1\\ 010.00|010.00|..|010..0 \\ 0010..0|0010..0|..|0010..0 \\..\\ 0..01|0..01|..|0..01\\-{1}0..0|0..0|..|0..0\\0{-1}0..0|0..0|..|0..0\\..\\0..0|0..0|..|0..0{-1} \end{pmatrix} \cdot \begin{pmatrix} x_{11}\\x_{12}\\..\\x_{1n}\\x_{21}\\x_{22}\\..\\x_{2n}\\..\\ \\ \\x_{nn} \end{pmatrix}\leq \begin{pmatrix} 1 \\1\\1\\1\\..\\1\\1\\..\\-1\\-1\\..\\-1\end{pmatrix} \end{cases}$$
 ##### Variabili
 Considerato un generico assegnamento $a,b,c,d$ , dove ditta 1 fa progetto $a$, 2 fa $b$ eccetera.
 Il numero totale di permutazioni possibili è $n! = 4! = 24$.
