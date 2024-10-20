@@ -11,8 +11,15 @@ I due casi tipici in cui invece l'estensione di un circuito non può essere tras
 4. Trasformo le [[#Resistenze a Stella]] ($\Delta->Y$)
 ## Generatori di Corrente
 
-```
-generatore di corrente
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz} \draw
+    (0,0) node[left] {$A$}
+    to[isource, l=$I$, v_=$V(t) ?$] (3,0) % Generatore di corrente con differenza di potenziale
+    node[right] {$B$};
+\end{circuitikz}
+\end{document}
 ```
 - E' dotato di *contrassegno* che indica dove sta il + (ovvero il verso di scorrimento della corrente)
 - Non ne conosco immediatamente la caduta di potenziale, va calcolata
@@ -24,8 +31,25 @@ generatore di corrente
 Non puoi mettere [[#Generatori di Corrente]] in serie a meno che non siano dei [[#Generatori di Corrente Reali]] (R in *parallelo*)
 ### Generatori di Corrente in Parallelo
 
-```
-generatore di corrente
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz} \draw
+    (0,0) node[left] {$A$}
+    to[isource, l_=$+ I_1$, v^ = $V(t) ?$, *-*] (2,0)
+    to[isource, l_=$+ I_2$, v^ = $V(t) ?$, *-*] (4,0)
+    -- (5,0) node[anchor=north] {\dots}
+    -- (6,0)
+    to[isource, l_=$+ I_n$, v^ = $V(t) ?$, *-*] (8,0)
+    node[right] {$B$};
+    
+    % Segni di polarità negativi
+    (0,0) node[below left] {$-$}
+    (2,0) node[below left] {$-$}
+    (4,0) node[below left] {$-$}
+    (6,0) node[below left] {$-$};
+\end{circuitikz}
+\end{document}
 ```
 
 La corrente totale ($i_{tot}(t)$) è rappresentata dalla somma algebrica di tutte le correnti presenti nel parallelo secondo la [[Prima Legge di Kirchkoff]] :
@@ -39,8 +63,15 @@ Forti parallelismi tra ***rete elettrica*** e ***rete idraulica***: le cariche v
 
 Se il circuito non ha "salti" di Potenziale allora serve una "pompa": il [[#Generatore di Tensione]]
 ## Generatori di Tensione 
-```
-generatore di tensione
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz} \draw
+    (0,0) node[left] {$A$}
+    to[vsource, l=$V$] (3,0) % Generatore di tensione
+    node[right] {$B$};
+\end{circuitikz}
+\end{document}
 ```
 - E' dotato di un *contrassegno* che indica dove sta il + ( in sostanza ci dice se è $V_{AB}$ o $V_{BA}$)
 - Per calcolare V si scelgono sistemi [[Non Associati]] (contrariamente ai resistori)
@@ -49,8 +80,25 @@ generatore di tensione
 - $V(t) \ = \ 0$ allora A e B collegati in [[#Corto Circuito]]
 ### Generatori di Tensione in Serie
 Dei [[#Generatori di Tensione]] sono in *serie* se sono attraversati dalla stessa corrente
-```
-generatori in serie
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz} \draw
+    (0,0) node[left] {$A$}
+    to[vsource, l_=$V_1$, *-*, v^=$+$] (2,0)
+    to[vsource, l_=$V_2$, *-*, v^=$+$] (4,0)
+    -- (5,0) node[anchor=north] {\dots}
+    -- (6,0)
+    to[vsource, l_=$V_n$, *-*, v^=$+$] (8,0)
+    node[right] {$B$};
+    
+    % Segni di polarità negativi
+    (0,0) node[below left] {$-$}
+    (2,0) node[below left] {$-$}
+    (4,0) node[below left] {$-$}
+    (6,0) node[below left] {$-$};
+\end{circuitikz}
+\end{document}
 ```
 La $V_{eq}$ sarà data dalla somma algebrica di tutti i generatori nella serie:
 $$V_{eq}=V_{AB}=V_1+V_2+...+V_n$$
@@ -60,13 +108,29 @@ il segno di ogni singola V dipende dal verso della corrente e dal contrassegno s
 ### Generatori di Tensione in Parallelo
 
 Non puoi mettere dei [[#Generatori di Tensione]] in *parallelo* a meno che non consideri [[#Generatori di Tensione Reali]] (R in serie).
+```tikz
+\usepackage{circuitikz}
+\begin{document}
+\begin{circuitikz} \draw
+    (0,0) node[left] {$A$}
+    to[short] (2,0) to[vsource, l_=$V_1$, *-*, v^=$+$] (2,-2) to[short] (0,-2) node[left] {$B$}
+    (2,0) -- (4,0) to[vsource, l_=$V_2$, *-*, v^=$+$] (4,-2) -- (2,-2)
+    (4,0) -- (5,0) node[anchor=north] {\dots} -- (6,0)
+    to[vsource, l_=$V_n$, *-*, v^=$+$] (6,-2) -- (4,-2);
+    
+    % Segni di polarità negativi
+    (0,0) node[below left] {$-$}
+    (2,0) node[below left] {$-$}
+    (4,0) node[below left] {$-$}
+    (6,0) node[below left] {$-$};
+\end{circuitikz}
+\end{document}
+```
 
 Secondo la [[Seconda Legge di Kirchkoff]] la somma dei voltaggi calcolati su una maglia è uguale a 0:
 $$\sum^{n}_{I=1}V_i(t)=0$$
 # Generatori Pilotati
-```
-generatore di tensione
-```
+
 Possono essere di *tensione* o di *corrente* e vengono influenzati da altre correnti o tensioni moltiplicate per un certo valore:
 es.
 $$V_{BA}(t)= \alpha V(t)$$
