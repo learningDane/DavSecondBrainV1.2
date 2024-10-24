@@ -1,3 +1,4 @@
+#uni 
 Questi sono circuiti le cui distanze fra le componenti sono tali da generare variazioni del segnale elettrico trascurabili (utilizzano approssimazione di **non estendersi nello spazio**).
 Affinché le distanze siano tali da non influire sul segnale elettrico devono essere molto minori di $\lambda$ ($d<<\lambda$), la lunghezza d'onda del segnale elettrico, definita come $\lambda=\frac{v}{f}$.
 I due casi tipici in cui invece l'estensione di un circuito non può essere trascurata sono i seguenti:
