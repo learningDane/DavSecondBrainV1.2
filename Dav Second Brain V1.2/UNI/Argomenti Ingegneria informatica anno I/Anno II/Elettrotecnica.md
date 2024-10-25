@@ -11,4 +11,6 @@ Argomenti
 [[Metodo delle Correnti di Maglia]]
 [[Metodo delle Tensioni di Nodo]]
 [[Equivalente Thevenin/Norton]] 
+parte 2:
 [[Circuito a Regime Periodico Sinusoidale]] 
+[[Fasore]] 
