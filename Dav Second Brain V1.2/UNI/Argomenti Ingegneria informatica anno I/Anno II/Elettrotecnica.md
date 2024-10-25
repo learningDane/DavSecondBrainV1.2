@@ -7,6 +7,9 @@ Argomenti
 [[Potenza]] 
 [[Principi di Kirchhoff]] 
 [[Circuito a Parametri Concentrati (Lumped Circuits)]] 
+[[Resistore]] 
+[[Induttore]] ---
+[[Condensatore]] 
 [[Metodo delle Correnti di Ramo]]
 [[Metodo delle Correnti di Maglia]]
 [[Metodo delle Tensioni di Nodo]]
@@ -14,3 +17,4 @@ Argomenti
 parte 2:
 [[Circuito a Regime Periodico Sinusoidale]] 
 [[Fasore]] 
+[[Impedenza]] 
