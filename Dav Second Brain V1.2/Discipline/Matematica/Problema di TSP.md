@@ -10,3 +10,8 @@ I secondi si chiamano ___vincoli di connessione___.
 Le variabili sono $|x|=\frac{n!}{|S|!(n-|S|)!}$ 
 La matrice $Aeq$ avrà dimensioni $n\times |x|$ 
 La matrice $A$ avrà dimensioni $(2^n-2n-2) \times |x|$ ma in realtà si dimezzano.
+### Risoluzione
+Trovare una $V_I$, trovare una $V_S$, applicare Riduzione del Gap (valido per tutte le PLI).
+- $V_I$: Trovare [[k-Albero]] tramite [[Algoritmo di Kruskal]].
+- $V_S$: Algoritmo del Nodo più vicino.
+- Riduzione del gap: [[Algoritmo di Riduzione del Gap "Branch and Bound"]]. 

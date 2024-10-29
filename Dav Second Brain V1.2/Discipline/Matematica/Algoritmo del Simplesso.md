@@ -15,16 +15,14 @@ Se parto da una base con soluzione non ammissibile nel primale, che è invece so
    - se tutti gli indici $i$ portano ad $A_iW^h \leq 0$ allora la soluzione è illimitata.
 # Passo del Simplesso Duale
 
-^8c9acc
-
 In questo caso partiamo da un [[Problema di Programmazione Lineare (PL)#Formato Duale Standard]], prendiamo un vertice, scopriamo che non è ammissibile nel primale e quindi dobbiamo applicare il Simplesso Duale.
 $$(D)=\begin{cases} min\ yb \\ yA=c \\ y\geq 0 \end{cases}$$
 1. data una base $B$, trovo la soluzione di base $\overline y=(cA^{-1}_B,0)$ e scopriamo che è ammissibile (tutte componenti di $\overline y \geq 0$ )
 2. Trovo quindi la complementare $\overline x = A^{-1}_B\cdot b_B$, se trovo che questa $\overline x$ non è ammissibile nella primale (non rispetta tutti i vincoli, quindi $A_N(A^{-1}b_B)\geq b_N$ ) allora sappiamo che la nostra $\overline y$ non è Ottimo (fallisce il Test di Ottimalità del [[Teoria della Dualità#Teorema della Dualità Forte / degli Scarti Complementari]]).
-3. Altrimenti $\exists j \in N : A_j(A^{-1}_Bb_B) > b_j$ (esiste almeno una riga violata), sia $k$ la prima riga violata (indice minore - [[Regole Anticiclo di Blend]]), l'indice _uscente_.
+3. Altrimenti $\exists j \in N : A_j(A^{-1}_Bb_B) > b_j$ (esiste almeno una riga violata), sia $k$ la prima riga violata (indice minore - [[Regole Anticiclo di Blend]]), l'indice _entrante_.
 4. Calcoliamo $W=-A^{-1}_B$ 
 5. Calcoliamo $A_kW^i$ e elimino gli indici per i quali viene positivo (se tutti gli indici portano a prodotto positivo il minimo è $=-\infty$ )
-6. Costruisco i rapporti $r_i=\frac{-\overline y}{A_kW^i}$ e prendo l'indice che porta al rapporto minore, e lo chiamo $h$ e questo rimpiazza $k$ (se due $r$ sono uguali prendo l'indice minore).
+6. Costruisco i rapporti $r_i=\frac{-\overline y}{A_kW^i}$ e prendo l'indice che porta al rapporto minore, e lo chiamo $h$, _indice uscente_ e questo viene rimpiazzato da $k$ (se due $r$ sono uguali prendo l'indice minore).
 # Algoritmo verifica Poliedro Vuoto
 Questo algoritmo serve per sapere se il poliedro è vuoto o meno:
 1. Costruisco il suo [[Duale Ausiliario]] (DA)
