@@ -34,6 +34,9 @@ Parte 2: PLI
 	[[Teorema Astratto di Equivalenza tra PL e PLI]] finire con dimostrazione a inizio quaderno
 	Tutti i problemi della PL ma con vincolo di interezza
 	[[Problema di TSP]] dentro tsp: simm asimm, algo per Vi e per Vs, ciclo hamiltoniano
+	[[Problema di Copertura]] 
 	[[Teorema di Gomery]] 
 	[[Algoritmo di Riduzione del Gap tramite Piani di Taglio]] 
 	[[Algoritmo di Riduzione del Gap "Branch and Bound"]] 
+Parte 3:
+[[Problema di Programmazione Matematica a Reti]] 

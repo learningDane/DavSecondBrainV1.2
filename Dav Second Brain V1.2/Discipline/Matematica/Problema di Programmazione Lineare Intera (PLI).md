@@ -9,6 +9,7 @@ Questa tecnica di risoluzione è ___greedy___, ovvero facile, rapido e buono.
   1. s
   2. per [[Problema di TSP]]: [[Algoritmo di Kruskal]] per creazione di [[k-Albero]] di costo minimo
   3. per [[Problema Bin-Packing]]: Algoritmi next,first,best-fit-decreasing
+  4. per [[Problema di Copertura]]: [[Algortimo Chvatal]] 
 - Valutazione Inferiore
   1. Rilassato continuo
   2. per [[Problema di TSP]]: Algoritmo del Nodo più vicino

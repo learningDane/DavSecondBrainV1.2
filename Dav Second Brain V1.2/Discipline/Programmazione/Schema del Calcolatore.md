@@ -1,4 +1,4 @@
-x#uni 
+#uni 
 ```mermaid
 graph TD
     A[Rete di Interconnessione - BUS] ==Media==> B[Interfacce]

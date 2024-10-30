@@ -6,7 +6,6 @@ Argomenti
 [[Corrente]] 
 [[Tensione]] 
 [[Potenza]] 
-[[Principi di Kirchhoff]] 
 [[Prima Legge di Kirchkoff]] 
 [[Seconda Legge di Kirchkoff]] 
 [[Circuito a Parametri Concentrati (Lumped Circuits)]] 
