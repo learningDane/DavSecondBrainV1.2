@@ -1,5 +1,5 @@
 #uni 
-Un problema di Assegnamento è un [[Problema di Programmazione Lineare (PL)]], è infatti un caso particolare del [[Problema di Trasporto]], pertanto ne eredità la peculiarità di avere la stessa soluzione sia a variabili intere che reali.
+Un problema di Assegnamento è un [[Problema di Programmazione Lineare (PL)]], è infatti un caso particolare del [[Problema di Trasporto]], pertanto ne eredità la peculiarità di avere la stessa soluzione sia a variabili intere che reali, che a suo volta eredita dal [[Problema di Programmazione Matematica a Reti]].
 
 |       | progetti | IS  | CS  | TI  | AB  |
 | ----- | -------- | --- | --- | --- | --- |

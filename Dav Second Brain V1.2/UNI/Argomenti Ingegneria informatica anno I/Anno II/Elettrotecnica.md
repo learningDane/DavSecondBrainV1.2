@@ -14,7 +14,7 @@ Argomenti
 [[Condensatore]] 
 [[Metodo delle Correnti di Ramo (o Tableau)]] 
 [[Metodo delle Correnti di Maglia]]
-[[Metodo delle Tensioni di Nodo]] 1. ricordare che è inutilizzabile se ci sono più gen tens ind non collegati direttamente (lo ha detto prof). 2. trasfomare gen reale di tens in equiv norton. 3. bipoli in serie a gen corr indip non compare
+[[Metodo delle Tensioni di Nodo]] 1. ricordare che è inutilizzabile se ci sono più gen tens ind non collegati direttamente (lo ha detto prof). 2. trasfomare gen reale di tens in equiv norton. 3. bipoli in serie a gen corr indip non compaiono
 [[Equivalente Thevenin(Norton)]] 
 [[Partitore di Corrente]] 
 [[Partitore di Tensione]] 

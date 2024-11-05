@@ -20,3 +20,6 @@ Digitare: (ordine e nomi alle matrici non contano, conta solo ordine nel comando
 ```
 # Intlinprog
 $$\begin{cases} min \ c^T x \\ Ax \leq b \\ A_{eq} = b_{eq} \\ LB \leq x \leq UB \\ x \end{cases}$$
+`[x,v]=intlinprog(c,int,a,b,aeq,beq,lb,ub)`
+dove `intcom` è la lista degli indici di variabili che devono essere intere.
+se per esempio ho 4 variabili e le voglio tutte intere: `int=[1 2 3 4]` oppure `int=[1;2;3;4]` 
