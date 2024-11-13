@@ -1,6 +1,8 @@
 #uni 
 Questo è un problema di programmazione lineare reale/intero.
-Vale il [[Teorema Astratto di Equivalenza tra PL e PLI (Interezza)]].
+Su questa famiglia di problemi vale il [[Teorema di Interezza]], e poiché il [[Problema di Trasporto]] ne è sottoinsieme vale anche su questa classe.
+Vale il [[Teorema Astratto di Equivalenza tra PL e PLI]].
+Si risolve con il simplesso duale, ma per sua natura possiamo semplificare molto l'algoritmo, applicandone una versione particolare apposita: [[Algoritmo del Simplesso su Reti]]. 
 Si fa utilizzo dei Nodi. 
 - $|N|=n$ 
 - $|A|=m$, $A \subset N\times N$ ovvero è un sottoinsieme di tutte le possibili connessioni
@@ -41,11 +43,11 @@ In particolare ottengo una matrice triangolare inferiore senza zeri sulla diagon
 | 3   | 0   | -1  | 0   | 0   |
 | 4   | 1   | 0   | 1   | 0   |
 | 2   | 0   | 1   | 1   | 1   |
-### Teorema
+### Teorema della Caratterizzazione delle Basi
 Il rango della [[#Matrice di Incidenza della Rete]] è pari a $n-1$, e le matrici degli alberi di copertura, chiamate $E_T$, hanno $det \neq 0$, e viceversa, quindi le Basi sono alberi di copertura.
 Quindi dalla Matrice di Incidenza tolgo una riga a caso, che tanto è sovrabbondante.
 # Modello
-La matrice $E$ è la [[#Matrice di Incidenza della Rete $E$]] meno una riga a caso, di solito la prima.
+La matrice $E$ è la [[#Matrice di Incidenza della Rete]] meno una riga a caso, di solito la prima.
 Quindi ha dimensione $n-1 \times m$ 
 Con $T$ indico Base, con $L$ indico non di Base (sta per _lower bound_ del flusso).
 È in [[Problema di Programmazione Lineare (PL)#Formato Duale Standard]].
@@ -59,3 +61,22 @@ Ripeto con un'altra foglia, tenendo conto del flusso già occupato.
 Ripeto fino a terminare le foglie ed ottengo $\overline x=(...)$, essendo in Duale il problema, questa soluzione è ammissibile se tutte le sue componenti sono $\geq 0$.
 QUINDI su $n$ nodi per soddisfare la rete bastano $n-1$ archi, per il [[#Teorema]].
 Una soluzione, come in ogni duale std, è degenere se nelle componenti di base c'è uno zero.
+# Controllo dell'Ottimo
+1. Trovo una base ammissibile nel Duale ([[#Tecnica per Costruzione di Soluzione associata a Base]]).
+2. Costruisco il duale associato ([[Teoria della Dualità]]) $$\begin{cases} max\quad b^Tπ \\ E^Tπ\leq c\end{cases}$$
+3. calcolo di $π=(..)$ 
+   $E^Tπ\leq c$ posso scriverlo come $\begin{cases} -π_i+π_j\leq c_{ij} \quad\forall(i,j)\in A\end{cases}$, sono lo stesso poliedro.
+   Chiamo $-π_i+π_j$ _differenza di potenziale_.
+   Quindi le differenze di potenziale agli archi devono essere pari ai costi. Poniamo $π_1$ a zero per convenzione (poiché $n$ colonne sono linearmente dipendenti).
+   La soluzione (potenziale) associata alla nostra base, nel primale, è: $π=(0,0+π_j=c_1)$ 
+   Per trovare le $π$ : $(i,j)\to -π_i+π_j = c_{ij}$
+   Parto appunto dal primo $π$ che abbiamo posto a zero per la dipendenza lineare.
+4. controllo dell'ammissibilità nel primale ? ottimo : simplesso
+   Adesso ho $π=(...)$ e controllo come al solito che sia ammissibile nel Primale, applicando il [[Teorema di Bellman]], controllando quindi che i costi ridotti $\in L$ siano tutti positivi. Oppure banalmente controllando che le differenze di potenziale sugli archi $\in L$ siano minori del costi sugli archi.
+# Controllare se una Soluzione di Base
+Per controllare se una soluzione è di base, deve avere almeno $m-(n-1)$ zeri, con $m$ archi e $n$ nodi, ovvero devono essere a $zero$ almeno i flussi sugli archi $\in L$, non di base. Poi se qualche flusso $\in T$, di base è $zero$, la soluzione è degenere.
+# Considerazioni sul Modello Multiobiettivo
+Se cerchiamo di risolvere un problema con più di un obiettivo, potendo noi risolvere solo problemi con un obiettivo, trasformiamo tutti gli obiettivi meno che uno in vincoli, e li aggiungiamo al modello:
+Esempio con due obiettivi:
+$$\begin{cases} min \quad c^Tx \\ E\cdot x=b \\ c^T\cdot x\leq C \\ x \geq 0 \end{cases}$$
+questa aggiunta di vincoli però rende la matrice $E$ non più una [[#Matrice di Incidenza della Rete]] e quindi perdiamo la validità del [[Teorema di Interezza]].

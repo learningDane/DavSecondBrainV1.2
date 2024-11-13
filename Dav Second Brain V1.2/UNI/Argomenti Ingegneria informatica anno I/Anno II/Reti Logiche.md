@@ -10,4 +10,4 @@ Argomenti
 [[Rete Logica]] 
 [[Rete Combinatoria]] 
 [[Algebra di Boole]] 
-[[Rete Sequenziale]] 
+[[Rete Sequenziale Asincrona]] 

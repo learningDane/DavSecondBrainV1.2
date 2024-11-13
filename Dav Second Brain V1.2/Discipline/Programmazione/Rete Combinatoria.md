@@ -38,6 +38,9 @@ Sfrutta il ___modello strutturale universale per reti combinatorie___.
 - abbiamo bisogno di un metodo formale (quindi algoritmico) per minimizzare il costo della sintesi.
 # Teorema 2
 Una rete combinatoria ad $N$ ingressi ed $M$ uscite può essere realizzata interconnettendo $M$ reti combinatorie ad $N$ ingressi ed una uscita. Possiamo quindi dividere una rete combinatoria in sottogruppi, tanto dall'esterno è uguale.
+# Regole di Pilotaggio
+1. ___Pilotaggio in modo fondamentale___: cambiare gli ingressi soltanto quando la rete è a Regime
+2. Stati di ingresso consecutivi devono essere adiacenti.
 # Reti combinatorie Elementari
 Quante sono le reti combinatorie a $N$ ingressi? $2^{2^N}$ .
 ### Zero ingressi

@@ -16,7 +16,7 @@ Una rete logica è formata da:
 Vengono classificate in base a 2 criteri riguardanti il tipo di legge di evoluzione nel tempo.
 1. presenza/assenza di memoria:
    - [[Rete Combinatoria]] senza memoria
-   - [[Rete Sequenziale]] con memoria
+   - [[Rete Sequenziale Asincrona]] con memoria
 2. temporizzazione della legge di evoluzione:
    - reti asincrone : continuo aggiornare
    - reti sincronizzate : blocchi di aggiornamenti

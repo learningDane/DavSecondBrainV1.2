@@ -285,7 +285,7 @@ Questa configurazione la posso trasformare, inserendo un nodo comune alle 3 al c
 \end{document}
 ```
 a questo punto se voglio sapere $R_x$ mi basterà fare
-$$R_X=\frac{R_{XY}*R_{XZ}} {R_{XY}+R_{XZ}+R_{YZ}}$$
+$$R_X=\frac{R_{XY}\cdot R_{XZ}} {R_{XY}+R_{XZ}+R_{YZ}}$$
 Quando faccio queste equivalenze devo stare attento a non usare nodi importanti come potevano essere prima A e B che ti collegano al resto del circuito.
 ### Resistenze a Stella
 
@@ -331,5 +331,3 @@ la trasformazione definita prima è reversibile quindi da [[#Resistenze a Stella
 a questo punto se voglio conoscere $R_{xy}$ mi basterà fare
 
 $$R_{XY}=\frac{R_XR_Y+R_XR_Z+R_YR_Z}{R_Z}$$
-## Condensatori
-## Induttori

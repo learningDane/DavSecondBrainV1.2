@@ -31,7 +31,8 @@ Parte 1: PL
 Parte 2: PLI
 `A,b sono a componenti intere (ovvero razionali)` 
 [[Problema di Programmazione Lineare Intera (PLI)]] 
-	[[Teorema Astratto di Equivalenza tra PL e PLI (Interezza)]] finire con dimostrazione a inizio quaderno
+	[[Teorema Astratto di Equivalenza tra PL e PLI]] finire con dimostrazione a inizio quaderno
+	[[Teorema di Interezza]] 
 	Tutti i problemi della PL ma con vincolo di interezza
 	[[Problema di TSP]] dentro tsp: simm asimm, algo per Vi e per Vs, ciclo hamiltoniano
 	[[Problema di Copertura]] 
@@ -41,3 +42,5 @@ Parte 2: PLI
 Parte 3:
 `Le reti che consideriamo sono connesse` 
 [[Problema di Programmazione Matematica a Reti]] disegnare rete con mermaid
+	[[Teorema di Bellman]] 
+	[[Algoritmo del Simplesso su Reti]] 
