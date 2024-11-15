@@ -42,6 +42,7 @@ Parte 2: PLI
 Parte 3:
 `Le reti che consideriamo sono connesse` 
 [[Problema di Programmazione Matematica a Reti]] disegnare rete con mermaid
+	[[Teorema della Caratterizzazione delle Basi]]
 	[[Teorema di Bellman]] 
 	[[Algoritmo del Simplesso su Reti]] 
 [[Problema di Programmazione Matematica a Reti Capacitate]] finire

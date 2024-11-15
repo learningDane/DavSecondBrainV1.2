@@ -32,10 +32,10 @@ Ovvero per l'arco $a_{ij}$, su $i$ si mette $-1$, su $j$ si mette $1$, sugli alt
 Su ogni colonna ci sono esattamente UN $-1$ ed UN $1$.
 # Considerazioni sul Rango della Matrice di Incidenza 
 Le basi sono di dimensione $n\times n$ 
-ATTENZIONE: se sommi le righe della matrice di incidenza della rete, fa $0$, quindi il rango non è $n$, quindi non ci sono sottomatrici $n\times n$ invertibili, quindi non trovo le basi, quindi niente simplesso e niente linprog.
+**ATTENZIONE**: se sommi le righe della matrice di incidenza della rete, fa $0$, quindi il rango non è $n$, quindi non ci sono sottomatrici $n\times n$ invertibili, quindi non trovo le basi, quindi niente simplesso e niente linprog.
 Prendiamo un albero di Copertura della rete, quindi su $n$ nodi, sono $n-1$ archi ([[Algoritmo di Kruskal]]). Ricordiamo che le foglie sono i nodi di grado $1$ (con un arco).
 Si parte da un nodo foglia, si prende un suo arco, si mette nella matrice e si cancella arco e nodo padre. Ottengo una sottomatrice della [[#Matrice di Incidenza della Rete]] di dimensione $4\times 4$.
-In particolare ottengo una matrice triangolare inferiore senza zeri sulla diagonale e con $-1$ e $1$ ai vertici della diagonale.
+In particolare ottengo una matrice triangolare inferiore con $-1$ e $1$ sulla diagonale.
 
 |     | 54  | 32  | 24  | 12  |
 | --- | --- | --- | --- | --- |
