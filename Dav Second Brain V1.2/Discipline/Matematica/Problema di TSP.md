@@ -6,7 +6,7 @@ Questo problema su $n$ nodi ha $n!$ soluzioni ammissibili.
 # Modello
 $N$ nodi
 Variabili: $x_{ij}= (arco \ (i,j) \in ciclo) \quad ? \quad 1:0$ 
-$$$$
+$$\begin{cases} \end{cases}$$
 # Ciclo Hamiltoniano Simmetrico
 Quando la direzione dei legami non importa.
 Potremmo usare le tecniche risolutive del TSP [[#Asimmetrico]] ma come segue possiamo dimezzare le variabili.

@@ -28,11 +28,11 @@ Questo algoritmo serve per sapere se il poliedro è vuoto o meno:
 1. Costruisco il suo [[Duale Ausiliario]] (DA)
 	partendo da un problema qualsiasi 
 	   $$(p)=\begin{cases}min/max\ c^tx \\Ax=b \\ x\geq 0 \end{cases}$$
-	costruisco il suo Duale Associato + tante epsilon quante sono le righe del duale moltiplicandole per l'identità ( i )
+	costruisco il suo Duale Associato + tante epsilon quante sono le righe del duale moltiplicandole per l'identità $( i )$ 
 	
-	$$(p)=\begin{cases}min \sum^n_{i = 0} e_i \\Ay\ +\ Ie=c \\ \end{cases}$$
+	$$(p)=\begin{cases}min \sum^n_{i = 0} \epsilon_i \\Ay\ +\ I\epsilon=c \\ \end{cases}$$
    
-2. Cerco il Valore Ottimo del DA(VO) tramite il [[#Passo del Simplesso Duale]] (mi aspetto che le due epsilon escano)
+2. Cerco il Valore Ottimo del DA (VO) tramite il [[#Passo del Simplesso Duale]] (mi aspetto che le due epsilon escano)
 3. Controllo il segno di VO:
-   - se VO > 0 allora poliedro del duale (D) è vuoto
-   - se VO = 0 allora D != 0
+   - se $VO > 0$ allora poliedro del duale (D) è vuoto
+   - se $VO = 0$ allora $D != 0$ 

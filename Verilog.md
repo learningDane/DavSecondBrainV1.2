@@ -3,8 +3,9 @@ Per compilare:
 ```zsh
 ~/cartellaProgetto> iverilog -o sim ./rc.v ./testbench
 vvp ./sim
-
 gtkwave.exe ./waveform sim &
+
+
 //in mac: gtkwave waveform.vcd
 ```
 # Struttura Modulo
