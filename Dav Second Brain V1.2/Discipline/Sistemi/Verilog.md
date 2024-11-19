@@ -97,5 +97,17 @@ Sono identificatori speciali riservati ai costrutti del linguaggio, una lista de
 • task, function: Define procedural blocks.
 ##### Simulation Keywords
 • $display, $monitor, $stop, $finish: Simulation control and output.
+# Linguaggio di Trasferimento tra Registri
+Un assegnamento allo STAR si chiama ___microsalto___ ($\mu$-salto).
+In generale supponendo di avere $Q$ registri operativi, uno statement ha la seguente struttura:
+```verilog
+sj : begin
+	assegnamenti ai registri operativi
+	STAR <= espressione //microsalto (assegnamento a star)
+end
+```
+È possibile omettere il comportamento di un registro OPERATIVO, in questo caso equivale a `registro <= registro` 
+Non omettere mai l'assegnamento a STAR, farlo diminuisce la leggibilità. Se lo ometto è sottinteso che µ-salto è incondizionato e porta allo statement successivo nella descrizione.
+Questo perché se invece fosse `STAR <= STAR` ci sarebbe un deadlock.
 # Appendice
 [[Comuni Reti in Verilog]] 

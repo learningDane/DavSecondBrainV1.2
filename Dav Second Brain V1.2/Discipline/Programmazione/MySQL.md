@@ -37,6 +37,7 @@ NULL ha valore mancante ma può avere un significato logicamente definito (per e
 ### Duplicati
 In una tabella non ci sono mai due ___record___(righe) uguali. Due record sono uguali se il valore degli attributi corrispondenti è uguale per tutti gli attributi, i valori degli attributi non chiave invece possono ripetersi.
 Se la query restituisce alcuni stessi valori più volte, posso scegliere di eliminarli con DISTINCT. `SELECT DISTINCT Cognome ecc`, questa parola chiave agisce su tutti gli attributi proiettati.
+Usare solo se necessario poiché ha complessità quadratica.
 ### Date
 Una data è il tempo trascorso da un reference, che come in tutti i sistemi UNIX è 01/01/1970 (___EPOCK___). Se la data è negativa è precedente alla Reference.
 Formati:
@@ -170,6 +171,12 @@ SELECT COUNT(*)
 FROM 
 WHERE
 ```
+# Ridenominazione
+È possibile ridenominare una colonna del result set tramite l'oepratore ` AS ` , mentre per combinare più colonne è possibile utilizzare l'operatore `+` 
+```MySQL
+SELECT nomevecchio AS nomenuovo
+SELECT Citta + ', ' + via + ', ' + cap AS indirizzo
+```
 # Derived Table
 Sono tabelle volatili (vengono cancellate alla fine dell'esecuzione) che possono essere incapsulate nel FROM, sono utili per costruire risultati intermedi. Per costruire una derived table è sufficiente eseguire una ridenominazione con AS di una query, esempio: 
 ```MySQL
@@ -196,6 +203,9 @@ group by specializzazione;
 l´operatore avg() è applicato gruppo per gruppo (calcola un valore riepilogativo per il gruppo)
 specializzazione invece assume lo stesso valore in un gruppo
 ```
+# Riordinamento Valori
+Per ordinare i risultati in base ai valori in una colonna posso usare `ORDER BY`
+``
 # Having
 Si usa insieme a `GROUP BY` per porre condizioni sui gruppi, ad esempio raggruppa per specializzazione ma mostra solo le specializzazioni con più di due medici.
 Queste condizioni sono applicate ai gruppi __dopo__ il raggruppamento.

@@ -6,7 +6,8 @@ Linguaggio Assembler, Come viene tradotto un Linguaggio ad Alto Livello, Reti Lo
 Libri:
 	Paolo Corsini:
 	1. Il calcolatore didattico c86.32
-	2. 
+	2. Circuiti logici per le operazioni sui numeri naturali e sui numeri interi
+	3. dalle porte NAD, OR, NOT al sistema calcolare
 Esame diviso in prova scritta e orale.
 Apre orale durante gli appelli straordinari solo ad aventi diritto
 Scritto diviso in due parti: 
