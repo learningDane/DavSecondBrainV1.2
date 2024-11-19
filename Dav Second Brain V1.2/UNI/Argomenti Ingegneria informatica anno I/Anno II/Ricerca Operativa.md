@@ -46,4 +46,7 @@ Parte 3:
 	[[Teorema di Bellman]] 
 	[[Algoritmo del Simplesso su Reti]] 
 [[Problema di Programmazione Matematica a Reti Capacitate]] finire
+	[[Problema del Flusso Massimo (Max Flow)]]
+		[[Algoritmo di Ford_Fulkerson_Edmond_Karp (FFEK)]] 
+
 Parte 4: 
