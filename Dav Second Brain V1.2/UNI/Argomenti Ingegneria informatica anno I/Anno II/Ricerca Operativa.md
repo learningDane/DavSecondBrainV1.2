@@ -26,7 +26,7 @@ Parte 1: PL
 [[Problema di Produzione]] 
 [[Problema di Assegnamento]] 
 [[Problema di Trasporto]] finire
-[[Problema dello Zaino]] finire
+[[Problema dello Zaino]] iniziare
 Parte 2: PLI
 `A,b sono a componenti intere (ovvero razionali)` 
 [[Problema di Programmazione Lineare Intera (PLI)]] 
@@ -39,14 +39,15 @@ Parte 2: PLI
 	[[Teorema di Gomery]] 
 	[[Algoritmo di Riduzione del Gap tramite Piani di Taglio]] 
 	[[Algoritmo di Riduzione del Gap Branch and Bound]] 
-Parte 3:
+Parte 3: Reti
 `Le reti che consideriamo sono connesse` 
-[[Problema di Programmazione Matematica a Reti]] disegnare rete con mermaid
+[[Problema di Programmazione Matematica a Reti non Capacitate]] 
 	[[Teorema della Caratterizzazione delle Basi]]
 	[[Teorema di Bellman]] 
 	[[Algoritmo del Simplesso su Reti]] 
-[[Problema di Programmazione Matematica a Reti Capacitate]] finire
-	[[Problema del Flusso Massimo (Max Flow)]]
-		[[Algoritmo di Ford_Fulkerson_Edmond_Karp (FFEK)]] 
+	[[Algoritmo di Dijkstra]] 
+[[Problema di Programmazione Matematica a Reti Capacitate]] 
+[[Problema del Flusso Massimo (Max Flow)]] 
+[[Algoritmo di Ford Fulkerson Edmond Karp (FFEK)]] 
 
 Parte 4: 

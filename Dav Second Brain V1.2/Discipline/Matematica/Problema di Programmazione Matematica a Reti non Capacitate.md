@@ -7,7 +7,19 @@ Si fa utilizzo dei Nodi.
 - $|N|=n$ 
 - $|A|=m$, $A \subset N\times N$ ovvero è un sottoinsieme di tutte le possibili connessioni
 ```mermaid
-a-->b
+graph LR
+	1((Nodo 1))
+    1 -->|3| 2((Nodo 2))
+    1 -->|5| 3((Nodo 3))
+    3 -->|5| 2
+    2 -->|3| 4((Nodo 4))
+    3 -->|1| 5((Nodo 5))
+    5 --1--> 2
+    5 --7--> 6((Nodo 6))
+    4 --3--> 6
+
+    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px;
+    class A,F startEnd;
 ```
 # Flusso su Reti
 Alcuni Nodi sono detti ___Sorgenti___ e producono il bene, altri si chiamano ___Pozzi___ e richiedono il bene.
@@ -51,7 +63,7 @@ La matrice $E$ è la [[#Matrice di Incidenza della Rete]] meno una riga a caso, 
 Quindi ha dimensione $n-1 \times m$ 
 Con $T$ indico Base, con $L$ indico non di Base (sta per _lower bound_ del flusso).
 È in [[Problema di Programmazione Lineare (PL)#Formato Duale Standard]].
-$$\begin{cases} min \quad c^Tx \\ E\cdot x=b \\ x \geq 0\end{cases}$$
+$$\begin{cases} min \quad c^Tx \\ E \ x=b \\ x \geq 0\end{cases}$$
 # Tecnica per Costruzione di Soluzione associata a Base
 Prendo una Base, ovvero un albero di copertura (prendo $n-1$ archi)
 Pongo a $0$ le variabili non di base $x_L$.
@@ -62,21 +74,16 @@ Ripeto fino a terminare le foglie ed ottengo $\overline x=(...)$, essendo in Dua
 QUINDI su $n$ nodi per soddisfare la rete bastano $n-1$ archi, per il [[#Teorema]].
 Una soluzione, come in ogni duale std, è degenere se nelle componenti di base c'è uno zero.
 # Controllo dell'Ottimo
-1. Trovo una base ammissibile nel Duale ([[#Tecnica per Costruzione di Soluzione associata a Base]]).
-2. Costruisco il duale associato ([[Teoria della Dualità]]) $$\begin{cases} max\quad b^Tπ \\ E^Tπ\leq c\end{cases}$$
-3. calcolo di $π=(..)$ 
-   $E^Tπ\leq c$ posso scriverlo come $\begin{cases} -π_i+π_j\leq c_{ij} \quad\forall(i,j)\in A\end{cases}$, sono lo stesso poliedro.
-   Chiamo $-π_i+π_j$ _differenza di potenziale_.
-   Quindi le differenze di potenziale agli archi devono essere pari ai costi. Poniamo $π_1$ a zero per convenzione (poiché $n$ colonne sono linearmente dipendenti).
-   La soluzione (potenziale) associata alla nostra base, nel primale, è: $π=(0,0+π_j=c_1)$ 
-   Per trovare le $π$ : $(i,j)\to -π_i+π_j = c_{ij}$
-   Parto appunto dal primo $π$ che abbiamo posto a zero per la dipendenza lineare.
-4. controllo dell'ammissibilità nel primale ? ottimo : simplesso
-   Adesso ho $π=(...)$ e controllo come al solito che sia ammissibile nel Primale, applicando il [[Teorema di Bellman]], controllando quindi che i costi ridotti $\in L$ siano tutti positivi. Oppure banalmente controllando che le differenze di potenziale sugli archi $\in L$ siano minori del costi sugli archi.
-# Controllare se una Soluzione di Base
+Per il controllo dell'ottimo utilizziamo sempre il [[Teoria della Dualità#Test dell'Ottimalità]].
+Ipotizziamo di avere una soluzione di base ammissibile:
+Il problema di partenza è in formato Duale Standard quindi dobbiamo trovare la soluzione $\pi$ del primale associato: $\begin{cases} max\quad b^Tπ \\ E^Tπ\leq c\end{cases}$ , questa soluzione prende il nome di ___potenziale___, e si calcola come segue:
+1. pongo un nodo a _potenziale_ $zero$, di norma il primo
+2. Il potenziale del nodo $j$: $π_j= π_i + c_{ij}$ partendo da $i = 1$.
+Essendo la nostra una soluzione di base ammissibile, se anche il potenziale è ammissibile siamo all'ottimo, il potenziale è ammissibile se non viola le ___condizioni di Bellman___ ([[Teorema di Bellman]]).
+# Controllare se una Soluzione è Soluzione di Base
 Per controllare se una soluzione è di base, deve avere almeno $m-(n-1)$ zeri, con $m$ archi e $n$ nodi, ovvero devono essere a $zero$ almeno i flussi sugli archi $\in L$, non di base. Poi se qualche flusso $\in T$, di base è $zero$, la soluzione è degenere.
 # Considerazioni sul Modello Multiobiettivo
-Se cerchiamo di risolvere un problema con più di un obiettivo, potendo noi risolvere solo problemi con un obiettivo, trasformiamo tutti gli obiettivi meno che uno in vincoli, e li aggiungiamo al modello:
+Se cerchiamo di risolvere un problema con più di un obiettivo, potendo noi risolvere solo problemi con un obiettivo, trasformiamo tutti gli obiettivi meno che uno in vincoli, e li aggiungiamo al modello.
 Esempio con due obiettivi:
 $$\begin{cases} min \quad c^Tx \\ E\cdot x=b \\ c^T\cdot x\leq C \\ x \geq 0 \end{cases}$$
 questa aggiunta di vincoli però rende la matrice $E$ non più una [[#Matrice di Incidenza della Rete]] e quindi perdiamo la validità del [[Teorema di Interezza]].

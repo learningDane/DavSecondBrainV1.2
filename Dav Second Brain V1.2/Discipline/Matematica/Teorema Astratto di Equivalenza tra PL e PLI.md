@@ -15,3 +15,5 @@ dove:
 dati $A,b \in Z$
 $$max_{x \in S} \ c^Tx = max_{x\in convS} \ c^Tx$$
 questo perché i vertici di questi due insiemi sono gli stessi! E sappiamo che l'ottimo sta sui vertici.
+# Dimostrazione
+a inizio quaderno

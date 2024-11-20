@@ -11,7 +11,7 @@ QUINDI:
 1. ___Dato un vertice del problema primale, se nella sua duale la soluzione generata dalla stessa base è ammissibile, Allora la soluzione di base di quella stessa base è Ottimo in entrambi i problemi___.
 2. ___Se uno degli elementi di $x_B$ è $0$, la soluzione di base è Degenere___.
 3. ___Se tutti gli elementi di $y_B$ sono $\geq 0$ allora la soluzione di base è ammissibile (vertice)___.
-# In Pratica
+# Test dell'Ottimalità
 Per sapere se un dato vertice di un $(P)$ in forma primale è ottimo:
 1. trovo la base che lo genera
 2. trovo la duale di $(P)$ 
