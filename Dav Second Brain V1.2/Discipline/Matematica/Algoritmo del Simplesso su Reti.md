@@ -1,6 +1,6 @@
 #uni 
 # Reti Non Capacitate
-Si basa sull'[[Algoritmo del Simplesso]], ma semplificato e alleggerito appositamente per un [[Problema di Programmazione Matematica a Reti non Capacitate]].
+Si basa sull'[[Algoritmo del Simplesso]], ma semplificato e alleggerito appositamente per un [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]].
 ## Algoritmo
 1. Troviamo un vertice di partenza $T\to x_T\geq 0$ ammissibile con potenziale non ammissibile ([[Teorema di Bellman]]), ovvero con almeno un costo ridotto relativo ad un arco non di base minore stretto di zero.
    Scelgo il primo ([[Regole Anticiclo di Blend]]) vincolo che viola Bellman: $(i,j)\in L : c_{ij}^π < 0$, e questo è l' ___arco entrante____. 
@@ -40,9 +40,10 @@ Se viene fuori un ciclo il cui costo è negativo, il problema fa $meno \ infinit
 
 # Reti Capacitate
 Il simplesso su Reti capacitate è pressoché identico a quello su reti non capacitate (da notare che sono diverse le condizioni di Bellman ([[Teorema di Bellman]])). La differenza è la seguente:
->Se l'arco $(ij)$ entrante, ovvero il primo arco in ordine lessico-grafico che viola Bellman è appartenente ad $U$ invece che a $L$:
->Oriento il ciclo in maniera __discorde__ all'arco entrante, calcolo
->- $\theta^+=\min\{ x_{ij} : (ij)\in C^+ \}$ 
+>Se l'arco $(ij)$ entrante, ovvero il primo arco in ordine lessico-grafico che viola Bellman è appartenente ad $U$ invece che a $L$ oriento il ciclo in maniera __discorde__ all'arco entrante; 
+>calcolo:
+>- $\theta^+=\min\{ u_{ij}-x_{ij} : (ij)\in C^+ \}$ 
 >- $\theta^-=\min\{ x_{ij} : (ij)\in C^- \}$ 
 >  se $C^+ = \emptyset$ allora $\theta^+ = +\infty$ e altrettanto per $C^-$ e $\theta^-$  
->- $\theta$ è quindi il minore tra $\theta^+$ e $\theta^-$ e l'arco $(ij)$ relativo a $\theta$ è l'arco uscente
+>- $\theta$ è quindi il minore tra $\theta^+$ e $\theta^-$ e l'arco $(ij)$ relativo a $\theta$ è l'arco uscente.
+>Se l'arco uscente era in $C^+$, esce da $T$ ed entra in $U$, se invece era in $C^-$, esce da $T$ ed entra in $L$ 

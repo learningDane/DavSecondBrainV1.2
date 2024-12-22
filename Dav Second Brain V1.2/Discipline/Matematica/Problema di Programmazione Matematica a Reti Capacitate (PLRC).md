@@ -1,13 +1,13 @@
 #uni 
-Questo è un [[Problema di Programmazione Matematica a Reti non Capacitate]] con la differenza che gli archi sono capacitati, ovvero hanno una capacità massima.
+Questo è un [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]] con la differenza che gli archi sono capacitati, ovvero hanno una capacità massima.
 ## Modello
-Uguale a quello del [[Problema di Programmazione Matematica a Reti non Capacitate]] solo che aggiungo la variabile $u$ che rappresenta le *capacità di trasporto degli archi* ovvero quanto flusso al massimo può passare sull'arco in questione
+Uguale a quello del [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]] solo che aggiungo la variabile $u$ che rappresenta le *capacità di trasporto degli archi* ovvero quanto flusso al massimo può passare sull'arco in questione
 $$\begin{cases} min \quad c^T\cdot x\\ E\cdot x=b \\ 0\leq x_{ij} \leq u_{ij} \\ \end{cases}$$ 
 ## Flusso di Base
 Per definire un base nelle reti capacitate dobbiamo prima modificare leggermente il modello introducendo una variabile $w_{ij}$ che indica la *portata residua* di un arco:
 $$\begin{cases} min \quad C^T*x\\ E \ x=b \\ x_{ij}+w_{ij}=u_{ij} \\ x \geq 0 \\ w \geq0 \end{cases}$$
 Questo modello genera un matrice di $rango = m+n-1$, per generare una base dobbiamo *esapartizionare* la matrice in $T,L,U \quad e\quad T^I, L^I, U^I$ :
-- $T$: archi di "base" (stessa denominazione del [[Problema di Programmazione Matematica a Reti non Capacitate]])
+- $T$: archi di "base" (stessa denominazione del [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]])
 - $L$: gli archi non di base _vuoti_ (nella soluzione tutti gli archi  $x_{ij} : (ij) \in L$ avranno flusso 0 quindi $w_{L^I}$ pari alla portata massima ($u_{ij}$) )
 - $U$: gli archi non di base *saturi* (nella soluzione tutti gli archi di $x_U$ avranno flusso pari a $u_{ij}$ quindi $w_{U^I}$ pari a 0)
 

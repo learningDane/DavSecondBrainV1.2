@@ -5,6 +5,6 @@ Ipotesi:
 Tesi:
 	Tutte le basi ($T$) sono alberi 
 # Risultato nelle Reti Capacitate
-Questo Teorema applicato al [[Problema di Programmazione Matematica a Reti Capacitate]] porta al seguente risultato:
+Questo Teorema applicato al [[Problema di Programmazione Matematica a Reti Capacitate (PLRC)]] porta al seguente risultato:
 	Sia $T,L,U$ una tripartizione degli archi della rete con $T$ albero di copertura $\implies$ scegliendo $T,U,T',L'$ ottengo una base.
 	Vale anche l'inverso, data una base si ottiene da $T,U,T',L'$.

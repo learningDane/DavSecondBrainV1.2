@@ -1,5 +1,5 @@
 #uni 
-Un problema di Trasporto è un [[Problema di Programmazione Lineare (PL)]], è un sottoinsieme dei [[Problema di Programmazione Matematica a Reti non Capacitate]], quindi gode del [[Teorema di Interezza]].
+Un problema di Trasporto è un [[Problema di Programmazione Lineare (PL)]], è un sottoinsieme dei [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]], quindi gode del [[Teorema di Interezza]].
 --- controlla su quaderno
 Questo problema consiste nel trovare il minimo costo possibile di trasporto di oggetti, dati diversi stabilimenti di spedizione e diversi stabilimenti di arrivo. Ogni stabilimento di spedizione ha un costo diverso per spedire ad uno stabilimento di arrivo.
 I vincoli consistono nella disponibilità degli stabilimenti di spedizione e nella domanda degli stabilimenti di arrivo.

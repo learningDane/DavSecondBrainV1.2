@@ -25,7 +25,7 @@ I registri sono locazioni di memoria interne, a 32bit, e sono ___generali___ o _
 | ---------------- | ------ |
 | EAX - ah, ax, al | EIP    |
 | EBX - bh, bx, bl | EF     |
-| ECX - ch, cx, cl | DF     |
+| ECX - ch, cx, cl |        |
 | EDX - dh, dx, dl |        |
 | EBP - bp         |        |
 | ESI - si         |        |

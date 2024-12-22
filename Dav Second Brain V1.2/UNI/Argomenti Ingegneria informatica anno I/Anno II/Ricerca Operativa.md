@@ -39,15 +39,18 @@ Parte 2: PLI
 	[[Teorema di Gomery]] 
 	[[Algoritmo di Riduzione del Gap tramite Piani di Taglio]] 
 	[[Algoritmo di Riduzione del Gap Branch and Bound]] 
-Parte 3: Reti
+Parte 3: PLR
 `Le reti che consideriamo sono connesse` 
-[[Problema di Programmazione Matematica a Reti non Capacitate]] 
+[[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]] 
 	[[Teorema della Caratterizzazione delle Basi]]
 	[[Teorema di Bellman]] 
 	[[Algoritmo del Simplesso su Reti]] 
 	[[Algoritmo di Dijkstra]] 
-[[Problema di Programmazione Matematica a Reti Capacitate]] 
+[[Problema di Programmazione Matematica a Reti Capacitate (PLRC)]] 
 [[Problema del Flusso Massimo (Max Flow)]] 
 [[Algoritmo di Ford Fulkerson Edmond Karp (FFEK)]] 
-
-Parte 4: 
+Parte 4: PNL
+`Ipotesi per il corso: Domini Regolari, chiusi, f,g,h derivabili 2 volte (f,g,h in C2)`
+[[Note Introduttive alla PNL di Analisi II]] 
+[[Problema di Programmazione Non Lineare Non Vincolato (PNLnV)]] 
+[[Problema di Programmazione Non Lineare (PNL)]] 
