@@ -54,3 +54,5 @@ Parte 4: PNL
 [[Note Introduttive alla PNL di Analisi II]] 
 [[Problema di Programmazione Non Lineare Non Vincolato (PNLnV)]] 
 [[Problema di Programmazione Non Lineare (PNL)]] 
+	[[Metodo di Frank-Wolfe]] 
+	[[Metodo del Gradiente Proiettato]] 

@@ -1,32 +1,6 @@
 #uni 
-# Definizioni Necessarie
-### Taglio della Rete
-Chiamiamo Taglio della Rete una partizione totale della rete in due insiemi $N_s$ e $N_t$ tali che $s\in N_s$ e $t\in N_t$.
-### Archi Diretti del Taglio
-Gli archi diretti del taglio sono gli archi in $A^+$ e sono gli archi $(i,j)$ tali che $i\in N_s \ , \ j\in N_t$ 
-### Portata del Taglio
-Si dice portata relativa ad un taglio, $u(N_S, N_t) = \sum_{(i,j)\in A^+}u_{ij}$ 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Definizioni necessarie
+Questo algoritmo risolve il problema del Flusso Massimo tra due Nodi, non utilizzando il simplesso.
+# Definizioni necessarie
 
 ### Taglio della Rete
 Per *taglio* s'intende una suddivisione della rete in $N_s$ e $N_t$ che separano $s$ da $t$. Gli altri archi possono stare arbitrariamente in un gruppo rispetto che nell'altro

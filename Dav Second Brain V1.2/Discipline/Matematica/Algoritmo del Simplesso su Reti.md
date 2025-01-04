@@ -7,15 +7,15 @@ Si basa sull'[[Algoritmo del Simplesso]], ma semplificato e alleggerito apposita
 2. Disegno l'albero di copertura (solo archi di base) e aggiungo tratteggiato l'arco entrante.
    Questo creerà un ciclo all'interno della Rete.
 Adesso devo trovare l'arco uscente, in particolare l'arco uscente deve far parte del ciclo, in modo da "spezzare" il ciclo.
-	   1. orientiamo il ciclo in maniera concordata con $(i,j)$ 
-	   2. $C=C^+\cup C^-$ dove $C^+$ sono gli archi concordi con il verso, e $C^-$ quelli discordi.
+	   1. orientiamo il ciclo in maniera concorde con $(i,j)$, l'arco entrante
+	   2. $C=C^+\cup C^-$ dove $C^+$ sono gli archi concordi con il verso del ciclo, e $C^-$ quelli discordi.
 	   3. ___Regola di Update___:
 	      con $\theta \geq 0,\in N$ 
 	      $$x(\theta)=\begin{cases} \overline x_{ij} + \theta \quad(i,j)\in C^+ \\ \overline x_{ij}-\theta \quad (i,j) \in C^- 
 	      \\ \overline x_{ij} \quad \quad \ \ \ (i,j) \notin C
 	      \end{cases}$$
 	    ___Teorema___: La funzione obiettivo, calcolata sul nuovo flusso, è uguale al costo precedente, più theta volte il costo dell'arco entrante: $$c^Tx(\theta)=c^T\overline x + \theta \cdot c_{ij}^π$$
-3. Prendo $\theta = min\{\overline x_{ij} \} \quad (i,j)\in C^-$ 
+3. Prendo $\theta = min\{\overline x_{ij} \} \quad (i,j)\in C$ 
    e il primo arco di cui prendo il valore è l'arco uscente ([[Regole Anticiclo di Blend]])
 ### Ammissibilità
 Per controllare che la nuova $x(\theta)$ sia ammissibile dobbiamo controllare che rispetti i bilanci, ovvero $\begin{cases} Ex=b \\ x\geq 0\end{cases}$ 

@@ -16,7 +16,7 @@ con $P_{ij}$ stadio $i$, ramo $j$.
    devo controllare poiché più scendo e più restringo la [[Regione Ammissibile]] (aggiungo vincoli).
 2. $V_I(P_{ij})\geq V_S(P) \quad ? \quad taglio$  
    Calcolo $V_I(P_{ij})$, ovvero l'ottimo del Rilassato continuo di $P_{ij}$, se è maggiore del _valore corrente_ posso tagliare.
-3. se $V_I(P_{ij}) < V_S(P)\quad$ e $\quad V_I(P_{ij}) \ ammissibile\quad $  allora aggiorno $V_S$ con $V_I(P_{ij})$ 
+3. se $V_I(P_{ij}) < V_S(P)\quad$ e $\quad V_I(P_{ij}) \ ammissibile\quad$  allora aggiorno $V_S$ con $V_I(P_{ij})$ 
 ##### massimo (TSP)
 Tenendo come riferimento il [[Problema dello Zaino]] (quindi di $max$)
 con $P_{ij}$ stadio $i$, ramo $j$.
