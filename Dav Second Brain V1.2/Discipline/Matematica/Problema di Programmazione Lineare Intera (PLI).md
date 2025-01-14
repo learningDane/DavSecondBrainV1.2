@@ -20,4 +20,4 @@ Questa tecnica di risoluzione è ___greedy___, ovvero facile, rapido e buono.
   1. [[Problema dello Zaino]]: Algoritmo di Saturazione dello Zaino per Rendimenti (componenti Intere)
 # Algoritmi per Riduzione del Gap
 1. [[Algoritmo di Riduzione del Gap Branch and Bound]]
-2. [[Algoritmo di Riduzione del Gap tramite Piani di Taglio]] 
+2. [[Algoritmo di Riduzione del Gap tramite Piano di Taglio]] 

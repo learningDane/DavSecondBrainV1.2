@@ -1,7 +1,7 @@
 #uni 
 Questo è un [[Problema di Programmazione Matematica a Reti Capacitate (PLRC)]] con ogni arco di costo nullo, in cui si chiede di trovare il flusso massimo tra due nodi.
 Per convenzione chiamiamo il nodo $1$, $s$ (source) ed il nodo $n$, $t$ (tail).
-È possibile vedere il problema in maniera leggermente diversa in modo da semplificare l'apprendimento, in particolare aggiungiamo un arco, l'arco $(n,1)$ di costo $-1$, che quindi porta ad un guadagno per ogni unità di flusso che lo attraversa;
+È possibile vedere il problema in maniera leggermente diversa in modo da semplificare l'apprendimento, in particolare aggiungiamo un arco, l'arco $(n,s)$ di costo $-1$, che quindi porta ad un guadagno per ogni unità di flusso che lo attraversa;
 Il problema diventa la massimizzazione del flusso su questo ultimo arco, in particolare chiamiamo questo flusso $x_{n,1}$, $v$, che sarà la soluzione ottima del nostro problema.
 Viene risolto tramite l'[[Algoritmo di Ford Fulkerson Edmond Karp (FFEK)]].
 # Teorema del MaxFlow-minCut

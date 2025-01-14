@@ -34,10 +34,10 @@ Parte 2: PLI
 	[[Teorema di Interezza]] 
 	Tutti i problemi della PL ma con vincolo di interezza
 [[Problema Bin-Packing]] 
-[[Problema di TSP]] dentro tsp: simm, algo per Vi e per Vs, ciclo hamiltoniano
+[[Problema di TSP]] dentro tsp: simm, algo per Vi e per Vs, ciclo hamiltoniano, algoritmo delle toppe
 [[Problema di Copertura]] 
 	[[Teorema di Gomery]] 
-	[[Algoritmo di Riduzione del Gap tramite Piani di Taglio]] 
+	[[Algoritmo di Riduzione del Gap tramite Piano di Taglio]] 
 	[[Algoritmo di Riduzione del Gap Branch and Bound]] 
 Parte 3: PLR
 `Le reti che consideriamo sono connesse` 
@@ -54,5 +54,6 @@ Parte 4: PNL
 [[Note Introduttive alla PNL di Analisi II]] 
 [[Problema di Programmazione Non Lineare Non Vincolato (PNLnV)]] 
 [[Problema di Programmazione Non Lineare (PNL)]] 
+	[[Sistema LKKT]] 
 	[[Metodo di Frank-Wolfe]] 
 	[[Metodo del Gradiente Proiettato]] 

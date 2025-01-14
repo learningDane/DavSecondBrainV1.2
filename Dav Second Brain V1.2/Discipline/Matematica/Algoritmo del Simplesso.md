@@ -8,7 +8,8 @@ Se parto da una base con soluzione non ammissibile nel primale, che è invece so
 # Passo del Simplesso
 1. Determino l'indice uscente $h$: il minore indice (di base) la cui $y_h \leq 0$.
    si prende sempre il minore per la Regola Anticiclo di Blend.
-2. Determino $W=-A_B^{-1}$ e $W^l$ è una colonna di $W$ determinata dalla $l$-esima riga di $A$, in particolare considero $W^h$, ovvero la colonna di $W$ determinata dalla $h$-esima (con $h$ indice uscente) riga di $A$.
+   $y_B=((A_B)^T)^{-1}$ e $y_N=(0, 0, ..., 0)$ 
+2. Determino $W=-A_B^{-1}$ e $W^l$ è una colonna di $W$ determinata dalla $l$-esima riga di $A$, in particolare considero $W^h$, ovvero la colonna di $W$ determinata dalla $h$-esima (con $h$ indice uscente) riga di $A$. 
 3. Calcolo per ogni indice $i$ non di base il prodotto scalare $A_iW^h$ e scarto gli indici per cui tale rapporto è negativo
 4. Rimpiazzo $h$ con l'indice $i$ non di base che produce il minimo del seguente prodotto: $$r_i=\frac{b_i-A_i\overline x}{A_iW^h}$$
    - se due indici hanno lo stesso $r$ scelgo l'indice minore.
