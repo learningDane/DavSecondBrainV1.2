@@ -7,7 +7,8 @@ Una forma standard è un formato in cui possono essere portati TUTTI i problemi 
 ###### Formato Primale Standard
 $$\begin{cases} max \ c^T \cdot x \\ Ax \leq b\end{cases}$$
 ###### Formato Duale Standard
-$$\begin{cases} min \ c^Tx \\ Ax=b \\ x\geq 0 \end{cases}$$
+$$\begin{cases} min \ b^Ty \\ A^Ty=c \\ y\geq 0 \end{cases}$$
+altro modo di scrivere il poliedro: $y^TA=c^T$ 
 una sol è ammissibile se ogni comp è $\geq0$
 una sol è degenere se almeno una $x_B = 0$ 
 ###### Formato Linprog Standard

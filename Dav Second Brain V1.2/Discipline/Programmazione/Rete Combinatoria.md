@@ -4,7 +4,7 @@ Una rete combinatoria è caratterizzata da:
 2. un insieme  di $M$ variabili logiche di uscita.
 3. una descrizione funzionale $F : X \to Z$ che mappa stati di ingresso in stati di uscita
 4. una legge di evoluzione nel tempo, che dice continuamente se $X$ è lo stato di ingresso presente, adegua lo stato di uscita di $F(X)$.
-### Teorema
+# Teorema
 Data una qualunque tabella di verità a $N$ ingressi, può essere realizzata tramite un ___Multiplexer___ a $N-1$ variabili di controllo. Ne consegue che qualsiasi rete combinatoria può essere realizzata utilizzando solo AnD, OR e NOT e massimo due livelli di logica, come un [[#Multiplexer]].
 Questo ci consente di stimare un tempo di attraversamento teorico massimo.
 # Tempo di attraversamento
@@ -51,12 +51,6 @@ Vengono realizzate connettendo il filo al polo positivo oppure alla massa per ot
 - Invertitore: triangolo con pallino: 0->1 ; 1-> 0
 - elemento neutro/buffer: triangolo: 0->0 ; 1->1
   può essere usata come rete che perde tempo (tempo di attraversamento) oppure come rete che rigenera un segnale elettrico degradato.
-## Due Ingressi
-![[Pasted image 20241008120814.png]]Posso pensare di estendere AND e OR al caso di $N$ ingressi:
-- AND: se tutti ingressi valgono 1
-- OR: se almeno un ingresso vale 1
-Possono essere realizzate tramite una scomposizione di AND/OR a 2 ingressi.
-Il modo furbo di farlo è realizzare un albero binario bilanciato poiché minimizza il tempo di attraversamento.
 ## Decoder
 Un decoder $N$ a $2^N$ rende segnale su una determinata variabile di uscite in base alle variabili in entrata.
 Esempio tabella di verità 2 a 4:

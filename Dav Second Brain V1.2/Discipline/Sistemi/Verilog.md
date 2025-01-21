@@ -8,6 +8,61 @@ gtkwave.exe ./waveform sim &
 
 //in mac: gtkwave waveform.vcd
 ```
+# Struttura di un Sistema
+```Verilog
+module sistema;
+	wire w; //variabile binaria di tipo wire di nome locale w
+	trasmettitore T(w); //oggetto modulo trasmettitore di nome locale T, collegato con w
+	ricevitore R(w); // "
+	endmodule
+
+module trasmettitore (z);
+	output z;
+	//descrizione della struttura interna
+	endmodule
+
+module ricevitore (x);
+	input x;
+	//etc
+	endmodule
+```
+# Dimensionamento Variabili
+```Verilog
+module retetotale (x3_x0, z7_z0);
+input[3:0] x3_x0;
+output[7:0] z7_z0;
+wire[3:0] a_R1,a_R2;
+wire[11:0] sum11_sum0;
+assign a_R1=x3_x0;
+assign a_R2=z7_z0[3:0]; //assegno la parte bassa di z7_z0
+assign sum11_sum0={a_R1,a_R2}; //assegno a sum la concatenazione ar1,ar2
+endmodule
+//z7_z0 è solo un nome, non indica a verilog che è a 8 bit
+
+costante:
+Nbit'configurazionebit:
+8'10010100 //anche scritto come 8'1001_0100, underscore viene ignorato
+8'1011 //mancano 4 bit, sostituiti da 0 in testa = 8'0000_1011
+esadecimale:
+N'Hconfigurazione
+16'H9c7
+base dieci:
+N'Dconfigurazione
+16'D40023
+numero N di bit può essere omesso quando ricavabile dal contesto
+se non ricavabile automaticamente N=32
+se omessa base allora considerata base 10
+
+Parametri
+parameter[N-1:0] nomeparametro=costante, altroparamtetro=costante;
+parameter parametro='B01011 equivale a scrivere [31:0] perché omesso N
+
+UNA VARIABILE BINARIA HA 4 VALORI POSSIBILII: 1'B0, 1'B1, 'BZ , 'BX
+altaimpedenza=associata a un filo flottante
+valoreindefinita=valore ambiguo (per esempio tra 1V e 2V, con 0-1V=0 e 2-3V=1)
+oppure valore privo di interesse
+
+```
 # Struttura Modulo
 ```verilog
 module nomeModulo ( listadelleporte ); //porte dichiarate qua non si possono dichiare nel body del modulo
@@ -22,6 +77,45 @@ module nomeModulo ( listadelleporte ); //porte dichiarate qua non si possono dic
 
 	comportamentoModulo
 endmodule
+```
+# Descrizione di una qualunque RC
+```Verilog
+module rete_combinatoria(z_{M-1},....,z_0, x_{N-1},...,x_0);
+	input x_{N-1},...,x_0;
+	output z_{M-1},...,z_0;
+	assign #T {z_{M-1},...,z_0}={F_{M-1}(x_{N-1},...,x_0),
+										F_{M-2}(x_{N-1},...,x_0),
+										...
+										F_0(x_{M-1},...,x_0) };
+	endmodule
+
+//esempio di RC p.34
+assign #1 {z1,z0} = ({x2,x1,x0} == 3'B001) ? 2'B01 :
+					({x2,x1} == 2'B01) ? 2'B10 :
+					({x2,x1} == 2'B10) ? 2'B11 : 
+													2'B00; //caso default
+//che scritto sotto forma di funzione diventa:
+function F[1:0] F;
+	input x2,x1,x0;
+	casex({x2,x1,x0})
+		3'b001 : F='b01;
+		3'b01? : F='b10;
+		3'b10? : F='b11;
+		default : F='b00
+		endcase
+	endfunction
+```
+# Definizione di Funzione
+```Verilog
+module rete_combinatoria(etc);
+	input etc;
+	output etc;
+	assign #T {etc} = F(etc);
+	function[M-1:0] F;
+		input etc;
+		etc;
+		endfunction;
+	endmodule;
 ```
 # Struttura TestBench
 ```verilog
@@ -48,8 +142,8 @@ module nomeTestbench();
 	end
 endmodule
 ```
-# Modulo Top Leve
-Il modul otop level è il modulo non istanziato in nessun altro modulo e pertanto "contiene" gli altri. Dentro ogni modulo posso dichiararne altri, anche all'interno dello stesso file.
+# Modulo Top Level
+Il modulo top level è il modulo non istanziato in nessun altro modulo e pertanto "contiene" gli altri. Dentro ogni modulo posso dichiararne altri, anche all'interno dello stesso file.
 # Operatori
 ### Unari
 Appaiono a sinistra dell'operando

@@ -46,7 +46,7 @@ Su ogni colonna ci sono esattamente UN $-1$ ed UN $1$.
 Le basi sono di dimensione $n\times n$ 
 **ATTENZIONE**: se sommi le righe della matrice di incidenza della rete, fa $0$, quindi il rango non è $n$, quindi non ci sono sottomatrici $n\times n$ invertibili, quindi non trovo le basi, quindi niente simplesso e niente linprog.
 Prendiamo un albero di Copertura della rete, quindi su $n$ nodi, sono $n-1$ archi ([[Algoritmo di Kruskal]]). Ricordiamo che le foglie sono i nodi di grado $1$ (con un arco).
-Si parte da un nodo foglia, si prende un suo arco, si mette nella matrice e si cancella arco e nodo padre. Ottengo una sottomatrice della [[#Matrice di Incidenza della Rete]] di dimensione $4\times 4$.
+Si parte da un nodo foglia, si prende un suo arco, si mette nella matrice e si cancella arco e nodo padre. Ottengo una sottomatrice della [[#Matrice di Incidenza della Rete]] di dimensione $n-1\times n-1$.
 In particolare ottengo una matrice triangolare inferiore con $-1$ e $1$ sulla diagonale.
 
 |     | 54  | 32  | 24  | 12  |

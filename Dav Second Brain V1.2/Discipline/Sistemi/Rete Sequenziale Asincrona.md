@@ -2,6 +2,7 @@
 Una [[Rete Combinatoria]] è priva di memoria, lo stato di uscita dipende solo dai valori attuali.
 Un ___Buffer___ memorizza uno stato. 
 Per ottenere una rete sequenziale, dove lo stato di uscita dipenda dalla sequenza, è necessario avere memoria degli stati.
+_Chiamiamo tradizionalmente __Latch__ gli elementi di memoria trasparenti, __Flip-Flop__ gli elementi di memoria non trasparenti._ 
 # Latch SR
 Questa rete è composta da due NOR in sequenza collegati uno all'entrata `s` set e l'altro collegato all'entrata `r` reset. In uscita ha `q` e `qN`.
 Le variabili in entrata si dicono ___attive alte___, che indica che la funzione che è indicata dal loro nome viene eseguita quando il valore dell'ingresso è pari a $1$.
@@ -12,7 +13,7 @@ Le variabili in entrata si dicono ___attive alte___, che indica che la funzione 
 | 0   | 1   | 0               |
 | 0   | 0   | _conservazione_ |
 | 1   | 1   | NON SI FA       |
-Lo stato $(0,0)$ è quello che rende la rete ___sequenziale___, poiché memorizza lo stato.
+Lo stato $(0,0)$ è quello che rende la rete ___sequenziale___, poiché memorizza lo stato, ovvero lo stato di uscita dipende dalla storia degli stati passati.
 Questa rete inoltre è asincrona poiché è sempre aggiornata e si adegua immediatamente agli stati di entrata.
 Questa è la sua ___tabella di applicazione___ ($\neq$ tabella di verità), che mostra gli stati di ingresso necessari affinché lo stato di uscita passi da `q` a `q'`.
 

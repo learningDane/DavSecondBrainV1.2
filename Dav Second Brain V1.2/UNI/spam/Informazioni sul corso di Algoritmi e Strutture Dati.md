@@ -16,3 +16,21 @@ Programma:
 	5. tecniche algoritmiche - divide et impera
 	6. ecc
 test e prova pratica vanno fatte nello stesso appello. Per il voto contano entrambi.
+# Comandi terminale
+```bash
+g++ [opzioni] -o eseguibile sorgente.cpp #: compilazione
+./eseguibile #: esecuzione (se si è nella stessa cartella)
+time ./eseguibile #: restituisce tempo di esecuzione del file
+./eseguibile <fileinput | diff - fileOutput #: confronta l output restituito dagli input da file con set di valori presenti nel file di output, se non sono rpesenti differenze non stampa niente
+g++ -w #: mostra i warning a tempo di compilazione
+```
+Scripting: 
+```bash
+File.sh
+	#!/bin/bash
+	-- comandi vari
+
+terminale
+	chmod +x File.sh
+	./File.sh
+```
