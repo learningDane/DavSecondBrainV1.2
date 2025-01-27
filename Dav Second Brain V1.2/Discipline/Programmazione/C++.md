@@ -100,7 +100,7 @@ Prima di c++ '13 non si poteva scrivere `int vettore[size]` , si doveva usare un
 ```
 size = 7;
 int *array = new int[size]{3,5,8,12, ecc};
-delte[] array;
+delete[] array;
 ```
 RICORDA di usare il `delete[]` per deallocare la memoria.
 # Istruzione if

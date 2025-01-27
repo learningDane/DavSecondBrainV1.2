@@ -90,7 +90,7 @@ module rete_combinatoria(z_{M-1},....,z_0, x_{N-1},...,x_0);
 	endmodule
 
 //esempio di RC p.34
-assign #1 {z1,z0} = ({x2,x1,x0} == 3'B001) ? 2'B01 :
+assign #1 {z1,z0} = ({x2,x1,x0} == 3'B001) ? 2'B01 : //#1 = 1 nanosecondo ns
 					({x2,x1} == 2'B01) ? 2'B10 :
 					({x2,x1} == 2'B10) ? 2'B11 : 
 													2'B00; //caso default

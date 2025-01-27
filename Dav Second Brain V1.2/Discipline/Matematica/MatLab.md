@@ -30,7 +30,9 @@ A\cdot x≤b \\
 Aeq\cdot x=beq \\
 lb ≤ x ≤ub
 \end{cases}$$
-`[x,fval,exitflag,output,lambda]=quadprog(h,f,a,b,aeq,beq,lb,ub,x0,options)` 
+```Matlab
+[x,fval,exitflag,output,lambda]=quadprog(h,f,a,b,aeq,beq,lb,ub,x0,options)
+``` 
 esempio: $f(x)=\frac{1}{2}x^2+y^2 -xy-2x-6y$ 
 `h = [1 -1 ;-1 2]` 
 `f = [-2 ; -6]` 
@@ -38,3 +40,61 @@ esempio: $f(x)=\frac{1}{2}x^2+y^2 -xy-2x-6y$
 `b = [2; 2; 3];` 
 ### exitflag
 ![[Pasted image 20250107122104.png]]
+# Assignment
+Restituisce l'assegnamento di costo minimo del TSP, per fare poi l'algoritmo delle toppe. 
+```Matlab
+assignment([matricespecchiatadeicostiTSP])
+```
+# fgh_display(f,g,h,x,range,c)
+Disegna il dominio e il valore della funzione su questo dominio.
+```Matlab
+f=x1*2+3*x1*x2 ...
+g1= x2+3 ..
+..
+g4= ..
+fgh_display(f, [g1;g2;g3;g4], [], [],[],[])
+```
+# minsearch
+```Matlab
+[x,fval]= fminsearch('6*x(1)^2+3*x(2)-9*x(1)*x(2) ecc',x0)
+```
+![[Pasted image 20250125184419.png]]
+# Gradiente proiettato
+esegue un passo del gradiente proiettato, inserire bene le matrici vettore, b e x, non possono essere inserite matrici righe.
+MINIMIZZA
+```Matlab
+RicOp.gradienteProiettato(f,a,b,xk,100)
+```
+# Gomory
+esegue un taglio di gomory a partire da una certa X di base.
+Vanno inseriti i dettagli della forma duale std, quindi con gli scarti!!!
+MI RACCOMANDO I PUNTI E VIRGOLI PER I VETTORI COLONNA.
+```Matlab
+gomory(c,x,a,b)
+
+%es:
+%per trovare gli scarti (vanno messi nella x), vettore s=b-a*x dove b e a NON %hanno i vincoli di positività (sono già nel duale)
+c=[43 45 0 0]
+x=[32 ; 12 ; s1 ; s2]
+a=[123 132 1 0 ; 3 98 0 1]
+b=[12 ; 1]
+```
+# Simplex
+esegue un passo del simplesso, MASSIMIZZA ATTENZIONE!!!!!
+```Matlab
+RicOp.pSimplex(f,A,b,base,iter)
+
+⎰ max f'*x
+⎱ A*x<=b
+            % EXAMPLE
+            % f = [-7 1]
+            % A = [
+            % 	-3 2;
+            % 	-1 -3;
+            % 	0 1;
+            % 	3 2;
+            % 	1 0;
+            % 	2 -1; ]
+            % b = [4; -6; 5; 22; 6; 16]
+            % base = [4 5]
+```

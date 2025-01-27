@@ -1,6 +1,7 @@
 #uni 
 Giovanni Stea, Raffaele Zippo, 9cfu
 [[Informazioni sul Corso di Reti Logiche]] 
+[[Cosa saper fare all'esame di Reti Logiche]] 
 Argomenti
 [[Introduzione alle Reti Logiche]] 
 [[Assembly]] 

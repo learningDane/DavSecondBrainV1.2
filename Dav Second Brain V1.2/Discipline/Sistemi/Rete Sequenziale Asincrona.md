@@ -30,3 +30,6 @@ Il tempo che ci mette un Latch SR a stabilizzarsi è di pochi nanosecondi.
 ### Fase di Reset
 All'accensione del sistema i Latch SR hanno contenuto casuale, ma per esempio i registri del processore EF ed EIP ([[Schema del Calcolatore#Registri]]) devono avere un determinato valore (le prime istruzioni).
 Questo porta ad avere bisogno di una ___fase di reset___ nella quale si inizializzano determinati valori.
+# Pericoli delle RSA
+1. ___Corsa delle variabili di stato___: quando una rete sequenziali nel passare da uno stato interno al successivo deve attraversare più stati interni transitori
+2. ___Corsa critica___: quando in una corsa delle variabili di stato si incontra uno stato interno che rappresenta una situazione di stabilità, passiamo così immeritatamente ad uno stato interno valido, cambiando il corso previsto dello sviluppo della rete.
