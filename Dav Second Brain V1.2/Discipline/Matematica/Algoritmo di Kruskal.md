@@ -1,6 +1,6 @@
 #uni 
 Questo algoritmo è utilizzato per costruire un [[k-Albero]].
-Isolo un nodo, costruisco un albero di copertura di costo minimo sui nodi rimanenti, poi connetto il nodo escluso con due archi.
+Isolo un nodo, costruisco un albero di copertura di costo minimo sui nodi rimanenti, poi connetto il nodo escluso con i due archi di costo minimo.
 # Algoritmo
 Su $n$ nodi
 1. Isolo il nodo $k$

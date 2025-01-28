@@ -15,9 +15,10 @@ Su ogni arco a questo punto introduco una *Capacità Residua* ($r_{ij}$)$$r_{ij}
 - sull'arco "*vero*" rappresenta in effetti la capacità residua .
 - sull'arco "*fittizio*" rappresenta la quantità di flusso inviata sull'arco vero.
 ### Cammino Aumentante
-È un *Cammino Orientato* da $s$ a $t$ formato da archi $(i,j)$ con $r_{ij} > 0$.
+È un *Cammino Orientato* ___sul grafo residuo___ da $s$ a $t$ formato da archi $(i,j)$ con $r_{ij} > 0$.
 Al percorso in questione è sempre associata una *Portata di* $C_{aum}$:$$\delta=min_{(i,j)\in C_{aum}}{(r_{ij})}$$
 Per trovare il *Cammino Aumentante* applico l'[[#Algoritmo della Croce]]
+Un cammino aumentante ___può non essere orientato nel grafo di partenza___.
 ### Teo (Max Flow_Min Cut)
 Il flusso massimo è uguale al taglio di portata minima$$\overline x_{max} = u(N_s,N_t)$$
 Da questo teorema capiamo che il *Problema del Taglio di Portata Minima* non è altro che il *Duale* del [[Problema del Flusso Massimo (Max Flow)]]
@@ -31,3 +32,5 @@ Data una soluzione ammissibile $\overline x$ (composta anche da tutti 0)
 2. Aggiorno $\overline x$ con la seguente regola:$$\overline x_{new}=\begin{cases} \overline x_{ij} + \delta \quad \forall(i,j)\in C_{aum} \\ \overline x_{ij} \quad \forall(i,j)\notin C_{aum} \end{cases}$$ 
 3. Ricalcolo $r_{ij}$ e torno al passo 1
 
+# Considerazioni
+Poiché ad ogni cammino aumentante aumento di almeno $1$ la capacità della rete, l'algoritmo finisce in un numero finito di passi, più precisamente, termina in al più $\sum_{(ij)\in A} u_{ij}$ passi, ovvero la somma delle portate degli archi della rete.

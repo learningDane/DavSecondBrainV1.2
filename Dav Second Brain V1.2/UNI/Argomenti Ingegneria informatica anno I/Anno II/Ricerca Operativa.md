@@ -25,17 +25,19 @@ Parte 1: PL
 	[[Algoritmo del Simplesso]] 
 [[Problema di Produzione]] 
 [[Problema di Assegnamento]] 
-[[Problema di Trasporto]] finire
-[[Problema dello Zaino]] iniziare
+[[Problema di Trasporto]] 
+[[Problema dello Zaino]] 
 Parte 2: PLI
 `A,b sono a componenti intere (ovvero razionali)` 
 [[Problema di Programmazione Lineare Intera (PLI)]] 
-	[[Teorema Astratto di Equivalenza tra PL e PLI]] finire con dimostrazione a inizio quaderno
+	[[Teorema Astratto di Equivalenza tra PL e PLI]] 
 	[[Teorema di Interezza]] 
 	Tutti i problemi della PL ma con vincolo di interezza
 [[Problema Bin-Packing]] 
 [[Problema del TSP]] dentro tsp: simm, algo per Vi e per Vs, ciclo hamiltoniano, algoritmo delle toppe
+[[Problema di Localizzazione]] 
 [[Problema di Copertura]] 
+[[Problema di Massima Copertura]] 
 	[[Teorema di Gomery]] 
 	[[Algoritmo di Riduzione del Gap tramite Piano di Taglio]] 
 	[[Algoritmo di Riduzione del Gap Branch and Bound]] 
@@ -47,6 +49,9 @@ Parte 3: PLR
 	[[Algoritmo del Simplesso su Reti]] 
 	[[Algoritmo di Dijkstra]] 
 [[Problema di Programmazione Matematica a Reti Capacitate (PLRC)]] 
+[[Problema del Flusso di Costo Minimo]] 
+[[Problema dei Potenziali su Reti]] 
+[[Problema del Cammino di Costo Minimo]] 
 [[Problema del Flusso Massimo (Max Flow)]] 
 [[Algoritmo di Ford Fulkerson Edmond Karp (FFEK)]] 
 Parte 4: PNL

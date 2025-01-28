@@ -10,7 +10,13 @@ Un problema di Assegnamento è un [[Problema di Programmazione Lineare (PL)]], �
 | 3     |          | 21  | 17  | 15  | 23  |
 | 4     |          | 19  | 18  | 14  | 24  |
 Un gruppo bancario deve far fare 4 progetti ed indice un bando al quale partecipano 4 aziende, ogni azienda quota un prezzo per ogni progetto. Per ogni progetto ci vuole un mese, e ogni azienda può fare un solo progetto alla volta.
-### Modello Matematico
+### Modello Matematico non cooperativo
+$$\begin{cases} \min \sum_i\sum_j c_{ij}\cdot x_{ij} \\
+\sum_ix_{ij}=1 \quad \forall j\in N \\
+\sum_jx_{ij} = 1 \quad \forall i \in N \\ 
+x_{ij}\in\{0,1\}\end{cases}$$
+se lo si vuole cooperativo basta sostituire l'ultimo vincolo con $x_{ij}\in [0,1]$ 
+esempio per N=4:
 $$\begin{cases} min \ C^Tx \\ X_{1,1}+X_{1,2}+X_{1,3}+X_{1,4} = 1 \\ ... \\ X_{1,1}+X_{2,1}+X_{3,1}+X_{4,1} = 1 \\ ... \\  X_{i,j} \geq 0 \end{cases}$$quindi $$\begin{cases} min \ c^T x \\ \begin{pmatrix} 1..1|0..0|..|0..0 \\ 0..0|1..1|0..0|..|0..0\\.. \\ 0..0|0..0|..|0..0|1..1\\ 010.00|010.00|..|010..0 \\ 0010..0|0010..0|..|0010..0 \\..\\ 0..01|0..01|..|0..01\\-{1}0..0|0..0|..|0..0\\0{-1}0..0|0..0|..|0..0\\..\\0..0|0..0|..|0..0{-1} \end{pmatrix} \cdot \begin{pmatrix} x_{11}\\x_{12}\\..\\x_{1n}\\x_{21}\\x_{22}\\..\\x_{2n}\\..\\ \\ \\x_{nn} \end{pmatrix}\leq \begin{pmatrix} 1 \\1\\1\\1\\..\\1\\1\\..\\-1\\-1\\..\\-1\end{pmatrix} \end{cases}$$
 ##### Variabili
 Considerato un generico assegnamento $a,b,c,d$ , dove ditta 1 fa progetto $a$, 2 fa $b$ eccetera.

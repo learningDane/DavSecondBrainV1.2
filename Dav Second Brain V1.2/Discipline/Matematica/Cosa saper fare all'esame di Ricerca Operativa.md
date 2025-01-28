@@ -1,4 +1,4 @@
-- [ ] #uni 
+ #uni 
 scrivere comandi [[MatLab]] per il TSP
 piano di taglio
 [[Algoritmo di Riduzione del Gap Branch and Bound]] 
@@ -21,3 +21,21 @@ piano di taglio
 2. ho disegnato la foglia di un insieme vuoto nel branch and bound
 3. non ho scritto quali sono i cammini aumentanti
 4. calcolo errato: calcolo di una f(x) 
+# Orale
+Modelli:
+PL
+- produzione
+- duale ausiliario
+PLI
+- assegnamento
+- trasporto
+- zaino
+- bin packing
+- TSP
+- localizzazione
+- copertura
+PLR
+- flusso su reti
+- potenziale su reti
+- flusso massimo
+- cammino di costo minimo

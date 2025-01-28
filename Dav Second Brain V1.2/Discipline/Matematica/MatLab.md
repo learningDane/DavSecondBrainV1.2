@@ -71,7 +71,7 @@ Vanno inseriti i dettagli della forma duale std, quindi con gli scarti!!!
 MI RACCOMANDO I PUNTI E VIRGOLI PER I VETTORI COLONNA.
 ```Matlab
 gomory(c,x,a,b)
-
+x
 %es:
 %per trovare gli scarti (vanno messi nella x), vettore s=b-a*x dove b e a NON %hanno i vincoli di positività (sono già nel duale)
 c=[43 45 0 0]
