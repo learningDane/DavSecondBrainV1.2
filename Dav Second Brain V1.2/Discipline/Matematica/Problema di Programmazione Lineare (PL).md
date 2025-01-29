@@ -1,7 +1,9 @@
 #uni 
 Un problema di programmazione lineare segue il seguente [[Modello Matematico]]:
 $$\begin{cases} min/max \ c^T \cdot x \\ Ax \leq b \\ Bx \geq d \\ Cx = e \\ se \ non \ cooperativo \ aggiungere \ x\in Z^n\end{cases}$$
-Ogni problema PL può essere portato nella seguente forma standard
+Ogni problema PL può essere portato nella seguente forma standard.
+
+>Un problema di Programmazione Lineare (PL) consiste nel trovare il massimo o il minimo di una funzione lineare soggetta ad un insieme finito di vincoli lineari di disuguaglianza o di uguaglianza.
 ### Forma Standard
 Una forma standard è un formato in cui possono essere portati TUTTI i problemi attraverso le trasformazioni equivalenti. Ciò si fa per semplicizzare oppure perché programmi come [[MatLab]] accettano solo alcuni formati standard.
 ###### Formato Primale Standard

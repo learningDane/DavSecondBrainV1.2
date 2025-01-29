@@ -14,6 +14,6 @@ dove $A$ è l'insieme degli archi, $l$ è la capacità minima, $u$ è la capacit
 Per definire un base nelle reti capacitate dobbiamo prima modificare leggermente il modello introducendo una variabile $w_{ij}$ che indica la *portata residua* di un arco:
 $$\begin{cases} min \quad C^T\cdot x\\ E \ x=b \\ x_{ij}+w_{ij}=u_{ij} \\ x \geq 0 \\ w \geq0 \end{cases}$$ovvero in forma matriciale, duale standard ([[Problema di Programmazione Lineare (PL)#Formato Duale Standard]]): $$\begin{cases} \min \quad
 \begin{pmatrix} c \\ 0\end{pmatrix}^T\begin{pmatrix} x \\ w\end{pmatrix} \\
-\begin{pmatrix} E^T &I \\0 &I\end{pmatrix}^T\begin{pmatrix} x \\ w\end{pmatrix}=\begin{pmatrix} b \\ u\end{pmatrix}
+\begin{pmatrix} E^T &I \\0 &I\end{pmatrix}^T\begin{pmatrix} x \\ w\end{pmatrix}=\begin{pmatrix} b \\ u\end{pmatrix} \\ (x,w)≥0
 \end{cases}$$
 Con $M=\begin{pmatrix} E^T &I \\I &I\end{pmatrix}$ di dimensione $2m\times(n-1+m)$ e rango $n-1+m$.
