@@ -18,7 +18,9 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Materie Ingegneria informatica Unipi"
             }
           },
           {
@@ -32,31 +34,29 @@
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Basi di Dati"
             }
           },
           {
             "id": "a207f85caa985ab0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Discipline/Programmazione/SQL.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           },
           {
             "id": "0bfdcbf6a7c31383",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home/Daily Notes/2024/15-09-2024.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
@@ -79,8 +79,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -95,7 +98,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -103,7 +108,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -126,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Daily Notes/2024/15-09-2024.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +140,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -143,10 +151,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home/Daily Notes/2024/15-09-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -156,8 +165,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -169,7 +182,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -178,8 +193,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home/Daily Notes/2024/15-09-2024.md"
-              }
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ],
