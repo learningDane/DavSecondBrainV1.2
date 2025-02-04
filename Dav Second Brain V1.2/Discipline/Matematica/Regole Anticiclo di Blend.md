@@ -3,5 +3,5 @@ Queste sono 4 regole che ci permettono di non ripetere passi già fatti nell'ese
 1. per $h$ prendo il MINORE indice che porta ad una componente di $\overline y$ negativa.
 2. per $k$ prendo il MINORE indice che porta al minimo dei rapporti.
 [[Algoritmo del Simplesso#Passo del Simplesso Duale]]:
-1. per $k$ prendo il MINORE indice che porta ad una componente di $\overline y$ negativa.
+1. per $k$ prendo il MINORE indice che porta ad un vincolo violato nel primale.
 2. per $h$ prendo il MINORE indice che porta al minimo dei rapporti

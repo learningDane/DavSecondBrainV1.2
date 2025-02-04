@@ -1,4 +1,12 @@
 {
-  "accentColor": "",
-  "theme": "obsidian"
+  "accentColor": "#acd651",
+  "theme": "obsidian",
+  "cssTheme": "",
+  "showViewHeader": true,
+  "translucency": false,
+  "monospaceFontFamily": "Menlo",
+  "enabledCssSnippets": [
+    "snippet"
+  ],
+  "showRibbon": false
 }

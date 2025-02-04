@@ -158,12 +158,11 @@ module Rete_di_Mealy(x, z, clock, reset_);
 	parameter S0:codifica0 , S1:codifica1, ... Sk-1:codificak-1;
 	reg[M-1] OUTR;
 	assign z = OUTR;
-	assign z = (STAR == S0) ? Zs0(x) : 
-		...
-		/* (STAR == Sk-1) ? */ Zsk-1(x);
+	
 	always @(reset_ == 0) #1 begin 
 		STAR <= statointernoiniziale;
 		OUTR <= ZSiniziale;
+	
 	always @(posedge clock) if (reset_ == 1) #3 casex(STAR)
 		S0: begin
 			STAR <= As0(x);
@@ -174,4 +173,43 @@ module Rete_di_Mealy(x, z, clock, reset_);
 			OUTR <= Zsk-1(x); end
 		endcase
 	endmodule
+```
+# RSS complesse
+```Verilog
+module RSScomplessa(x, z, clock, reset_);
+	input clock, reset_;
+	input[N-1:0] x;
+	output[M-1:0] z;
+	reg[...] Rq-1;
+	...
+	reg[...] R0;
+	reg[W-1:0] STAR;
+	parameter S0:codifica0 , S1:codifica1, ... Sk-1:codificak-1;
+	reg[M-1] OUTR;
+	assign z = {Rq-1,...,R0}; //tutti i registri o solo una parte
+	
+	always @(reset_ == 0) #1 begin 
+		STAR <= statointernoiniziale;
+		Rq-1 <= statoiniziale
+		...
+		R0 <= statoiniziale
+	
+	always @(posedge clock) if (reset_ == 1) #3 casex(STAR)
+		S0: begin
+			STAR <= As0(x,Rq-1,...,R0);
+			Rq-1 <= Rs0,q-1(x,Rq-1,..,R0); 
+			...
+			R0 <= Rs0,0(x,Rq-1,...,R0); end
+		...
+		Sk-1: begin 
+			STAR <= Ask-1(x,Rq-1,...,R0);
+			Rq-1 sk-1,q-1(x,Rq-1,...,R0);
+			...
+			R0 sk-1,0(x,Rq-1,...,R0); end
+		endcase
+	endmodule
+```
+# Rete parte operativa-parte controllo
+```Verilog
+
 ```

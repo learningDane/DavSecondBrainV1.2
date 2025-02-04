@@ -29,6 +29,6 @@ oppure applico l'algoritmo per il massimo a $-f$.
 3ª. se $d^k=0$:
 	1. calcolo $$\lambda=-(MM^T)^{-1}M\cdot \nabla f(x^k)$$
 	2. se $\lambda≥0$ allora $x^k$ risolve $LKKT$ 
-	3. altrimenti sia $j:\lambda_j=\min_{i\in[0;k]} \lambda_i$ , sappiamo che è $<0$ 
+	3. altrimenti sia $j:\lambda_j=\min_{i\in[0;k]} \lambda_i$ 
 	4. elimino la riga $j$ da $M$ e ritorno al passo ___2___.
  

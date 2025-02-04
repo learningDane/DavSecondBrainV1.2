@@ -217,7 +217,7 @@ Nel nostro ambiente devi includere il file utility con la direttiva:
   prelevano da tastiera con eco a video 2,4 o 8 caratteri da tastiera e mettono in AL, AX, EAX il numero esadecimale digitato, ignorano qualunque altro carattere che viene premuto.
 ### Ingresso/Uscita di numeri decimali
 - indecimal_byte, indecimal_word, indecimal_long:
-  prelevano ta tastiera con eco a video fino a 3,5,10 cifre decimali e lo mettono in AL, AX, EAX. Ignorano qualunque altro carattere premuto, se il numero è troppo grande viene troncato, si può premere invio per dare in ingresso meno di 3,5,10 cifre.
+  prelevano da tastiera con eco a video fino a 3,5,10 cifre decimali e lo mettono in AL, AX, EAX. Ignorano qualunque altro carattere premuto, se il numero è troppo grande viene troncato, si può premere invio per dare in ingresso meno di 3,5,10 cifre.
 - outdecimal_byte/word/long
   stampano su video il contenuto di AL, AX, EAX interpretato come naturale sul numero di cifre strettamente necessario.
 # Indirizzamento delle istruzioni operative

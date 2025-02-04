@@ -12,10 +12,13 @@ Argomenti
 [[Rete Logica]] 
 [[Rete Combinatoria]] 
 [[Algebra di Boole]] 
+[[Sintesi SP - PS]] 
 [[Rete Sequenziale Asincrona]] 
+[[Rete Sequenziale Sincronizzata (RSS)]] 
 [[Modello di Moore]] 
 [[Modello di Mealy]] 
 [[Modello di Mealy Ritardato]] 
+[[Scomposizione in parte operativa - parte controllo (PO-PC)]] 
 Verilog
 [[Verilog]] 
 [[Comuni Reti in Verilog]] 

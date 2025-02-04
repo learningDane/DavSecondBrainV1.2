@@ -1,4 +1,4 @@
-#uni 
+x#uni 
 Questo è il modello base del [[Problema di Programmazione Matematica a Reti Capacitate (PLRC)]], ma per chiarezza e più facile consultazione, ripeterò qua considerazioni sul modello e altro.
 ## Modello
 Uguale a quello del [[Problema di Programmazione Matematica a Reti non Capacitate (PLRnC)]] solo che aggiungo la variabile $u$ che rappresenta le *capacità di trasporto degli archi* ovvero quanto flusso al massimo può passare sull'arco in questione.

@@ -1,0 +1,21 @@
+.theme-dark {
+  --background-primary: #101014;
+  --background-secondary: #161618;
+  --caret-color: #B4D565;
+  --background-primary-alt: #080809;
+}
+
+.math {
+    background-color: var(--code-background);
+    border-radius: var(--code-radius);
+    color: #B4E3E4 !important;
+    font-family: var(--font-monospace);
+    font-size: calc(var(--code-size) + 0.2em);
+    padding: 0.1em 0.25em;
+}
+
+/* # if you want different styling for inline and block math
+.math.math-block { }
+
+.math.math-inline { }
+*/
